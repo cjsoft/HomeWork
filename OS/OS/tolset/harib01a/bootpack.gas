@@ -1,0 +1,40 @@
+	.file	"bootpack.c"
+	.text
+	.balign 2
+.globl _wait
+	.def	_wait;	.scl	2;	.type	32;	.endef
+_wait:
+	pushl	%ebp
+	movl	%esp, %ebp
+	movl	8(%ebp), %eax
+	imull	$1000, %eax, %eax
+L2:
+	decl	%eax
+	cmpl	$-1, %eax
+	jne	L2
+	popl	%ebp
+	ret
+	.balign 2
+.globl _HariMain
+	.def	_HariMain;	.scl	2;	.type	32;	.endef
+_HariMain:
+	pushl	%ebp
+	movl	%esp, %ebp
+	pushl	%ebx
+L14:
+	movl	$655360, %edx
+L13:
+	movl	%edx, %eax
+	subl	%ebx, %eax
+	sarl	%eax
+	andl	$15, %eax
+	movb	%al, (%edx)
+	incl	%edx
+	cmpl	$720895, %edx
+	jbe	L13
+	leal	1(%ebx), %eax
+	pushl	$100000
+	movzwl	%ax,%ebx
+	call	_wait
+	popl	%eax
+	jmp	L14

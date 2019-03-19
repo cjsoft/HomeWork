@@ -1,0 +1,41 @@
+     1 00000000                                 [FORMAT "WCOFF"]
+     2 00000000                                 [INSTRSET "i486p"]
+     3 00000000                                 [OPTIMIZE 1]
+     4 00000000                                 [OPTION 1]
+     5 00000000                                 [BITS 32]
+     6 00000000                                 [FILE "bootpack.c"]
+     7                                          [SECTION .text]
+     8 00000000                                 	GLOBAL	_wait
+     9 00000000                                 _wait:
+    10 00000000 55                              	PUSH	EBP
+    11 00000001 89 E5                           	MOV	EBP,ESP
+    12 00000003 8B 45 08                        	MOV	EAX,DWORD [8+EBP]
+    13 00000006 69 C0 000003E8                  	IMUL	EAX,EAX,1000
+    14 0000000C                                 L2:
+    15 0000000C 48                              	DEC	EAX
+    16 0000000D 83 F8 FF                        	CMP	EAX,-1
+    17 00000010 75 FA                           	JNE	L2
+    18 00000012 5D                              	POP	EBP
+    19 00000013 C3                              	RET
+    20 00000014                                 	GLOBAL	_HariMain
+    21 00000014                                 _HariMain:
+    22 00000014 55                              	PUSH	EBP
+    23 00000015 89 E5                           	MOV	EBP,ESP
+    24 00000017 53                              	PUSH	EBX
+    25 00000018                                 L14:
+    26 00000018 BA 000A0000                     	MOV	EDX,655360
+    27 0000001D                                 L13:
+    28 0000001D 89 D0                           	MOV	EAX,EDX
+    29 0000001F 29 D8                           	SUB	EAX,EBX
+    30 00000021 D1 F8                           	SAR	EAX,1
+    31 00000023 83 E0 0F                        	AND	EAX,15
+    32 00000026 88 02                           	MOV	BYTE [EDX],AL
+    33 00000028 42                              	INC	EDX
+    34 00000029 81 FA 000AFFFF                  	CMP	EDX,720895
+    35 0000002F 76 EC                           	JBE	L13
+    36 00000031 8D 43 01                        	LEA	EAX,DWORD [1+EBX]
+    37 00000034 68 000186A0                     	PUSH	100000
+    38 00000039 0F B7 D8                        	MOVZX	EBX,AX
+    39 0000003C E8 FFFFFFBF                     	CALL	_wait
+    40 00000041 58                              	POP	EAX
+    41 00000042 EB D4                           	JMP	L14
