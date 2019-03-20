@@ -155,71 +155,50 @@ volatile unsigned int i, *p, old, pat0 = 0xaa55aa55, pat1 = 0x55aa55aa;
 
 内存管理初探
 
-我们要弄一个简单的表来维护可用内存区段，作者使用数组实现了这样的一个简单的版本，但实际上，使用链表会降低内存无法归并情况下插入数据时的移位开销。
+我们要弄一个简单的表来维护可用内存区段，作者使用数组实现了这样的一个简单的版本，但实际上，使用链表会降低内存无法归并情况下插入数据时的移位开销。如果使用平衡树的话，则可以把整体的复杂度降低到$O(logN)$级别。由于代码耦合度比较高，修改不易，我们这里只进行部分修改。
 
 ```c
-int memman_free(struct MEMMAN *man, unsigned int addr, unsigned int size)
-    /* 释放 */
-{
-    int i, j;
-    /* 为便于归纳内存，将free[]按照addr的顺序排列 */
-    /* 所以，先决定应该放在哪里 */
-    for (i = 0; i < man->frees; i++) {
-        if (man->free[i].addr > addr) {
+int memman_free(struct MEMMAN *man, unsigned int addr, unsigned int size) {
+    int i, j, p, k;
+    for (p = man->head; p >= 0; i = p, p = man->free[p].next) {
+        if (man->free[p].addr > addr) {
             break;
         }
     }
-    /* free[i - 1].addr < addr < free[i].addr */
-    if (i > 0) {
-        /* 前面有可用内存 */
-        if (man->free[i - 1].addr + man->free[i - 1].size == addr) {
-            /* 可以与前面的可用内存归纳到一起 */
-            man->free[i - 1].size += size;
-            if (i < man->frees) {
-                /* 后面也有 */
-                if (addr + size == man->free[i].addr) {
-                    /* 也可以与后面的可用内存归纳到一起 */
-                    man->free[i - 1].size += man->free[i].size;
-                    /* man->free[i]删除 */
-                    /* free[i]变成0后归纳到前面去 */
-                    man->frees--;
-                    for (; i < man->frees; i++) {
-                        man->free[i] = man->free[i + 1]; /* 结构体赋值 */
-                    }
+    if (p != man->head) {
+        if (man->free[i].addr + man->free[i].size == addr) {
+            man->free[i].size += size;
+            if (man->free[p].next >= 0) {
+                k = man->free[p].next;
+                if (addr + size == man->free[k].addr) {
+                    man->free[k].size += man->free[p].size;
+                    man->free[k].addr = addr;
+                    recycle(man, p);
                 }
             }
-            return 0; /* 成功完成 */
         }
     }
-    /* 不能与前面的可用空间归纳到一起 */
-    if (i < man->frees) {
-        /* 后面还有 */
-        if (addr + size == man->free[i].addr) {
-            /* 可以与后面的内容归纳到一起 */
-            man->free[i].addr = addr;
-            man->free[i].size += size;
-            return 0; /* 成功完成 */
+    if (man->free[p].next >= 0) {
+        k = man->free[p].next;
+        if (addr + size == man->free[k].addr) {
+            man->free[k].addr = addr;
+            man->free[k].size += size;
+            return 0; 
         }
     }
-    /* 既不能与前面归纳到一起，也不能与后面归纳到一起 */
-    if (man->frees < MEMMAN_FREES) {
-        /* free[i]之后的，向后移动，腾出一点可用空间，这里如果使用链表会更棒 */
-        for (j = man->frees; j > i; j--) {
-            man->free[j] = man->free[j - 1];
-        }
-        man->frees++;
-        if (man->maxfrees < man->frees) {
-            man->maxfrees = man->frees; /* 更新最大值 */
-        }
+    if (man->top > 0) {
+        i = manalloc(man);
+        man->free[i].next = man->free[j].next;
+        man->free[j].next = i;
         man->free[i].addr = addr;
         man->free[i].size = size;
-        return 0; /* 成功完成 */
+        return 0; 
     }
-    /* 不能往后移动 */
     man->losts++;
     man->lostsize += size;
-    return -1; /* 失败 */
+    return -1; 
 }
+
 
 ```
 
