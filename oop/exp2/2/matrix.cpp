@@ -124,4 +124,16 @@ Matrix &Matrix::operator=(const Matrix &b) {
     return (*this);
 }
 
+int &Matrix::get(int rn, int cn) {
+    return this->a[rn][cn];
+}
+
+int Matrix::getlines() const {
+    return lines;
+}
+
+int Matrix::getrows() const {
+    return rows;
+}
+
 #endif

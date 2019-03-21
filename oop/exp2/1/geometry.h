@@ -5,25 +5,32 @@
 #define SEPARATE 1
 #define INTERSECT -1
 class Point {
-public:
+private:
     float x, y;
+public:
     Point();
     Point(float x, float y);
     Point(const Point &b);
     ~Point();
-    float getDis(Point b);
-    float getDis2(Point b);
+    float getX() const;
+    float getY() const;
+    float getDis(Point b) const;
+    float getDis2(Point b) const;
 };
 
 class Circle {
-public:
+private:
     Point center;
     float radius;
+public:
+
     Circle();
     Circle(Point center, float radius);
     Circle(const Circle &b);
     ~Circle();
-    int relationto(Circle b);
+    int relationto(Circle b) const;
+    Point getCenter() const;
+    float getRadius() const;
 };
 
 #include "geometry.cpp"

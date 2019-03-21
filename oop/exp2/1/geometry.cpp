@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <cstdio>
 
 Point::Point() : x(0), y(0) {
     using std::cout;
@@ -25,6 +26,14 @@ Point::Point(const Point &b) {
     cout << "\033[31m" << this << "\033[0m Copy construction method for Point is called." << endl;
 }
 
+float Point::getX() const {
+    return this->x;
+}
+
+float Point::getY() const {
+    return this->y;
+}
+
 Point::~Point() {
     using std::cout;
     using std::endl;
@@ -38,8 +47,8 @@ Circle::Circle() : center(Point()), radius(0) {
 }
 
 Circle::Circle(const Circle &b) {
-    center = b.center;
-    radius = b.radius;
+    this->center = b.getCenter();
+    this->radius = b.getRadius();
     using std::cout;
     using std::endl;
     cout << "\033[31m" << this << "\033[0m Copy construction method for Circle is called." << endl;
@@ -49,7 +58,7 @@ Circle::Circle(Point center, float radius) : center(center), radius(radius) {
     using std::cout;
     using std::endl;
     char s[256];
-    sprintf(s, "Construction method with parameter(Point(%f\t,%f\t), %f\t) for Circle is called.", center.x, center.y, radius);
+    sprintf(s, "Construction method with parameter(Point(%f\t,%f\t), %f\t) for Circle is called.", center.getX(), center.getY(), radius);
     cout << "\033[31m" << this << "\033[0m " << s << endl;
 }
 
@@ -59,20 +68,28 @@ Circle::~Circle() {
     cout << "\033[31m" << this << "\033[0m Default destruction method for Circle is called." << endl;
 }
 
-float Point::getDis(Point b) {
+float Point::getDis(Point b) const {
     return sqrt((x - b.x) * (x - b.x) + (y - b.y) * (y - b.y));
 }
 
-float Point::getDis2(Point b) {
+float Point::getDis2(Point b) const {
     return (x - b.x) * (x - b.x) + (y - b.y) * (y - b.y);
 }
 
-int Circle::relationto(Circle b) {
-    float cmpresult = center.getDis2(b.center);
-    float dis2 = (radius + b.radius) * (radius + b.radius);
+int Circle::relationto(Circle b) const {
+    float cmpresult = this->getCenter().getDis2(b.center);
+    float dis2 = (this->getRadius() + b.getRadius()) * (this->getRadius() + b.getRadius());
     cmpresult -= dis2;
     if (cmpresult < -EPS) return INTERSECT;
     if (cmpresult > EPS) return SEPARATE;
     return TANGENT;
 }
 #endif
+
+Point Circle::getCenter() const {
+    return center;
+}
+
+float Circle::getRadius() const {
+    return radius;
+}

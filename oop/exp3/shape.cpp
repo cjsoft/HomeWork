@@ -66,24 +66,42 @@ void Rectangle::setHeight(int h) {
     height = h;
 }
 
-int Rectangle::getArea() {
+int Rectangle::getArea() const {
     using namespace std;
-    cout << "RctgA" << endl;
+    // cout << "RctgA" << endl;
     return width * height;
 }
+
+int Rectangle::getHeight() const {
+    return height;
+}
+
+int Rectangle::getWidth() const {
+    return width;
+}
+
+
 
 void Square::setSideLength(int d) {
     Rectangle::setWidth(d);
     Rectangle::setHeight(d);
 }
 
-int Square::getArea() {
+int Square::getArea() const {
     using namespace std;
     cout << "SqgA" << endl;
-    return width * width;
+    return getWidth() * getWidth();
+}
+
+int Square::getSideLength() const {
+    return getWidth();
 }
 
 void Circle::setRadius(int r) {
     radius = r;
+}
+
+int Circle::getRadius() const {
+    return radius;
 }
 #endif

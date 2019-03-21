@@ -4,17 +4,20 @@ class Shape {
 public:
     Shape();
     ~Shape();
-    virtual int getArea() = 0;
+    virtual int getArea() const = 0;
 };
 
 class Rectangle : public Shape {
-public:
+private:
     int width, height;
+public:
     Rectangle();
     ~Rectangle();
     void setWidth(int w);
     void setHeight(int h);
-    virtual int getArea();
+    int getWidth() const;
+    int getHeight() const;
+    virtual int getArea() const;
 };
 
 class Square : public Rectangle {
@@ -24,16 +27,19 @@ private:
 public:
     Square();
     ~Square();
-    void setSideLength(int d); 
-    virtual int getArea();
+    void setSideLength(int d);
+    int getSideLength() const;
+    virtual int getArea() const;
 };
 
 class Circle : public Shape {
-public:
+private:
     int radius;
+public:
     Circle();
     ~Circle();
     void setRadius(int r);
+    int getRadius() const;
 };
 
 #include "shape.cpp"
