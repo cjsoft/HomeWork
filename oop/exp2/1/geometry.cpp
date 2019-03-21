@@ -84,7 +84,6 @@ int Circle::relationto(Circle b) const {
     if (cmpresult > EPS) return SEPARATE;
     return TANGENT;
 }
-#endif
 
 Point Circle::getCenter() const {
     return center;
@@ -93,3 +92,6 @@ Point Circle::getCenter() const {
 float Circle::getRadius() const {
     return radius;
 }
+
+#endif
+
