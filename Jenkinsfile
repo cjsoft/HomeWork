@@ -14,8 +14,12 @@ pipeline {
                 // 请在这里放置您项目代码的单元测试调用过程，例如:
                 // sh 'mvn package' // mvn 示例
                 // sh 'make' // make 示例
-              sh 'echo ${GTK}'
-              	sh 'git push --force "https://${GTK}@github.com/cjsoft/HomeWork.git" master:master'
+              sh 'git clone https://dt_RBcvZIN:47TOs7IXCszgRmPBfZqogtmrNzbASu@git.dev.tencent.com/cjsoft/HomeWork.git'
+              dir ("HomeWork") {
+                
+               		 sh 'echo ${GHTK}'
+                  sh 'git push --force "https://${GHTK}@github.com/cjsoft/HomeWork.git" master:master'
+              }
                 echo "推送完成."
               
                 // 演示怎样产生构建物
