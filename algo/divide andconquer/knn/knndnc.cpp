@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #ifndef MXCSZ
- #define MXCSZ 100007
+ #define MXCSZ 1000007
 #endif
 #ifndef MXVSZ
  #define MXVSZ 7
@@ -41,18 +41,20 @@ int partition(int l, int r) {
         while (tl < tr && !(sarr[tr] < sarr[p])) --tr;
         swap(sarr[tl], sarr[tr]);
     }
-    swap(sarr[tl], sarr[r]);
+    swap(sarr[tl], sarr[p]);
     return tl;
 }
 void cutK(int l, int r, int k) {
-    if (l - r + 1 <= k) return;
+    if (r - l + 1 <= k) return;
     int m = partition(l, r);
-    if (m - l < k) {
-        cutK(m, r, k - (m - l));
+    if (m - l + 1 == k) return;
+    if (m - l + 1 < k) {
+        cutK(m + 1, r, k - (m - l + 1));
     } else {
         cutK(l, m - 1, k);
     }
 }
+
 int appeartime[MXTYPE];
 int main() {
     scanf("%d %d", &n, &veclength);

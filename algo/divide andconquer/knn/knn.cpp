@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #ifndef MXCSZ
- #define MXCSZ 100007
+ #define MXCSZ 1000007
 #endif
 #ifndef MXVSZ
  #define MXVSZ 7
