@@ -89,45 +89,45 @@ begin
                         SEL <= "1011";
                     end if;
                 when "010" =>       -- memory read
-                    SHORT <= '1';
-                    SST <= not ST;
-                    STOP <= '1';
-                    SBUS <= not ST;
-                    MBUS <= ST;
-                    LAR <= not ST;
-                    ARINC <= ST;
-                    SELCTL <= '1';
+                    SHORT <= W1;
+                    SST <= (not ST) and W1;
+                    STOP <= W1;
+                    SBUS <= (not ST) and W1;
+                    MBUS <= ST and W1;
+                    LAR <= (not ST) and W1;
+                    ARINC <= ST and W1;
+                    SELCTL <= W1;
                 when "001" =>       -- memory write
-                    SHORT <= '1';
-                    SST <= not ST;
-                    STOP <= '1';
-                    SBUS <= '1';
-                    MEMW <= ST;
-                    LAR <= not ST;
-                    ARINC <= ST;
-                    SELCTL <= '1';
+                    SHORT <= W1;
+                    SST <= (not ST) and W1;
+                    STOP <= W1;
+                    SBUS <= W1;
+                    MEMW <= ST and W1;
+                    LAR <= (not ST) and W1;
+                    ARINC <= ST and W1;
+                    SELCTL <= W1;
                 when "000" =>
                     if (W1 = '1') then
                         if (ST = '0') then
-                            SBUS <= '1';
-                            LPC <= '1';
-                            SHORT <= '1';
-                            SST <= '1';
+                            SBUS <= W1;
+                            LPC <= W1;
+                            SHORT <= W1;
+                            SST <= W1;
                             STOP <= '0';
                         else 
-                            LIR <= '1';
-                            PCINC <= '1';
+                            LIR <= W1;
+                            PCINC <= W1;
                         end if;
                     else
                         if (IR = "0000") then -- nop
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
                         end if;
                         if (IR = "0001") then -- add
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
@@ -139,9 +139,9 @@ begin
                             end if;
                         end if;
                         if (IR = "0010") then -- sub
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
@@ -152,9 +152,9 @@ begin
                             end if;
                         end if;
                         if (IR = "0011") then -- and
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
@@ -165,9 +165,9 @@ begin
                             end if;
                         end if;
                         if (IR = "0100") then -- inc
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
@@ -195,8 +195,8 @@ begin
                             LIR <= W2;
                             PCINC <= W2;
 
-                            ABUS <= '1';
-                            M <= '1';
+                            ABUS <= W1 or W2;
+                            M <= W1 or W2;
                             MEMW <= W2;
                             LAR <= W1;
                             if (W1 = '1') then
@@ -207,13 +207,13 @@ begin
                             end if;
                         end if;
                         if (IR = "0111") then -- jc
-                            SHORT <= not C;
+                            SHORT <= (not C) and W1;
                             PCINC <= (not C) or (W2 and C);
                             LIR <= (not C) or (W2 and C);
                             PCADD <= C and W2;
                         end if;
                         if (IR = "1000") then -- jz
-                            SHORT <= not Z;
+                            SHORT <= (not Z) and W1;
                             PCINC <= (not Z) or (W2 and Z);
                             LIR <= (not Z) or (W2 and Z);
                             PCADD <= Z and W2;
@@ -230,9 +230,9 @@ begin
                             end if;
                         end if;
                         if (IR = "1010") then -- out
-                            SHORT <= '1';
-                            LIR <= '1';
-                            PCINC <= '1';
+                            SHORT <= W1;
+                            LIR <= W1;
+                            PCINC <= W1;
 
                             ABUS <= W1;
                             M <= W1;
@@ -241,13 +241,13 @@ begin
                             end if;
                         end if;
                         if (IR = "1110") then -- stp
-                            STOP <= '1';
+                            STOP <= W1;
                         end if;
 
                         if (IR = "1011") then -- or
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
@@ -259,9 +259,9 @@ begin
                         end if;
 
                         if (IR = "1100") then -- xor
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
@@ -273,9 +273,9 @@ begin
                         end if;
 
                         if (IR = "1101") then -- not
-                            SHORT <= '1';
-                            PCINC <= '1';
-                            LIR <= '1';
+                            SHORT <= W1;
+                            PCINC <= W1;
+                            LIR <= W1;
 
                             ABUS <= W1;
                             LDZ <= W1;
