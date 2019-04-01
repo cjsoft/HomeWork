@@ -113,6 +113,6 @@ int main() {
         printf("%d", arr[i]);
     }
     putchar('\n');
-    printf("%llu %llu", cnt, cpnt);
+    printf("%14llu %14llu", cnt, cpnt);
     return 0;
 }

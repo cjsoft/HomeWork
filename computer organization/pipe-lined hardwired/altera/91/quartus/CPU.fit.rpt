@@ -1,5 +1,5 @@
 Fitter report for CPU
-Thu Mar 28 22:24:03 2019
+Mon Apr 01 12:10:47 2019
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -26,9 +26,10 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
  18. LAB External Interconnect
  19. LAB Macrocells
  20. Parallel Expander
- 21. Logic Cell Interconnection
- 22. Fitter Device Options
- 23. Fitter Messages
+ 21. Shareable Expander
+ 22. Logic Cell Interconnection
+ 23. Fitter Device Options
+ 24. Fitter Messages
 
 
 
@@ -54,14 +55,14 @@ applicable agreement for further details.
 +------------------------------------------------------------------+
 ; Fitter Summary                                                   ;
 +-----------------------+------------------------------------------+
-; Fitter Status         ; Successful - Thu Mar 28 22:24:03 2019    ;
+; Fitter Status         ; Successful - Mon Apr 01 12:10:47 2019    ;
 ; Quartus II Version    ; 9.0 Build 132 02/25/2009 SJ Full Version ;
 ; Revision Name         ; CPU                                      ;
 ; Top-level Entity Name ; cpu                                      ;
 ; Family                ; MAX7000S                                 ;
 ; Device                ; EPM7128SLC84-15                          ;
 ; Timing Models         ; Final                                    ;
-; Total macrocells      ; 32 / 128 ( 25 % )                        ;
+; Total macrocells      ; 40 / 128 ( 31 % )                        ;
 ; Total pins            ; 45 / 68 ( 66 % )                         ;
 +-----------------------+------------------------------------------+
 
@@ -113,23 +114,23 @@ The pin-out file can be found in D:/git-repos/HomeWork/computer organization/pip
 +-----------------------------------+-------------------+
 ; Resource                          ; Usage             ;
 +-----------------------------------+-------------------+
-; Logic cells                       ; 32 / 128 ( 25 % ) ;
+; Logic cells                       ; 40 / 128 ( 31 % ) ;
 ; Registers                         ; 1 / 128 ( < 1 % ) ;
-; Number of pterms used             ; 65                ;
+; Number of pterms used             ; 128               ;
 ; User inserted logic elements      ; 0                 ;
 ; I/O pins                          ; 45 / 68 ( 66 % )  ;
 ;     -- Clock pins                 ; 2 / 2 ( 100 % )   ;
 ;     -- Dedicated input pins       ; 2 / 2 ( 100 % )   ;
 ; Global signals                    ; 2                 ;
-; Shareable expanders               ; 0 / 128 ( 0 % )   ;
-; Parallel expanders                ; 2 / 120 ( 2 % )   ;
-; Cells using turbo bit             ; 32 / 128 ( 25 % ) ;
-; Maximum fan-out node              ; SWD[0]            ;
-; Maximum fan-out                   ; 25                ;
-; Highest non-global fan-out signal ; SWD[0]            ;
-; Highest non-global fan-out        ; 25                ;
-; Total fan-out                     ; 232               ;
-; Average fan-out                   ; 3.01              ;
+; Shareable expanders               ; 3 / 128 ( 2 % )   ;
+; Parallel expanders                ; 8 / 120 ( 7 % )   ;
+; Cells using turbo bit             ; 40 / 128 ( 31 % ) ;
+; Maximum fan-out node              ; SWD[1]            ;
+; Maximum fan-out                   ; 40                ;
+; Highest non-global fan-out signal ; SWD[1]            ;
+; Highest non-global fan-out        ; 40                ;
+; Total fan-out                     ; 378               ;
+; Average fan-out                   ; 4.30              ;
 +-----------------------------------+-------------------+
 
 
@@ -138,20 +139,20 @@ The pin-out file can be found in D:/git-repos/HomeWork/computer organization/pip
 +--------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
 ; Name   ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; I/O Standard ; Location assigned by ;
 +--------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
-; C      ; 2     ; --       ; --  ; 3                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; CLR    ; 1     ; --       ; --  ; 25                    ; 0                  ; yes    ; no             ; TTL          ; User                 ;
-; IR[4]  ; 8     ; --       ; 1   ; 10                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; IR[5]  ; 9     ; --       ; 1   ; 10                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; IR[6]  ; 10    ; --       ; 1   ; 10                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; IR[7]  ; 11    ; --       ; 1   ; 10                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; SWD[0] ; 4     ; --       ; 1   ; 25                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; SWD[1] ; 5     ; --       ; 1   ; 25                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; SWD[2] ; 6     ; --       ; 1   ; 25                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; C      ; 2     ; --       ; --  ; 4                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; CLR    ; 1     ; --       ; --  ; 37                    ; 0                  ; yes    ; no             ; TTL          ; User                 ;
+; IR[4]  ; 8     ; --       ; 1   ; 27                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; IR[5]  ; 9     ; --       ; 1   ; 27                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; IR[6]  ; 10    ; --       ; 1   ; 29                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; IR[7]  ; 11    ; --       ; 1   ; 29                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; SWD[0] ; 4     ; --       ; 1   ; 39                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; SWD[1] ; 5     ; --       ; 1   ; 40                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; SWD[2] ; 6     ; --       ; 1   ; 38                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
 ; T3     ; 83    ; --       ; --  ; 1                     ; 0                  ; yes    ; no             ; TTL          ; User                 ;
-; W1     ; 12    ; --       ; 1   ; 24                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; W2     ; 15    ; --       ; 2   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; W1     ; 12    ; --       ; 1   ; 31                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; W2     ; 15    ; --       ; 2   ; 21                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
 ; W3     ; 16    ; --       ; 2   ; 0                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
-; Z      ; 84    ; --       ; --  ; 3                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; Z      ; 84    ; --       ; --  ; 4                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
 +--------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
 
 
@@ -321,7 +322,7 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------+------------+------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Macrocells ; Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+------------+------+---------------------+--------------+
-; |cpu                       ; 32         ; 45   ; |cpu                ; work         ;
+; |cpu                       ; 40         ; 45   ; |cpu                ; work         ;
 +----------------------------+------------+------+---------------------+--------------+
 
 
@@ -330,8 +331,8 @@ Note: User assignments will override these defaults. The user specified values a
 +--------+----------+---------+--------------+--------+----------------------+------------------+
 ; Name   ; Location ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ;
 +--------+----------+---------+--------------+--------+----------------------+------------------+
-; CLR    ; PIN_1    ; 25      ; Async. clear ; yes    ; On                   ; --               ;
-; SST~10 ; LC2      ; 2       ; Clock enable ; no     ; --                   ; --               ;
+; CLR    ; PIN_1    ; 37      ; Async. clear ; yes    ; On                   ; --               ;
+; SST~11 ; LC23     ; 2       ; Clock enable ; no     ; --                   ; --               ;
 ; T3     ; PIN_83   ; 1       ; Clock        ; yes    ; On                   ; --               ;
 +--------+----------+---------+--------------+--------+----------------------+------------------+
 
@@ -341,61 +342,67 @@ Note: User assignments will override these defaults. The user specified values a
 +------+----------+---------+----------------------+------------------+
 ; Name ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ;
 +------+----------+---------+----------------------+------------------+
-; CLR  ; PIN_1    ; 25      ; On                   ; --               ;
+; CLR  ; PIN_1    ; 37      ; On                   ; --               ;
 ; T3   ; PIN_83   ; 1       ; On                   ; --               ;
 +------+----------+---------+----------------------+------------------+
 
 
 +---------------------------------+
 ; Non-Global High Fan-Out Signals ;
-+----------+----------------------+
-; Name     ; Fan-Out              ;
-+----------+----------------------+
-; SWD[2]   ; 25                   ;
-; SWD[1]   ; 25                   ;
-; SWD[0]   ; 25                   ;
-; W1       ; 24                   ;
-; W2       ; 15                   ;
-; ST       ; 13                   ;
-; IR[7]    ; 10                   ;
-; IR[6]    ; 10                   ;
-; IR[5]    ; 10                   ;
-; IR[4]    ; 10                   ;
-; Z        ; 3                    ;
-; C        ; 3                    ;
-; SST~10   ; 2                    ;
-; ~GND~5   ; 1                    ;
-; ~GND~4   ; 1                    ;
-; ~GND~3   ; 1                    ;
-; ~GND~2   ; 1                    ;
-; PCINC~47 ; 1                    ;
-; ~GND~1   ; 1                    ;
-; ~GND~0   ; 1                    ;
-; PCINC~45 ; 1                    ;
-; PCINC~44 ; 1                    ;
-; SBUS~9   ; 1                    ;
-; MEMW~9   ; 1                    ;
-; MBUS~12  ; 1                    ;
-; PCINC~38 ; 1                    ;
-; SEL~40   ; 1                    ;
-; SHORT~24 ; 1                    ;
-; ARINC~5  ; 1                    ;
-; STOP~20  ; 1                    ;
-; S~156    ; 1                    ;
-; ABUS~25  ; 1                    ;
-; Mux0~4   ; 1                    ;
-; Mux1~7   ; 1                    ;
-; STOP~15  ; 1                    ;
-; S~154    ; 1                    ;
-; ABUS~23  ; 1                    ;
-; DRW~10   ; 1                    ;
-; SEL~36   ; 1                    ;
-; SEL~32   ; 1                    ;
-; PCADD~11 ; 1                    ;
-; LAR~6    ; 1                    ;
-; LPC~6    ; 1                    ;
-; SEL~28   ; 1                    ;
-+----------+----------------------+
++----------------+----------------+
+; Name           ; Fan-Out        ;
++----------------+----------------+
+; SWD[1]         ; 40             ;
+; SWD[0]         ; 39             ;
+; SWD[2]         ; 38             ;
+; W1             ; 31             ;
+; IR[7]          ; 29             ;
+; IR[6]          ; 29             ;
+; IR[5]          ; 27             ;
+; IR[4]          ; 27             ;
+; W2             ; 21             ;
+; ST             ; 8              ;
+; Z              ; 4              ;
+; C              ; 4              ;
+; SST~11         ; 2              ;
+; PCINC~72       ; 1              ;
+; PCINC~71       ; 1              ;
+; PCINC~70       ; 1              ;
+; PCINC~66       ; 1              ;
+; Mux0~2sexpand2 ; 1              ;
+; Mux0~2sexpand1 ; 1              ;
+; Mux0~2sexpand0 ; 1              ;
+; SHORT~39       ; 1              ;
+; DRW~18         ; 1              ;
+; PCINC~59       ; 1              ;
+; S~248          ; 1              ;
+; M~21           ; 1              ;
+; PCINC~55       ; 1              ;
+; SBUS~17        ; 1              ;
+; SEL~40         ; 1              ;
+; MEMW~8         ; 1              ;
+; MBUS~9         ; 1              ;
+; SEL~36         ; 1              ;
+; LAR~11         ; 1              ;
+; ARINC~5        ; 1              ;
+; SHORT~38       ; 1              ;
+; ABUS~26        ; 1              ;
+; DRW~17         ; 1              ;
+; PCINC~54       ; 1              ;
+; S~247          ; 1              ;
+; M~20           ; 1              ;
+; STOP~14        ; 1              ;
+; PCINC~46       ; 1              ;
+; S~241          ; 1              ;
+; S~235          ; 1              ;
+; LDZ~11         ; 1              ;
+; S~231          ; 1              ;
+; SELCTL~10      ; 1              ;
+; PCADD~9        ; 1              ;
+; Mux1~5         ; 1              ;
+; SEL~32         ; 1              ;
+; LDC~6          ; 1              ;
++----------------+----------------+
 
 
 +------------------------------------------------+
@@ -404,47 +411,54 @@ Note: User assignments will override these defaults. The user specified values a
 ; Interconnect Resource Type ; Usage             ;
 +----------------------------+-------------------+
 ; Output enables             ; 0 / 6 ( 0 % )     ;
-; PIA buffers                ; 41 / 288 ( 14 % ) ;
-; PIAs                       ; 52 / 288 ( 18 % ) ;
+; PIA buffers                ; 40 / 288 ( 14 % ) ;
+; PIAs                       ; 51 / 288 ( 18 % ) ;
 +----------------------------+-------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB External Interconnect                                                  ;
 +----------------------------------------------+-----------------------------+
-; LAB External Interconnects  (Average = 6.50) ; Number of LABs  (Total = 5) ;
+; LAB External Interconnects  (Average = 6.38) ; Number of LABs  (Total = 4) ;
 +----------------------------------------------+-----------------------------+
-; 0                                            ; 3                           ;
+; 0                                            ; 4                           ;
 ; 1                                            ; 0                           ;
 ; 2                                            ; 0                           ;
 ; 3                                            ; 0                           ;
-; 4                                            ; 1                           ;
+; 4                                            ; 0                           ;
 ; 5                                            ; 0                           ;
 ; 6                                            ; 0                           ;
 ; 7                                            ; 0                           ;
 ; 8                                            ; 0                           ;
 ; 9                                            ; 0                           ;
 ; 10                                           ; 0                           ;
-; 11                                           ; 2                           ;
-; 12                                           ; 0                           ;
-; 13                                           ; 2                           ;
+; 11                                           ; 1                           ;
+; 12                                           ; 1                           ;
+; 13                                           ; 1                           ;
+; 14                                           ; 0                           ;
+; 15                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
 +----------------------------------------------------------------------+
 ; LAB Macrocells                                                       ;
 +----------------------------------------+-----------------------------+
-; Number of Macrocells  (Average = 4.00) ; Number of LABs  (Total = 5) ;
+; Number of Macrocells  (Average = 5.00) ; Number of LABs  (Total = 4) ;
 +----------------------------------------+-----------------------------+
-; 0                                      ; 3                           ;
+; 0                                      ; 4                           ;
 ; 1                                      ; 0                           ;
-; 2                                      ; 1                           ;
+; 2                                      ; 0                           ;
 ; 3                                      ; 0                           ;
 ; 4                                      ; 0                           ;
 ; 5                                      ; 0                           ;
 ; 6                                      ; 0                           ;
-; 7                                      ; 2                           ;
-; 8                                      ; 2                           ;
+; 7                                      ; 0                           ;
+; 8                                      ; 1                           ;
+; 9                                      ; 1                           ;
+; 10                                     ; 1                           ;
+; 11                                     ; 0                           ;
+; 12                                     ; 0                           ;
+; 13                                     ; 1                           ;
 +----------------------------------------+-----------------------------+
 
 
@@ -454,48 +468,69 @@ Note: User assignments will override these defaults. The user specified values a
 ; Parallel Expander Length ; Number of Parallel Expanders ;
 +--------------------------+------------------------------+
 ; 0                        ; 0                            ;
-; 1                        ; 2                            ;
+; 1                        ; 4                            ;
+; 2                        ; 2                            ;
 +--------------------------+------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Logic Cell Interconnection                                                                                                                                                                                      ;
-+-----+------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-; LAB ; Logic Cell ; Input                                                                           ; Output                                                                                                     ;
-+-----+------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-;  A  ; LC2        ; Mux1~7, CLR, Mux0~4, SST~10                                                     ; SST~10, ST                                                                                                 ;
-;  A  ; LC1        ; T3, CLR, SST~10                                                                 ; LPC~6, LAR~6, SEL~36, Mux1~7, Mux0~4, ARINC~5, SHORT~24, SEL~40, MBUS~12, MEMW~9, SBUS~9, PCINC~45, ~GND~1 ;
-;  B  ; LC17       ; CLR, SWD[2], SWD[1], SWD[0], ST, W1                                             ; LPC                                                                                                        ;
-;  B  ; LC24       ; CLR, SWD[2], SWD[1], SWD[0], W1, W2, IR[4], Z, IR[5], IR[7], IR[6], C           ; PCADD                                                                                                      ;
-;  B  ; LC21       ; CLR, SWD[1], SWD[0], SWD[2], IR[5], IR[4], IR[7], IR[6], W1, W2                 ; DRW                                                                                                        ;
-;  B  ; LC20       ; SWD[2], SWD[1], SWD[0], W1, W2, ST                                              ; SST~10                                                                                                     ;
-;  B  ; LC22       ; SWD[0], SWD[2], SWD[1], ST, W1                                                  ; SST~10                                                                                                     ;
-;  B  ; LC19       ; PCINC~45, C, CLR, SWD[2], SWD[1], SWD[0], W1, IR[4], IR[5], IR[7], IR[6], W2, Z ; PCINC                                                                                                      ;
-;  B  ; LC18       ; ST, CLR, SWD[2], SWD[1], SWD[0], W1                                             ; PCINC~38                                                                                                   ;
-;  C  ; LC45       ; ST, W1, SWD[1], SWD[0], CLR, SWD[2]                                             ; LAR                                                                                                        ;
-;  C  ; LC40       ; SWD[1], CLR, SWD[2], SWD[0], W1                                                 ; STOP                                                                                                       ;
-;  C  ; LC46       ; ST, W1, SWD[1], SWD[0], CLR, SWD[2]                                             ; ARINC                                                                                                      ;
-;  C  ; LC43       ; SWD[1], CLR, SWD[2], SWD[0], ST, W1, IR[5], IR[4], IR[7], IR[6], W2             ; MEMW                                                                                                       ;
-;  C  ; LC38       ; ~GND~1, C, CLR, SWD[2], SWD[1], SWD[0], W1, IR[4], IR[5], IR[7], IR[6], W2, Z   ; LIR                                                                                                        ;
-;  C  ; LC37       ; ST, CLR, SWD[2], SWD[1], SWD[0], W1                                             ; LDZ, PCINC~44                                                                                              ;
-;  C  ; LC35       ;                                                                                 ; LDC                                                                                                        ;
-;  D  ; LC51       ; W1, W2, CLR, SWD[2], SWD[1], SWD[0], IR[5], IR[4], IR[7], IR[6]                 ; ABUS                                                                                                       ;
-;  D  ; LC59       ; CLR, SWD[2], SWD[1], SWD[0], IR[5], IR[4], IR[7], IR[6], W1, W2                 ; S[1]                                                                                                       ;
-;  D  ; LC53       ; W1, W2, CLR, SWD[2], SWD[1], SWD[0], IR[5], IR[4], IR[7], IR[6]                 ; M                                                                                                          ;
-;  D  ; LC56       ; CLR, SWD[2], SWD[1], SWD[0], IR[5], IR[4], IR[7], IR[6], W1, W2                 ; S[3]                                                                                                       ;
-;  D  ; LC49       ; SWD[1], CLR, SWD[0], SWD[2], W1, ST                                             ; SBUS                                                                                                       ;
-;  D  ; LC64       ;                                                                                 ; CIN                                                                                                        ;
-;  D  ; LC61       ;                                                                                 ; S[0]                                                                                                       ;
-;  D  ; LC57       ;                                                                                 ; S[2]                                                                                                       ;
-;  E  ; LC75       ; SWD[2], W2, CLR, SWD[1], SWD[0]                                                 ; SEL[2]                                                                                                     ;
-;  E  ; LC72       ; W1, SWD[2], W2, CLR, SWD[1], SWD[0]                                             ; SEL[0]                                                                                                     ;
-;  E  ; LC73       ; W1, ST, CLR, SWD[2], SWD[1], SWD[0], W2                                         ; SEL[1]                                                                                                     ;
-;  E  ; LC80       ; SWD[1], CLR, SWD[2], SWD[0], W1                                                 ; SELCTL                                                                                                     ;
-;  E  ; LC67       ; ST, SWD[1], W1, CLR, SWD[2], SWD[0]                                             ; SHORT                                                                                                      ;
-;  E  ; LC77       ; W1, CLR, SWD[2], SWD[1], SWD[0], ST, W2                                         ; SEL[3]                                                                                                     ;
-;  E  ; LC65       ; SWD[0], CLR, SWD[2], SWD[1], ST, W1, IR[5], IR[4], IR[7], IR[6], W2             ; MBUS                                                                                                       ;
-;  E  ; LC69       ;                                                                                 ; LONG                                                                                                       ;
-+-----+------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Shareable Expander                                                            ;
++-------------------------------------------------+-----------------------------+
+; Number of shareable expanders  (Average = 0.38) ; Number of LABs  (Total = 1) ;
++-------------------------------------------------+-----------------------------+
+; 0                                               ; 7                           ;
+; 1                                               ; 0                           ;
+; 2                                               ; 0                           ;
+; 3                                               ; 1                           ;
++-------------------------------------------------+-----------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Logic Cell Interconnection                                                                                                                                                        ;
++-----+------------+---------------------------------------------------------------------------------------------+------------------------------------------------------------------+
+; LAB ; Logic Cell ; Input                                                                                       ; Output                                                           ;
++-----+------------+---------------------------------------------------------------------------------------------+------------------------------------------------------------------+
+;  B  ; LC22       ; T3, CLR, SST~11                                                                             ; Mux1~5, ARINC~5, LAR~11, SEL~36, MBUS~9, MEMW~8, SEL~40, SBUS~17 ;
+;  B  ; LC17       ; IR[6], IR[5], CLR, SWD[1], SWD[0], W1, SWD[2], IR[7], IR[4]                                 ; LPC                                                              ;
+;  B  ; LC27       ; PCINC~55, C, IR[4], SWD[2], CLR, SWD[1], SWD[0], IR[7], IR[6], IR[5], W1, W2                ; PCINC~71                                                         ;
+;  B  ; LC23       ; Mux1~5, CLR, SST~11, SWD[2], SWD[1], SWD[0], Mux0~2sexpand0, Mux0~2sexpand1, Mux0~2sexpand2 ; SST~11, ST                                                       ;
+;  B  ; LC29       ; PCINC~70, Z, IR[4], SWD[2], CLR, SWD[1], SWD[0], IR[7], IR[6], IR[5], W1, W2                ; PCINC~54                                                         ;
+;  B  ; LC26       ; PCINC~66, Z, IR[4], SWD[2], CLR, SWD[1], SWD[0], IR[7], IR[6], IR[5], W1, W2                ; PCINC~46                                                         ;
+;  B  ; LC30       ; PCINC~59, C, IR[4], SWD[2], CLR, SWD[1], SWD[0], IR[7], IR[6], IR[5], W1, W2                ; PCINC~72                                                         ;
+;  B  ; LC24       ; SWD[2], CLR, SWD[1], SWD[0], W2, IR[6], IR[7], IR[4], IR[5], Z, C                           ; PCADD                                                            ;
+;  B  ; LC19       ; PCINC~46                                                                                    ; PCINC                                                            ;
+;  B  ; LC28       ; IR[5], SWD[2], CLR, SWD[1], SWD[0], IR[7], W2, IR[6]                                        ; PCINC~59                                                         ;
+;  B  ; LC21       ; DRW~18, IR[5], CLR, SWD[1], SWD[0], W1, IR[7], IR[6], IR[4]                                 ; DRW                                                              ;
+;  B  ; LC25       ; IR[5], SWD[2], CLR, SWD[1], SWD[0], IR[7], W2, IR[6]                                        ; PCINC~55                                                         ;
+;  B  ; LC20       ; SWD[2], CLR, SWD[1], SWD[0], W2, IR[5], IR[7], IR[6], IR[4]                                 ; DRW~17                                                           ;
+;  C  ; LC46       ; SWD[1], SWD[0], SWD[2], CLR, W1, ST                                                         ; ARINC                                                            ;
+;  C  ; LC45       ; ST, W1, SWD[2], CLR, SWD[1], SWD[0], IR[6], IR[5], IR[7], IR[4]                             ; LAR                                                              ;
+;  C  ; LC35       ; IR[7], IR[5], IR[6], IR[4], W1, SWD[2], CLR, SWD[1], SWD[0]                                 ; LDC                                                              ;
+;  C  ; LC43       ; SWD[1], SWD[2], CLR, SWD[0], W1, ST, IR[6], IR[5], IR[7], IR[4], W2                         ; MEMW                                                             ;
+;  C  ; LC33       ; W2, SWD[1], ST, SWD[0], W1                                                                  ; SST~11                                                           ;
+;  C  ; LC37       ; W1, SWD[2], CLR, SWD[1], SWD[0], IR[6], IR[5], IR[4], IR[7]                                 ; LDZ                                                              ;
+;  C  ; LC40       ; SWD[1], SWD[0], CLR, SWD[2], W1, IR[7], IR[4], IR[6], IR[5]                                 ; STOP                                                             ;
+;  C  ; LC38       ; PCINC~54                                                                                    ; LIR                                                              ;
+;  D  ; LC64       ; IR[7], IR[5], IR[6], IR[4], W1, SWD[2], CLR, SWD[1], SWD[0]                                 ; CIN                                                              ;
+;  D  ; LC51       ; IR[7], SWD[2], CLR, SWD[1], SWD[0], W1, IR[6], IR[4], W2, IR[5]                             ; ABUS                                                             ;
+;  D  ; LC49       ; SWD[0], CLR, SWD[1], SWD[2], ST, W1, IR[6], IR[4], IR[7], IR[5]                             ; SBUS                                                             ;
+;  D  ; LC59       ; S~248, SWD[2], CLR, SWD[1], SWD[0], W1, IR[6], IR[5], IR[7], IR[4], W2                      ; S[1]                                                             ;
+;  D  ; LC52       ; IR[7], SWD[2], CLR, SWD[1], SWD[0], W1, IR[4], IR[6], IR[5], W2                             ; M~20                                                             ;
+;  D  ; LC58       ; IR[7], IR[4], SWD[2], CLR, SWD[1], SWD[0], W1, IR[6]                                        ; S~247                                                            ;
+;  D  ; LC53       ; M~21, IR[7], SWD[2], CLR, SWD[1], SWD[0], W1, IR[6], IR[5], IR[4]                           ; M                                                                ;
+;  D  ; LC56       ; IR[6], SWD[2], CLR, SWD[1], SWD[0], W1, IR[4], IR[7], IR[5], W2                             ; S[3]                                                             ;
+;  D  ; LC61       ; W1, SWD[2], CLR, SWD[1], SWD[0], IR[7], IR[4], IR[5], IR[6], W2                             ; S[0]                                                             ;
+;  D  ; LC57       ; IR[6], W1, SWD[2], CLR, SWD[1], SWD[0], IR[5], IR[7], IR[4], W2                             ; S[2]                                                             ;
+;  E  ; LC69       ; IR[4], IR[6], IR[7], IR[5], W1, SWD[2], CLR, SWD[1], SWD[0]                                 ; LONG                                                             ;
+;  E  ; LC72       ; W1, SWD[2], W2, CLR, SWD[1], SWD[0]                                                         ; SEL[0]                                                           ;
+;  E  ; LC67       ; SHORT~39, IR[7], SWD[1], IR[6], IR[4], W1, SWD[2], CLR, IR[5], C                            ; SHORT                                                            ;
+;  E  ; LC77       ; W1, CLR, SWD[1], SWD[0], SWD[2], ST, W2                                                     ; SEL[3]                                                           ;
+;  E  ; LC65       ; SWD[0], SWD[2], CLR, SWD[1], W1, ST, IR[4], IR[6], IR[7], IR[5], W2                         ; MBUS                                                             ;
+;  E  ; LC73       ; W1, CLR, SWD[1], SWD[0], SWD[2], W2, ST                                                     ; SEL[1]                                                           ;
+;  E  ; LC66       ; SWD[0], SWD[1], W1, SWD[2], CLR, Z, IR[7], IR[6], IR[4]                                     ; SHORT~38                                                         ;
+;  E  ; LC80       ; SWD[1], CLR, SWD[2], SWD[0], W1                                                             ; SELCTL                                                           ;
+;  E  ; LC75       ; SWD[2], CLR, SWD[1], SWD[0], W2                                                             ; SEL[2]                                                           ;
++-----+------------+---------------------------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------+
@@ -519,14 +554,16 @@ Note: User assignments will override these defaults. The user specified values a
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Thu Mar 28 22:24:03 2019
+    Info: Processing started: Mon Apr 01 12:10:46 2019
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off CPU -c CPU
 Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info: Selected device EPM7128SLC84-15 for design "CPU"
-Info: Quartus II Fitter was successful. 0 errors, 0 warnings
+Warning: Macrocell buffer inserted after node "PCINC~46"
+Warning: Macrocell buffer inserted after node "PCINC~54"
+Info: Quartus II Fitter was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 249 megabytes
-    Info: Processing ended: Thu Mar 28 22:24:03 2019
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Mon Apr 01 12:10:47 2019
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

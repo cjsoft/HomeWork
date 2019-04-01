@@ -1,5 +1,5 @@
 Assembler report for CPU
-Thu Mar 28 22:24:06 2019
+Mon Apr 01 12:10:50 2019
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Mar 28 22:24:06 2019 ;
+; Assembler Status      ; Successful - Mon Apr 01 12:10:50 2019 ;
 ; Revision Name         ; CPU                                   ;
 ; Top-level Entity Name ; cpu                                   ;
 ; Family                ; MAX7000S                              ;
@@ -87,7 +87,7 @@ applicable agreement for further details.
 +----------------+-----------------------------------------------------------------------------------------------------+
 ; Device         ; EPM7128SLC84-15                                                                                     ;
 ; JTAG usercode  ; 0x00000000                                                                                          ;
-; Checksum       ; 0x001BDFAB                                                                                          ;
+; Checksum       ; 0x001C2F24                                                                                          ;
 +----------------+-----------------------------------------------------------------------------------------------------+
 
 
@@ -97,13 +97,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Thu Mar 28 22:24:04 2019
+    Info: Processing started: Mon Apr 01 12:10:48 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off CPU -c CPU
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 208 megabytes
-    Info: Processing ended: Thu Mar 28 22:24:06 2019
+    Info: Processing ended: Mon Apr 01 12:10:50 2019
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 

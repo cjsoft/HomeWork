@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU
-Thu Mar 28 22:24:01 2019
+Mon Apr 01 12:10:45 2019
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -39,12 +39,12 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Thu Mar 28 22:24:01 2019    ;
+; Analysis & Synthesis Status ; Successful - Mon Apr 01 12:10:45 2019    ;
 ; Quartus II Version          ; 9.0 Build 132 02/25/2009 SJ Full Version ;
 ; Revision Name               ; CPU                                      ;
 ; Top-level Entity Name       ; cpu                                      ;
 ; Family                      ; MAX7000S                                 ;
-; Total macrocells            ; 33                                       ;
+; Total macrocells            ; 38                                       ;
 ; Total pins                  ; 41                                       ;
 +-----------------------------+------------------------------------------+
 
@@ -119,14 +119,15 @@ applicable agreement for further details.
 +----------------------+----------------------+
 ; Resource             ; Usage                ;
 +----------------------+----------------------+
-; Logic cells          ; 33                   ;
+; Logic cells          ; 38                   ;
 ; Total registers      ; 1                    ;
 ; I/O pins             ; 41                   ;
-; Parallel expanders   ; 2                    ;
-; Maximum fan-out node ; SWD[0]               ;
-; Maximum fan-out      ; 25                   ;
-; Total fan-out        ; 232                  ;
-; Average fan-out      ; 3.14                 ;
+; Shareable expanders  ; 3                    ;
+; Parallel expanders   ; 8                    ;
+; Maximum fan-out node ; SWD[1]               ;
+; Maximum fan-out      ; 40                   ;
+; Total fan-out        ; 376                  ;
+; Average fan-out      ; 4.59                 ;
 +----------------------+----------------------+
 
 
@@ -135,7 +136,7 @@ applicable agreement for further details.
 +----------------------------+------------+------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Macrocells ; Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+------------+------+---------------------+--------------+
-; |cpu                       ; 33         ; 41   ; |cpu                ; work         ;
+; |cpu                       ; 38         ; 41   ; |cpu                ; work         ;
 +----------------------------+------------+------+---------------------+--------------+
 
 
@@ -156,41 +157,35 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Thu Mar 28 22:24:00 2019
+    Info: Processing started: Mon Apr 01 12:10:43 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
 Info: Found 2 design units, including 1 entities, in source file cpu.vhd
     Info: Found design unit 1: cpu-design
     Info: Found entity 1: cpu
 Info: Elaborating entity "CPU" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at cpu.vhd(210): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(211): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(212): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(213): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(216): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(217): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(218): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at cpu.vhd(219): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(225): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(226): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(227): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(228): signal "C" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(231): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(232): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(233): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at cpu.vhd(234): signal "Z" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10631): VHDL Process Statement warning at cpu.vhd(54): inferring latch(es) for signal or variable "SST", which holds its previous value in one or more paths through the process
 Info (10041): Inferred latch for "SST" at cpu.vhd(54)
-Warning: Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LONG" is stuck at GND
-    Warning (13410): Pin "LDZ" is stuck at GND
-    Warning (13410): Pin "LDC" is stuck at GND
-    Warning (13410): Pin "CIN" is stuck at GND
-    Warning (13410): Pin "S[0]" is stuck at GND
-    Warning (13410): Pin "S[2]" is stuck at GND
 Info: Promoted pin-driven signal(s) to global signal
     Info: Promoted clear signal driven by pin "CLR" to global clear signal
     Info: Promoted clock signal driven by pin "T3" to global clock signal
 Warning: Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "W3"
-Info: Implemented 74 device resources after synthesis - the final resource count might be different
+Info: Implemented 82 device resources after synthesis - the final resource count might be different
     Info: Implemented 14 input pins
     Info: Implemented 27 output pins
-    Info: Implemented 33 macrocells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 18 warnings
+    Info: Implemented 38 macrocells
+    Info: Implemented 3 shareable expanders
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 11 warnings
     Info: Peak virtual memory: 247 megabytes
-    Info: Processing ended: Thu Mar 28 22:24:02 2019
+    Info: Processing ended: Mon Apr 01 12:10:45 2019
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

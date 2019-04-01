@@ -6,9 +6,9 @@ function check() {
     eval $str
     if [ "$(diff -Bb <(head -n 1 runtime.txt) <(head -n 1 ./data/$3$2.ans))" = "" ]
     then
-        echo "AC"
+        echo -e "AC \c"
     else
-        echo "WA"
+        echo -e "WA \c"
     fi
     tail -n 1 runtime.txt
 }
