@@ -24,6 +24,7 @@ end cpu;
 architecture design of cpu is
     signal ST: std_logic;
     signal SST: std_logic;
+    signal DST: std_logic;
     signal EXEC: std_logic;
     type instruction is (iadd, isub, iand, iinc, ild, ist, ijc, ijz, ijmp, iout, istp);
     procedure softclr is
@@ -49,6 +50,8 @@ architecture design of cpu is
         SELCTL <= '0';
         DRW <= '0';
         LIR <= '0';
+        SST <= '0';
+        DST <= '0';
     end procedure;
 begin
     process(CLR, SWD, W1, W2, W3, SST, ST, T3, IR)
@@ -59,10 +62,14 @@ begin
                 if (SST = '1') then
                     ST <= '1';
                 end if;
+                if (DST = '1') then
+					ST <= '0';
+				end if;
             end if;
             case SWD is
                 when "100" =>       -- register write
                     SST <= W2 and not ST;
+                    DST <= W2 and ST;
                     STOP <= W1 or W2;
                     SBUS <= W1 or W2;
                     SELCTL <= W1 or W2;
@@ -225,13 +232,13 @@ begin
                             SHORT <= (not C) and W1;
                             PCINC <= (not C) or (W2 and C);
                             LIR <= (not C) or (W2 and C);
-                            PCADD <= C and W2;
+                            PCADD <= C and W1;
                         end if;
                         if (IR = "1000") then -- jz
                             SHORT <= (not Z) and W1;
                             PCINC <= (not Z) or (W2 and Z);
                             LIR <= (not Z) or (W2 and Z);
-                            PCADD <= Z and W2;
+                            PCADD <= Z and W1;
                         end if;
                         if (IR = "1001") then -- jmp
                             PCINC <= W2;
@@ -248,7 +255,7 @@ begin
                             SHORT <= W1;
                             LIR <= W1;
                             PCINC <= W1;
-
+							STOP <= W1;
                             ABUS <= W1;
                             M <= W1;
                             if (W1 = '1') then
@@ -257,6 +264,7 @@ begin
                         end if;
                         if (IR = "1110") then -- stp
                             STOP <= W1;
+                            SHORT <= W1;
                         end if;
 
                         if (IR = "1011") then -- or
@@ -306,7 +314,6 @@ begin
             end case;
         else
             ST <= '0';
-            SST <= '0';
         end if;
     end process;
     
