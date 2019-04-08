@@ -120,24 +120,24 @@ begin
                     -- /*     end if; */
                     -- /* else */
                         if (IR = "0000") then -- nop
-                            -- /* if (ST = '0') then */
-                            -- /*     SHORT <= W1; */
-                            -- /*     SBUS <= W1; */
-                            -- /*     LPC <= W1; */
-                            -- /*     SST <= W1; */
-                            -- /*     STOP <= '0'; */
-                            -- /* else */
-                            -- /*     SHORT <= W1; */
-                            -- /*     PCINC <= W1; */
-                            -- /*     LIR <= W1; */
-                            -- /* end if; */
-                            SBUS <= W1;
-                            LPC <= W1;
-                            if (W1 = '1') then
-                                STOP <= '0';
+                            if (ST = '0') then
+								SHORT <= W1;
+								SBUS <= W1;
+								LPC <= W1;
+								SST <= W1;
+								STOP <= '0';
+                            else
+								SHORT <= W1;
+								PCINC <= W1;
+								LIR <= W1;
                             end if;
-                            LIR <= W2;
-                            PCINC <= W2;
+                            -- SBUS <= W1;
+                            -- LPC <= W1;
+                            -- if (W1 = '1') then
+                            --     STOP <= '0';
+                            -- end if;
+                            -- LIR <= W2;
+                            -- PCINC <= W2;
                         end if;
                         if (IR = "0001") then -- add
                             SHORT <= W1;
