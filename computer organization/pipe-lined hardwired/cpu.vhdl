@@ -63,10 +63,10 @@ begin
             case SWD is
                 when "100" =>       -- register write
                     SST <= W2 and not ST;
-                    STOP <= '1';
-                    SBUS <= '1';
-                    SELCTL <= '1';
-                    DRW <= '1';
+                    STOP <= W1 or W2;
+                    SBUS <= W1 or W2;
+                    SELCTL <= W1 or W2;
+                    DRW <= W1 or W2;
                     if (W1 = '1' and ST = '0') then
                         SEL <= "0011";
                     end if;
@@ -80,8 +80,8 @@ begin
                         SEL <= "1110";
                     end if;
                 when "011" =>       -- register read
-                    STOP <= '1';
-                    SELCTL <= '1';
+                    STOP <= W1 or W2;
+                    SELCTL <= W1 or W2;
                     if (W1 = '1') then
                         SEL <= "0001";
                     end if;
