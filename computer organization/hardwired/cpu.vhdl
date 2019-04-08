@@ -24,6 +24,7 @@ end cpu;
 architecture design of cpu is
     signal ST: std_logic;
     signal SST: std_logic;
+    signal DST: std_logic;
     signal EXEC: std_logic;
     type instruction is (iadd, isub, iand, iinc, ild, ist, ijc, ijz, ijmp, iout, istp);
     procedure softclr is
@@ -49,6 +50,8 @@ architecture design of cpu is
         SELCTL <= '0';
         DRW <= '0';
         LIR <= '0';
+        SST <= '0';
+        DST <= '0';
     end procedure;
 begin
     process(CLR, SWD, W1, W2, W3, SST, ST, T3, IR)
@@ -59,10 +62,14 @@ begin
                 if (SST = '1') then
                     ST <= '1';
                 end if;
+                if (DST = '1') then
+                    ST <= '0';
+                end if;
             end if;
             case SWD is
                 when "100" =>       -- register write
                     SST <= W2 and not ST;
+                    DST <= W2 and ST;
                     STOP <= W1 or W2;
                     SBUS <= W1 or W2;
                     SELCTL <= W1 or W2;
@@ -195,6 +202,7 @@ begin
                             end if;
                         end if;
                         if (IR = "1010") then -- out
+                            STOP <= W2;
                             ABUS <= W2;
                             M <= W2;
                             if (W2 = '1') then
