@@ -7,3 +7,9 @@ dp : dp.cpp
 
 dnc : dnc.cpp
 	g++ dnc.cpp -o dnc
+
+testcase :
+	./gen.sh
+
+test :
+	./test.sh
