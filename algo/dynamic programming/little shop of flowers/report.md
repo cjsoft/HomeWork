@@ -123,3 +123,20 @@ T(m,n)&=\sum^m_{k=0}T(k,\frac{n}{2})+T(m-k,\frac{n}{2})\\
 
 POJ上TLE（这不显然的嘛）
 
+## 测试工具集
+
+由于分治法复杂度比较高，POJ上过不了，所以我以dp作为std代码，编写了一套简单的数据生成及测试脚本（工作于Linux，需要g++、python2）
+
+功能说明
+
+```bash
+make			# 执行编译、数据生成、使用两种算法跑数据，并比较答案是否相同
+make dp			# 仅编译dp做法程序
+make dnc		# 仅编译分治做法程序
+make testcase	# 生成7组测试数据集
+make test		# 使用两种不同算法跑数据，比较答案是否相同
+```
+
+测试结果
+
+![1554982552227](C:\Users\egwcy\AppData\Roaming\Typora\typora-user-images\1554982552227.png)

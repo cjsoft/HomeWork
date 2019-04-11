@@ -1,6 +1,8 @@
 default:
 	make dp
 	make dnc
+	make testcase
+	make test
 
 dp : dp.cpp
 	g++ dp.cpp -o dp
@@ -8,8 +10,12 @@ dp : dp.cpp
 dnc : dnc.cpp
 	g++ dnc.cpp -o dnc
 
+binary :
+	make dp
+	make dnc
+
 testcase :
-	./gen.sh
+	bash ./gen.sh
 
 test :
-	./test.sh
+	bash ./test.sh
