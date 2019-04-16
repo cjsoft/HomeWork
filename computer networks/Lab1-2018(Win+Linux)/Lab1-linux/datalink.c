@@ -1,21 +1,40 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <stdbool.h>
 #include "protocol.h"
 #include "datalink.h"
+#ifndef DATA_TIMER
+    #define DATA_TIMER  750
+#endif
+#ifndef ACK_TIMER
+    #define ACK_TIMER   150
+#endif
+#define MAX_SEQ 127
+#define inc(x) ((x) = ((x) + 1) % (MAX_SEQ + 1))
+#define DATA_MASK 1
+#define ACK_MASK 2
+#define NAK_MASK 4
+#define SHORTFRM_MASK 6
+#define DATA 3
+#define ACK 2
+#define NAK 6
 
-#define DATA_TIMER  2000
-
-struct FRAME { 
+typedef unsigned char seq_nr;
+typedef int event_type;
+typedef unsigned char frame_kind;
+struct FRAME {
     unsigned char kind; /* FRAME_DATA */
     unsigned char ack;
     unsigned char seq;
-    unsigned char data[PKT_LEN]; 
+    unsigned char data[PKT_LEN];
     unsigned int  padding;
 };
-
-static unsigned char frame_nr = 0, buffer[PKT_LEN], nbuffered;
-static unsigned char frame_expected = 0;
+struct packet {
+    unsigned char data[PKT_LEN];
+};
+typedef struct packet packet;
+typedef struct FRAME FRAME;
+static bool no_nak = true;
 static int phl_ready = 0;
 
 static void put_frame(unsigned char *frame, int len)
@@ -25,90 +44,108 @@ static void put_frame(unsigned char *frame, int len)
     phl_ready = 0;
 }
 
-static void send_data_frame(void)
+static void send_data_frame(frame_kind kind, seq_nr frame_nr, seq_nr frame_expected, packet buffer[])
 {
-    struct FRAME s;
-
-    s.kind = FRAME_DATA;
+    FRAME s;
+    s.kind = kind;
+    if (kind & DATA_MASK) memcpy(s.data, buffer[frame_nr % (MAX_SEQ + 1)].data, sizeof(s.data));
+    if (kind & NAK_MASK) no_nak = false;
     s.seq = frame_nr;
-    s.ack = 1 - frame_expected;
-    memcpy(s.data, buffer, PKT_LEN);
-
-    dbg_frame("Send DATA %d %d, ID %d\n", s.seq, s.ack, *(short *)s.data);
-
-    put_frame((unsigned char *)&s, 3 + PKT_LEN);
-    start_timer(frame_nr, DATA_TIMER);
+    s.ack = (frame_expected + MAX_SEQ) % (MAX_SEQ + 1);
+    if (kind & DATA_MASK) {
+        put_frame((unsigned char *) &s, sizeof(FRAME) - 4);
+        start_timer(frame_nr % (MAX_SEQ + 1), DATA_TIMER);
+    } else if (kind & SHORTFRM_MASK) {
+        dbg_frame("Sending short frame %s for %d.\n", (kind == ACK) ? "ACK" : "NAK", frame_expected);
+        put_frame((unsigned char *) &s, 3);
+    }
+    phl_ready = 0;
+    stop_ack_timer();
+    return;
 }
 
-static void send_ack_frame(void)
-{
-    struct FRAME s;
 
-    s.kind = FRAME_ACK;
-    s.ack = 1 - frame_expected;
-
-    dbg_frame("Send ACK  %d\n", s.ack);
-
-    put_frame((unsigned char *)&s, 2);
+static bool between(seq_nr a, seq_nr b, seq_nr c) {
+    return (((a <= b) && (b < c)) || ((c < a) && (a <= b)) || ((b < c) && (c < a)));
 }
 
+seq_nr next_frame_to_send;
+seq_nr ack_expected;
+seq_nr frame_expected;
+int len;
+FRAME r;
+packet buffer[MAX_SEQ + 1];
+seq_nr nbuffered;
+seq_nr i;
+event_type event;
+int arg;
+extern int debug_mask;
 int main(int argc, char **argv)
 {
-    int event, arg;
-    struct FRAME f;
-    int len = 0;
-
-    protocol_init(argc, argv); 
-    lprintf("Designed by Jiang Yanjun, build: " __DATE__"  "__TIME__"\n");
+    protocol_init(argc, argv);
+    lprintf("Designed by CJSoft, build: " __DATE__"  "__TIME__"\n");
 
     disable_network_layer();
-
-    for (;;) {
+//    enable_network_layer();
+    ack_expected = 0;
+    next_frame_to_send = 0;
+    frame_expected = 0;
+    nbuffered = 0;
+    while (1) {
         event = wait_for_event(&arg);
-
         switch (event) {
-        case NETWORK_LAYER_READY:
-            get_packet(buffer);
-            nbuffered++;
-            send_data_frame();
-            break;
-
-        case PHYSICAL_LAYER_READY:
-            phl_ready = 1;
-            break;
-
-        case FRAME_RECEIVED: 
-            len = recv_frame((unsigned char *)&f, sizeof f);
-            if (len < 5 || crc32((unsigned char *)&f, len) != 0) {
-                dbg_event("**** Receiver Error, Bad CRC Checksum\n");
+            case NETWORK_LAYER_READY:
+                get_packet((unsigned char *)&(buffer[next_frame_to_send].data));
+                nbuffered++;
+                send_data_frame(DATA, next_frame_to_send, frame_expected, buffer);
+                dbg_frame("Data %d is sent, with ACK %d.\n", next_frame_to_send, frame_expected);
+                inc(next_frame_to_send);
                 break;
-            }
-            if (f.kind == FRAME_ACK) 
-                dbg_frame("Recv ACK  %d\n", f.ack);
-            if (f.kind == FRAME_DATA) {
-                dbg_frame("Recv DATA %d %d, ID %d\n", f.seq, f.ack, *(short *)f.data);
-                if (f.seq == frame_expected) {
-                    put_packet(f.data, len - 7);
-                    frame_expected = 1 - frame_expected;
+            case FRAME_RECEIVED:
+                len = recv_frame((unsigned char *)&r, sizeof(r));
+                if (len < 5 || crc32((unsigned char *)&r, len) != 0) {
+                    dbg_event("**** Receiver Error, Bad CRC Checksum\n");
+                    goto BAD_CRC_CHECKSUM;
                 }
-                send_ack_frame();
-            } 
-            if (f.ack == frame_nr) {
-                stop_timer(frame_nr);
-                nbuffered--;
-                frame_nr = 1 - frame_nr;
-            }
-            break; 
+                if (r.kind & DATA_MASK) {
+                    if (r.seq == frame_expected) {
+                        dbg_frame("Frame accepted! %d-%d\n", r.kind, r.seq);
+                        put_packet(r.data, PKT_LEN);
+                        inc(frame_expected);
+                        start_ack_timer(ACK_TIMEOUT);
+                    } else {
+                        dbg_warning("Incorrect seq, discarding %d\n", r.seq);
+                    }
+                }
+                if (r.kind & ACK_MASK) {
+                    while (between(ack_expected, r.ack, next_frame_to_send)) {
+                        nbuffered--;
+                        stop_timer(ack_expected);
+                        inc(ack_expected);
+                    }
 
-        case DATA_TIMEOUT:
-            dbg_event("---- DATA %d timeout\n", arg); 
-            send_data_frame();
-            break;
+                }
+
+                break;
+            case PHYSICAL_LAYER_READY:
+                phl_ready = 1;
+                break;
+            case DATA_TIMEOUT:
+                dbg_frame("---- DATA %d timeout, resending DATA\n", arg);
+                next_frame_to_send = ack_expected;
+                for (i = 1; i <= nbuffered; i++) {
+                    send_data_frame(DATA, next_frame_to_send, frame_expected, buffer);
+                    start_timer(next_frame_to_send, DATA_TIMEOUT);
+                    inc(next_frame_to_send);
+                }
+                break;
+            case ACK_TIMEOUT:
+                send_data_frame(ACK, 0, frame_expected, buffer);
+                break;
+            BAD_CRC_CHECKSUM:;
+//                send_data_frame(NAK, 0, frame_expected, buffer);
         }
-
-        if (nbuffered < 1 && phl_ready)
-            enable_network_layer();
-        else
-            disable_network_layer();
-   }
+        if (nbuffered < MAX_SEQ && phl_ready) enable_network_layer();
+        else disable_network_layer();
+    }
 }

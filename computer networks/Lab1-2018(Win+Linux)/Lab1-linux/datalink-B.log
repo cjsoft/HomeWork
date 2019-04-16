@@ -1,0 +1,741 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 0
+000.000 Log file "./datalink-B.log", TCP port 59144, debug mask 0x07
+000.000 Station B is connecting station A (TCP port 59144) ... Done.
+000.276 New epoch: Tue Apr 16 21:35:12 2019
+000.276 =================================================================
+000.277 
+000.277 Designed by CJSoft, build: Apr 16 2019  14:04:43
+000.284 Data 0 is sent, with ACK 0.
+000.523 Data 1 is sent, with ACK 0.
+000.798 Data 2 is sent, with ACK 0.
+000.870 Frame accepted! 3-0
+000.917 Sending short frame ACK for 1.
+001.083 Data 3 is sent, with ACK 1.
+001.132 Frame accepted! 3-1
+001.149 Sending short frame ACK for 2.
+001.343 Frame accepted! 3-2
+001.345 Data 4 is sent, with ACK 3.
+001.604 Data 5 is sent, with ACK 3.
+001.643 Frame accepted! 3-3
+001.660 Sending short frame ACK for 4.
+001.881 Data 6 is sent, with ACK 4.
+001.915 Frame accepted! 3-4
+001.931 Sending short frame ACK for 5.
+002.156 Data 7 is sent, with ACK 5.
+002.188 Frame accepted! 3-5
+002.206 Sending short frame ACK for 6.
+002.427 Data 8 is sent, with ACK 6.
+002.442 Frame accepted! 3-6
+002.459 Sending short frame ACK for 7.
+002.702 Data 9 is sent, with ACK 7.
+002.718 Frame accepted! 3-7
+002.718 .... 8 packets received, 7578 bps, 94.73%, Err 0 (0.0e+00)
+002.734 Sending short frame ACK for 8.
+002.978 Frame accepted! 3-8
+002.979 Data 10 is sent, with ACK 9.
+003.234 Data 11 is sent, with ACK 9.
+003.266 Frame accepted! 3-9
+003.282 Sending short frame ACK for 10.
+003.506 Data 12 is sent, with ACK 10.
+003.537 Frame accepted! 3-10
+003.553 Sending short frame ACK for 11.
+003.788 Data 13 is sent, with ACK 11.
+003.803 Frame accepted! 3-11
+003.819 Sending short frame ACK for 12.
+004.051 Data 14 is sent, with ACK 12.
+004.067 Frame accepted! 3-12
+004.082 Sending short frame ACK for 13.
+004.334 Data 15 is sent, with ACK 13.
+004.349 Frame accepted! 3-13
+004.366 Sending short frame ACK for 14.
+004.609 Data 16 is sent, with ACK 14.
+004.643 Frame accepted! 3-14
+004.660 Sending short frame ACK for 15.
+004.880 Data 17 is sent, with ACK 15.
+004.912 Frame accepted! 3-15
+004.912 .... 16 packets received, 7522 bps, 94.03%, Err 0 (0.0e+00)
+004.929 Sending short frame ACK for 16.
+005.154 Data 18 is sent, with ACK 16.
+005.170 Frame accepted! 3-16
+005.186 Sending short frame ACK for 17.
+005.415 Data 19 is sent, with ACK 17.
+005.450 Frame accepted! 3-17
+005.466 Sending short frame ACK for 18.
+005.692 Data 20 is sent, with ACK 18.
+005.725 Frame accepted! 3-18
+005.742 Sending short frame ACK for 19.
+005.966 Data 21 is sent, with ACK 19.
+005.998 Frame accepted! 3-19
+006.016 Sending short frame ACK for 20.
+006.240 Data 22 is sent, with ACK 20.
+006.271 Frame accepted! 3-20
+006.287 Sending short frame ACK for 21.
+006.510 Data 23 is sent, with ACK 21.
+006.526 Frame accepted! 3-21
+006.542 Sending short frame ACK for 22.
+006.788 Data 24 is sent, with ACK 22.
+006.788 Frame accepted! 3-22
+006.804 Sending short frame ACK for 23.
+007.052 Data 25 is sent, with ACK 23.
+007.067 Frame accepted! 3-23
+007.067 .... 24 packets received, 7549 bps, 94.36%, Err 0 (0.0e+00)
+007.084 Sending short frame ACK for 24.
+007.341 Data 26 is sent, with ACK 24.
+007.359 Frame accepted! 3-24
+007.377 Sending short frame ACK for 25.
+007.601 Data 27 is sent, with ACK 25.
+007.616 Frame accepted! 3-25
+007.632 Sending short frame ACK for 26.
+007.875 Data 28 is sent, with ACK 26.
+007.890 Frame accepted! 3-26
+007.907 Sending short frame ACK for 27.
+008.159 Data 29 is sent, with ACK 27.
+008.176 Frame accepted! 3-27
+008.195 Sending short frame ACK for 28.
+008.431 Frame accepted! 3-28
+008.431 Data 30 is sent, with ACK 29.
+008.691 Frame accepted! 3-29
+008.691 Data 31 is sent, with ACK 30.
+008.956 Data 32 is sent, with ACK 30.
+008.972 Frame accepted! 3-30
+008.988 Sending short frame ACK for 31.
+009.226 Data 33 is sent, with ACK 31.
+009.266 Frame accepted! 3-31
+009.266 .... 32 packets received, 7524 bps, 94.05%, Err 0 (0.0e+00)
+009.282 Sending short frame ACK for 32.
+009.508 Data 34 is sent, with ACK 32.
+009.526 Frame accepted! 3-32
+009.545 Sending short frame ACK for 33.
+009.773 Data 35 is sent, with ACK 33.
+009.805 Frame accepted! 3-33
+009.821 Sending short frame ACK for 34.
+010.041 Data 36 is sent, with ACK 34.
+010.072 Frame accepted! 3-34
+010.088 Sending short frame ACK for 35.
+010.313 Data 37 is sent, with ACK 35.
+010.345 Frame accepted! 3-35
+010.362 Sending short frame ACK for 36.
+010.594 Data 38 is sent, with ACK 36.
+010.612 Frame accepted! 3-36
+010.629 Sending short frame ACK for 37.
+010.866 Data 39 is sent, with ACK 37.
+010.886 Frame accepted! 3-37
+010.893 Sending short frame ACK for 38.
+011.142 Data 40 is sent, with ACK 38.
+011.158 Frame accepted! 3-38
+011.176 Sending short frame ACK for 39.
+011.410 Data 41 is sent, with ACK 39.
+011.426 Frame accepted! 3-39
+011.426 .... 40 packets received, 7536 bps, 94.20%, Err 0 (0.0e+00)
+011.443 Sending short frame ACK for 40.
+011.684 Frame accepted! 3-40
+011.689 Data 42 is sent, with ACK 41.
+011.945 Data 43 is sent, with ACK 41.
+011.961 Frame accepted! 3-41
+011.977 Sending short frame ACK for 42.
+012.219 Data 44 is sent, with ACK 42.
+012.250 Frame accepted! 3-42
+012.269 Sending short frame ACK for 43.
+012.491 Data 45 is sent, with ACK 43.
+012.522 Frame accepted! 3-43
+012.538 Sending short frame ACK for 44.
+012.764 Data 46 is sent, with ACK 44.
+012.782 Frame accepted! 3-44
+012.798 Sending short frame ACK for 45.
+013.040 Data 47 is sent, with ACK 45.
+013.056 Frame accepted! 3-45
+013.072 Sending short frame ACK for 46.
+013.311 Data 48 is sent, with ACK 46.
+013.344 Frame accepted! 3-46
+013.361 Sending short frame ACK for 47.
+013.588 Frame accepted! 3-47
+013.588 .... 48 packets received, 7543 bps, 94.29%, Err 0 (0.0e+00)
+013.589 Data 49 is sent, with ACK 48.
+013.862 Data 50 is sent, with ACK 48.
+013.878 Frame accepted! 3-48
+013.894 Sending short frame ACK for 49.
+014.125 Data 51 is sent, with ACK 49.
+014.157 Frame accepted! 3-49
+014.173 Sending short frame ACK for 50.
+014.394 Data 52 is sent, with ACK 50.
+014.426 Frame accepted! 3-50
+014.442 Sending short frame ACK for 51.
+014.663 Data 53 is sent, with ACK 51.
+014.694 Frame accepted! 3-51
+014.710 Sending short frame ACK for 52.
+014.947 Data 54 is sent, with ACK 52.
+014.963 Frame accepted! 3-52
+014.979 Sending short frame ACK for 53.
+015.214 Data 55 is sent, with ACK 53.
+015.233 Frame accepted! 3-53
+015.253 Sending short frame ACK for 54.
+015.494 Frame accepted! 3-54
+015.494 Data 56 is sent, with ACK 55.
+015.753 Data 57 is sent, with ACK 55.
+015.800 Frame accepted! 3-55
+015.800 .... 56 packets received, 7523 bps, 94.04%, Err 0 (0.0e+00)
+015.816 Sending short frame ACK for 56.
+016.030 Data 58 is sent, with ACK 56.
+016.063 Frame accepted! 3-56
+016.079 Sending short frame ACK for 57.
+016.305 Data 59 is sent, with ACK 57.
+016.336 Frame accepted! 3-57
+016.352 Sending short frame ACK for 58.
+016.573 Data 60 is sent, with ACK 58.
+016.604 Frame accepted! 3-58
+016.620 Sending short frame ACK for 59.
+016.856 Data 61 is sent, with ACK 59.
+016.889 Frame accepted! 3-59
+016.905 Sending short frame ACK for 60.
+017.125 Data 62 is sent, with ACK 60.
+017.141 Frame accepted! 3-60
+017.157 Sending short frame ACK for 61.
+017.396 Data 63 is sent, with ACK 61.
+017.412 Frame accepted! 3-61
+017.428 Sending short frame ACK for 62.
+017.671 Data 64 is sent, with ACK 62.
+017.672 Frame accepted! 3-62
+017.688 Sending short frame ACK for 63.
+017.944 Frame accepted! 3-63
+017.945 .... 64 packets received, 7538 bps, 94.23%, Err 0 (0.0e+00)
+017.945 Data 65 is sent, with ACK 64.
+018.205 Data 66 is sent, with ACK 64.
+018.221 Frame accepted! 3-64
+018.237 Sending short frame ACK for 65.
+018.475 Data 67 is sent, with ACK 65.
+018.506 Frame accepted! 3-65
+018.523 Sending short frame ACK for 66.
+018.742 Data 68 is sent, with ACK 66.
+018.773 Frame accepted! 3-66
+018.789 Sending short frame ACK for 67.
+019.031 Data 69 is sent, with ACK 67.
+019.046 Frame accepted! 3-67
+019.063 Sending short frame ACK for 68.
+019.299 Data 70 is sent, with ACK 68.
+019.316 Frame accepted! 3-68
+019.333 Sending short frame ACK for 69.
+019.564 Data 71 is sent, with ACK 69.
+019.580 Frame accepted! 3-69
+019.596 Sending short frame ACK for 70.
+019.849 Data 72 is sent, with ACK 70.
+019.869 Frame accepted! 3-70
+019.880 Sending short frame ACK for 71.
+020.112 Frame accepted! 3-71
+020.112 .... 72 packets received, 7540 bps, 94.25%, Err 0 (0.0e+00)
+020.113 Data 73 is sent, with ACK 72.
+020.377 Data 74 is sent, with ACK 72.
+020.411 Frame accepted! 3-72
+020.427 Sending short frame ACK for 73.
+020.649 Data 75 is sent, with ACK 73.
+020.664 Frame accepted! 3-73
+020.682 Sending short frame ACK for 74.
+020.929 Data 76 is sent, with ACK 74.
+020.960 Frame accepted! 3-74
+020.978 Sending short frame ACK for 75.
+021.194 Data 77 is sent, with ACK 75.
+021.225 Frame accepted! 3-75
+021.231 Sending short frame ACK for 76.
+021.472 Frame accepted! 3-76
+021.473 Data 78 is sent, with ACK 77.
+021.746 Data 79 is sent, with ACK 77.
+021.781 Frame accepted! 3-77
+021.797 Sending short frame ACK for 78.
+022.015 Data 80 is sent, with ACK 78.
+022.030 Frame accepted! 3-78
+022.046 Sending short frame ACK for 79.
+022.288 Data 81 is sent, with ACK 79.
+022.320 Frame accepted! 3-79
+022.320 .... 80 packets received, 7528 bps, 94.10%, Err 0 (0.0e+00)
+022.336 Sending short frame ACK for 80.
+022.561 Data 82 is sent, with ACK 80.
+022.595 Frame accepted! 3-80
+022.611 Sending short frame ACK for 81.
+022.822 Data 83 is sent, with ACK 81.
+022.889 Frame accepted! 3-81
+022.906 Sending short frame ACK for 82.
+023.095 Data 84 is sent, with ACK 82.
+023.137 Frame accepted! 3-82
+023.153 Sending short frame ACK for 83.
+023.382 Data 85 is sent, with ACK 83.
+023.414 Frame accepted! 3-83
+023.430 Sending short frame ACK for 84.
+023.652 Data 86 is sent, with ACK 84.
+023.683 Frame accepted! 3-84
+023.700 Sending short frame ACK for 85.
+023.914 Data 87 is sent, with ACK 85.
+023.930 Frame accepted! 3-85
+023.948 Sending short frame ACK for 86.
+024.197 Frame accepted! 3-86
+024.205 Data 88 is sent, with ACK 87.
+024.461 Frame accepted! 3-87
+024.462 .... 88 packets received, 7539 bps, 94.24%, Err 0 (0.0e+00)
+024.462 Data 89 is sent, with ACK 88.
+024.728 Data 90 is sent, with ACK 88.
+024.759 Frame accepted! 3-88
+024.775 Sending short frame ACK for 89.
+025.000 Data 91 is sent, with ACK 89.
+025.031 Frame accepted! 3-89
+025.047 Sending short frame ACK for 90.
+025.274 Data 92 is sent, with ACK 90.
+025.305 Frame accepted! 3-90
+025.321 Sending short frame ACK for 91.
+025.546 Data 93 is sent, with ACK 91.
+025.566 Frame accepted! 3-91
+025.582 Sending short frame ACK for 92.
+025.815 Data 94 is sent, with ACK 92.
+025.833 Frame accepted! 3-92
+025.854 Sending short frame ACK for 93.
+026.083 Data 95 is sent, with ACK 93.
+026.101 Frame accepted! 3-93
+026.116 Sending short frame ACK for 94.
+026.368 Data 96 is sent, with ACK 94.
+026.383 Frame accepted! 3-94
+026.399 Sending short frame ACK for 95.
+026.635 Data 97 is sent, with ACK 95.
+026.668 Frame accepted! 3-95
+026.668 .... 96 packets received, 7529 bps, 94.12%, Err 0 (0.0e+00)
+026.685 Sending short frame ACK for 96.
+026.905 Data 98 is sent, with ACK 96.
+026.937 Frame accepted! 3-96
+026.954 Sending short frame ACK for 97.
+027.183 Data 99 is sent, with ACK 97.
+027.219 Frame accepted! 3-97
+027.237 Sending short frame ACK for 98.
+027.456 Data 100 is sent, with ACK 98.
+027.487 Frame accepted! 3-98
+027.504 Sending short frame ACK for 99.
+027.721 Data 101 is sent, with ACK 99.
+027.738 Frame accepted! 3-99
+027.754 Sending short frame ACK for 100.
+027.993 Data 102 is sent, with ACK 100.
+028.009 Frame accepted! 3-100
+028.025 Sending short frame ACK for 101.
+028.270 Frame accepted! 3-101
+028.270 Data 103 is sent, with ACK 102.
+028.542 Data 104 is sent, with ACK 102.
+028.558 Frame accepted! 3-102
+028.574 Sending short frame ACK for 103.
+028.818 Data 105 is sent, with ACK 103.
+028.834 Frame accepted! 3-103
+028.835 .... 104 packets received, 7532 bps, 94.15%, Err 0 (0.0e+00)
+028.866 Sending short frame ACK for 104.
+029.077 Data 106 is sent, with ACK 104.
+029.092 Frame accepted! 3-104
+029.108 Sending short frame ACK for 105.
+029.363 Data 107 is sent, with ACK 105.
+029.379 Frame accepted! 3-105
+029.395 Sending short frame ACK for 106.
+029.636 Data 108 is sent, with ACK 106.
+029.640 Frame accepted! 3-106
+029.655 Sending short frame ACK for 107.
+029.899 Data 109 is sent, with ACK 107.
+029.914 Frame accepted! 3-107
+029.931 Sending short frame ACK for 108.
+030.172 Data 110 is sent, with ACK 108.
+030.222 Frame accepted! 3-108
+030.250 Sending short frame ACK for 109.
+030.456 Data 111 is sent, with ACK 109.
+030.535 Frame accepted! 3-109
+030.551 Sending short frame ACK for 110.
+030.726 Data 112 is sent, with ACK 110.
+030.742 Frame accepted! 3-110
+030.770 Sending short frame ACK for 111.
+030.999 Frame accepted! 3-111
+030.999 .... 112 packets received, 7535 bps, 94.18%, Err 0 (0.0e+00)
+031.000 Data 113 is sent, with ACK 112.
+031.255 Data 114 is sent, with ACK 112.
+031.271 Frame accepted! 3-112
+031.288 Sending short frame ACK for 113.
+031.536 Frame accepted! 3-113
+031.537 Data 115 is sent, with ACK 114.
+031.805 Data 116 is sent, with ACK 114.
+031.821 Frame accepted! 3-114
+031.838 Sending short frame ACK for 115.
+032.072 Data 117 is sent, with ACK 115.
+032.104 Frame accepted! 3-115
+032.120 Sending short frame ACK for 116.
+032.345 Data 118 is sent, with ACK 116.
+032.376 Frame accepted! 3-116
+032.393 Sending short frame ACK for 117.
+032.616 Data 119 is sent, with ACK 117.
+032.648 Frame accepted! 3-117
+032.664 Sending short frame ACK for 118.
+032.893 Data 120 is sent, with ACK 118.
+032.909 Frame accepted! 3-118
+032.927 Sending short frame ACK for 119.
+033.158 Data 121 is sent, with ACK 119.
+033.173 Frame accepted! 3-119
+033.173 .... 120 packets received, 7535 bps, 94.18%, Err 0 (0.0e+00)
+033.189 Sending short frame ACK for 120.
+033.443 Data 122 is sent, with ACK 120.
+033.474 Frame accepted! 3-120
+033.491 Sending short frame ACK for 121.
+033.704 Data 123 is sent, with ACK 121.
+033.736 Frame accepted! 3-121
+033.752 Sending short frame ACK for 122.
+033.974 Data 124 is sent, with ACK 122.
+034.006 Frame accepted! 3-122
+034.024 Sending short frame ACK for 123.
+034.259 Data 125 is sent, with ACK 123.
+034.276 Frame accepted! 3-123
+034.294 Sending short frame ACK for 124.
+034.521 Data 126 is sent, with ACK 124.
+034.546 Frame accepted! 3-124
+034.557 Sending short frame ACK for 125.
+034.800 Data 127 is sent, with ACK 125.
+034.831 Frame accepted! 3-125
+034.856 Sending short frame ACK for 126.
+035.068 Data 0 is sent, with ACK 126.
+035.102 Frame accepted! 3-126
+035.118 Sending short frame ACK for 127.
+035.343 Data 1 is sent, with ACK 127.
+035.377 Frame accepted! 3-127
+035.377 .... 128 packets received, 7528 bps, 94.10%, Err 0 (0.0e+00)
+035.395 Sending short frame ACK for 0.
+035.617 Data 2 is sent, with ACK 0.
+035.633 Incorrect seq, discarding 128
+035.880 Data 3 is sent, with ACK 0.
+035.914 Incorrect seq, discarding 129
+036.149 Data 4 is sent, with ACK 0.
+036.181 Incorrect seq, discarding 130
+036.404 ---- DATA 0 timeout, resending DATA
+036.471 Incorrect seq, discarding 131
+036.712 Incorrect seq, discarding 132
+036.996 Incorrect seq, discarding 133
+036.997 ---- DATA 0 timeout, resending DATA
+037.266 Incorrect seq, discarding 134
+037.549 Incorrect seq, discarding 135
+037.803 Incorrect seq, discarding 136
+038.085 Incorrect seq, discarding 137
+038.322 Incorrect seq, discarding 138
+038.601 Incorrect seq, discarding 139
+038.880 Incorrect seq, discarding 140
+039.058 ---- DATA 0 timeout, resending DATA
+039.157 Incorrect seq, discarding 141
+039.401 Incorrect seq, discarding 142
+039.644 ---- DATA 0 timeout, resending DATA
+039.677 Incorrect seq, discarding 143
+039.959 Incorrect seq, discarding 144
+040.214 Incorrect seq, discarding 145
+040.485 Incorrect seq, discarding 146
+040.758 Incorrect seq, discarding 147
+041.029 Incorrect seq, discarding 148
+041.327 Incorrect seq, discarding 128
+041.578 Incorrect seq, discarding 128
+041.705 ---- DATA 0 timeout, resending DATA
+041.855 Incorrect seq, discarding 128
+042.128 Incorrect seq, discarding 128
+042.303 ---- DATA 0 timeout, resending DATA
+042.398 Incorrect seq, discarding 128
+042.673 Incorrect seq, discarding 128
+042.969 Incorrect seq, discarding 128
+043.206 Incorrect seq, discarding 128
+043.468 Incorrect seq, discarding 128
+043.738 Incorrect seq, discarding 128
+044.012 Incorrect seq, discarding 128
+044.282 Incorrect seq, discarding 128
+044.346 ---- DATA 0 timeout, resending DATA
+044.536 Incorrect seq, discarding 128
+044.808 Incorrect seq, discarding 128
+044.962 ---- DATA 0 timeout, resending DATA
+045.075 Incorrect seq, discarding 128
+045.344 Incorrect seq, discarding 128
+045.611 Incorrect seq, discarding 128
+045.892 Incorrect seq, discarding 128
+046.158 Incorrect seq, discarding 128
+046.427 Incorrect seq, discarding 128
+046.697 Incorrect seq, discarding 128
+046.996 Incorrect seq, discarding 149
+046.996 ---- DATA 0 timeout, resending DATA
+047.275 Incorrect seq, discarding 150
+047.534 Incorrect seq, discarding 151
+047.610 ---- DATA 0 timeout, resending DATA
+047.808 Incorrect seq, discarding 152
+048.076 Incorrect seq, discarding 153
+048.340 Incorrect seq, discarding 154
+048.633 Incorrect seq, discarding 155
+048.915 Incorrect seq, discarding 156
+049.167 Incorrect seq, discarding 157
+049.439 Incorrect seq, discarding 158
+049.660 ---- DATA 0 timeout, resending DATA
+049.707 Incorrect seq, discarding 159
+049.987 Incorrect seq, discarding 160
+050.239 ---- DATA 0 timeout, resending DATA
+050.270 Incorrect seq, discarding 161
+050.566 Incorrect seq, discarding 162
+050.801 Incorrect seq, discarding 163
+051.076 Incorrect seq, discarding 164
+051.363 Incorrect seq, discarding 165
+051.608 Incorrect seq, discarding 166
+051.916 Incorrect seq, discarding 167
+052.166 Incorrect seq, discarding 168
+052.311 ---- DATA 0 timeout, resending DATA
+052.424 Incorrect seq, discarding 128
+052.707 Incorrect seq, discarding 128
+052.898 ---- DATA 0 timeout, resending DATA
+052.979 Incorrect seq, discarding 128
+053.226 Incorrect seq, discarding 128
+053.523 Incorrect seq, discarding 128
+053.788 Incorrect seq, discarding 128
+054.058 Incorrect seq, discarding 128
+054.331 Incorrect seq, discarding 128
+054.621 Incorrect seq, discarding 128
+054.915 Incorrect seq, discarding 128
+054.962 ---- DATA 0 timeout, resending DATA
+055.172 Incorrect seq, discarding 128
+055.413 Incorrect seq, discarding 128
+055.538 ---- DATA 0 timeout, resending DATA
+055.696 Incorrect seq, discarding 128
+055.913 ** WARNING: System too busy, sleep 15 ms, but be awakened 78 ms later
+056.043 Incorrect seq, discarding 128
+056.225 Incorrect seq, discarding 128
+056.501 Incorrect seq, discarding 128
+056.764 Incorrect seq, discarding 128
+057.035 Incorrect seq, discarding 128
+057.321 Incorrect seq, discarding 128
+057.595 Incorrect seq, discarding 128
+057.611 ---- DATA 0 timeout, resending DATA
+057.886 Incorrect seq, discarding 128
+058.144 Incorrect seq, discarding 169
+058.192 ---- DATA 0 timeout, resending DATA
+058.427 Incorrect seq, discarding 170
+058.682 Incorrect seq, discarding 171
+058.951 Incorrect seq, discarding 172
+059.244 Incorrect seq, discarding 173
+059.478 Incorrect seq, discarding 174
+059.787 Incorrect seq, discarding 175
+060.041 Incorrect seq, discarding 176
+060.263 ---- DATA 0 timeout, resending DATA
+060.320 Incorrect seq, discarding 177
+060.581 Incorrect seq, discarding 178
+060.836 ---- DATA 0 timeout, resending DATA
+060.879 Incorrect seq, discarding 179
+061.124 Incorrect seq, discarding 180
+061.409 Incorrect seq, discarding 181
+061.661 Incorrect seq, discarding 182
+061.932 Incorrect seq, discarding 183
+062.188 Incorrect seq, discarding 184
+062.458 Incorrect seq, discarding 185
+062.711 Incorrect seq, discarding 186
+062.920 ---- DATA 0 timeout, resending DATA
+063.035 Incorrect seq, discarding 187
+063.280 Incorrect seq, discarding 188
+063.476 ---- DATA 0 timeout, resending DATA
+063.528 Incorrect seq, discarding 189
+063.777 Incorrect seq, discarding 128
+064.051 Incorrect seq, discarding 128
+064.318 Incorrect seq, discarding 128
+064.600 Incorrect seq, discarding 128
+064.920 Incorrect seq, discarding 128
+065.144 Incorrect seq, discarding 128
+065.414 Incorrect seq, discarding 128
+065.561 Data 5 is sent, with ACK 0.
+065.579 ---- DATA 0 timeout, resending DATA
+065.678 Incorrect seq, discarding 128
+065.988 Incorrect seq, discarding 128
+066.241 Incorrect seq, discarding 128
+066.510 Incorrect seq, discarding 128
+066.653 ---- DATA 0 timeout, resending DATA
+066.783 Incorrect seq, discarding 128
+067.085 Incorrect seq, discarding 128
+067.323 Incorrect seq, discarding 128
+067.643 Incorrect seq, discarding 128
+067.875 Incorrect seq, discarding 128
+068.164 Incorrect seq, discarding 128
+068.397 Incorrect seq, discarding 128
+068.666 Incorrect seq, discarding 128
+068.766 ---- DATA 0 timeout, resending DATA
+068.933 Incorrect seq, discarding 128
+069.181 Incorrect seq, discarding 128
+069.447 Incorrect seq, discarding 128
+069.728 Incorrect seq, discarding 190
+069.830 ---- DATA 0 timeout, resending DATA
+069.993 Incorrect seq, discarding 191
+070.311 Incorrect seq, discarding 192
+070.550 Incorrect seq, discarding 193
+070.820 Incorrect seq, discarding 194
+071.111 Incorrect seq, discarding 195
+071.383 Incorrect seq, discarding 196
+071.648 Incorrect seq, discarding 197
+071.926 Incorrect seq, discarding 198
+071.942 ---- DATA 0 timeout, resending DATA
+072.212 Incorrect seq, discarding 199
+072.474 Incorrect seq, discarding 200
+072.746 Incorrect seq, discarding 201
+073.010 ---- DATA 0 timeout, resending DATA
+073.010 Incorrect seq, discarding 202
+073.302 Incorrect seq, discarding 203
+073.549 Incorrect seq, discarding 204
+073.860 Incorrect seq, discarding 205
+074.100 Incorrect seq, discarding 206
+074.365 Incorrect seq, discarding 207
+074.646 Incorrect seq, discarding 208
+074.918 Incorrect seq, discarding 209
+075.127 ---- DATA 0 timeout, resending DATA
+075.190 Incorrect seq, discarding 210
+075.443 Incorrect seq, discarding 128
+075.707 Incorrect seq, discarding 128
+076.002 Incorrect seq, discarding 128
+076.193 ---- DATA 0 timeout, resending DATA
+076.272 Incorrect seq, discarding 128
+076.549 Incorrect seq, discarding 128
+076.803 Incorrect seq, discarding 128
+077.096 Incorrect seq, discarding 128
+077.363 Incorrect seq, discarding 128
+077.615 Incorrect seq, discarding 128
+077.891 Incorrect seq, discarding 128
+078.179 Incorrect seq, discarding 128
+078.295 ---- DATA 0 timeout, resending DATA
+078.427 Incorrect seq, discarding 128
+078.715 Incorrect seq, discarding 128
+078.982 Incorrect seq, discarding 128
+079.264 Incorrect seq, discarding 128
+079.378 ---- DATA 0 timeout, resending DATA
+079.536 Incorrect seq, discarding 128
+079.832 Incorrect seq, discarding 128
+080.083 Incorrect seq, discarding 128
+080.353 Incorrect seq, discarding 128
+080.631 Incorrect seq, discarding 128
+080.899 Incorrect seq, discarding 128
+081.161 Incorrect seq, discarding 211
+081.432 Incorrect seq, discarding 212
+081.484 ---- DATA 0 timeout, resending DATA
+081.714 Incorrect seq, discarding 213
+082.055 Incorrect seq, discarding 214
+082.268 Incorrect seq, discarding 215
+082.545 Incorrect seq, discarding 216
+082.546 ---- DATA 0 timeout, resending DATA
+082.787 Incorrect seq, discarding 217
+083.095 Incorrect seq, discarding 218
+083.368 Incorrect seq, discarding 219
+083.623 Incorrect seq, discarding 220
+083.900 Incorrect seq, discarding 221
+084.164 Incorrect seq, discarding 222
+084.431 Incorrect seq, discarding 223
+084.667 ---- DATA 0 timeout, resending DATA
+084.714 Incorrect seq, discarding 224
+085.061 Incorrect seq, discarding 225
+085.297 Incorrect seq, discarding 226
+085.534 Incorrect seq, discarding 227
+085.721 ---- DATA 0 timeout, resending DATA
+085.831 Incorrect seq, discarding 228
+086.084 Incorrect seq, discarding 229
+086.358 Incorrect seq, discarding 230
+086.620 Incorrect seq, discarding 128
+086.919 Incorrect seq, discarding 128
+087.176 Incorrect seq, discarding 128
+087.446 Incorrect seq, discarding 128
+087.722 Incorrect seq, discarding 128
+087.856 ---- DATA 0 timeout, resending DATA
+087.987 Incorrect seq, discarding 128
+088.256 Incorrect seq, discarding 128
+088.523 Incorrect seq, discarding 128
+088.818 Incorrect seq, discarding 128
+088.900 ---- DATA 0 timeout, resending DATA
+089.099 Incorrect seq, discarding 128
+089.475 Incorrect seq, discarding 128
+089.675 Incorrect seq, discarding 128
+089.887 Incorrect seq, discarding 128
+090.211 Incorrect seq, discarding 128
+090.445 Incorrect seq, discarding 128
+090.688 Incorrect seq, discarding 128
+090.810 ** WARNING: System too busy, sleep 15 ms, but be awakened 74 ms later
+091.143 ---- DATA 0 timeout, resending DATA
+091.224 Incorrect seq, discarding 128
+091.370 Incorrect seq, discarding 128
+091.542 Incorrect seq, discarding 128
+091.772 Incorrect seq, discarding 128
+092.088 ** WARNING: System too busy, sleep 15 ms, but be awakened 119 ms later
+092.261 ---- DATA 0 timeout, resending DATA
+092.314 Incorrect seq, discarding 128
+092.633 Incorrect seq, discarding 231
+092.692 Incorrect seq, discarding 232
+092.909 Incorrect seq, discarding 233
+093.419 Incorrect seq, discarding 234
+093.489 Incorrect seq, discarding 235
+093.919 Incorrect seq, discarding 236
+094.037 ---- DATA 0 timeout, resending DATA
+094.053 Incorrect seq, discarding 237
+094.467 ** WARNING: System too busy, sleep 15 ms, but be awakened 142 ms later
+094.467 Incorrect seq, discarding 238
+094.853 Incorrect seq, discarding 239
+094.936 Incorrect seq, discarding 240
+095.153 Incorrect seq, discarding 241
+095.440 Incorrect seq, discarding 242
+095.441 ---- DATA 0 timeout, resending DATA
+095.680 Incorrect seq, discarding 243
+095.958 Incorrect seq, discarding 244
+096.235 Incorrect seq, discarding 245
+096.492 Incorrect seq, discarding 246
+096.799 Incorrect seq, discarding 247
+097.078 Incorrect seq, discarding 248
+097.218 ---- DATA 0 timeout, resending DATA
+097.316 Incorrect seq, discarding 249
+097.584 Incorrect seq, discarding 250
+097.849 Incorrect seq, discarding 128
+098.222 Incorrect seq, discarding 128
+098.396 Incorrect seq, discarding 128
+098.616 ---- DATA 0 timeout, resending DATA
+098.663 Incorrect seq, discarding 128
+098.988 Incorrect seq, discarding 128
+099.203 Incorrect seq, discarding 128
+099.537 Incorrect seq, discarding 128
+099.770 Incorrect seq, discarding 128
+100.048 Incorrect seq, discarding 128
+100.343 ** WARNING: System too busy, sleep 15 ms, but be awakened 119 ms later
+100.394 ---- DATA 0 timeout, resending DATA
+100.512 Incorrect seq, discarding 128
+100.735 Incorrect seq, discarding 128
+100.833 Incorrect seq, discarding 128
+101.103 Incorrect seq, discarding 128
+101.369 Incorrect seq, discarding 128
+101.672 Incorrect seq, discarding 128
+101.794 ---- DATA 0 timeout, resending DATA
+101.956 Incorrect seq, discarding 128
+102.220 Incorrect seq, discarding 128
+102.473 Incorrect seq, discarding 128
+102.755 Incorrect seq, discarding 128
+103.017 Incorrect seq, discarding 128
+103.305 Incorrect seq, discarding 128
+103.581 ---- DATA 0 timeout, resending DATA
+103.597 Incorrect seq, discarding 251
+103.887 Incorrect seq, discarding 252
+104.143 Incorrect seq, discarding 253
+104.417 Incorrect seq, discarding 254
+104.681 Incorrect seq, discarding 255
+104.980 ---- DATA 0 timeout, resending DATA
+106.760 ---- DATA 0 timeout, resending DATA
+107.901 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
+108.162 ---- DATA 0 timeout, resending DATA
+109.012 Incorrect seq, discarding 128
+109.254 Incorrect seq, discarding 128
+109.573 Incorrect seq, discarding 128
+109.830 Incorrect seq, discarding 128
+109.929 ---- DATA 0 timeout, resending DATA
+110.075 Incorrect seq, discarding 128
+110.345 Incorrect seq, discarding 128
+111.340 ---- DATA 0 timeout, resending DATA
+113.116 ---- DATA 0 timeout, resending DATA
+114.515 ---- DATA 0 timeout, resending DATA
+115.988 Incorrect seq, discarding 128
+116.291 ---- DATA 0 timeout, resending DATA
+117.695 ---- DATA 0 timeout, resending DATA
+119.474 ---- DATA 0 timeout, resending DATA
+120.885 ---- DATA 0 timeout, resending DATA
+121.486 Incorrect seq, discarding 128
+122.656 ---- DATA 0 timeout, resending DATA
+124.056 ---- DATA 0 timeout, resending DATA
+125.838 ---- DATA 0 timeout, resending DATA
+127.024 Incorrect seq, discarding 128
+127.240 ---- DATA 0 timeout, resending DATA
+129.017 ---- DATA 0 timeout, resending DATA
+130.411 ---- DATA 0 timeout, resending DATA
+132.197 ---- DATA 0 timeout, resending DATA
+132.445 Incorrect seq, discarding 128
+133.603 ---- DATA 0 timeout, resending DATA
+133.914 ** WARNING: System too busy, sleep 15 ms, but be awakened 74 ms later
+135.412 ---

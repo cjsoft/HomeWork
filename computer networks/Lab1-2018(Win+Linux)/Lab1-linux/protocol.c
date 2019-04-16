@@ -104,7 +104,7 @@ static int mode_cycle = 100;  /* seconds */
 static int mode_life = 0x7fffff00;
 static int mode_tick = DEFAULT_TICK;
 static int mode_seed = 0x098bcde1;
-static int debug_mask = 0; /* debug mask */
+int debug_mask = 0; /* debug mask */
 static unsigned short port = DEFAULT_PORT;
 
 static int sock;

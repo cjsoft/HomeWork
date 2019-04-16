@@ -7,3 +7,5 @@ datalink: datalink.o protocol.o lprintf.o crc32.o
 clean:
 	${RM} *.o datalink *.log
 
+test:
+	bash test.sh
