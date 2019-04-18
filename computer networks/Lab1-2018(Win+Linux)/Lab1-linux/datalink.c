@@ -112,7 +112,7 @@ int main(int argc, char **argv)
                         dbg_frame("Frame accepted! %d-%d\n", r.kind, r.seq);
                         put_packet(r.data, PKT_LEN);
                         inc(frame_expected);
-                        start_ack_timer(ACK_TIMEOUT);
+                        start_ack_timer(ACK_TIMER);
                     } else {
                         dbg_warning("Incorrect seq, discarding %d\n", r.seq);
                     }

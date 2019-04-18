@@ -1,0 +1,4 @@
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/edit_cache.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/rebuild_cache.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir

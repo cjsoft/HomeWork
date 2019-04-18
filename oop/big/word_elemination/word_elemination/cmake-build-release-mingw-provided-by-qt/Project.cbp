@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="word_elemination">
+				<Option output="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtOpenGL"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 word_elemination"/>
+					<CompileFile command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="word_elemination/fast">
+				<Option output="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtOpenGL"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 word_elemination/fast"/>
+					<CompileFile command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="word_elemination_autogen">
+				<Option working_dir="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 word_elemination_autogen"/>
+					<CompileFile command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/mocs_compilation.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/initialform.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/initialform.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/main.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/userhomeform.cpp">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/userhomeform.h">
+			<Option target="word_elemination"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Qt\Qt5.12.0\5.12.0\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

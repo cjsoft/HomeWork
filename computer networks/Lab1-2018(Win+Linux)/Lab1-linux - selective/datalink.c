@@ -51,7 +51,7 @@ static void put_frame(unsigned char *frame, int len)
 
 static void send_data_frame(frame_kind kind, seq_nr frame_nr, seq_nr frame_expected, packet buffer[])
 {
-    FRAME s;
+      FRAME s;
     s.kind = kind;
     if (kind & DATA_MASK) memcpy(s.data, buffer[frame_nr % NR_BUFS].data, sizeof(s.data));
     if (kind & NAK_MASK) no_nak = false;
@@ -110,7 +110,6 @@ int main(int argc, char **argv)
                 get_packet((unsigned char *)&(out_buf[next_frame_to_send % NR_BUFS].data));
                 nbuffered++;
                 send_data_frame(DATA, next_frame_to_send, frame_expected, out_buf);
-                dbg_frame("Data %d is sent, with ACK %d.\n", next_frame_to_send, frame_expected);
                 inc(next_frame_to_send);
                 break;
             case FRAME_RECEIVED:
@@ -123,8 +122,9 @@ int main(int argc, char **argv)
                     if (r.seq != frame_expected && no_nak)
                         send_data_frame(NAK, 0, frame_expected, out_buf);
                     else
-                        start_ack_timer(ACK_TIMEOUT);
+                        start_ack_timer(ACK_TIMER);
                     if (between(frame_expected, r.seq, too_far) && (arrived[r.seq % NR_BUFS] == false)) {
+                        dbg_frame("Recv DATA SEQ:%d ACK:%d, DATA:%d\n", r.seq, r.ack, *(short *)r.data);
                         arrived[r.seq % NR_BUFS] = true;
                         memcpy(in_buf[r.seq % NR_BUFS].data, r.data, PKT_LEN); // TODO
                         while (arrived[frame_expected % NR_BUFS]) {

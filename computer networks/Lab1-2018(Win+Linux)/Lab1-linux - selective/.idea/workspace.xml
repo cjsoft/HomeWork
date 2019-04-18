@@ -1,31 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Selective" targetName="datalink" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" />
+      <configuration PROFILE_NAME="MinSizeRel" CONFIG_NAME="MinSizeRel" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4adb44cd-7450-4e44-bb0f-19e70b62cbc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OS/OS/tolset/z_tools/qemu/fdimage0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OS/OS/tolset/z_tools/qemu/fdimage0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OS/note/Day20.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OS/note/Day20.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1-linux - selective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1-linux - selective.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/fA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/fB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/fbA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/fbB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/uA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/uB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/ufA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/ufB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/.idea/Lab1-linux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/.idea/Lab1-linux.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1-linux/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/datalink-B.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1-linux/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/datalink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/datalink.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/datalink.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1-linux/protocol.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/protocol.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../性能测试记录表.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../性能测试记录表.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/protocol.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/protocol.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro.user" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-relwithdebinfo/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-minsizerel/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datalink.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protocol.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile.bak">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -35,6 +113,7 @@
       <find>oldes</find>
       <find>frame_expected</find>
       <find>no_nak</find>
+      <find>&amp; data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -44,26 +123,43 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/datalink.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1490" />
+    <option name="x" value="-10" />
     <option name="width" value="1522" />
     <option name="height" value="1952" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1-linux - selective" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -82,6 +178,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="datalink" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Selective" TARGET_NAME="datalink" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Selective" RUN_TARGET_NAME="datalink">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,11 +197,12 @@
       <updated>1555342257121</updated>
       <workItem from="1555342258719" duration="8490000" />
       <workItem from="1555395788154" duration="1869000" />
+      <workItem from="1555462426707" duration="6532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10359000" />
+    <option name="totallyTimeSpent" value="16891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -111,10 +215,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38865095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15738831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="CMake" visible="true" weight="0.32629108" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -136,17 +242,66 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datalink.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeFiles/Makefile2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile.bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeFiles/Makefile.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalink.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>

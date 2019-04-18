@@ -1,0 +1,43 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_0c230/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0c230.dir\build.make CMakeFiles/cmTC_0c230.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c230.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_0c230.dir\testCCompiler.c.obj   -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_0c230.exe
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0c230.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0c230.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0c230.dir/objects.a @CMakeFiles\cmTC_0c230.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_0c230.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0c230.exe -Wl,--out-implib,libcmTC_0c230.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0c230.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

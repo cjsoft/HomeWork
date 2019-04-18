@@ -1,0 +1,118 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/crc32.c
+stdio.h
+-
+stdlib.h
+-
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/datalink.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+protocol.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/protocol.h
+datalink.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/datalink.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/datalink.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/getopt.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+getopt.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/getopt.h
+string.h
+-
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/getopt.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/lprintf.c
+windows.h
+-
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+math.h
+-
+lprintf.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/lprintf.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/lprintf.h
+stdarg.h
+-
+stdio.h
+-
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/protocol.c
+time.h
+-
+winsock.h
+-
+io.h
+-
+stdio.h
+-
+sys/types.h
+-
+sys/timeb.h
+-
+getopt.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/getopt.h
+ctype.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/time.h
+-
+unistd.h
+-
+ctype.h
+-
+stdlib.h
+-
+errno.h
+-
+getopt.h
+-
+arpa/inet.h
+-
+netinet/tcp.h
+-
+netdb.h
+-
+math.h
+-
+protocol.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/protocol.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/protocol.h
+stdio.h
+-
+string.h
+-
+lprintf.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/lprintf.h
+

@@ -3,324 +3,1365 @@
 000.000 -------------------------------------------------------------
 000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
 000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 0
-000.000 Log file "./datalink-A.log", TCP port 10086, debug mask 0x00
+000.000 Log file "./datalink-A.log", TCP port 10086, debug mask 0x07
 000.000 Station A is waiting for station B on TCP port 10086 ... Done.
-000.157 New epoch: Tue Apr 16 21:42:24 2019
-000.157 =================================================================
-000.157 
-000.157 Designed by CJSoft, build: Apr 16 2019  21:41:46
-002.603 .... 8 packets received, 7564 bps, 94.55%, Err 0 (0.0e+00)
-004.770 .... 16 packets received, 7562 bps, 94.53%, Err 0 (0.0e+00)
-006.936 .... 24 packets received, 7563 bps, 94.54%, Err 0 (0.0e+00)
-009.150 .... 32 packets received, 7522 bps, 94.02%, Err 0 (0.0e+00)
-011.271 .... 40 packets received, 7561 bps, 94.52%, Err 0 (0.0e+00)
-013.458 .... 48 packets received, 7550 bps, 94.37%, Err 0 (0.0e+00)
-015.632 .... 56 packets received, 7548 bps, 94.35%, Err 0 (0.0e+00)
-017.867 ** WARNING: System too busy, sleep 15 ms, but be awakened 76 ms later
-017.904 .... 64 packets received, 7504 bps, 93.80%, Err 0 (0.0e+00)
-019.176 ** WARNING: System too busy, sleep 15 ms, but be awakened 137 ms later
-020.017 .... 72 packets received, 7531 bps, 94.14%, Err 0 (0.0e+00)
-022.209 .... 80 packets received, 7525 bps, 94.07%, Err 0 (0.0e+00)
-024.063 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
-024.344 .... 88 packets received, 7539 bps, 94.23%, Err 0 (0.0e+00)
-026.526 .... 96 packets received, 7536 bps, 94.20%, Err 0 (0.0e+00)
-028.378 ** WARNING: System too busy, sleep 15 ms, but be awakened 93 ms later
-028.712 .... 104 packets received, 7533 bps, 94.16%, Err 0 (0.0e+00)
-030.968 .... 112 packets received, 7513 bps, 93.91%, Err 0 (0.0e+00)
-033.064 .... 120 packets received, 7532 bps, 94.16%, Err 0 (0.0e+00)
-035.239 .... 128 packets received, 7532 bps, 94.16%, Err 0 (0.0e+00)
-037.437 .... 136 packets received, 7528 bps, 94.10%, Err 0 (0.0e+00)
-039.591 .... 144 packets received, 7532 bps, 94.15%, Err 0 (0.0e+00)
-041.770 .... 152 packets received, 7531 bps, 94.14%, Err 0 (0.0e+00)
-043.965 .... 160 packets received, 7528 bps, 94.10%, Err 0 (0.0e+00)
-046.157 .... 168 packets received, 7525 bps, 94.07%, Err 0 (0.0e+00)
-048.349 .... 176 packets received, 7523 bps, 94.04%, Err 0 (0.0e+00)
-050.503 .... 184 packets received, 7527 bps, 94.08%, Err 0 (0.0e+00)
-052.680 .... 192 packets received, 7527 bps, 94.08%, Err 0 (0.0e+00)
-054.868 .... 200 packets received, 7525 bps, 94.06%, Err 0 (0.0e+00)
-057.033 .... 208 packets received, 7527 bps, 94.08%, Err 0 (0.0e+00)
-059.215 .... 216 packets received, 7526 bps, 94.08%, Err 0 (0.0e+00)
-061.404 .... 224 packets received, 7525 bps, 94.06%, Err 0 (0.0e+00)
-063.583 .... 232 packets received, 7524 bps, 94.06%, Err 0 (0.0e+00)
-065.752 .... 240 packets received, 7525 bps, 94.07%, Err 0 (0.0e+00)
-067.962 .... 248 packets received, 7522 bps, 94.02%, Err 0 (0.0e+00)
-070.151 .... 256 packets received, 7521 bps, 94.01%, Err 0 (0.0e+00)
-072.317 .... 264 packets received, 7522 bps, 94.02%, Err 0 (0.0e+00)
-074.510 .... 272 packets received, 7520 bps, 94.00%, Err 0 (0.0e+00)
-076.680 .... 280 packets received, 7521 bps, 94.02%, Err 0 (0.0e+00)
-078.212 ** WARNING: System too busy, sleep 15 ms, but be awakened 118 ms later
-078.902 .... 288 packets received, 7517 bps, 93.96%, Err 0 (0.0e+00)
-081.033 .... 296 packets received, 7522 bps, 94.02%, Err 0 (0.0e+00)
-083.237 .... 304 packets received, 7519 bps, 93.99%, Err 0 (0.0e+00)
-085.389 .... 312 packets received, 7522 bps, 94.02%, Err 0 (0.0e+00)
-087.599 .... 320 packets received, 7519 bps, 93.99%, Err 0 (0.0e+00)
-088.960 ** WARNING: System too busy, sleep 15 ms, but be awakened 123 ms later
-089.785 .... 328 packets received, 7518 bps, 93.98%, Err 0 (0.0e+00)
-091.965 .... 336 packets received, 7518 bps, 93.98%, Err 0 (0.0e+00)
-093.056 ** WARNING: System too busy, sleep 15 ms, but be awakened 98 ms later
-094.143 .... 344 packets received, 7518 bps, 93.98%, Err 0 (0.0e+00)
-096.322 .... 352 packets received, 7518 bps, 93.98%, Err 0 (0.0e+00)
-098.482 .... 360 packets received, 7520 bps, 94.00%, Err 0 (0.0e+00)
-100.711 .... 368 packets received, 7516 bps, 93.95%, Err 0 (0.0e+00)
-102.834 .... 376 packets received, 7520 bps, 94.00%, Err 0 (0.0e+00)
-105.019 .... 384 packets received, 7520 bps, 94.00%, Err 0 (0.0e+00)
-107.228 .... 392 packets received, 7518 bps, 93.97%, Err 0 (0.0e+00)
-109.393 .... 400 packets received, 7519 bps, 93.98%, Err 0 (0.0e+00)
-111.559 .... 408 packets received, 7520 bps, 93.99%, Err 0 (0.0e+00)
-113.737 .... 416 packets received, 7520 bps, 93.99%, Err 0 (0.0e+00)
-115.925 .... 424 packets received, 7519 bps, 93.99%, Err 0 (0.0e+00)
-118.088 .... 432 packets received, 7520 bps, 94.00%, Err 0 (0.0e+00)
-118.698 ** WARNING: System too busy, sleep 15 ms, but be awakened 134 ms later
-120.135 ** WARNING: System too busy, sleep 15 ms, but be awakened 153 ms later
-120.155 .... 438 packets received, 7493 bps, 93.66%, Err 0 (0.0e+00)
-122.182 .... 445 packets received, 7486 bps, 93.57%, Err 0 (0.0e+00)
-124.348 .... 453 packets received, 7487 bps, 93.59%, Err 0 (0.0e+00)
-125.610 ** WARNING: System too busy, sleep 15 ms, but be awakened 89 ms later
-126.542 .... 461 packets received, 7487 bps, 93.59%, Err 0 (0.0e+00)
-129.068 .... 466 packets received, 7419 bps, 92.74%, Err 0 (0.0e+00)
-129.281 ** WARNING: System too busy, sleep 15 ms, but be awakened 81 ms later
-132.972 .... 474 packets received, 7324 bps, 91.56%, Err 0 (0.0e+00)
-134.904 ** WARNING: System too busy, sleep 15 ms, but be awakened 163 ms later
-135.527 .... 486 packets received, 7368 bps, 92.10%, Err 0 (0.0e+00)
-136.727 ** WARNING: System too busy, sleep 15 ms, but be awakened 94 ms later
-137.664 .... 494 packets received, 7373 bps, 92.16%, Err 0 (0.0e+00)
-138.891 ** WARNING: System too busy, sleep 15 ms, but be awakened 73 ms later
-139.814 .... 502 packets received, 7376 bps, 92.20%, Err 0 (0.0e+00)
-140.079 ** WARNING: System too busy, sleep 15 ms, but be awakened 74 ms later
-142.033 .... 510 packets received, 7376 bps, 92.21%, Err 0 (0.0e+00)
-144.217 .... 518 packets received, 7378 bps, 92.23%, Err 0 (0.0e+00)
-144.899 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
-146.350 .... 526 packets received, 7383 bps, 92.29%, Err 0 (0.0e+00)
-146.940 ** WARNING: System too busy, sleep 15 ms, but be awakened 108 ms later
-148.509 .... 534 packets received, 7386 bps, 92.32%, Err 0 (0.0e+00)
-148.824 ** WARNING: System too busy, sleep 15 ms, but be awakened 83 ms later
-150.693 .... 542 packets received, 7387 bps, 92.34%, Err 0 (0.0e+00)
-151.686 ** WARNING: System too busy, sleep 15 ms, but be awakened 68 ms later
-152.889 .... 550 packets received, 7389 bps, 92.36%, Err 0 (0.0e+00)
-154.285 ** WARNING: System too busy, sleep 15 ms, but be awakened 137 ms later
-154.936 .... 557 packets received, 7383 bps, 92.29%, Err 0 (0.0e+00)
-156.610 ** WARNING: System too busy, sleep 15 ms, but be awakened 80 ms later
-156.976 .... 564 packets received, 7379 bps, 92.24%, Err 0 (0.0e+00)
-158.176 ** WARNING: System too busy, sleep 15 ms, but be awakened 80 ms later
-159.172 .... 572 packets received, 7380 bps, 92.25%, Err 0 (0.0e+00)
-160.069 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-161.283 .... 580 packets received, 7385 bps, 92.31%, Err 0 (0.0e+00)
-163.462 .... 588 packets received, 7387 bps, 92.33%, Err 0 (0.0e+00)
-163.925 ** WARNING: System too busy, sleep 15 ms, but be awakened 89 ms later
-165.657 .... 596 packets received, 7388 bps, 92.35%, Err 0 (0.0e+00)
-165.905 ** WARNING: System too busy, sleep 15 ms, but be awakened 72 ms later
-167.832 .... 604 packets received, 7390 bps, 92.37%, Err 0 (0.0e+00)
-170.003 .... 612 packets received, 7392 bps, 92.40%, Err 0 (0.0e+00)
-172.173 .... 620 packets received, 7394 bps, 92.42%, Err 0 (0.0e+00)
-174.374 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
-174.520 .... 628 packets received, 7388 bps, 92.35%, Err 0 (0.0e+00)
-176.709 .... 635 packets received, 7378 bps, 92.22%, Err 0 (0.0e+00)
-178.897 .... 643 packets received, 7379 bps, 92.24%, Err 0 (0.0e+00)
-181.092 .... 651 packets received, 7380 bps, 92.25%, Err 0 (0.0e+00)
-183.228 .... 659 packets received, 7383 bps, 92.29%, Err 0 (0.0e+00)
-185.276 ** WARNING: System too busy, sleep 15 ms, but be awakened 100 ms later
-185.423 .... 667 packets received, 7384 bps, 92.31%, Err 0 (0.0e+00)
-187.596 .... 675 packets received, 7386 bps, 92.33%, Err 0 (0.0e+00)
-188.935 ** WARNING: System too busy, sleep 15 ms, but be awakened 140 ms later
-189.786 .... 683 packets received, 7387 bps, 92.34%, Err 0 (0.0e+00)
-191.960 .... 691 packets received, 7389 bps, 92.36%, Err 0 (0.0e+00)
-194.147 .... 699 packets received, 7390 bps, 92.38%, Err 0 (0.0e+00)
-196.296 .... 707 packets received, 7393 bps, 92.41%, Err 0 (0.0e+00)
-198.487 .... 715 packets received, 7394 bps, 92.42%, Err 0 (0.0e+00)
-200.656 .... 723 packets received, 7395 bps, 92.44%, Err 0 (0.0e+00)
-201.919 ** WARNING: System too busy, sleep 15 ms, but be awakened 81 ms later
-202.832 .... 731 packets received, 7397 bps, 92.46%, Err 0 (0.0e+00)
-205.003 .... 739 packets received, 7398 bps, 92.48%, Err 0 (0.0e+00)
-207.186 .... 747 packets received, 7400 bps, 92.49%, Err 0 (0.0e+00)
-209.363 .... 755 packets received, 7401 bps, 92.51%, Err 0 (0.0e+00)
-211.537 .... 763 packets received, 7402 bps, 92.53%, Err 0 (0.0e+00)
-213.687 .... 771 packets received, 7404 bps, 92.56%, Err 0 (0.0e+00)
-215.863 .... 779 packets received, 7406 bps, 92.57%, Err 0 (0.0e+00)
-218.021 .... 787 packets received, 7408 bps, 92.60%, Err 0 (0.0e+00)
-220.204 .... 795 packets received, 7409 bps, 92.61%, Err 0 (0.0e+00)
-222.379 .... 803 packets received, 7410 bps, 92.62%, Err 0 (0.0e+00)
-224.533 .... 811 packets received, 7412 bps, 92.65%, Err 0 (0.0e+00)
-226.717 .... 819 packets received, 7413 bps, 92.66%, Err 0 (0.0e+00)
-228.930 .... 827 packets received, 7412 bps, 92.66%, Err 0 (0.0e+00)
-231.090 .... 835 packets received, 7414 bps, 92.68%, Err 0 (0.0e+00)
-233.271 .... 843 packets received, 7415 bps, 92.69%, Err 0 (0.0e+00)
-235.425 .... 851 packets received, 7417 bps, 92.71%, Err 0 (0.0e+00)
-235.895 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-237.580 .... 859 packets received, 7418 bps, 92.73%, Err 0 (0.0e+00)
-239.754 .... 867 packets received, 7420 bps, 92.74%, Err 0 (0.0e+00)
-241.923 .... 875 packets received, 7421 bps, 92.76%, Err 0 (0.0e+00)
-244.133 .... 883 packets received, 7421 bps, 92.76%, Err 0 (0.0e+00)
-246.272 .... 891 packets received, 7423 bps, 92.78%, Err 0 (0.0e+00)
-248.446 .... 899 packets received, 7424 bps, 92.80%, Err 0 (0.0e+00)
-250.642 .... 907 packets received, 7424 bps, 92.80%, Err 0 (0.0e+00)
-252.804 .... 915 packets received, 7425 bps, 92.82%, Err 0 (0.0e+00)
-254.943 .... 923 packets received, 7427 bps, 92.84%, Err 0 (0.0e+00)
-255.968 ** WARNING: System too busy, sleep 15 ms, but be awakened 83 ms later
-257.158 .... 931 packets received, 7427 bps, 92.84%, Err 0 (0.0e+00)
-259.291 .... 939 packets received, 7429 bps, 92.87%, Err 0 (0.0e+00)
-261.456 .... 947 packets received, 7430 bps, 92.88%, Err 0 (0.0e+00)
-263.651 .... 955 packets received, 7431 bps, 92.88%, Err 0 (0.0e+00)
-265.814 .... 963 packets received, 7432 bps, 92.90%, Err 0 (0.0e+00)
-266.959 ** WARNING: System too busy, sleep 15 ms, but be awakened 68 ms later
-267.979 .... 971 packets received, 7433 bps, 92.91%, Err 0 (0.0e+00)
-270.173 .... 979 packets received, 7433 bps, 92.91%, Err 0 (0.0e+00)
-271.926 ** WARNING: System too busy, sleep 15 ms, but be awakened 94 ms later
-272.341 .... 986 packets received, 7427 bps, 92.83%, Err 0 (0.0e+00)
-274.603 .... 995 packets received, 7433 bps, 92.91%, Err 0 (0.0e+00)
-276.738 .... 1003 packets received, 7434 bps, 92.93%, Err 0 (0.0e+00)
-278.918 .... 1011 packets received, 7435 bps, 92.94%, Err 0 (0.0e+00)
-281.090 .... 1019 packets received, 7436 bps, 92.95%, Err 0 (0.0e+00)
-283.256 .... 1027 packets received, 7437 bps, 92.96%, Err 0 (0.0e+00)
-285.457 .... 1035 packets received, 7437 bps, 92.96%, Err 0 (0.0e+00)
-287.610 .... 1043 packets received, 7438 bps, 92.98%, Err 0 (0.0e+00)
-289.775 .... 1051 packets received, 7439 bps, 92.99%, Err 0 (0.0e+00)
-291.963 .... 1059 packets received, 7440 bps, 92.99%, Err 0 (0.0e+00)
-294.128 .... 1067 packets received, 7441 bps, 93.01%, Err 0 (0.0e+00)
-296.303 .... 1075 packets received, 7441 bps, 93.02%, Err 0 (0.0e+00)
-298.471 .... 1083 packets received, 7442 bps, 93.03%, Err 0 (0.0e+00)
-300.651 .... 1091 packets received, 7443 bps, 93.03%, Err 0 (0.0e+00)
-302.803 .... 1099 packets received, 7444 bps, 93.05%, Err 0 (0.0e+00)
-304.960 .... 1107 packets received, 7445 bps, 93.06%, Err 0 (0.0e+00)
-307.156 .... 1115 packets received, 7445 bps, 93.06%, Err 0 (0.0e+00)
-309.337 .... 1123 packets received, 7445 bps, 93.07%, Err 0 (0.0e+00)
-311.502 .... 1131 packets received, 7446 bps, 93.08%, Err 0 (0.0e+00)
-313.694 .... 1139 packets received, 7447 bps, 93.08%, Err 0 (0.0e+00)
-315.858 .... 1147 packets received, 7447 bps, 93.09%, Err 0 (0.0e+00)
-318.024 .... 1155 packets received, 7448 bps, 93.10%, Err 0 (0.0e+00)
-320.208 .... 1163 packets received, 7449 bps, 93.11%, Err 0 (0.0e+00)
-322.377 .... 1171 packets received, 7449 bps, 93.12%, Err 0 (0.0e+00)
-324.545 .... 1179 packets received, 7450 bps, 93.12%, Err 0 (0.0e+00)
-326.711 .... 1187 packets received, 7451 bps, 93.13%, Err 0 (0.0e+00)
-328.870 .... 1195 packets received, 7452 bps, 93.15%, Err 0 (0.0e+00)
-331.073 .... 1203 packets received, 7452 bps, 93.14%, Err 0 (0.0e+00)
-333.238 .... 1211 packets received, 7452 bps, 93.15%, Err 0 (0.0e+00)
-335.426 .... 1219 packets received, 7453 bps, 93.16%, Err 0 (0.0e+00)
-337.592 .... 1227 packets received, 7453 bps, 93.17%, Err 0 (0.0e+00)
-339.786 .... 1235 packets received, 7453 bps, 93.17%, Err 0 (0.0e+00)
-341.955 .... 1243 packets received, 7454 bps, 93.17%, Err 0 (0.0e+00)
-344.127 .... 1251 packets received, 7455 bps, 93.18%, Err 0 (0.0e+00)
-346.290 .... 1259 packets received, 7455 bps, 93.19%, Err 0 (0.0e+00)
-348.488 .... 1267 packets received, 7455 bps, 93.19%, Err 0 (0.0e+00)
-350.656 .... 1275 packets received, 7456 bps, 93.20%, Err 0 (0.0e+00)
-351.904 ** WARNING: System too busy, sleep 15 ms, but be awakened 72 ms later
-352.836 .... 1283 packets received, 7456 bps, 93.20%, Err 0 (0.0e+00)
-355.006 .... 1291 packets received, 7457 bps, 93.21%, Err 0 (0.0e+00)
-357.172 .... 1299 packets received, 7458 bps, 93.22%, Err 0 (0.0e+00)
-359.354 .... 1307 packets received, 7458 bps, 93.22%, Err 0 (0.0e+00)
-361.521 .... 1315 packets received, 7458 bps, 93.23%, Err 0 (0.0e+00)
-363.701 .... 1323 packets received, 7459 bps, 93.23%, Err 0 (0.0e+00)
-365.896 .... 1331 packets received, 7459 bps, 93.24%, Err 0 (0.0e+00)
-368.071 .... 1339 packets received, 7459 bps, 93.24%, Err 0 (0.0e+00)
-370.240 .... 1347 packets received, 7460 bps, 93.25%, Err 0 (0.0e+00)
-372.441 .... 1355 packets received, 7460 bps, 93.25%, Err 0 (0.0e+00)
-372.909 ** WARNING: System too busy, sleep 15 ms, but be awakened 85 ms later
-374.575 .... 1363 packets received, 7461 bps, 93.26%, Err 0 (0.0e+00)
-376.740 .... 1371 packets received, 7462 bps, 93.27%, Err 0 (0.0e+00)
-378.977 .... 1379 packets received, 7461 bps, 93.26%, Err 0 (0.0e+00)
-381.103 .... 1387 packets received, 7462 bps, 93.28%, Err 0 (0.0e+00)
-383.256 .... 1395 packets received, 7463 bps, 93.29%, Err 0 (0.0e+00)
-385.448 .... 1403 packets received, 7463 bps, 93.29%, Err 0 (0.0e+00)
-387.617 .... 1411 packets received, 7464 bps, 93.29%, Err 0 (0.0e+00)
-389.794 .... 1419 packets received, 7464 bps, 93.30%, Err 0 (0.0e+00)
-391.969 .... 1427 packets received, 7464 bps, 93.30%, Err 0 (0.0e+00)
-394.147 .... 1435 packets received, 7465 bps, 93.31%, Err 0 (0.0e+00)
-396.319 .... 1443 packets received, 7465 bps, 93.31%, Err 0 (0.0e+00)
-398.505 .... 1451 packets received, 7465 bps, 93.31%, Err 0 (0.0e+00)
-400.698 .... 1459 packets received, 7465 bps, 93.32%, Err 0 (0.0e+00)
-402.858 .... 1467 packets received, 7466 bps, 93.32%, Err 0 (0.0e+00)
-405.037 .... 1475 packets received, 7466 bps, 93.33%, Err 0 (0.0e+00)
-407.213 .... 1483 packets received, 7466 bps, 93.33%, Err 0 (0.0e+00)
-409.392 .... 1491 packets received, 7467 bps, 93.33%, Err 0 (0.0e+00)
-411.549 .... 1499 packets received, 7467 bps, 93.34%, Err 0 (0.0e+00)
-413.730 .... 1507 packets received, 7468 bps, 93.35%, Err 0 (0.0e+00)
-415.901 .... 1515 packets received, 7468 bps, 93.35%, Err 0 (0.0e+00)
-418.065 .... 1523 packets received, 7469 bps, 93.36%, Err 0 (0.0e+00)
-420.256 .... 1531 packets received, 7469 bps, 93.36%, Err 0 (0.0e+00)
-422.440 .... 1539 packets received, 7469 bps, 93.36%, Err 0 (0.0e+00)
-424.599 .... 1547 packets received, 7469 bps, 93.37%, Err 0 (0.0e+00)
-426.763 .... 1555 packets received, 7470 bps, 93.37%, Err 0 (0.0e+00)
-426.900 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-428.938 .... 1563 packets received, 7470 bps, 93.38%, Err 0 (0.0e+00)
-431.133 .... 1571 packets received, 7470 bps, 93.38%, Err 0 (0.0e+00)
-433.288 .... 1579 packets received, 7471 bps, 93.39%, Err 0 (0.0e+00)
-435.450 .... 1587 packets received, 7471 bps, 93.39%, Err 0 (0.0e+00)
-435.901 ** WARNING: System too busy, sleep 15 ms, but be awakened 71 ms later
-437.617 .... 1595 packets received, 7472 bps, 93.40%, Err 0 (0.0e+00)
-439.810 .... 1603 packets received, 7472 bps, 93.40%, Err 0 (0.0e+00)
-441.979 .... 1611 packets received, 7472 bps, 93.40%, Err 0 (0.0e+00)
-444.137 .... 1619 packets received, 7473 bps, 93.41%, Err 0 (0.0e+00)
-446.303 .... 1627 packets received, 7473 bps, 93.42%, Err 0 (0.0e+00)
-448.516 .... 1635 packets received, 7473 bps, 93.41%, Err 0 (0.0e+00)
-450.679 .... 1643 packets received, 7473 bps, 93.42%, Err 0 (0.0e+00)
-452.834 .... 1651 packets received, 7474 bps, 93.43%, Err 0 (0.0e+00)
-455.021 .... 1659 packets received, 7474 bps, 93.43%, Err 0 (0.0e+00)
-457.207 .... 1667 packets received, 7474 bps, 93.43%, Err 0 (0.0e+00)
-459.358 .... 1675 packets received, 7475 bps, 93.44%, Err 0 (0.0e+00)
-461.516 .... 1683 packets received, 7475 bps, 93.44%, Err 0 (0.0e+00)
-462.697 ** WARNING: System too busy, sleep 15 ms, but be awakened 234 ms later
-463.722 .... 1691 packets received, 7475 bps, 93.44%, Err 0 (0.0e+00)
-465.922 .... 1699 packets received, 7475 bps, 93.44%, Err 0 (0.0e+00)
-468.049 .... 1707 packets received, 7476 bps, 93.45%, Err 0 (0.0e+00)
-470.236 .... 1715 packets received, 7476 bps, 93.45%, Err 0 (0.0e+00)
-472.413 .... 1723 packets received, 7476 bps, 93.46%, Err 0 (0.0e+00)
-474.623 .... 1731 packets received, 7476 bps, 93.45%, Err 0 (0.0e+00)
-476.777 .... 1739 packets received, 7477 bps, 93.46%, Err 0 (0.0e+00)
-478.925 .... 1747 packets received, 7477 bps, 93.47%, Err 0 (0.0e+00)
-481.105 .... 1755 packets received, 7478 bps, 93.47%, Err 0 (0.0e+00)
-483.296 .... 1763 packets received, 7478 bps, 93.47%, Err 0 (0.0e+00)
-485.469 .... 1771 packets received, 7478 bps, 93.47%, Err 0 (0.0e+00)
-487.644 .... 1779 packets received, 7478 bps, 93.48%, Err 0 (0.0e+00)
-489.805 .... 1787 packets received, 7479 bps, 93.48%, Err 0 (0.0e+00)
-491.956 .... 1795 packets received, 7479 bps, 93.49%, Err 0 (0.0e+00)
-494.155 .... 1803 packets received, 7479 bps, 93.49%, Err 0 (0.0e+00)
-496.342 .... 1811 packets received, 7479 bps, 93.49%, Err 0 (0.0e+00)
-497.907 ** WARNING: System too busy, sleep 15 ms, but be awakened 72 ms later
-498.475 .... 1819 packets received, 7480 bps, 93.50%, Err 0 (0.0e+00)
-500.684 .... 1827 packets received, 7480 bps, 93.50%, Err 0 (0.0e+00)
-502.839 .... 1835 packets received, 7480 bps, 93.50%, Err 0 (0.0e+00)
-505.027 .... 1843 packets received, 7480 bps, 93.50%, Err 0 (0.0e+00)
-507.164 .... 1851 packets received, 7481 bps, 93.51%, Err 0 (0.0e+00)
-509.351 .... 1859 packets received, 7481 bps, 93.51%, Err 0 (0.0e+00)
-511.502 .... 1867 packets received, 7482 bps, 93.52%, Err 0 (0.0e+00)
-513.694 .... 1875 packets received, 7482 bps, 93.52%, Err 0 (0.0e+00)
-515.873 .... 1883 packets received, 7482 bps, 93.52%, Err 0 (0.0e+00)
-518.039 .... 1891 packets received, 7482 bps, 93.53%, Err 0 (0.0e+00)
-520.225 .... 1899 packets received, 7482 bps, 93.53%, Err 0 (0.0e+00)
-522.378 .... 1907 packets received, 7483 bps, 93.53%, Err 0 (0.0e+00)
-524.566 .... 1915 packets received, 7483 bps, 93.53%, Err 0 (0.0e+00)
-526.743 .... 1923 packets received, 7483 bps, 93.54%, Err 0 (0.0e+00)
-528.900 .... 1931 packets received, 7483 bps, 93.54%, Err 0 (0.0e+00)
-531.098 .... 1939 packets received, 7483 bps, 93.54%, Err 0 (0.0e+00)
-533.266 .... 1947 packets received, 7484 bps, 93.54%, Err 0 (0.0e+00)
-535.440 .... 1955 packets received, 7484 bps, 93.55%, Err 0 (0.0e+00)
-537.603 .... 1963 packets received, 7484 bps, 93.55%, Err 0 (0.0e+00)
-539.782 .... 1971 packets received, 7484 bps, 93.55%, Err 0 (0.0e+00)
-541.954 .... 1979 packets received, 7485 bps, 93.56%, Err 0 (0.0e+00)
-544.127 .... 1987 packets received, 7485 bps, 93.56%, Err 0 (0.0e+00)
-546.288 .... 1995 packets received, 7485 bps, 93.56%, Err 0 (0.0e+00)
-548.471 .... 2003 packets received, 7485 bps, 93.56%, Err 0 (0.0e+00)
-550.001 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
-550.640 .... 2011 packets received, 7485 bps, 93.57%, Err 0 (0.0e+00)
-552.831 .... 2019 packets received, 7485 bps, 93.57%, Err 0 (0.0e+00)
-554.989 .... 2027 packets received, 7486 bps, 93.57%, Err 0 (0.0e+00)
-557.161 .... 2035 packets received, 7486 bps, 93.58%, Err 0 (0.0e+00)
-559.333 .... 2043 packets received, 7486 bps, 93.58%, Err 0 (0.0e+00)
-561.527 .... 2051 packets received, 7486 bps, 93.58%, Err 0 (0.0e+00)
-563.664 .... 2059 packets received, 7487 bps, 93.59%, Err 0 (0.0e+00)
-565.827 .... 2067 packets received, 7487 bps, 93.59%, Err 0 (0.0e+00)
-567.996 .... 2075 packets received, 7488 bps, 93.59%, Err 0 (0.0e+00)
-570.193 .... 2083 packets received, 7487 bps, 93.59%, Err 0 (0.0e+00)
-572.346 .... 2091 packets received, 7488 bps, 93.60%, Err 0 (0.0e+00)
-574.539 .... 2099 packets received, 7488 bps, 93.60%, Err 0 (0.0e+00)
-576.719 .... 2107 packets received, 7488 bps, 93.60%, Err 0 (0.0e+00)
-578.874 .... 2115 packets received, 7488 bps, 93.60%, Err 0 (0.0e+00)
-581.064 .... 2123 packets received, 7488 bps, 93.60%, Err 0 (0.0e+00)
-583.235 .... 2131 packets received, 7489 bps, 93.61%, Err 0 (0.0e+00)
-585.402 .... 2139 packets received, 7489 bps, 93.61%, Err 0 (0.0e+00)
-587.604 .... 2147 packets received, 7489 bps, 93.61%, Err 0 (0.0e+00)
-589.734 .... 2155 packets received, 7489 bps, 93.62%, Err 0 (0.0e+00)
-591.958 .... 2163 packets received, 7489 bps, 93.61%, Err 0 (0.0e+00)
-594.101 .... 2171 packets received, 7489 bps, 93.62%, Err 0 (0.0e+00)
-596.253 .... 2179 packets received, 7490 bps, 93.62%, Err 0 (0.0e+00)
-598.437 .... 2187 packets received, 7490 bps, 93.62%, Err 0 (0.0e+00)
-600.025 Quit.
+000.797 New epoch: Wed Apr 17 10:49:43 2019
+000.797 =================================================================
+000.797 
+000.797 Designed by CJSoft, build: Apr 17 2019  10:49:26
+001.355 Recv DATA SEQ:0 ACK:255, DATA:20000
+001.624 Recv DATA SEQ:1 ACK:255, DATA:20001
+001.878 Recv DATA SEQ:2 ACK:255, DATA:20002
+002.133 Recv DATA SEQ:3 ACK:0, DATA:20003
+002.403 Recv DATA SEQ:4 ACK:1, DATA:20004
+002.674 Recv DATA SEQ:5 ACK:2, DATA:20005
+002.945 Recv DATA SEQ:6 ACK:3, DATA:20006
+003.198 Recv DATA SEQ:7 ACK:4, DATA:20007
+003.198 .... 8 packets received, 7692 bps, 96.15%, Err 0 (0.0e+00)
+003.467 Recv DATA SEQ:8 ACK:5, DATA:20008
+003.739 Recv DATA SEQ:9 ACK:6, DATA:20009
+004.010 Recv DATA SEQ:10 ACK:7, DATA:20010
+004.265 Recv DATA SEQ:11 ACK:8, DATA:20011
+004.536 Recv DATA SEQ:12 ACK:9, DATA:20012
+004.806 Recv DATA SEQ:13 ACK:10, DATA:20013
+005.061 Recv DATA SEQ:14 ACK:11, DATA:20014
+005.333 Recv DATA SEQ:15 ACK:12, DATA:20015
+005.333 .... 16 packets received, 7683 bps, 96.04%, Err 0 (0.0e+00)
+005.587 Recv DATA SEQ:16 ACK:13, DATA:20016
+005.891 Recv DATA SEQ:17 ACK:14, DATA:20017
+006.129 Recv DATA SEQ:18 ACK:15, DATA:20018
+006.385 Recv DATA SEQ:19 ACK:16, DATA:20019
+006.672 Recv DATA SEQ:20 ACK:17, DATA:20020
+006.927 Recv DATA SEQ:21 ACK:19, DATA:20021
+007.197 Recv DATA SEQ:22 ACK:20, DATA:20022
+007.467 Recv DATA SEQ:23 ACK:20, DATA:20023
+007.468 .... 24 packets received, 7681 bps, 96.02%, Err 0 (0.0e+00)
+007.739 Recv DATA SEQ:24 ACK:21, DATA:20024
+007.993 Recv DATA SEQ:25 ACK:22, DATA:20025
+008.264 Recv DATA SEQ:26 ACK:24, DATA:20026
+008.551 Recv DATA SEQ:27 ACK:25, DATA:20027
+008.822 Recv DATA SEQ:28 ACK:26, DATA:20028
+009.077 Recv DATA SEQ:29 ACK:26, DATA:20029
+009.347 Recv DATA SEQ:30 ACK:28, DATA:20030
+009.618 Recv DATA SEQ:31 ACK:29, DATA:20031
+009.618 .... 32 packets received, 7665 bps, 95.81%, Err 0 (0.0e+00)
+009.890 Recv DATA SEQ:32 ACK:30, DATA:20032
+010.144 Recv DATA SEQ:33 ACK:31, DATA:20033
+010.415 Recv DATA SEQ:34 ACK:32, DATA:20034
+010.671 Recv DATA SEQ:35 ACK:33, DATA:20035
+010.925 Recv DATA SEQ:36 ACK:34, DATA:20036
+011.197 Recv DATA SEQ:37 ACK:35, DATA:20037
+011.466 Recv DATA SEQ:38 ACK:36, DATA:20038
+011.721 Recv DATA SEQ:39 ACK:37, DATA:20039
+011.721 .... 40 packets received, 7690 bps, 96.12%, Err 0 (0.0e+00)
+011.992 Recv DATA SEQ:40 ACK:38, DATA:20040
+012.263 Recv DATA SEQ:41 ACK:39, DATA:20041
+012.533 Recv DATA SEQ:42 ACK:40, DATA:20042
+012.804 Recv DATA SEQ:43 ACK:41, DATA:20043
+013.058 Recv DATA SEQ:44 ACK:42, DATA:20044
+013.329 Recv DATA SEQ:45 ACK:43, DATA:20045
+013.600 Recv DATA SEQ:46 ACK:44, DATA:20046
+013.856 Recv DATA SEQ:47 ACK:45, DATA:20047
+013.856 .... 48 packets received, 7687 bps, 96.09%, Err 0 (0.0e+00)
+014.126 Recv DATA SEQ:48 ACK:46, DATA:20048
+014.396 Recv DATA SEQ:49 ACK:47, DATA:20049
+014.634 Recv DATA SEQ:50 ACK:48, DATA:20050
+014.921 Recv DATA SEQ:51 ACK:49, DATA:20051
+015.192 Recv DATA SEQ:52 ACK:50, DATA:20052
+015.430 Recv DATA SEQ:53 ACK:51, DATA:20053
+015.702 Recv DATA SEQ:54 ACK:52, DATA:20054
+015.972 Recv DATA SEQ:55 ACK:53, DATA:20055
+015.972 .... 56 packets received, 7695 bps, 96.19%, Err 0 (0.0e+00)
+016.241 Recv DATA SEQ:56 ACK:54, DATA:20056
+016.512 Recv DATA SEQ:57 ACK:55, DATA:20057
+016.767 Recv DATA SEQ:58 ACK:56, DATA:20058
+017.037 Recv DATA SEQ:59 ACK:57, DATA:20059
+017.308 Recv DATA SEQ:60 ACK:58, DATA:20060
+017.562 Recv DATA SEQ:61 ACK:59, DATA:20061
+017.833 Recv DATA SEQ:62 ACK:60, DATA:20062
+018.103 Recv DATA SEQ:63 ACK:61, DATA:20063
+018.103 .... 64 packets received, 7694 bps, 96.18%, Err 0 (0.0e+00)
+018.358 Recv DATA SEQ:64 ACK:62, DATA:20064
+018.630 Recv DATA SEQ:65 ACK:63, DATA:20065
+018.883 Recv DATA SEQ:66 ACK:64, DATA:20066
+019.155 Recv DATA SEQ:67 ACK:65, DATA:20067
+019.424 Recv DATA SEQ:68 ACK:66, DATA:20068
+019.680 Recv DATA SEQ:69 ACK:67, DATA:20069
+019.950 Recv DATA SEQ:70 ACK:68, DATA:20070
+020.205 Recv DATA SEQ:71 ACK:69, DATA:20071
+020.205 .... 72 packets received, 7705 bps, 96.32%, Err 0 (0.0e+00)
+020.475 Recv DATA SEQ:72 ACK:70, DATA:20072
+020.746 Recv DATA SEQ:73 ACK:71, DATA:20073
+021.016 Recv DATA SEQ:74 ACK:72, DATA:20074
+021.270 Recv DATA SEQ:75 ACK:73, DATA:20075
+021.538 Recv DATA SEQ:76 ACK:74, DATA:20076
+021.808 Recv DATA SEQ:77 ACK:75, DATA:20077
+022.079 Recv DATA SEQ:78 ACK:76, DATA:20078
+022.326 Recv DATA SEQ:79 ACK:77, DATA:20079
+022.326 .... 80 packets received, 7707 bps, 96.34%, Err 0 (0.0e+00)
+022.596 Recv DATA SEQ:80 ACK:78, DATA:20080
+022.867 Recv DATA SEQ:81 ACK:79, DATA:20081
+023.137 Recv DATA SEQ:82 ACK:80, DATA:20082
+023.391 Recv DATA SEQ:83 ACK:81, DATA:20083
+023.660 Recv DATA SEQ:84 ACK:82, DATA:20084
+023.932 Recv DATA SEQ:85 ACK:83, DATA:20085
+024.187 Recv DATA SEQ:86 ACK:84, DATA:20086
+024.457 Recv DATA SEQ:87 ACK:85, DATA:20087
+024.457 .... 88 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+024.729 Recv DATA SEQ:88 ACK:86, DATA:20088
+024.984 Recv DATA SEQ:89 ACK:87, DATA:20089
+025.254 Recv DATA SEQ:90 ACK:88, DATA:20090
+025.525 Recv DATA SEQ:91 ACK:89, DATA:20091
+025.779 Recv DATA SEQ:92 ACK:90, DATA:20092
+026.049 Recv DATA SEQ:93 ACK:91, DATA:20093
+026.319 Recv DATA SEQ:94 ACK:92, DATA:20094
+026.574 Recv DATA SEQ:95 ACK:93, DATA:20095
+026.574 .... 96 packets received, 7708 bps, 96.35%, Err 0 (0.0e+00)
+026.829 Recv DATA SEQ:96 ACK:94, DATA:20096
+027.116 Recv DATA SEQ:97 ACK:95, DATA:20097
+027.372 Recv DATA SEQ:98 ACK:96, DATA:20098
+027.627 Recv DATA SEQ:99 ACK:97, DATA:20099
+027.898 Recv DATA SEQ:100 ACK:98, DATA:20100
+028.170 Recv DATA SEQ:101 ACK:99, DATA:20101
+028.424 Recv DATA SEQ:102 ACK:100, DATA:20102
+028.693 Recv DATA SEQ:103 ACK:101, DATA:20103
+028.693 .... 104 packets received, 7710 bps, 96.38%, Err 0 (0.0e+00)
+028.963 Recv DATA SEQ:104 ACK:102, DATA:20104
+029.232 Recv DATA SEQ:105 ACK:103, DATA:20105
+029.487 Recv DATA SEQ:106 ACK:104, DATA:20106
+029.758 Recv DATA SEQ:107 ACK:105, DATA:20107
+030.030 Recv DATA SEQ:108 ACK:106, DATA:20108
+030.285 Recv DATA SEQ:109 ACK:107, DATA:20109
+030.554 Recv DATA SEQ:110 ACK:108, DATA:20110
+030.825 Recv DATA SEQ:111 ACK:109, DATA:20111
+030.825 .... 112 packets received, 7708 bps, 96.35%, Err 0 (0.0e+00)
+031.080 Recv DATA SEQ:112 ACK:110, DATA:20112
+031.350 Recv DATA SEQ:113 ACK:111, DATA:20113
+031.622 Recv DATA SEQ:114 ACK:112, DATA:20114
+031.877 Recv DATA SEQ:115 ACK:113, DATA:20115
+032.132 Recv DATA SEQ:116 ACK:114, DATA:20116
+032.403 Recv DATA SEQ:117 ACK:115, DATA:20117
+032.675 Recv DATA SEQ:118 ACK:116, DATA:20118
+032.946 Recv DATA SEQ:119 ACK:117, DATA:20119
+032.946 .... 120 packets received, 7709 bps, 96.37%, Err 0 (0.0e+00)
+033.202 Recv DATA SEQ:120 ACK:118, DATA:20120
+033.469 Recv DATA SEQ:121 ACK:119, DATA:20121
+033.739 Recv DATA SEQ:122 ACK:120, DATA:20122
+033.995 Recv DATA SEQ:123 ACK:121, DATA:20123
+034.265 Recv DATA SEQ:124 ACK:122, DATA:20124
+034.534 Recv DATA SEQ:125 ACK:123, DATA:20125
+034.797 Recv DATA SEQ:126 ACK:124, DATA:20126
+035.061 Recv DATA SEQ:127 ACK:125, DATA:20127
+035.061 .... 128 packets received, 7712 bps, 96.40%, Err 0 (0.0e+00)
+035.333 Recv DATA SEQ:128 ACK:126, DATA:20128
+035.679 Recv DATA SEQ:129 ACK:126, DATA:20129
+035.851 Recv DATA SEQ:130 ACK:128, DATA:20130
+036.180 Recv DATA SEQ:131 ACK:128, DATA:20131
+036.426 Recv DATA SEQ:132 ACK:130, DATA:20132
+036.656 Recv DATA SEQ:133 ACK:131, DATA:20133
+036.930 Recv DATA SEQ:134 ACK:131, DATA:20134
+037.217 Recv DATA SEQ:135 ACK:133, DATA:20135
+037.217 .... 136 packets received, 7705 bps, 96.31%, Err 0 (0.0e+00)
+037.458 Recv DATA SEQ:136 ACK:134, DATA:20136
+037.714 Recv DATA SEQ:137 ACK:135, DATA:20137
+037.985 Recv DATA SEQ:138 ACK:136, DATA:20138
+038.256 Recv DATA SEQ:139 ACK:137, DATA:20139
+038.511 Recv DATA SEQ:140 ACK:138, DATA:20140
+038.783 Recv DATA SEQ:141 ACK:139, DATA:20141
+039.054 Recv DATA SEQ:142 ACK:140, DATA:20142
+039.308 Recv DATA SEQ:143 ACK:141, DATA:20143
+039.308 .... 144 packets received, 7712 bps, 96.40%, Err 0 (0.0e+00)
+039.579 Recv DATA SEQ:144 ACK:142, DATA:20144
+039.835 Recv DATA SEQ:145 ACK:143, DATA:20145
+040.107 Recv DATA SEQ:146 ACK:144, DATA:20146
+040.378 Recv DATA SEQ:147 ACK:145, DATA:20147
+040.636 Recv DATA SEQ:148 ACK:146, DATA:20148
+040.892 Recv DATA SEQ:149 ACK:147, DATA:20149
+041.164 Recv DATA SEQ:150 ACK:148, DATA:20150
+041.447 Recv DATA SEQ:151 ACK:149, DATA:20151
+041.447 .... 152 packets received, 7709 bps, 96.37%, Err 0 (0.0e+00)
+041.713 Recv DATA SEQ:152 ACK:150, DATA:20152
+041.971 Recv DATA SEQ:153 ACK:151, DATA:20153
+042.241 Recv DATA SEQ:154 ACK:152, DATA:20154
+042.526 Recv DATA SEQ:155 ACK:153, DATA:20155
+042.744 Recv DATA SEQ:156 ACK:154, DATA:20156
+043.016 Recv DATA SEQ:157 ACK:155, DATA:20157
+043.290 Recv DATA SEQ:158 ACK:156, DATA:20158
+043.556 Recv DATA SEQ:159 ACK:157, DATA:20159
+043.556 .... 160 packets received, 7712 bps, 96.40%, Err 0 (0.0e+00)
+043.888 Recv DATA SEQ:160 ACK:158, DATA:20160
+044.155 Recv DATA SEQ:161 ACK:159, DATA:20161
+044.371 Recv DATA SEQ:162 ACK:160, DATA:20162
+044.650 Recv DATA SEQ:163 ACK:161, DATA:20163
+044.900 Recv DATA SEQ:164 ACK:162, DATA:20164
+045.143 Recv DATA SEQ:165 ACK:163, DATA:20165
+045.385 Recv DATA SEQ:166 ACK:164, DATA:20166
+045.681 Recv DATA SEQ:167 ACK:165, DATA:20167
+045.682 .... 168 packets received, 7712 bps, 96.40%, Err 0 (0.0e+00)
+045.943 Recv DATA SEQ:168 ACK:166, DATA:20168
+046.187 Recv DATA SEQ:169 ACK:167, DATA:20169
+046.466 Recv DATA SEQ:170 ACK:168, DATA:20170
+046.728 Recv DATA SEQ:171 ACK:169, DATA:20171
+047.002 Recv DATA SEQ:172 ACK:170, DATA:20172
+047.246 Recv DATA SEQ:173 ACK:171, DATA:20173
+047.538 Recv DATA SEQ:174 ACK:172, DATA:20174
+047.790 Recv DATA SEQ:175 ACK:173, DATA:20175
+047.790 .... 176 packets received, 7715 bps, 96.43%, Err 0 (0.0e+00)
+048.040 Recv DATA SEQ:176 ACK:174, DATA:20176
+048.314 Recv DATA SEQ:177 ACK:175, DATA:20177
+048.584 Recv DATA SEQ:178 ACK:176, DATA:20178
+048.842 Recv DATA SEQ:179 ACK:177, DATA:20179
+049.114 Recv DATA SEQ:180 ACK:178, DATA:20180
+049.369 Recv DATA SEQ:181 ACK:179, DATA:20181
+049.656 Recv DATA SEQ:182 ACK:180, DATA:20182
+049.895 Recv DATA SEQ:183 ACK:181, DATA:20183
+049.895 .... 184 packets received, 7718 bps, 96.47%, Err 0 (0.0e+00)
+050.166 Recv DATA SEQ:184 ACK:182, DATA:20184
+050.440 Recv DATA SEQ:185 ACK:183, DATA:20185
+050.700 Recv DATA SEQ:186 ACK:184, DATA:20186
+050.969 Recv DATA SEQ:187 ACK:185, DATA:20187
+051.236 Recv DATA SEQ:188 ACK:186, DATA:20188
+051.504 Recv DATA SEQ:189 ACK:187, DATA:20189
+051.773 Recv DATA SEQ:190 ACK:188, DATA:20190
+052.024 Recv DATA SEQ:191 ACK:189, DATA:20191
+052.024 .... 192 packets received, 7717 bps, 96.46%, Err 0 (0.0e+00)
+052.292 Recv DATA SEQ:192 ACK:190, DATA:20192
+052.559 Recv DATA SEQ:193 ACK:191, DATA:20193
+052.827 Recv DATA SEQ:194 ACK:192, DATA:20194
+053.096 Recv DATA SEQ:195 ACK:193, DATA:20195
+053.349 Recv DATA SEQ:196 ACK:194, DATA:20196
+053.617 Recv DATA SEQ:197 ACK:195, DATA:20197
+053.884 Recv DATA SEQ:198 ACK:196, DATA:20198
+054.154 Recv DATA SEQ:199 ACK:197, DATA:20199
+054.154 .... 200 packets received, 7716 bps, 96.45%, Err 0 (0.0e+00)
+054.425 Recv DATA SEQ:200 ACK:198, DATA:20200
+054.675 Recv DATA SEQ:201 ACK:199, DATA:20201
+054.946 Recv DATA SEQ:202 ACK:200, DATA:20202
+055.217 Recv DATA SEQ:203 ACK:201, DATA:20203
+055.472 Recv DATA SEQ:204 ACK:202, DATA:20204
+055.743 Recv DATA SEQ:205 ACK:203, DATA:20205
+056.014 Recv DATA SEQ:206 ACK:204, DATA:20206
+056.269 Recv DATA SEQ:207 ACK:205, DATA:20207
+056.269 .... 208 packets received, 7717 bps, 96.46%, Err 0 (0.0e+00)
+056.523 Recv DATA SEQ:208 ACK:206, DATA:20208
+056.792 Recv DATA SEQ:209 ACK:207, DATA:20209
+057.060 Recv DATA SEQ:210 ACK:208, DATA:20210
+057.332 Recv DATA SEQ:211 ACK:209, DATA:20211
+057.600 Recv DATA SEQ:212 ACK:210, DATA:20212
+057.870 Recv DATA SEQ:213 ACK:211, DATA:20213
+058.109 Recv DATA SEQ:214 ACK:212, DATA:20214
+058.396 Recv DATA SEQ:215 ACK:213, DATA:20215
+058.396 .... 216 packets received, 7716 bps, 96.46%, Err 0 (0.0e+00)
+058.667 Recv DATA SEQ:216 ACK:214, DATA:20216
+058.904 Recv DATA SEQ:217 ACK:215, DATA:20217
+059.190 Recv DATA SEQ:218 ACK:216, DATA:20218
+059.459 Recv DATA SEQ:219 ACK:217, DATA:20219
+059.714 Recv DATA SEQ:220 ACK:218, DATA:20220
+059.984 Recv DATA SEQ:221 ACK:219, DATA:20221
+060.255 Recv DATA SEQ:222 ACK:220, DATA:20222
+060.509 Recv DATA SEQ:223 ACK:221, DATA:20223
+060.509 .... 224 packets received, 7718 bps, 96.47%, Err 0 (0.0e+00)
+060.780 Recv DATA SEQ:224 ACK:222, DATA:20224
+061.034 Recv DATA SEQ:225 ACK:223, DATA:20225
+061.305 Recv DATA SEQ:226 ACK:224, DATA:20226
+061.560 Recv DATA SEQ:227 ACK:225, DATA:20227
+061.831 Recv DATA SEQ:228 ACK:226, DATA:20228
+062.086 Recv DATA SEQ:229 ACK:227, DATA:20229
+062.357 Recv DATA SEQ:230 ACK:228, DATA:20230
+062.629 Recv DATA SEQ:231 ACK:229, DATA:20231
+062.629 .... 232 packets received, 7718 bps, 96.48%, Err 0 (0.0e+00)
+062.881 Recv DATA SEQ:232 ACK:230, DATA:20232
+063.151 Recv DATA SEQ:233 ACK:231, DATA:20233
+063.418 Recv DATA SEQ:234 ACK:232, DATA:20234
+063.671 Recv DATA SEQ:235 ACK:233, DATA:20235
+063.943 Recv DATA SEQ:236 ACK:234, DATA:20236
+064.231 Recv DATA SEQ:237 ACK:235, DATA:20237
+064.486 Recv DATA SEQ:238 ACK:236, DATA:20238
+064.757 Recv DATA SEQ:239 ACK:237, DATA:20239
+064.757 .... 240 packets received, 7718 bps, 96.47%, Err 0 (0.0e+00)
+065.028 Recv DATA SEQ:240 ACK:238, DATA:20240
+065.284 Recv DATA SEQ:241 ACK:239, DATA:20241
+065.539 Recv DATA SEQ:242 ACK:240, DATA:20242
+065.810 Recv DATA SEQ:243 ACK:241, DATA:20243
+066.081 Recv DATA SEQ:244 ACK:242, DATA:20244
+066.353 Recv DATA SEQ:245 ACK:243, DATA:20245
+066.609 Recv DATA SEQ:246 ACK:244, DATA:20246
+066.869 Recv DATA SEQ:247 ACK:245, DATA:20247
+066.869 .... 248 packets received, 7719 bps, 96.48%, Err 0 (0.0e+00)
+067.130 Recv DATA SEQ:248 ACK:246, DATA:20248
+067.505 ** WARNING: System too busy, sleep 15 ms, but be awakened 95 ms later
+067.522 Recv DATA SEQ:249 ACK:247, DATA:20249
+067.681 Recv DATA SEQ:250 ACK:248, DATA:20250
+067.931 Recv DATA SEQ:251 ACK:248, DATA:20251
+068.186 Recv DATA SEQ:252 ACK:250, DATA:20252
+068.456 Recv DATA SEQ:253 ACK:251, DATA:20253
+068.743 Recv DATA SEQ:254 ACK:252, DATA:20254
+068.997 Recv DATA SEQ:255 ACK:253, DATA:20255
+068.997 .... 256 packets received, 7718 bps, 96.48%, Err 0 (0.0e+00)
+069.266 Recv DATA SEQ:0 ACK:254, DATA:20256
+069.536 Recv DATA SEQ:1 ACK:255, DATA:20257
+069.793 Recv DATA SEQ:2 ACK:0, DATA:20258
+070.064 Recv DATA SEQ:3 ACK:1, DATA:20259
+070.318 Recv DATA SEQ:4 ACK:2, DATA:20260
+070.573 Recv DATA SEQ:5 ACK:3, DATA:20261
+070.845 Recv DATA SEQ:6 ACK:4, DATA:20262
+071.115 Recv DATA SEQ:7 ACK:5, DATA:20263
+071.115 .... 264 packets received, 7719 bps, 96.48%, Err 0 (0.0e+00)
+071.387 Recv DATA SEQ:8 ACK:6, DATA:20264
+071.658 Recv DATA SEQ:9 ACK:7, DATA:20265
+071.912 Recv DATA SEQ:10 ACK:8, DATA:20266
+072.183 Recv DATA SEQ:11 ACK:9, DATA:20267
+072.453 Recv DATA SEQ:12 ACK:10, DATA:20268
+072.707 Recv DATA SEQ:13 ACK:11, DATA:20269
+072.976 Recv DATA SEQ:14 ACK:12, DATA:20270
+073.247 Recv DATA SEQ:15 ACK:13, DATA:20271
+073.247 .... 272 packets received, 7718 bps, 96.47%, Err 0 (0.0e+00)
+073.501 Recv DATA SEQ:16 ACK:14, DATA:20272
+073.772 Recv DATA SEQ:17 ACK:15, DATA:20273
+074.042 Recv DATA SEQ:18 ACK:16, DATA:20274
+074.297 Recv DATA SEQ:19 ACK:17, DATA:20275
+074.566 Recv DATA SEQ:20 ACK:18, DATA:20276
+074.833 Recv DATA SEQ:21 ACK:19, DATA:20277
+075.101 Recv DATA SEQ:22 ACK:20, DATA:20278
+075.361 Recv DATA SEQ:23 ACK:21, DATA:20279
+075.361 .... 280 packets received, 7719 bps, 96.48%, Err 0 (0.0e+00)
+075.616 Recv DATA SEQ:24 ACK:22, DATA:20280
+075.886 Recv DATA SEQ:25 ACK:23, DATA:20281
+076.154 Recv DATA SEQ:26 ACK:24, DATA:20282
+076.422 Recv DATA SEQ:27 ACK:25, DATA:20283
+076.690 Recv DATA SEQ:28 ACK:26, DATA:20284
+076.946 Recv DATA SEQ:29 ACK:27, DATA:20285
+077.218 Recv DATA SEQ:30 ACK:28, DATA:20286
+077.480 Recv DATA SEQ:31 ACK:29, DATA:20287
+077.480 .... 288 packets received, 7719 bps, 96.49%, Err 0 (0.0e+00)
+077.750 Recv DATA SEQ:32 ACK:30, DATA:20288
+078.022 Recv DATA SEQ:33 ACK:31, DATA:20289
+078.278 Recv DATA SEQ:34 ACK:32, DATA:20290
+078.549 Recv DATA SEQ:35 ACK:33, DATA:20291
+078.803 Recv DATA SEQ:36 ACK:34, DATA:20292
+079.074 Recv DATA SEQ:37 ACK:35, DATA:20293
+079.344 Recv DATA SEQ:38 ACK:36, DATA:20294
+079.581 Recv DATA SEQ:39 ACK:37, DATA:20295
+079.581 .... 296 packets received, 7721 bps, 96.51%, Err 0 (0.0e+00)
+079.865 Recv DATA SEQ:40 ACK:38, DATA:20296
+080.136 Recv DATA SEQ:41 ACK:39, DATA:20297
+080.391 Recv DATA SEQ:42 ACK:40, DATA:20298
+080.664 Recv DATA SEQ:43 ACK:41, DATA:20299
+080.919 Recv DATA SEQ:44 ACK:42, DATA:20300
+081.190 Recv DATA SEQ:45 ACK:43, DATA:20301
+081.445 Recv DATA SEQ:46 ACK:44, DATA:20302
+081.719 Recv DATA SEQ:47 ACK:45, DATA:20303
+081.719 .... 304 packets received, 7720 bps, 96.49%, Err 0 (0.0e+00)
+081.989 Recv DATA SEQ:48 ACK:46, DATA:20304
+082.260 Recv DATA SEQ:49 ACK:47, DATA:20305
+082.515 Recv DATA SEQ:50 ACK:48, DATA:20306
+082.786 Recv DATA SEQ:51 ACK:49, DATA:20307
+083.030 Recv DATA SEQ:52 ACK:50, DATA:20308
+083.301 Recv DATA SEQ:53 ACK:51, DATA:20309
+083.555 Recv DATA SEQ:54 ACK:52, DATA:20310
+083.825 Recv DATA SEQ:55 ACK:53, DATA:20311
+083.825 .... 312 packets received, 7721 bps, 96.51%, Err 0 (0.0e+00)
+084.113 Recv DATA SEQ:56 ACK:54, DATA:20312
+084.350 Recv DATA SEQ:57 ACK:55, DATA:20313
+084.616 Recv DATA SEQ:58 ACK:56, DATA:20314
+084.886 Recv DATA SEQ:59 ACK:57, DATA:20315
+085.157 Recv DATA SEQ:60 ACK:58, DATA:20316
+085.412 Recv DATA SEQ:61 ACK:59, DATA:20317
+085.682 Recv DATA SEQ:62 ACK:60, DATA:20318
+085.952 Recv DATA SEQ:63 ACK:61, DATA:20319
+085.953 .... 320 packets received, 7721 bps, 96.51%, Err 0 (0.0e+00)
+086.207 Recv DATA SEQ:64 ACK:62, DATA:20320
+086.476 Recv DATA SEQ:65 ACK:63, DATA:20321
+086.762 Recv DATA SEQ:66 ACK:64, DATA:20322
+087.017 Recv DATA SEQ:67 ACK:65, DATA:20323
+087.271 Recv DATA SEQ:68 ACK:66, DATA:20324
+087.539 Recv DATA SEQ:69 ACK:67, DATA:20325
+087.809 Recv DATA SEQ:70 ACK:68, DATA:20326
+088.080 Recv DATA SEQ:71 ACK:69, DATA:20327
+088.080 .... 328 packets received, 7720 bps, 96.50%, Err 0 (0.0e+00)
+088.336 Recv DATA SEQ:72 ACK:70, DATA:20328
+088.591 Recv DATA SEQ:73 ACK:71, DATA:20329
+088.859 Recv DATA SEQ:74 ACK:72, DATA:20330
+089.144 Recv DATA SEQ:75 ACK:73, DATA:20331
+089.397 Recv DATA SEQ:76 ACK:74, DATA:20332
+089.674 Recv DATA SEQ:77 ACK:75, DATA:20333
+089.944 Recv DATA SEQ:78 ACK:76, DATA:20334
+090.198 Recv DATA SEQ:79 ACK:77, DATA:20335
+090.198 .... 336 packets received, 7720 bps, 96.51%, Err 0 (0.0e+00)
+090.454 Recv DATA SEQ:80 ACK:78, DATA:20336
+090.725 Recv DATA SEQ:81 ACK:79, DATA:20337
+090.997 Recv DATA SEQ:82 ACK:80, DATA:20338
+091.249 Recv DATA SEQ:83 ACK:81, DATA:20339
+091.537 Recv DATA SEQ:84 ACK:82, DATA:20340
+091.791 Recv DATA SEQ:85 ACK:83, DATA:20341
+092.060 Recv DATA SEQ:86 ACK:84, DATA:20342
+092.312 Recv DATA SEQ:87 ACK:85, DATA:20343
+092.312 .... 344 packets received, 7721 bps, 96.51%, Err 0 (0.0e+00)
+092.583 Recv DATA SEQ:88 ACK:86, DATA:20344
+092.854 Recv DATA SEQ:89 ACK:87, DATA:20345
+093.109 Recv DATA SEQ:90 ACK:88, DATA:20346
+093.363 Recv DATA SEQ:91 ACK:89, DATA:20347
+093.631 Recv DATA SEQ:92 ACK:90, DATA:20348
+093.901 Recv DATA SEQ:93 ACK:91, DATA:20349
+094.170 Recv DATA SEQ:94 ACK:92, DATA:20350
+094.425 Recv DATA SEQ:95 ACK:93, DATA:20351
+094.425 .... 352 packets received, 7722 bps, 96.52%, Err 0 (0.0e+00)
+094.695 Recv DATA SEQ:96 ACK:94, DATA:20352
+094.966 Recv DATA SEQ:97 ACK:95, DATA:20353
+095.220 Recv DATA SEQ:98 ACK:96, DATA:20354
+095.507 Recv DATA SEQ:99 ACK:97, DATA:20355
+095.762 Recv DATA SEQ:100 ACK:98, DATA:20356
+096.015 Recv DATA SEQ:101 ACK:99, DATA:20357
+096.299 Recv DATA SEQ:102 ACK:100, DATA:20358
+096.554 Recv DATA SEQ:103 ACK:101, DATA:20359
+096.554 .... 360 packets received, 7721 bps, 96.52%, Err 0 (0.0e+00)
+096.808 Recv DATA SEQ:104 ACK:102, DATA:20360
+097.079 Recv DATA SEQ:105 ACK:103, DATA:20361
+097.365 Recv DATA SEQ:106 ACK:104, DATA:20362
+097.603 Recv DATA SEQ:107 ACK:105, DATA:20363
+097.874 Recv DATA SEQ:108 ACK:106, DATA:20364
+098.144 Recv DATA SEQ:109 ACK:107, DATA:20365
+098.398 Recv DATA SEQ:110 ACK:108, DATA:20366
+098.668 Recv DATA SEQ:111 ACK:109, DATA:20367
+098.668 .... 368 packets received, 7722 bps, 96.52%, Err 0 (0.0e+00)
+098.955 Recv DATA SEQ:112 ACK:110, DATA:20368
+099.210 Recv DATA SEQ:113 ACK:111, DATA:20369
+099.473 Recv DATA SEQ:114 ACK:112, DATA:20370
+099.729 Recv DATA SEQ:115 ACK:113, DATA:20371
+099.999 Recv DATA SEQ:116 ACK:114, DATA:20372
+100.255 Recv DATA SEQ:117 ACK:115, DATA:20373
+100.526 Recv DATA SEQ:118 ACK:116, DATA:20374
+100.797 Recv DATA SEQ:119 ACK:117, DATA:20375
+100.797 .... 376 packets received, 7721 bps, 96.52%, Err 0 (0.0e+00)
+101.058 Recv DATA SEQ:120 ACK:118, DATA:20376
+101.328 Recv DATA SEQ:121 ACK:119, DATA:20377
+101.575 Recv DATA SEQ:122 ACK:120, DATA:20378
+101.847 Recv DATA SEQ:123 ACK:121, DATA:20379
+102.111 Recv DATA SEQ:124 ACK:122, DATA:20380
+102.398 Recv DATA SEQ:125 ACK:123, DATA:20381
+102.638 Recv DATA SEQ:126 ACK:124, DATA:20382
+102.908 Recv DATA SEQ:127 ACK:125, DATA:20383
+102.908 .... 384 packets received, 7722 bps, 96.53%, Err 0 (0.0e+00)
+103.178 Recv DATA SEQ:128 ACK:126, DATA:20384
+103.434 Recv DATA SEQ:129 ACK:127, DATA:20385
+103.705 Recv DATA SEQ:130 ACK:128, DATA:20386
+103.989 Recv DATA SEQ:131 ACK:129, DATA:20387
+104.244 Recv DATA SEQ:132 ACK:130, DATA:20388
+104.497 Recv DATA SEQ:133 ACK:131, DATA:20389
+104.766 Recv DATA SEQ:134 ACK:132, DATA:20390
+105.041 Recv DATA SEQ:135 ACK:133, DATA:20391
+105.041 .... 392 packets received, 7721 bps, 96.52%, Err 0 (0.0e+00)
+105.291 Recv DATA SEQ:136 ACK:134, DATA:20392
+105.561 Recv DATA SEQ:137 ACK:135, DATA:20393
+105.832 Recv DATA SEQ:138 ACK:136, DATA:20394
+106.087 Recv DATA SEQ:139 ACK:137, DATA:20395
+106.358 Recv DATA SEQ:140 ACK:138, DATA:20396
+106.617 Recv DATA SEQ:141 ACK:139, DATA:20397
+106.938 Recv DATA SEQ:142 ACK:140, DATA:20398
+107.166 Recv DATA SEQ:143 ACK:141, DATA:20399
+107.166 .... 400 packets received, 7721 bps, 96.51%, Err 0 (0.0e+00)
+107.435 Recv DATA SEQ:144 ACK:142, DATA:20400
+107.781 Recv DATA SEQ:145 ACK:143, DATA:20401
+107.993 Recv DATA SEQ:146 ACK:144, DATA:20402
+108.332 ** WARNING: System too busy, sleep 15 ms, but be awakened 84 ms later
+108.351 Recv DATA SEQ:147 ACK:145, DATA:20403
+108.795 Recv DATA SEQ:148 ACK:146, DATA:20404
+108.890 Recv DATA SEQ:149 ACK:147, DATA:20405
+109.127 Recv DATA SEQ:150 ACK:147, DATA:20406
+109.352 Recv DATA SEQ:151 ACK:149, DATA:20407
+109.365 .... 408 packets received, 7717 bps, 96.46%, Err 0 (0.0e+00)
+109.666 Recv DATA SEQ:152 ACK:150, DATA:20408
+110.082 Recv DATA SEQ:153 ACK:150, DATA:20409
+110.365 ** WARNING: System too busy, sleep 15 ms, but be awakened 167 ms later
+110.365 Recv DATA SEQ:154 ACK:151, DATA:20410
+110.836 Recv DATA SEQ:155 ACK:152, DATA:20411
+111.176 Recv DATA SEQ:156 ACK:154, DATA:20412
+111.532 Recv DATA SEQ:157 ACK:154, DATA:20413
+111.532 .... 414 packets received, 7676 bps, 95.94%, Err 0 (0.0e+00)
+111.666 Recv DATA SEQ:158 ACK:156, DATA:20414
+111.954 Recv DATA SEQ:159 ACK:158, DATA:20415
+112.180 Recv DATA SEQ:160 ACK:159, DATA:20416
+112.432 Recv DATA SEQ:161 ACK:160, DATA:20417
+112.702 Recv DATA SEQ:162 ACK:161, DATA:20418
+112.990 Recv DATA SEQ:163 ACK:162, DATA:20419
+113.244 Recv DATA SEQ:164 ACK:163, DATA:20420
+113.515 Recv DATA SEQ:165 ACK:164, DATA:20421
+113.784 Recv DATA SEQ:166 ACK:165, DATA:20422
+113.784 .... 423 packets received, 7686 bps, 96.07%, Err 0 (0.0e+00)
+114.039 Recv DATA SEQ:167 ACK:166, DATA:20423
+114.309 Recv DATA SEQ:168 ACK:167, DATA:20424
+114.564 Recv DATA SEQ:169 ACK:168, DATA:20425
+114.834 Recv DATA SEQ:170 ACK:169, DATA:20426
+115.126 Recv DATA SEQ:171 ACK:170, DATA:20427
+115.340 Recv DATA SEQ:172 ACK:171, DATA:20428
+115.634 Recv DATA SEQ:173 ACK:172, DATA:20429
+115.913 Recv DATA SEQ:174 ACK:173, DATA:20430
+115.954 .... 431 packets received, 7686 bps, 96.07%, Err 0 (0.0e+00)
+116.143 Recv DATA SEQ:175 ACK:174, DATA:20431
+116.413 Recv DATA SEQ:176 ACK:175, DATA:20432
+116.685 Recv DATA SEQ:177 ACK:176, DATA:20433
+116.946 Recv DATA SEQ:178 ACK:177, DATA:20434
+117.234 Recv DATA SEQ:179 ACK:178, DATA:20435
+117.473 Recv DATA SEQ:180 ACK:179, DATA:20436
+117.762 Recv DATA SEQ:181 ACK:180, DATA:20437
+118.017 Recv DATA SEQ:182 ACK:181, DATA:20438
+118.017 .... 439 packets received, 7688 bps, 96.10%, Err 0 (0.0e+00)
+118.289 Recv DATA SEQ:183 ACK:182, DATA:20439
+118.528 Recv DATA SEQ:184 ACK:183, DATA:20440
+118.815 Recv DATA SEQ:185 ACK:184, DATA:20441
+119.071 Recv DATA SEQ:186 ACK:185, DATA:20442
+119.340 Recv DATA SEQ:187 ACK:186, DATA:20443
+119.592 Recv DATA SEQ:188 ACK:187, DATA:20444
+119.860 Recv DATA SEQ:189 ACK:188, DATA:20445
+120.127 Recv DATA SEQ:190 ACK:189, DATA:20446
+120.127 .... 447 packets received, 7689 bps, 96.11%, Err 0 (0.0e+00)
+120.394 Recv DATA SEQ:191 ACK:190, DATA:20447
+120.647 Recv DATA SEQ:192 ACK:191, DATA:20448
+120.916 Recv DATA SEQ:193 ACK:192, DATA:20449
+121.184 Recv DATA SEQ:194 ACK:193, DATA:20450
+121.457 Recv DATA SEQ:195 ACK:194, DATA:20451
+121.713 Recv DATA SEQ:196 ACK:195, DATA:20452
+122.000 Recv DATA SEQ:197 ACK:196, DATA:20453
+122.255 Recv DATA SEQ:198 ACK:197, DATA:20454
+122.255 .... 455 packets received, 7689 bps, 96.12%, Err 0 (0.0e+00)
+122.526 Recv DATA SEQ:199 ACK:198, DATA:20455
+122.789 Recv DATA SEQ:200 ACK:199, DATA:20456
+123.060 Recv DATA SEQ:201 ACK:200, DATA:20457
+123.299 Recv DATA SEQ:202 ACK:201, DATA:20458
+123.570 Recv DATA SEQ:203 ACK:202, DATA:20459
+123.842 Recv DATA SEQ:204 ACK:203, DATA:20460
+124.113 Recv DATA SEQ:205 ACK:204, DATA:20461
+124.388 Recv DATA SEQ:206 ACK:205, DATA:20462
+124.388 .... 463 packets received, 7689 bps, 96.11%, Err 0 (0.0e+00)
+124.627 Recv DATA SEQ:207 ACK:206, DATA:20463
+124.919 Recv DATA SEQ:208 ACK:207, DATA:20464
+125.176 Recv DATA SEQ:209 ACK:208, DATA:20465
+125.445 Recv DATA SEQ:210 ACK:209, DATA:20466
+125.697 Recv DATA SEQ:211 ACK:210, DATA:20467
+125.963 Recv DATA SEQ:212 ACK:211, DATA:20468
+126.279 Recv DATA SEQ:213 ACK:212, DATA:20469
+126.475 Recv DATA SEQ:214 ACK:213, DATA:20470
+126.475 .... 471 packets received, 7692 bps, 96.15%, Err 0 (0.0e+00)
+126.763 Recv DATA SEQ:215 ACK:214, DATA:20471
+127.034 Recv DATA SEQ:216 ACK:215, DATA:20472
+127.290 Recv DATA SEQ:217 ACK:216, DATA:20473
+127.548 Recv DATA SEQ:218 ACK:217, DATA:20474
+127.815 Recv DATA SEQ:219 ACK:218, DATA:20475
+128.085 Recv DATA SEQ:220 ACK:219, DATA:20476
+128.357 Recv DATA SEQ:221 ACK:220, DATA:20477
+128.629 Recv DATA SEQ:222 ACK:221, DATA:20478
+128.629 .... 479 packets received, 7690 bps, 96.13%, Err 0 (0.0e+00)
+128.885 Recv DATA SEQ:223 ACK:222, DATA:20479
+129.156 Recv DATA SEQ:224 ACK:223, DATA:20480
+129.412 Recv DATA SEQ:225 ACK:224, DATA:20481
+129.667 Recv DATA SEQ:226 ACK:225, DATA:20482
+129.938 Recv DATA SEQ:227 ACK:226, DATA:20483
+130.209 Recv DATA SEQ:228 ACK:227, DATA:20484
+130.480 Recv DATA SEQ:229 ACK:228, DATA:20485
+130.736 Recv DATA SEQ:230 ACK:229, DATA:20486
+130.736 .... 487 packets received, 7692 bps, 96.15%, Err 0 (0.0e+00)
+131.004 Recv DATA SEQ:231 ACK:230, DATA:20487
+131.282 Recv DATA SEQ:232 ACK:231, DATA:20488
+131.557 Recv DATA SEQ:233 ACK:232, DATA:20489
+131.797 Recv DATA SEQ:234 ACK:233, DATA:20490
+132.052 Recv DATA SEQ:235 ACK:234, DATA:20491
+132.331 Recv DATA SEQ:236 ACK:235, DATA:20492
+132.575 Recv DATA SEQ:237 ACK:236, DATA:20493
+132.862 Recv DATA SEQ:238 ACK:237, DATA:20494
+132.862 .... 495 packets received, 7692 bps, 96.15%, Err 0 (0.0e+00)
+133.133 Recv DATA SEQ:239 ACK:238, DATA:20495
+133.388 Recv DATA SEQ:240 ACK:239, DATA:20496
+133.659 Recv DATA SEQ:241 ACK:240, DATA:20497
+133.914 Recv DATA SEQ:242 ACK:241, DATA:20498
+134.185 Recv DATA SEQ:243 ACK:242, DATA:20499
+134.441 Recv DATA SEQ:244 ACK:243, DATA:20500
+134.696 Recv DATA SEQ:245 ACK:244, DATA:20501
+134.963 Recv DATA SEQ:246 ACK:245, DATA:20502
+134.963 .... 503 packets received, 7694 bps, 96.17%, Err 0 (0.0e+00)
+135.227 Recv DATA SEQ:247 ACK:246, DATA:20503
+135.496 Recv DATA SEQ:248 ACK:247, DATA:20504
+135.783 Recv DATA SEQ:249 ACK:248, DATA:20505
+136.039 Recv DATA SEQ:250 ACK:249, DATA:20506
+136.294 Recv DATA SEQ:251 ACK:250, DATA:20507
+136.565 Recv DATA SEQ:252 ACK:251, DATA:20508
+136.836 Recv DATA SEQ:253 ACK:252, DATA:20509
+137.111 Recv DATA SEQ:254 ACK:253, DATA:20510
+137.111 .... 511 packets received, 7693 bps, 96.16%, Err 0 (0.0e+00)
+137.351 Recv DATA SEQ:255 ACK:254, DATA:20511
+137.638 Recv DATA SEQ:0 ACK:255, DATA:20512
+137.893 Recv DATA SEQ:1 ACK:0, DATA:20513
+138.148 Recv DATA SEQ:2 ACK:1, DATA:20514
+138.404 Recv DATA SEQ:3 ACK:2, DATA:20515
+138.675 Recv DATA SEQ:4 ACK:3, DATA:20516
+138.962 Recv DATA SEQ:5 ACK:4, DATA:20517
+139.217 Recv DATA SEQ:6 ACK:5, DATA:20518
+139.217 .... 519 packets received, 7694 bps, 96.17%, Err 0 (0.0e+00)
+139.478 Recv DATA SEQ:7 ACK:6, DATA:20519
+139.739 Recv DATA SEQ:8 ACK:7, DATA:20520
+140.049 Recv DATA SEQ:9 ACK:8, DATA:20521
+140.250 Recv DATA SEQ:10 ACK:9, DATA:20522
+140.291 ACK timeout, sending ACK frame for 11.
+140.291 Sending short frame ACK for 11.
+140.554 Recv DATA SEQ:11 ACK:10, DATA:20523
+140.808 Recv DATA SEQ:12 ACK:11, DATA:20524
+141.111 Recv DATA SEQ:13 ACK:12, DATA:20525
+141.330 Recv DATA SEQ:14 ACK:13, DATA:20526
+141.331 .... 527 packets received, 7695 bps, 96.19%, Err 0 (0.0e+00)
+141.623 Recv DATA SEQ:15 ACK:14, DATA:20527
+141.908 Recv DATA SEQ:16 ACK:15, DATA:20528
+142.152 Recv DATA SEQ:17 ACK:16, DATA:20529
+142.389 Recv DATA SEQ:18 ACK:17, DATA:20530
+142.660 Recv DATA SEQ:19 ACK:18, DATA:20531
+142.915 Recv DATA SEQ:20 ACK:19, DATA:20532
+143.186 Recv DATA SEQ:21 ACK:20, DATA:20533
+143.464 Recv DATA SEQ:22 ACK:21, DATA:20534
+143.464 .... 535 packets received, 7695 bps, 96.18%, Err 0 (0.0e+00)
+143.719 Recv DATA SEQ:23 ACK:22, DATA:20535
+143.990 Recv DATA SEQ:24 ACK:23, DATA:20536
+144.245 Recv DATA SEQ:25 ACK:24, DATA:20537
+144.492 Recv DATA SEQ:26 ACK:25, DATA:20538
+144.778 Recv DATA SEQ:27 ACK:26, DATA:20539
+145.032 Recv DATA SEQ:28 ACK:27, DATA:20540
+145.305 Recv DATA SEQ:29 ACK:28, DATA:20541
+145.561 Recv DATA SEQ:30 ACK:29, DATA:20542
+145.561 .... 543 packets received, 7696 bps, 96.20%, Err 0 (0.0e+00)
+145.844 Recv DATA SEQ:31 ACK:30, DATA:20543
+146.116 Recv DATA SEQ:32 ACK:31, DATA:20544
+146.369 Recv DATA SEQ:33 ACK:32, DATA:20545
+146.639 Recv DATA SEQ:34 ACK:33, DATA:20546
+146.911 Recv DATA SEQ:35 ACK:34, DATA:20547
+147.148 Recv DATA SEQ:36 ACK:35, DATA:20548
+147.418 Recv DATA SEQ:37 ACK:36, DATA:20549
+147.692 Recv DATA SEQ:38 ACK:37, DATA:20550
+147.692 .... 551 packets received, 7696 bps, 96.20%, Err 0 (0.0e+00)
+147.953 Recv DATA SEQ:39 ACK:38, DATA:20551
+148.209 Recv DATA SEQ:40 ACK:39, DATA:20552
+148.482 Recv DATA SEQ:41 ACK:40, DATA:20553
+148.750 Recv DATA SEQ:42 ACK:41, DATA:20554
+148.994 Recv DATA SEQ:43 ACK:42, DATA:20555
+149.279 Recv DATA SEQ:44 ACK:43, DATA:20556
+149.548 Recv DATA SEQ:45 ACK:44, DATA:20557
+149.819 Recv DATA SEQ:46 ACK:45, DATA:20558
+149.819 .... 559 packets received, 7696 bps, 96.20%, Err 0 (0.0e+00)
+150.086 Recv DATA SEQ:47 ACK:46, DATA:20559
+150.348 Recv DATA SEQ:48 ACK:47, DATA:20560
+150.607 Recv DATA SEQ:49 ACK:48, DATA:20561
+150.860 Recv DATA SEQ:50 ACK:49, DATA:20562
+151.147 Recv DATA SEQ:51 ACK:50, DATA:20563
+151.402 Recv DATA SEQ:52 ACK:51, DATA:20564
+151.673 Recv DATA SEQ:53 ACK:52, DATA:20565
+151.928 Recv DATA SEQ:54 ACK:53, DATA:20566
+151.928 .... 567 packets received, 7697 bps, 96.22%, Err 0 (0.0e+00)
+152.195 Recv DATA SEQ:55 ACK:54, DATA:20567
+152.447 Recv DATA SEQ:56 ACK:55, DATA:20568
+152.718 Recv DATA SEQ:57 ACK:56, DATA:20569
+152.990 Recv DATA SEQ:58 ACK:57, DATA:20570
+153.262 Recv DATA SEQ:59 ACK:58, DATA:20571
+153.533 Recv DATA SEQ:60 ACK:59, DATA:20572
+153.790 Recv DATA SEQ:61 ACK:60, DATA:20573
+154.037 Recv DATA SEQ:62 ACK:61, DATA:20574
+154.037 .... 575 packets received, 7698 bps, 96.23%, Err 0 (0.0e+00)
+154.308 Recv DATA SEQ:63 ACK:62, DATA:20575
+154.579 Recv DATA SEQ:64 ACK:63, DATA:20576
+154.834 Recv DATA SEQ:65 ACK:64, DATA:20577
+155.122 Recv DATA SEQ:66 ACK:65, DATA:20578
+155.396 Recv DATA SEQ:67 ACK:66, DATA:20579
+155.644 Recv DATA SEQ:68 ACK:67, DATA:20580
+155.916 Recv DATA SEQ:69 ACK:68, DATA:20581
+156.225 Recv DATA SEQ:70 ACK:69, DATA:20582
+156.226 .... 583 packets received, 7695 bps, 96.19%, Err 0 (0.0e+00)
+156.485 Recv DATA SEQ:71 ACK:70, DATA:20583
+156.700 Recv DATA SEQ:72 ACK:71, DATA:20584
+156.950 Recv DATA SEQ:73 ACK:72, DATA:20585
+157.240 Recv DATA SEQ:74 ACK:73, DATA:20586
+157.509 Recv DATA SEQ:75 ACK:74, DATA:20587
+157.767 Recv DATA SEQ:76 ACK:75, DATA:20588
+158.034 Recv DATA SEQ:77 ACK:76, DATA:20589
+158.294 Recv DATA SEQ:78 ACK:77, DATA:20590
+158.294 .... 591 packets received, 7698 bps, 96.23%, Err 0 (0.0e+00)
+158.566 Recv DATA SEQ:79 ACK:78, DATA:20591
+158.821 Recv DATA SEQ:80 ACK:79, DATA:20592
+159.090 Recv DATA SEQ:81 ACK:80, DATA:20593
+159.348 Recv DATA SEQ:82 ACK:81, DATA:20594
+159.609 Recv DATA SEQ:83 ACK:82, DATA:20595
+159.880 Recv DATA SEQ:84 ACK:83, DATA:20596
+160.152 Recv DATA SEQ:85 ACK:84, DATA:20597
+160.411 Recv DATA SEQ:86 ACK:85, DATA:20598
+160.411 .... 599 packets received, 7699 bps, 96.24%, Err 0 (0.0e+00)
+160.681 Recv DATA SEQ:87 ACK:86, DATA:20599
+160.940 Recv DATA SEQ:88 ACK:87, DATA:20600
+161.213 Recv DATA SEQ:89 ACK:88, DATA:20601
+161.489 Recv DATA SEQ:90 ACK:89, DATA:20602
+161.743 Recv DATA SEQ:91 ACK:90, DATA:20603
+162.016 Recv DATA SEQ:92 ACK:91, DATA:20604
+162.257 Recv DATA SEQ:93 ACK:92, DATA:20605
+162.520 Recv DATA SEQ:94 ACK:93, DATA:20606
+162.520 .... 607 packets received, 7700 bps, 96.25%, Err 0 (0.0e+00)
+162.792 Recv DATA SEQ:95 ACK:94, DATA:20607
+163.063 Recv DATA SEQ:96 ACK:95, DATA:20608
+163.334 Recv DATA SEQ:97 ACK:96, DATA:20609
+163.589 Recv DATA SEQ:98 ACK:97, DATA:20610
+163.862 Recv DATA SEQ:99 ACK:98, DATA:20611
+164.118 Recv DATA SEQ:100 ACK:99, DATA:20612
+164.404 Recv DATA SEQ:101 ACK:100, DATA:20613
+164.653 Recv DATA SEQ:102 ACK:101, DATA:20614
+164.653 .... 615 packets received, 7699 bps, 96.24%, Err 0 (0.0e+00)
+164.923 Recv DATA SEQ:103 ACK:102, DATA:20615
+165.192 Recv DATA SEQ:104 ACK:103, DATA:20616
+165.441 Recv DATA SEQ:105 ACK:104, DATA:20617
+165.710 Recv DATA SEQ:106 ACK:105, DATA:20618
+165.980 Recv DATA SEQ:107 ACK:106, DATA:20619
+166.246 Recv DATA SEQ:108 ACK:107, DATA:20620
+166.518 Recv DATA SEQ:109 ACK:108, DATA:20621
+166.773 Recv DATA SEQ:110 ACK:109, DATA:20622
+166.773 .... 623 packets received, 7700 bps, 96.25%, Err 0 (0.0e+00)
+167.046 Recv DATA SEQ:111 ACK:110, DATA:20623
+167.318 Recv DATA SEQ:112 ACK:111, DATA:20624
+167.557 Recv DATA SEQ:113 ACK:112, DATA:20625
+167.837 Recv DATA SEQ:114 ACK:113, DATA:20626
+168.111 Recv DATA SEQ:115 ACK:114, DATA:20627
+168.383 Recv DATA SEQ:116 ACK:115, DATA:20628
+168.638 Recv DATA SEQ:117 ACK:116, DATA:20629
+168.878 Recv DATA SEQ:118 ACK:117, DATA:20630
+168.878 .... 631 packets received, 7701 bps, 96.26%, Err 0 (0.0e+00)
+169.148 Recv DATA SEQ:119 ACK:118, DATA:20631
+169.420 Recv DATA SEQ:120 ACK:119, DATA:20632
+169.691 Recv DATA SEQ:121 ACK:120, DATA:20633
+169.964 Recv DATA SEQ:122 ACK:121, DATA:20634
+170.203 Recv DATA SEQ:123 ACK:122, DATA:20635
+170.474 Recv DATA SEQ:124 ACK:123, DATA:20636
+170.745 Recv DATA SEQ:125 ACK:124, DATA:20637
+171.017 Recv DATA SEQ:126 ACK:125, DATA:20638
+171.017 .... 639 packets received, 7700 bps, 96.25%, Err 0 (0.0e+00)
+171.288 Recv DATA SEQ:127 ACK:126, DATA:20639
+171.559 Recv DATA SEQ:128 ACK:127, DATA:20640
+171.799 Recv DATA SEQ:129 ACK:128, DATA:20641
+172.113 Recv DATA SEQ:130 ACK:129, DATA:20642
+172.382 Recv DATA SEQ:131 ACK:130, DATA:20643
+172.638 Recv DATA SEQ:132 ACK:131, DATA:20644
+172.855 Recv DATA SEQ:133 ACK:132, DATA:20645
+173.139 Recv DATA SEQ:134 ACK:133, DATA:20646
+173.140 .... 647 packets received, 7701 bps, 96.26%, Err 0 (0.0e+00)
+173.387 Recv DATA SEQ:135 ACK:134, DATA:20647
+173.647 Recv DATA SEQ:136 ACK:135, DATA:20648
+173.958 Recv DATA SEQ:137 ACK:136, DATA:20649
+174.202 Recv DATA SEQ:138 ACK:137, DATA:20650
+174.481 Recv DATA SEQ:139 ACK:138, DATA:20651
+174.759 Recv DATA SEQ:140 ACK:139, DATA:20652
+175.095 Recv DATA SEQ:141 ACK:140, DATA:20653
+175.356 Recv DATA SEQ:142 ACK:141, DATA:20654
+175.356 .... 655 packets received, 7697 bps, 96.21%, Err 0 (0.0e+00)
+175.535 Recv DATA SEQ:143 ACK:142, DATA:20655
+175.807 Recv DATA SEQ:144 ACK:143, DATA:20656
+176.062 Recv DATA SEQ:145 ACK:144, DATA:20657
+176.328 Recv DATA SEQ:146 ACK:145, DATA:20658
+176.597 Recv DATA SEQ:147 ACK:146, DATA:20659
+176.895 Recv DATA SEQ:148 ACK:147, DATA:20660
+177.122 Recv DATA SEQ:149 ACK:148, DATA:20661
+177.398 Recv DATA SEQ:150 ACK:149, DATA:20662
+177.398 .... 663 packets received, 7700 bps, 96.26%, Err 0 (0.0e+00)
+177.677 Recv DATA SEQ:151 ACK:150, DATA:20663
+177.937 Recv DATA SEQ:152 ACK:151, DATA:20664
+178.206 Recv DATA SEQ:153 ACK:152, DATA:20665
+178.553 Recv DATA SEQ:154 ACK:153, DATA:20666
+178.804 Recv DATA SEQ:155 ACK:154, DATA:20667
+178.804 ACK timeout, sending ACK frame for 156.
+178.805 Sending short frame ACK for 156.
+178.966 Recv DATA SEQ:156 ACK:155, DATA:20668
+179.279 Recv DATA SEQ:157 ACK:155, DATA:20669
+179.383 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
+179.590 Recv DATA SEQ:158 ACK:157, DATA:20670
+179.592 .... 671 packets received, 7698 bps, 96.22%, Err 0 (0.0e+00)
+179.911 Recv DATA SEQ:159 ACK:158, DATA:20671
+180.156 Recv DATA SEQ:160 ACK:158, DATA:20672
+180.431 Recv DATA SEQ:161 ACK:160, DATA:20673
+180.690 Recv DATA SEQ:162 ACK:161, DATA:20674
+180.964 Recv DATA SEQ:163 ACK:162, DATA:20675
+181.257 Recv DATA SEQ:164 ACK:163, DATA:20676
+181.467 Recv DATA SEQ:165 ACK:164, DATA:20677
+181.736 Recv DATA SEQ:166 ACK:165, DATA:20678
+181.736 .... 679 packets received, 7697 bps, 96.21%, Err 0 (0.0e+00)
+182.008 Recv DATA SEQ:167 ACK:166, DATA:20679
+182.271 Recv DATA SEQ:168 ACK:167, DATA:20680
+182.568 Recv DATA SEQ:169 ACK:168, DATA:20681
+182.799 Recv DATA SEQ:170 ACK:169, DATA:20682
+183.101 Recv DATA SEQ:171 ACK:170, DATA:20683
+183.332 Recv DATA SEQ:172 ACK:171, DATA:20684
+183.619 Recv DATA SEQ:173 ACK:172, DATA:20685
+183.874 Recv DATA SEQ:174 ACK:173, DATA:20686
+183.875 .... 687 packets received, 7697 bps, 96.21%, Err 0 (0.0e+00)
+184.190 Recv DATA SEQ:175 ACK:174, DATA:20687
+184.365 ** WARNING: System too busy, sleep 15 ms, but be awakened 84 ms later
+184.612 Recv DATA SEQ:176 ACK:175, DATA:20688
+184.785 Recv DATA SEQ:177 ACK:176, DATA:20689
+184.961 Recv DATA SEQ:178 ACK:177, DATA:20690
+185.258 Recv DATA SEQ:179 ACK:178, DATA:20691
+185.475 Recv DATA SEQ:180 ACK:179, DATA:20692
+185.726 Recv DATA SEQ:181 ACK:180, DATA:20693
+186.009 Recv DATA SEQ:182 ACK:181, DATA:20694
+186.009 .... 695 packets received, 7696 bps, 96.20%, Err 0 (0.0e+00)
+186.273 Recv DATA SEQ:183 ACK:182, DATA:20695
+186.518 Recv DATA SEQ:184 ACK:183, DATA:20696
+186.797 Recv DATA SEQ:185 ACK:184, DATA:20697
+187.098 Recv DATA SEQ:186 ACK:185, DATA:20698
+187.318 Recv DATA SEQ:187 ACK:186, DATA:20699
+187.579 Recv DATA SEQ:188 ACK:187, DATA:20700
+187.859 Recv DATA SEQ:189 ACK:188, DATA:20701
+188.104 Recv DATA SEQ:190 ACK:189, DATA:20702
+188.104 .... 703 packets received, 7698 bps, 96.22%, Err 0 (0.0e+00)
+188.438 Recv DATA SEQ:191 ACK:190, DATA:20703
+188.677 Recv DATA SEQ:192 ACK:191, DATA:20704
+188.890 Recv DATA SEQ:193 ACK:192, DATA:20705
+189.158 Recv DATA SEQ:194 ACK:193, DATA:20706
+189.444 Recv DATA SEQ:195 ACK:194, DATA:20707
+189.708 Recv DATA SEQ:196 ACK:195, DATA:20708
+189.965 Recv DATA SEQ:197 ACK:196, DATA:20709
+190.289 Recv DATA SEQ:198 ACK:197, DATA:20710
+190.289 .... 711 packets received, 7695 bps, 96.19%, Err 0 (0.0e+00)
+190.503 Recv DATA SEQ:199 ACK:198, DATA:20711
+190.801 Recv DATA SEQ:200 ACK:199, DATA:20712
+191.061 Recv DATA SEQ:201 ACK:200, DATA:20713
+191.300 Recv DATA SEQ:202 ACK:201, DATA:20714
+191.539 Recv DATA SEQ:203 ACK:202, DATA:20715
+191.818 Recv DATA SEQ:204 ACK:203, DATA:20716
+192.080 Recv DATA SEQ:205 ACK:204, DATA:20717
+192.337 Recv DATA SEQ:206 ACK:205, DATA:20718
+192.338 .... 719 packets received, 7699 bps, 96.23%, Err 0 (0.0e+00)
+192.618 Recv DATA SEQ:207 ACK:206, DATA:20719
+192.879 Recv DATA SEQ:208 ACK:207, DATA:20720
+193.140 Recv DATA SEQ:209 ACK:208, DATA:20721
+193.397 Recv DATA SEQ:210 ACK:209, DATA:20722
+193.694 Recv DATA SEQ:211 ACK:210, DATA:20723
+193.966 Recv DATA SEQ:212 ACK:211, DATA:20724
+194.241 Recv DATA SEQ:213 ACK:212, DATA:20725
+194.490 Recv DATA SEQ:214 ACK:213, DATA:20726
+194.490 .... 727 packets received, 7698 bps, 96.22%, Err 0 (0.0e+00)
+194.742 Recv DATA SEQ:215 ACK:214, DATA:20727
+195.011 Recv DATA SEQ:216 ACK:215, DATA:20728
+195.266 Recv DATA SEQ:217 ACK:216, DATA:20729
+195.514 Recv DATA SEQ:218 ACK:217, DATA:20730
+195.785 Recv DATA SEQ:219 ACK:218, DATA:20731
+196.059 Recv DATA SEQ:220 ACK:219, DATA:20732
+196.330 Recv DATA SEQ:221 ACK:220, DATA:20733
+196.601 Recv DATA SEQ:222 ACK:221, DATA:20734
+196.601 .... 735 packets received, 7698 bps, 96.23%, Err 0 (0.0e+00)
+196.856 Recv DATA SEQ:223 ACK:222, DATA:20735
+197.116 Recv DATA SEQ:224 ACK:223, DATA:20736
+197.387 Recv DATA SEQ:225 ACK:224, DATA:20737
+197.640 Recv DATA SEQ:226 ACK:225, DATA:20738
+197.926 Recv DATA SEQ:227 ACK:226, DATA:20739
+198.181 Recv DATA SEQ:228 ACK:227, DATA:20740
+198.452 Recv DATA SEQ:229 ACK:228, DATA:20741
+198.722 Recv DATA SEQ:230 ACK:229, DATA:20742
+198.722 .... 743 packets received, 7699 bps, 96.23%, Err 0 (0.0e+00)
+198.977 Recv DATA SEQ:231 ACK:230, DATA:20743
+199.232 Recv DATA SEQ:232 ACK:231, DATA:20744
+199.517 Recv DATA SEQ:233 ACK:232, DATA:20745
+199.771 Recv DATA SEQ:234 ACK:233, DATA:20746
+200.043 Recv DATA SEQ:235 ACK:234, DATA:20747
+200.314 Recv DATA SEQ:236 ACK:235, DATA:20748
+200.568 Recv DATA SEQ:237 ACK:236, DATA:20749
+200.839 Recv DATA SEQ:238 ACK:237, DATA:20750
+200.839 .... 751 packets received, 7699 bps, 96.24%, Err 0 (0.0e+00)
+201.092 Recv DATA SEQ:239 ACK:238, DATA:20751
+201.364 Recv DATA SEQ:240 ACK:239, DATA:20752
+201.634 Recv DATA SEQ:241 ACK:240, DATA:20753
+201.904 Recv DATA SEQ:242 ACK:241, DATA:20754
+202.158 Recv DATA SEQ:243 ACK:242, DATA:20755
+202.413 Recv DATA SEQ:244 ACK:243, DATA:20756
+202.700 Recv DATA SEQ:245 ACK:244, DATA:20757
+202.939 Recv DATA SEQ:246 ACK:245, DATA:20758
+202.939 .... 759 packets received, 7700 bps, 96.25%, Err 0 (0.0e+00)
+203.211 Recv DATA SEQ:247 ACK:246, DATA:20759
+203.480 Recv DATA SEQ:248 ACK:247, DATA:20760
+203.734 Recv DATA SEQ:249 ACK:248, DATA:20761
+204.003 Recv DATA SEQ:250 ACK:249, DATA:20762
+204.282 Recv DATA SEQ:251 ACK:250, DATA:20763
+204.552 Recv DATA SEQ:252 ACK:251, DATA:20764
+204.808 Recv DATA SEQ:253 ACK:252, DATA:20765
+205.079 Recv DATA SEQ:254 ACK:253, DATA:20766
+205.079 .... 767 packets received, 7700 bps, 96.25%, Err 0 (0.0e+00)
+205.334 Recv DATA SEQ:255 ACK:254, DATA:20767
+205.587 Recv DATA SEQ:0 ACK:255, DATA:20768
+205.857 Recv DATA SEQ:1 ACK:0, DATA:20769
+206.143 Recv DATA SEQ:2 ACK:1, DATA:20770
+206.396 Recv DATA SEQ:3 ACK:2, DATA:20771
+206.667 Recv DATA SEQ:4 ACK:3, DATA:20772
+206.939 Recv DATA SEQ:5 ACK:4, DATA:20773
+207.194 Recv DATA SEQ:6 ACK:5, DATA:20774
+207.194 .... 775 packets received, 7700 bps, 96.25%, Err 0 (0.0e+00)
+207.466 Recv DATA SEQ:7 ACK:6, DATA:20775
+207.720 Recv DATA SEQ:8 ACK:7, DATA:20776
+207.973 Recv DATA SEQ:9 ACK:8, DATA:20777
+208.243 Recv DATA SEQ:10 ACK:9, DATA:20778
+208.514 Recv DATA SEQ:11 ACK:10, DATA:20779
+208.794 Recv DATA SEQ:12 ACK:11, DATA:20780
+209.035 Recv DATA SEQ:13 ACK:12, DATA:20781
+209.206 ** WARNING: System too busy, sleep 15 ms, but be awakened 71 ms later
+209.425 Recv DATA SEQ:14 ACK:13, DATA:20782
+209.425 .... 783 packets received, 7696 bps, 96.20%, Err 0 (0.0e+00)
+209.577 Recv DATA SEQ:15 ACK:14, DATA:20783
+209.848 Recv DATA SEQ:16 ACK:15, DATA:20784
+210.104 Recv DATA SEQ:17 ACK:16, DATA:20785
+210.422 Recv DATA SEQ:18 ACK:17, DATA:20786
+210.743 Recv DATA SEQ:19 ACK:18, DATA:20787
+210.919 Recv DATA SEQ:20 ACK:19, DATA:20788
+211.170 Recv DATA SEQ:21 ACK:20, DATA:20789
+211.439 Recv DATA SEQ:22 ACK:21, DATA:20790
+211.439 .... 791 packets received, 7701 bps, 96.26%, Err 0 (0.0e+00)
+211.708 Recv DATA SEQ:23 ACK:22, DATA:20791
+211.962 Recv DATA SEQ:24 ACK:23, DATA:20792
+212.233 Recv DATA SEQ:25 ACK:24, DATA:20793
+212.487 Recv DATA SEQ:26 ACK:25, DATA:20794
+212.759 Recv DATA SEQ:27 ACK:26, DATA:20795
+213.029 Recv DATA SEQ:28 ACK:27, DATA:20796
+213.284 Recv DATA SEQ:29 ACK:28, DATA:20797
+213.554 Recv DATA SEQ:30 ACK:29, DATA:20798
+213.554 .... 799 packets received, 7701 bps, 96.26%, Err 0 (0.0e+00)
+213.824 Recv DATA SEQ:31 ACK:30, DATA:20799
+214.094 Recv DATA SEQ:32 ACK:31, DATA:20800
+214.347 Recv DATA SEQ:33 ACK:32, DATA:20801
+214.617 Recv DATA SEQ:34 ACK:33, DATA:20802
+214.888 Recv DATA SEQ:35 ACK:34, DATA:20803
+215.143 Recv DATA SEQ:36 ACK:35, DATA:20804
+215.415 Recv DATA SEQ:37 ACK:36, DATA:20805
+215.686 Recv DATA SEQ:38 ACK:37, DATA:20806
+215.686 .... 807 packets received, 7701 bps, 96.26%, Err 0 (0.0e+00)
+215.941 Recv DATA SEQ:39 ACK:38, DATA:20807
+216.212 Recv DATA SEQ:40 ACK:39, DATA:20808
+216.450 Recv DATA SEQ:41 ACK:40, DATA:20809
+216.735 Recv DATA SEQ:42 ACK:41, DATA:20810
+217.006 Recv DATA SEQ:43 ACK:42, DATA:20811
+217.261 Recv DATA SEQ:44 ACK:43, DATA:20812
+217.513 Recv DATA SEQ:45 ACK:44, DATA:20813
+217.784 Recv DATA SEQ:46 ACK:45, DATA:20814
+217.784 .... 815 packets received, 7702 bps, 96.27%, Err 0 (0.0e+00)
+218.054 Recv DATA SEQ:47 ACK:46, DATA:20815
+218.308 Recv DATA SEQ:48 ACK:47, DATA:20816
+218.577 Recv DATA SEQ:49 ACK:48, DATA:20817
+218.863 Recv DATA SEQ:50 ACK:49, DATA:20818
+219.119 Recv DATA SEQ:51 ACK:50, DATA:20819
+219.388 Recv DATA SEQ:52 ACK:51, DATA:20820
+219.659 Recv DATA SEQ:53 ACK:52, DATA:20821
+219.915 Recv DATA SEQ:54 ACK:53, DATA:20822
+219.915 .... 823 packets received, 7702 bps, 96.27%, Err 0 (0.0e+00)
+220.168 Recv DATA SEQ:55 ACK:54, DATA:20823
+220.456 Recv DATA SEQ:56 ACK:55, DATA:20824
+220.709 Recv DATA SEQ:57 ACK:56, DATA:20825
+221.000 Recv DATA SEQ:58 ACK:57, DATA:20826
+221.257 Recv DATA SEQ:59 ACK:58, DATA:20827
+221.515 Recv DATA SEQ:60 ACK:59, DATA:20828
+221.753 Recv DATA SEQ:61 ACK:60, DATA:20829
+222.022 Recv DATA SEQ:62 ACK:61, DATA:20830
+222.022 .... 831 packets received, 7702 bps, 96.28%, Err 0 (0.0e+00)
+222.294 Recv DATA SEQ:63 ACK:62, DATA:20831
+222.551 Recv DATA SEQ:64 ACK:63, DATA:20832
+222.822 Recv DATA SEQ:65 ACK:64, DATA:20833
+223.094 Recv DATA SEQ:66 ACK:65, DATA:20834
+223.349 Recv DATA SEQ:67 ACK:66, DATA:20835
+223.620 Recv DATA SEQ:68 ACK:67, DATA:20836
+223.872 Recv DATA SEQ:69 ACK:68, DATA:20837
+224.142 Recv DATA SEQ:70 ACK:69, DATA:20838
+224.142 .... 839 packets received, 7703 bps, 96.28%, Err 0 (0.0e+00)
+224.412 Recv DATA SEQ:71 ACK:70, DATA:20839
+224.665 Recv DATA SEQ:72 ACK:71, DATA:20840
+224.951 Recv DATA SEQ:73 ACK:72, DATA:20841
+225.220 Recv DATA SEQ:74 ACK:73, DATA:20842
+225.458 Recv DATA SEQ:75 ACK:74, DATA:20843
+225.729 Recv DATA SEQ:76 ACK:75, DATA:20844
+225.997 Recv DATA SEQ:77 ACK:76, DATA:20845
+226.267 Recv DATA SEQ:78 ACK:77, DATA:20846
+226.267 .... 847 packets received, 7703 bps, 96.28%, Err 0 (0.0e+00)
+226.537 Recv DATA SEQ:79 ACK:78, DATA:20847
+226.809 Recv DATA SEQ:80 ACK:79, DATA:20848
+227.079 Recv DATA SEQ:81 ACK:80, DATA:20849
+227.334 Recv DATA SEQ:82 ACK:81, DATA:20850
+227.588 Recv DATA SEQ:83 ACK:82, DATA:20851
+227.858 Recv DATA SEQ:84 ACK:83, DATA:20852
+228.128 Recv DATA SEQ:85 ACK:84, DATA:20853
+228.397 Recv DATA SEQ:86 ACK:85, DATA:20854
+228.397 .... 855 packets received, 7703 bps, 96.28%, Err 0 (0.0e+00)
+228.668 Recv DATA SEQ:87 ACK:86, DATA:20855
+228.924 Recv DATA SEQ:88 ACK:87, DATA:20856
+229.177 Recv DATA SEQ:89 ACK:88, DATA:20857
+229.447 Recv DATA SEQ:90 ACK:89, DATA:20858
+229.702 Recv DATA SEQ:91 ACK:90, DATA:20859
+229.973 Recv DATA SEQ:92 ACK:91, DATA:20860
+230.244 Recv DATA SEQ:93 ACK:92, DATA:20861
+230.499 Recv DATA SEQ:94 ACK:93, DATA:20862
+230.499 .... 863 packets received, 7704 bps, 96.29%, Err 0 (0.0e+00)
+230.770 Recv DATA SEQ:95 ACK:94, DATA:20863
+231.040 Recv DATA SEQ:96 ACK:95, DATA:20864
+231.294 Recv DATA SEQ:97 ACK:96, DATA:20865
+231.565 Recv DATA SEQ:98 ACK:97, DATA:20866
+231.836 Recv DATA SEQ:99 ACK:98, DATA:20867
+232.107 Recv DATA SEQ:100 ACK:99, DATA:20868
+232.378 Recv DATA SEQ:101 ACK:100, DATA:20869
+232.617 Recv DATA SEQ:102 ACK:101, DATA:20870
+232.617 .... 871 packets received, 7704 bps, 96.30%, Err 0 (0.0e+00)
+232.888 Recv DATA SEQ:103 ACK:102, DATA:20871
+233.159 Recv DATA SEQ:104 ACK:103, DATA:20872
+233.412 Recv DATA SEQ:105 ACK:104, DATA:20873
+233.681 Recv DATA SEQ:106 ACK:105, DATA:20874
+233.950 Recv DATA SEQ:107 ACK:106, DATA:20875
+234.204 Recv DATA SEQ:108 ACK:107, DATA:20876
+234.490 Recv DATA SEQ:109 ACK:108, DATA:20877
+234.761 Recv DATA SEQ:110 ACK:109, DATA:20878
+234.761 .... 879 packets received, 7703 bps, 96.29%, Err 0 (0.0e+00)
+235.016 Recv DATA SEQ:111 ACK:110, DATA:20879
+235.271 Recv DATA SEQ:112 ACK:111, DATA:20880
+235.543 Recv DATA SEQ:113 ACK:112, DATA:20881
+235.812 Recv DATA SEQ:114 ACK:113, DATA:20882
+236.084 Recv DATA SEQ:115 ACK:114, DATA:20883
+236.356 Recv DATA SEQ:116 ACK:115, DATA:20884
+236.610 Recv DATA SEQ:117 ACK:116, DATA:20885
+236.880 Recv DATA SEQ:118 ACK:117, DATA:20886
+236.880 .... 887 packets received, 7703 bps, 96.29%, Err 0 (0.0e+00)
+237.135 Recv DATA SEQ:119 ACK:118, DATA:20887
+237.406 Recv DATA SEQ:120 ACK:119, DATA:20888
+237.660 Recv DATA SEQ:121 ACK:120, DATA:20889
+237.930 Recv DATA SEQ:122 ACK:121, DATA:20890
+238.201 Recv DATA SEQ:123 ACK:122, DATA:20891
+238.483 Recv DATA SEQ:124 ACK:123, DATA:20892
+238.739 Recv DATA SEQ:125 ACK:124, DATA:20893
+238.978 Recv DATA SEQ:126 ACK:125, DATA:20894
+238.978 .... 895 packets received, 7704 bps, 96.31%, Err 0 (0.0e+00)
+239.249 Recv DATA SEQ:127 ACK:126, DATA:20895
+239.520 Recv DATA SEQ:128 ACK:127, DATA:20896
+239.790 Recv DATA SEQ:129 ACK:128, DATA:20897
+240.061 Recv DATA SEQ:130 ACK:129, DATA:20898
+240.315 Recv DATA SEQ:131 ACK:130, DATA:20899
+240.587 Recv DATA SEQ:132 ACK:131, DATA:20900
+240.857 Recv DATA SEQ:133 ACK:132, DATA:20901
+241.116 Recv DATA SEQ:134 ACK:133, DATA:20902
+241.116 .... 903 packets received, 7704 bps, 96.30%, Err 0 (0.0e+00)
+241.387 Recv DATA SEQ:135 ACK:134, DATA:20903
+241.641 Recv DATA SEQ:136 ACK:135, DATA:20904
+241.912 Recv DATA SEQ:137 ACK:136, DATA:20905
+242.168 Recv DATA SEQ:138 ACK:137, DATA:20906
+242.438 Recv DATA SEQ:139 ACK:138, DATA:20907
+242.709 Recv DATA SEQ:140 ACK:139, DATA:20908
+242.964 Recv DATA SEQ:141 ACK:140, DATA:20909
+243.235 Recv DATA SEQ:142 ACK:141, DATA:20910
+243.235 .... 911 packets received, 7704 bps, 96.30%, Err 0 (0.0e+00)
+243.492 Recv DATA SEQ:143 ACK:142, DATA:20911
+243.764 Recv DATA SEQ:144 ACK:143, DATA:20912
+244.018 Recv DATA SEQ:145 ACK:144, DATA:20913
+244.289 Recv DATA SEQ:146 ACK:145, DATA:20914
+244.561 Recv DATA SEQ:147 ACK:146, DATA:20915
+244.816 Recv DATA SEQ:148 ACK:147, DATA:20916
+245.087 Recv DATA SEQ:149 ACK:148, DATA:20917
+245.344 Recv DATA SEQ:150 ACK:149, DATA:20918
+245.344 .... 919 packets received, 7705 bps, 96.31%, Err 0 (0.0e+00)
+245.636 Recv DATA SEQ:151 ACK:150, DATA:20919
+245.974 Recv DATA SEQ:152 ACK:151, DATA:20920
+246.131 Recv DATA SEQ:153 ACK:152, DATA:20921
+246.401 Recv DATA SEQ:154 ACK:153, DATA:20922
+246.671 Recv DATA SEQ:155 ACK:154, DATA:20923
+246.918 Recv DATA SEQ:156 ACK:155, DATA:20924
+247.222 Recv DATA SEQ:157 ACK:156, DATA:20925
+247.460 Recv DATA SEQ:158 ACK:157, DATA:20926
+247.460 .... 927 packets received, 7705 bps, 96.31%, Err 0 (0.0e+00)
+247.731 Recv DATA SEQ:159 ACK:158, DATA:20927
+247.983 Recv DATA SEQ:160 ACK:159, DATA:20928
+248.268 Recv DATA SEQ:161 ACK:160, DATA:20929
+248.537 Recv DATA SEQ:162 ACK:161, DATA:20930
+248.805 Recv DATA SEQ:163 ACK:162, DATA:20931
+249.060 Recv DATA SEQ:164 ACK:163, DATA:20932
+249.329 Recv DATA SEQ:165 ACK:164, DATA:20933
+249.600 Recv DATA SEQ:166 ACK:165, DATA:20934
+249.600 .... 935 packets received, 7705 bps, 96.31%, Err 0 (0.0e+00)
+249.872 Recv DATA SEQ:167 ACK:166, DATA:20935
+250.127 Recv DATA SEQ:168 ACK:167, DATA:20936
+250.397 Recv DATA SEQ:169 ACK:168, DATA:20937
+250.652 Recv DATA SEQ:170 ACK:169, DATA:20938
+250.922 Recv DATA SEQ:171 ACK:170, DATA:20939
+251.192 Recv DATA SEQ:172 ACK:171, DATA:20940
+251.449 Recv DATA SEQ:173 ACK:172, DATA:20941
+251.720 Recv DATA SEQ:174 ACK:173, DATA:20942
+251.721 .... 943 packets received, 7705 bps, 96.31%, Err 0 (0.0e+00)
+251.976 Recv DATA SEQ:175 ACK:174, DATA:20943
+252.231 Recv DATA SEQ:176 ACK:175, DATA:20944
+252.517 Recv DATA SEQ:177 ACK:176, DATA:20945
+252.756 Recv DATA SEQ:178 ACK:177, DATA:20946
+253.042 Recv DATA SEQ:179 ACK:178, DATA:20947
+253.313 Recv DATA SEQ:180 ACK:179, DATA:20948
+253.569 Recv DATA SEQ:181 ACK:180, DATA:20949
+253.824 Recv DATA SEQ:182 ACK:181, DATA:20950
+253.824 .... 951 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+254.095 Recv DATA SEQ:183 ACK:182, DATA:20951
+254.347 Recv DATA SEQ:184 ACK:183, DATA:20952
+254.635 Recv DATA SEQ:185 ACK:184, DATA:20953
+254.906 Recv DATA SEQ:186 ACK:185, DATA:20954
+255.158 Recv DATA SEQ:187 ACK:186, DATA:20955
+255.428 Recv DATA SEQ:188 ACK:187, DATA:20956
+255.711 Recv DATA SEQ:189 ACK:188, DATA:20957
+255.949 Recv DATA SEQ:190 ACK:189, DATA:20958
+255.949 .... 959 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+256.203 Recv DATA SEQ:191 ACK:190, DATA:20959
+256.474 Recv DATA SEQ:192 ACK:191, DATA:20960
+256.742 Recv DATA SEQ:193 ACK:192, DATA:20961
+257.012 Recv DATA SEQ:194 ACK:193, DATA:20962
+257.282 Recv DATA SEQ:195 ACK:194, DATA:20963
+257.550 Recv DATA SEQ:196 ACK:195, DATA:20964
+257.804 Recv DATA SEQ:197 ACK:196, DATA:20965
+258.075 Recv DATA SEQ:198 ACK:197, DATA:20966
+258.075 .... 967 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+258.345 Recv DATA SEQ:199 ACK:198, DATA:20967
+258.599 Recv DATA SEQ:200 ACK:199, DATA:20968
+258.869 Recv DATA SEQ:201 ACK:200, DATA:20969
+259.139 Recv DATA SEQ:202 ACK:201, DATA:20970
+259.396 Recv DATA SEQ:203 ACK:202, DATA:20971
+259.667 Recv DATA SEQ:204 ACK:203, DATA:20972
+259.939 Recv DATA SEQ:205 ACK:204, DATA:20973
+260.193 Recv DATA SEQ:206 ACK:205, DATA:20974
+260.194 .... 975 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+260.464 Recv DATA SEQ:207 ACK:206, DATA:20975
+260.718 Recv DATA SEQ:208 ACK:207, DATA:20976
+260.973 Recv DATA SEQ:209 ACK:208, DATA:20977
+261.243 Recv DATA SEQ:210 ACK:209, DATA:20978
+261.524 Recv DATA SEQ:211 ACK:210, DATA:20979
+261.778 Recv DATA SEQ:212 ACK:211, DATA:20980
+262.047 Recv DATA SEQ:213 ACK:212, DATA:20981
+262.318 Recv DATA SEQ:214 ACK:213, DATA:20982
+262.318 .... 983 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+262.589 Recv DATA SEQ:215 ACK:214, DATA:20983
+262.844 Recv DATA SEQ:216 ACK:215, DATA:20984
+263.115 Recv DATA SEQ:217 ACK:216, DATA:20985
+263.371 Recv DATA SEQ:218 ACK:217, DATA:20986
+263.646 Recv DATA SEQ:219 ACK:218, DATA:20987
+263.902 Recv DATA SEQ:220 ACK:219, DATA:20988
+264.162 Recv DATA SEQ:221 ACK:220, DATA:20989
+264.451 Recv DATA SEQ:222 ACK:221, DATA:20990
+264.451 .... 991 packets received, 7706 bps, 96.32%, Err 0 (0.0e+00)
+264.706 Recv DATA SEQ:223 ACK:222, DATA:20991
+264.946 Recv DATA SEQ:224 ACK:223, DATA:20992
+265.233 Recv DATA SEQ:225 ACK:224, DATA:20993
+265.488 Recv DATA SEQ:226 ACK:225, DATA:20994
+265.743 Recv DATA SEQ:227 ACK:226, DATA:20995
+266.030 Recv DATA SEQ:228 ACK:227, DATA:20996
+266.301 Recv DATA SEQ:229 ACK:228, DATA:20997
+266.555 Recv DATA SEQ:230 ACK:229, DATA:20998
+266.555 .... 999 packets received, 7706 bps, 96.33%, Err 0 (0.0e+00)
+266.825 Recv DATA SEQ:231 ACK:230, DATA:20999
+267.080 Recv DATA SEQ:232 ACK:231, DATA:21000
+267.352 Recv DATA SEQ:233 ACK:232, DATA:21001
+267.623 Recv DATA SEQ:234 ACK:233, DATA:21002
+267.862 Recv DATA SEQ:235 ACK:234, DATA:21003
+268.151 Recv DATA SEQ:236 ACK:235, DATA:21004
+268.405 Recv DATA SEQ:237 ACK:236, DATA:21005
+268.676 Recv DATA SEQ:238 ACK:237, DATA:21006
+268.677 .... 1007 packets received, 7707 bps, 96.33%, Err 0 (0.0e+00)
+268.948 Recv DATA SEQ:239 ACK:238, DATA:21007
+269.265 Recv DATA SEQ:240 ACK:239, DATA:21008
+269.493 Recv DATA SEQ:241 ACK:240, DATA:21009
+269.740 Recv DATA SEQ:242 ACK:241, DATA:21010
+270.011 Recv DATA SEQ:243 ACK:242, DATA:21011
+270.266 Recv DATA SEQ:244 ACK:243, DATA:21012
+270.538 Recv DATA SEQ:245 ACK:244, DATA:21013
+270.776 Recv DATA SEQ:246 ACK:245, DATA:21014
+270.777 .... 1015 packets received, 7707 bps, 96.34%, Err 0 (0.0e+00)
+271.047 Recv DATA SEQ:247 ACK:246, DATA:21015
+271.315 Recv DATA SEQ:248 ACK:247, DATA:21016
+271.586 Recv DATA SEQ:249 ACK:248, DATA:21017
+271.857 Recv DATA SEQ:250 ACK:249, DATA:21018
+272.112 Recv DATA SEQ:251 ACK:250, DATA:21019
+272.367 Recv DATA SEQ:252 ACK:251, DATA:21020
+272.637 Recv DATA SEQ:253 ACK:252, DATA:21021
+272.906 Recv DATA SEQ:254 ACK:253, DATA:21022
+272.906 .... 1023 packets received, 7707 bps, 96.34%, Err 0 (0.0e+00)
+273.158 Recv DATA SEQ:255 ACK:254, DATA:21023
+273.446 Recv DATA SEQ:0 ACK:255, DATA:21024
+273.715 Recv DATA SEQ:1 ACK:0, DATA:21025
+273.970 Recv DATA SEQ:2 ACK:1, DATA:21026
+274.240 Recv DATA SEQ:3 ACK:2, DATA:21027
+274.510 Recv DATA SEQ:4 ACK:3, DATA:21028
+274.764 Recv DATA SEQ:5 ACK:4, DATA:21029
+275.034 Recv DATA SEQ:6 ACK:5, DATA:21030
+275.035 .... 1031 packets received, 7707 bps, 96.34%, Err 0 (0.0e+00)
+275.287 Recv DATA SEQ:7 ACK:6, DATA:21031
+275.555 Recv DATA SEQ:8 ACK:7, DATA:21032
+275.825 Recv DATA SEQ:9 ACK:8, DATA:21033
+276.078 Recv DATA SEQ:10 ACK:9, DATA:21034
+276.348 Recv DATA SEQ:11 ACK:10, DATA:21035
+276.618 Recv DATA SEQ:12 ACK:11, DATA:21036
+276.871 Recv DATA SEQ:13 ACK:12, DATA:21037
+277.159 Recv DATA SEQ:14 ACK:13, DATA:21038
+277.159 .... 1039 packets received, 7707 bps, 96.34%, Err 0 (0.0e+00)
+277.411 Recv DATA SEQ:15 ACK:14, DATA:21039
+277.665 Recv DATA SEQ:16 ACK:15, DATA:21040
+277.953 Recv DATA SEQ:17 ACK:16, DATA:21041
+278.223 Recv DATA SEQ:18 ACK:17, DATA:21042
+278.461 Recv DATA SEQ:19 ACK:18, DATA:21043
+278.731 Recv DATA SEQ:20 ACK:19, DATA:21044
+279.017 Recv DATA SEQ:21 ACK:20, DATA:21045
+279.256 Recv DATA SEQ:22 ACK:21, DATA:21046
+279.256 .... 1047 packets received, 7708 bps, 96.35%, Err 0 (0.0e+00)
+279.527 Recv DATA SEQ:23 ACK:22, DATA:21047
+279.814 Recv DATA SEQ:24 ACK:23, DATA:21048
+280.052 Recv DATA SEQ:25 ACK:24, DATA:21049
+280.339 Recv DATA SEQ:26 ACK:25, DATA:21050
+280.609 Recv DATA SEQ:27 ACK:26, DATA:21051
+280.849 Recv DATA SEQ:28 ACK:27, DATA:21052
+281.119 Recv DATA SEQ:29 ACK:28, DATA:21053
+281.406 Recv DATA SEQ:30 ACK:29, DATA:21054
+281.406 .... 1055 packets received, 7707 bps, 96.34%, Err 0 (0.0e+00)
+281.645 Recv DATA SEQ:31 ACK:30, DATA:21055
+281.916 Recv DATA SEQ:32 ACK:31, DATA:21056
+282.187 Recv DATA SEQ:33 ACK:32, DATA:21057
+282.442 Recv DATA SEQ:34 ACK:33, DATA:21058
+282.712 Recv DATA SEQ:35 ACK:34, DATA:21059
+282.965 Recv DATA SEQ:36 ACK:35, DATA:21060
+283.252 Recv DATA SEQ:37 ACK:36, DATA:21061
+283.521 Recv DATA SEQ:38 ACK:37, DATA:21062
+283.521 .... 1063 packets received, 7708 bps, 96.34%, Err 0 (0.0e+00)
+283.775 Recv DATA SEQ:39 ACK:38, DATA:21063
+284.046 Recv DATA SEQ:40 ACK:39, DATA:21064
+284.317 Recv DATA SEQ:41 ACK:40, DATA:21065
+284.571 Recv DATA SEQ:42 ACK:41, DATA:21066
+284.826 Recv DATA SEQ:43 ACK:42, DATA:21067
+285.098 Recv DATA SEQ:44 ACK:43, DATA:21068
+285.368 Recv DATA SEQ:45 ACK:44, DATA:21069
+285.638 Recv DATA SEQ:46 ACK:45, DATA:21070
+285.638 .... 1071 packets received, 7708 bps, 96.35%, Err 0 (0.0e+00)
+285.908 Recv DATA SEQ:47 ACK:46, DATA:21071
+286.162 Recv DATA SEQ:48 ACK:47, DATA:21072
+286.433 Recv DATA SEQ:49 ACK:48, DATA:21073
+286.704 Recv DATA SEQ:50 ACK:49, DATA:21074
+286.944 Recv DATA SEQ:51 ACK:50, DATA:21075
+287.215 Recv DATA SEQ:52 ACK:51, DATA:21076
+287.470 Recv DATA SEQ:53 ACK:52, DATA:21077
+287.739 Recv DATA SEQ:54 ACK:53, DATA:21078
+287.739 .... 1079 packets received, 7708 bps, 96.36%, Err 0 (0.0e+00)
+288.010 Recv DATA SEQ:55 ACK:54, DATA:21079
+288.265 Recv DATA SEQ:56 ACK:55, DATA:21080
+288.553 Recv DATA SEQ:57 ACK:56, DATA:21081
+288.822 Recv DATA SEQ:58 ACK:57, DATA:21082
+289.077 Recv DATA SEQ:59 ACK:58, DATA:21083
+289.348 Recv DATA SEQ:60 ACK:59, DATA:21084
+289.617 Recv DATA SEQ:61 ACK:60, DATA:21085
+289.872 Recv DATA SEQ:62 ACK:61, DATA:21086
+289.872 .... 1087 packets received, 7708 bps, 96.35%, Err 0 (0.0e+00)
+290.142 Recv DATA SEQ:63 ACK:62, DATA:21087
+290.413 Recv DATA SEQ:64 ACK:63, DATA:21088
+290.668 Recv DATA SEQ:65 ACK:64, DATA:21089
+290.937 Recv DATA SEQ:66 ACK:65, DATA:21090
+291.208 Recv DATA SEQ:67 ACK:66, DATA:21091
+291.445 Recv DATA SEQ:68 ACK:67, DATA:21092
+291.731 Recv DATA SEQ:69 ACK:68, DATA:21093
+292.001 Recv DATA SEQ:70 ACK:69, DATA:21094
+292.001 .... 1095 packets received, 7708 bps, 96.35%, Err 0 (0.0e+00)
+292.255 Recv DATA SEQ:71 ACK:70, DATA:21095
+292.510 Recv DATA SEQ:72 ACK:71, DATA:21096
+292.781 Recv DATA SEQ:73 ACK:72, DATA:21097
+293.052 Recv DATA SEQ:74 ACK:73, DATA:21098
+293.308 Recv DATA SEQ:75 ACK:74, DATA:21099
+293.578 Recv DATA SEQ:76 ACK:75, DATA:21100
+293.834 Recv DATA SEQ:77 ACK:76, DATA:21101
+294.105 Recv DATA SEQ:78 ACK:77, DATA:21102
+294.105 .... 1103 packets received, 7709 bps, 96.36%, Err 0 (0.0e+00)
+294.376 Recv DATA SEQ:79 ACK:78, DATA:21103
+294.632 Recv DATA SEQ:80 ACK:79, DATA:21104
+294.903 Recv DATA SEQ:81 ACK:80, DATA:21105
+295.156 Recv DATA SEQ:82 ACK:81, DATA:21106
+295.427 Recv DATA SEQ:83 ACK:82, DATA:21107
+295.697 Recv DATA SEQ:84 ACK:83, DATA:21108
+295.951 Recv DATA SEQ:85 ACK:84, DATA:21109
+296.238 Recv DATA SEQ:86 ACK:85, DATA:21110
+296.238 .... 1111 packets received, 7709 bps, 96.36%, Err 0 (0.0e+00)
+296.493 Recv DATA SEQ:87 ACK:86, DATA:21111
+296.763 Recv DATA SEQ:88 ACK:87, DATA:21112
+297.033 Recv DATA SEQ:89 ACK:88, DATA:21113
+297.303 Recv DATA SEQ:90 ACK:89, DATA:21114
+297.542 Recv DATA SEQ:91 ACK:90, DATA:21115
+297.811 Recv DATA SEQ:92 ACK:91, DATA:21116
+298.080 Recv DATA SEQ:93 ACK:92, DATA:21117
+298.355 Recv DATA SEQ:94 ACK:93, DATA:21118
+298.355 .... 1119 packets received, 7709 bps, 96.36%, Err 0 (0.0e+00)
+298.626 Recv DATA SEQ:95 ACK:94, DATA:21119
+298.881 Recv DATA SEQ:96 ACK:95, DATA:21120
+299.153 Recv DATA SEQ:97 ACK:96, DATA:21121
+299.440 Recv DATA SEQ:98 ACK:97, DATA:21122
+299.679 Recv DATA SEQ:99 ACK:98, DATA:21123
+299.934 Recv DATA SEQ:100 ACK:99, DATA:21124
+300.199 Recv DATA SEQ:101 ACK:100, DATA:21125
+300.470 Recv DATA SEQ:102 ACK:101, DATA:21126
+300.470 .... 1127 packets received, 7709 bps, 96.36%, Err 0 (0.0e+00)
+300.741 Recv DATA SEQ:103 ACK:102, DATA:21127
+300.997 Recv DATA SEQ:104 ACK:103, DATA:21128
+301.250 Recv DATA SEQ:105 ACK:104, DATA:21129
+301.520 Recv DATA SEQ:106 ACK:105, DATA:21130
+301.807 Recv DATA SEQ:107 ACK:106, DATA:21131
+302.046 Recv DATA SEQ:108 ACK:107, DATA:21132
+302.317 Recv DATA SEQ:109 ACK:108, DATA:21133
+302.604 Recv DATA SEQ:110 ACK:109, DATA:21134
+302.604 .... 1135 packets received, 7709 bps, 96.36%, Err 0 (0.0e+00)
+302.843 Recv DATA SEQ:111 ACK:110, DATA:21135
+303.128 Recv DATA SEQ:112 ACK:111, DATA:21136
+303.399 Recv DATA SEQ:113 ACK:112, DATA:21137
+303.638 Recv DATA SEQ:114 ACK:113, DATA:21138
+303.909 Recv DATA SEQ:115 ACK:114, DATA:21139
+304.178 Recv DATA SEQ:116 ACK:115, DATA:21140
+304.433 Recv DATA SEQ:117 ACK:116, DATA:21141
+304.699 Recv DATA SEQ:118 ACK:117, DATA:21142
+304.699 .... 1143 packets received, 7710 bps, 96.37%, Err 0 (0.0e+00)
+304.984 Recv DATA SEQ:119 ACK:118, DATA:21143
+305.240 Recv DATA SEQ:120 ACK:119, DATA:21144
+305.511 Recv DATA SEQ:121 ACK:120, DATA:21145
+305.781 Recv DATA SEQ:122 ACK:121, DATA:21146
+306.037 Recv DATA SEQ:123 ACK:122, DATA:21147
+306.307 Recv DATA SEQ:124 ACK:123, DATA:21148
+306.578 Recv DATA SEQ:125 ACK:124, DATA:21149
+306.833 Recv DATA SEQ:126 ACK:125, DATA:21150
+306.833 .... 1151 packets received, 7709 bps, 96.37%, Err 0 (0.0e+00)
+307.104 Recv DATA SEQ:127 ACK:126, DATA:21151
+307.360 Recv DATA SEQ:128 ACK:127, DATA:21152
+307.630 Recv DATA SEQ:129 ACK:128, DATA:21153
+307.901 Recv DATA SEQ:130 ACK:129, DATA:21154
+308.155 Recv DATA SEQ:131 ACK:130, DATA:21155
+308.426 Recv DATA SEQ:132 ACK:131, DATA:21156
+308.696 Recv DATA SEQ:133 ACK:132, DATA:21157
+308.951 Recv DATA SEQ:134 ACK:133, DATA:21158
+308.951 .... 1159 packets received, 7710 bps, 96.37%, Err 0 (0.0e+00)
+309.206 Recv DATA SEQ:135 ACK:134, DATA:21159
+309.474 Recv DATA SEQ:136 ACK:135, DATA:21160
+309.744 Recv DATA SEQ:137 ACK:136, DATA:21161
+309.998 Recv DATA SEQ:138 ACK:137, DATA:21162
+310.268 Recv DATA SEQ:139 ACK:138, DATA:21163
+310.539 Recv DATA SEQ:140 ACK:139, DATA:21164
+310.794 Recv DATA SEQ:141 ACK:140, DATA:21165
+311.065 Recv DATA SEQ:142 ACK:141, DATA:21166
+311.065 .... 1167 packets received, 7710 bps, 96.37%, Err 0 (0.0e+00)
+311.333 Recv DATA SEQ:143 ACK:142, DATA:21167
+311.587 Recv DATA SEQ:144 ACK:143, DATA:21168
+311.858 Recv DATA SEQ:145 ACK:144, DATA:21169
+312.143 Recv DATA SEQ:146 ACK:145, DATA:21170
+312.399 Recv DATA SEQ:147 ACK:146, DATA:21171
+312.670 Recv DATA SEQ:148 ACK:147, DATA:21172
+312.925 Recv DATA SEQ:149 ACK:148, DATA:21173
+313.195 Recv DATA SEQ:150 ACK:149, DATA:21174
+313.195 .... 1175 packets received, 7710 bps, 96.37%, Err 0 (0.0e+00)
+313.464 Recv DATA SEQ:151 ACK:150, DATA:21175
+313.734 Recv DATA SEQ:152 ACK:151, DATA:21176
+313.988 Recv DATA SEQ:153 ACK:152, DATA:21177
+314.259 Recv DATA SEQ:154 ACK:153, DATA:21178
+314.529 Recv DATA SEQ:155 ACK:154, DATA:21179
+314.765 Recv DATA SEQ:156 ACK:155, DATA:21180
+315.035 Recv DATA SEQ:157 ACK:156, DATA:21181
+315.306 Recv DATA SEQ:158 ACK:157, DATA:21182
+315.306 .... 1183 packets received, 7710 bps, 96.38%, Err 0 (0.0e+00)
+315.561 Recv DATA SEQ:159 ACK:158, DATA:21183
+315.830 Recv DATA SEQ:160 ACK:159, DATA:21184
+316.100 Recv DATA SEQ:161 ACK:160, DATA:21185
+316.355 Recv DATA SEQ:162 ACK:161, DATA:21186
+316.642 Recv DATA SEQ:163 ACK:162, DATA:21187
+316.897 Recv DATA SEQ:164 ACK:163, DATA:21188
+317.158 Recv DATA SEQ:165 ACK:164, DATA:21189
+317.428 Recv DATA SEQ:166 ACK:165, DATA:21190
+317.428 .... 1191 packets received, 7710 bps, 96.38%, Err 0 (0.0e+00)
+317.699 Recv DATA SEQ:167 ACK:166, DATA:21191
+317.970 Recv DATA SEQ:168 ACK:167, DATA:21192
+318.225 Recv DATA SEQ:169 ACK:168, DATA:21193
+318.497 Recv DATA SEQ:170 ACK:169, DATA:21194
+318.766 Recv DATA SEQ:171 ACK:170, DATA:21195
+319.022 Recv DAT

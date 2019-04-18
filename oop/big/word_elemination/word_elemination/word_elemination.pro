@@ -29,17 +29,25 @@ SOURCES += \
         initialform.cpp \
     auth.cpp \
     user.cpp \
-    challenge.cpp
+    challenge.cpp \
+    common.cpp \
+    localconnect.cpp \
+    serverconnect.cpp \
+    userhomeform.cpp
 
 HEADERS += \
         initialform.h \
     auth.h \
     user.h \
     challenge.h \
-    common.h
+    common.h \
+    localconnect.h \
+    serverconnect.h \
+    userhomeform.h
 
 FORMS += \
-        initialform.ui
+        initialform.ui \
+    userhomeform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

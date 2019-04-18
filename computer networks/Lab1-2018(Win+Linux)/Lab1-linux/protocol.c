@@ -14,7 +14,7 @@ static time_t epoch; /* epoch timestamp (be same for Station A & B) */
 #include <sys/types.h>
 #include <sys/timeb.h>
 #include "getopt.h"
-
+#include <ctype.h>
 #define getopt_long getopt_int
 #define stricmp _stricmp
 

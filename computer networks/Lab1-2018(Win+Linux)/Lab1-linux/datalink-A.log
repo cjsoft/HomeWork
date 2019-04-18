@@ -3,450 +3,72 @@
 000.000 -------------------------------------------------------------
 000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
 000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
-000.000 Log file "./datalink-A.log", TCP port 10087, debug mask 0x07
-000.000 Station A is waiting for station B on TCP port 10087 ... Done.
-000.719 New epoch: Tue Apr 16 11:20:58 2019
-000.719 =================================================================
-000.719 
-000.719 Designed by CJSoft, build: Apr 16 2019  11:20:39
-000.719 Data 0 is sent, with ACK 0.
-000.974 Data 1 is sent, with ACK 0.
-001.117 Impose noise on received data, 1/640=1.6E-03
-001.227 Data 2 is sent, with ACK 0.
-001.498 Data 3 is sent, with ACK 0.
-001.578 **** Receiver Error, Bad CRC Checksum
-001.769 Data 4 is sent, with ACK 0.
-001.849 Incorrect seq
-002.023 Data 5 is sent, with ACK 0.
-002.119 Incorrect seq
-002.293 Data 6 is sent, with ACK 0.
-002.405 Incorrect seq
-002.565 Data 7 is sent, with ACK 0.
-002.676 Incorrect seq
-002.819 Data 8 is sent, with ACK 0.
-002.929 Frame accepted! 3-0
-002.946 Sending short frame ACK for 1.
-003.071 ---- DATA 4 timeout, resending DATA
-003.199 Frame accepted! 3-1
-003.215 Sending short frame ACK for 2.
-003.470 Frame accepted! 3-2
-003.470 .... 3 packets received, 2838 bps, 35.47%, Err 1 (5.2e-05)
-003.486 Sending short frame ACK for 3.
-003.690 ---- DATA 4 timeout, resending DATA
-003.722 Frame accepted! 3-3
-003.738 Sending short frame ACK for 4.
-003.989 Frame accepted! 3-4
-004.005 Sending short frame ACK for 5.
-004.272 Incorrect seq
-004.542 Incorrect seq
-004.830 Incorrect seq
-005.085 Incorrect seq
-005.356 Incorrect seq
-005.627 Frame accepted! 3-5
-005.627 .... 6 packets received, 2843 bps, 35.54%, Err 1 (2.7e-05)
-005.643 Sending short frame ACK for 6.
-005.707 Impose noise on received data, 2/37400=5.3E-05
-005.787 Data 9 is sent, with ACK 6.
-005.898 Frame accepted! 3-6
-005.914 Sending short frame ACK for 7.
-006.056 Data 10 is sent, with ACK 7.
-006.168 Frame accepted! 3-7
-006.184 Sending short frame ACK for 8.
-006.327 Data 11 is sent, with ACK 8.
-006.437 Frame accepted! 3-8
-006.453 Sending short frame ACK for 9.
-006.612 Data 12 is sent, with ACK 9.
-006.691 Frame accepted! 3-9
-006.707 Sending short frame ACK for 10.
-006.882 Data 13 is sent, with ACK 10.
-006.961 Frame accepted! 3-10
-006.977 Sending short frame ACK for 11.
-007.151 Data 14 is sent, with ACK 11.
-007.245 Frame accepted! 3-11
-007.261 Sending short frame ACK for 12.
-007.419 Data 15 is sent, with ACK 12.
-007.513 Frame accepted! 3-12
-007.530 Sending short frame ACK for 13.
-007.689 Data 16 is sent, with ACK 13.
-007.784 Frame accepted! 3-13
-007.784 .... 14 packets received, 4425 bps, 55.32%, Err 2 (3.7e-05)
-007.800 Sending short frame ACK for 14.
-007.974 Data 17 is sent, with ACK 14.
-008.051 Frame accepted! 3-14
-008.067 Sending short frame ACK for 15.
-008.242 Data 18 is sent, with ACK 15.
-008.336 Frame accepted! 3-15
-008.352 Sending short frame ACK for 16.
-008.512 Data 19 is sent, with ACK 16.
-008.605 Frame accepted! 3-16
-008.621 Sending short frame ACK for 17.
-008.781 Data 20 is sent, with ACK 17.
-008.877 Frame accepted! 3-17
-008.893 Sending short frame ACK for 18.
-009.067 Data 21 is sent, with ACK 18.
-009.147 Frame accepted! 3-18
-009.163 Sending short frame ACK for 19.
-009.338 Data 22 is sent, with ACK 19.
-009.417 Frame accepted! 3-19
-009.433 Sending short frame ACK for 20.
-009.608 Data 23 is sent, with ACK 20.
-009.687 Frame accepted! 3-20
-009.703 Sending short frame ACK for 21.
-009.878 Data 24 is sent, with ACK 21.
-009.957 Frame accepted! 3-21
-009.957 .... 22 packets received, 5208 bps, 65.09%, Err 2 (2.8e-05)
-009.973 Sending short frame ACK for 22.
-010.148 Data 25 is sent, with ACK 22.
-010.242 Frame accepted! 3-22
-010.258 Sending short frame ACK for 23.
-010.434 Data 26 is sent, with ACK 23.
-010.513 Frame accepted! 3-23
-010.530 Sending short frame ACK for 24.
-010.705 Data 27 is sent, with ACK 24.
-010.784 Frame accepted! 3-24
-010.800 Sending short frame ACK for 25.
-010.973 Data 28 is sent, with ACK 25.
-011.067 Frame accepted! 3-25
-011.083 Sending short frame ACK for 26.
-011.241 Data 29 is sent, with ACK 26.
-011.335 Frame accepted! 3-26
-011.351 Sending short frame ACK for 27.
-011.525 Data 30 is sent, with ACK 27.
-011.604 Frame accepted! 3-27
-011.620 Sending short frame ACK for 28.
-011.794 Data 31 is sent, with ACK 28.
-011.890 Frame accepted! 3-28
-011.906 Sending short frame ACK for 29.
-012.064 Data 32 is sent, with ACK 29.
-012.158 Frame accepted! 3-29
-012.158 .... 30 packets received, 5661 bps, 70.76%, Err 2 (2.3e-05)
-012.174 Sending short frame ACK for 30.
-012.334 Data 33 is sent, with ACK 30.
-012.427 Frame accepted! 3-30
-012.443 Sending short frame ACK for 31.
-012.617 Data 34 is sent, with ACK 31.
-012.697 Frame accepted! 3-31
-012.713 Sending short frame ACK for 32.
-012.889 Data 35 is sent, with ACK 32.
-012.985 Frame accepted! 3-32
-013.001 Sending short frame ACK for 33.
-013.160 Data 36 is sent, with ACK 33.
-013.239 Frame accepted! 3-33
-013.255 Sending short frame ACK for 34.
-013.431 Data 37 is sent, with ACK 34.
-013.509 Frame accepted! 3-34
-013.525 Sending short frame ACK for 35.
-013.700 Data 38 is sent, with ACK 35.
-013.779 Frame accepted! 3-35
-013.795 Sending short frame ACK for 36.
-013.973 Data 39 is sent, with ACK 36.
-014.052 Frame accepted! 3-36
-014.068 Sending short frame ACK for 37.
-014.244 Data 40 is sent, with ACK 37.
-014.323 Frame accepted! 3-37
-014.323 .... 38 packets received, 5978 bps, 74.73%, Err 2 (1.9e-05)
-014.340 Sending short frame ACK for 38.
-014.515 Data 41 is sent, with ACK 38.
-014.595 Frame accepted! 3-38
-014.610 Sending short frame ACK for 39.
-014.802 Data 42 is sent, with ACK 39.
-014.881 Frame accepted! 3-39
-014.897 Sending short frame ACK for 40.
-015.071 Data 43 is sent, with ACK 40.
-015.150 Frame accepted! 3-40
-015.166 Sending short frame ACK for 41.
-015.342 Data 44 is sent, with ACK 41.
-015.422 Frame accepted! 3-41
-015.438 Sending short frame ACK for 42.
-015.613 Data 45 is sent, with ACK 42.
-015.708 Frame accepted! 3-42
-015.724 Sending short frame ACK for 43.
-015.883 Data 46 is sent, with ACK 43.
-015.979 Frame accepted! 3-43
-015.995 Sending short frame ACK for 44.
-016.154 Data 47 is sent, with ACK 44.
-016.250 Frame accepted! 3-44
-016.266 Sending short frame ACK for 45.
-016.439 Data 48 is sent, with ACK 45.
-016.502 Frame accepted! 3-45
-016.502 .... 46 packets received, 6199 bps, 77.49%, Err 2 (1.6e-05)
-016.518 Sending short frame ACK for 46.
-016.708 Data 49 is sent, with ACK 46.
-016.802 Frame accepted! 3-46
-016.819 Sending short frame ACK for 47.
-016.977 Data 50 is sent, with ACK 47.
-017.071 Frame accepted! 3-47
-017.087 Sending short frame ACK for 48.
-017.245 Data 51 is sent, with ACK 48.
-017.325 Frame accepted! 3-48
-017.341 Sending short frame ACK for 49.
-017.532 Data 52 is sent, with ACK 49.
-017.596 Frame accepted! 3-49
-017.611 Sending short frame ACK for 50.
-017.802 Data 53 is sent, with ACK 50.
-017.881 Frame accepted! 3-50
-017.897 Sending short frame ACK for 51.
-018.072 Data 54 is sent, with ACK 51.
-018.151 Frame accepted! 3-51
-018.167 Sending short frame ACK for 52.
-018.342 Data 55 is sent, with ACK 52.
-018.438 Frame accepted! 3-52
-018.454 Sending short frame ACK for 53.
-018.614 Data 56 is sent, with ACK 53.
-018.709 Frame accepted! 3-53
-018.709 .... 54 packets received, 6354 bps, 79.43%, Err 2 (1.4e-05)
-018.725 Sending short frame ACK for 54.
-018.885 Data 57 is sent, with ACK 54.
-018.964 Frame accepted! 3-54
-018.980 Sending short frame ACK for 55.
-019.156 Data 58 is sent, with ACK 55.
-019.251 Frame accepted! 3-55
-019.268 Sending short frame ACK for 56.
-019.430 Data 59 is sent, with ACK 56.
-019.510 Frame accepted! 3-56
-019.526 Sending short frame ACK for 57.
-019.701 Data 60 is sent, with ACK 57.
-019.785 Frame accepted! 3-57
-019.802 Sending short frame ACK for 58.
-019.974 Data 61 is sent, with ACK 58.
-020.052 Frame accepted! 3-58
-020.067 Sending short frame ACK for 59.
-020.257 Data 62 is sent, with ACK 59.
-020.337 Frame accepted! 3-59
-020.352 Sending short frame ACK for 60.
-020.527 Data 63 is sent, with ACK 60.
-020.607 Frame accepted! 3-60
-020.623 Sending short frame ACK for 61.
-020.797 Data 64 is sent, with ACK 61.
-020.893 Frame accepted! 3-61
-020.893 .... 62 packets received, 6482 bps, 81.03%, Err 2 (1.3e-05)
-020.908 Sending short frame ACK for 62.
-021.067 Data 65 is sent, with ACK 62.
-021.154 Frame accepted! 3-62
-021.170 Sending short frame ACK for 63.
-021.348 Data 66 is sent, with ACK 63.
-021.428 Frame accepted! 3-63
-021.443 Sending short frame ACK for 64.
-021.619 Data 67 is sent, with ACK 64.
-021.714 Frame accepted! 3-64
-021.730 Sending short frame ACK for 65.
-021.891 Data 68 is sent, with ACK 65.
-021.987 Frame accepted! 3-65
-022.003 Sending short frame ACK for 66.
-022.166 Data 69 is sent, with ACK 66.
-022.255 Frame accepted! 3-66
-022.271 Sending short frame ACK for 67.
-022.431 Data 70 is sent, with ACK 67.
-022.526 Frame accepted! 3-67
-022.543 Sending short frame ACK for 68.
-022.716 Data 71 is sent, with ACK 68.
-022.795 Frame accepted! 3-68
-022.811 Sending short frame ACK for 69.
-022.986 Data 72 is sent, with ACK 69.
-023.068 Frame accepted! 3-69
-023.068 .... 70 packets received, 6587 bps, 82.34%, Err 2 (1.1e-05)
-023.085 Sending short frame ACK for 70.
-023.260 Data 73 is sent, with ACK 70.
-023.356 Frame accepted! 3-70
-023.371 Sending short frame ACK for 71.
-023.534 Data 74 is sent, with ACK 71.
-023.630 Frame accepted! 3-71
-023.646 Sending short frame ACK for 72.
-023.806 Data 75 is sent, with ACK 72.
-023.902 Frame accepted! 3-72
-023.918 Sending short frame ACK for 73.
-024.075 Data 76 is sent, with ACK 73.
-024.154 Frame accepted! 3-73
-024.170 Sending short frame ACK for 74.
-024.346 Data 77 is sent, with ACK 74.
-024.426 Frame accepted! 3-74
-024.442 Sending short frame ACK for 75.
-024.617 Data 78 is sent, with ACK 75.
-024.712 Frame accepted! 3-75
-024.728 Sending short frame ACK for 76.
-024.854 ---- DATA 74 timeout, resending DATA
-024.949 Frame accepted! 3-76
-024.965 Sending short frame ACK for 77.
-025.220 Frame accepted! 3-77
-025.220 .... 78 packets received, 6680 bps, 83.50%, Err 2 (1.0e-05)
-025.236 Sending short frame ACK for 78.
-025.491 Frame accepted! 3-78
-025.507 ---- DATA 74 timeout, resending DATA
-025.759 Frame accepted! 3-79
-025.774 Sending short frame ACK for 80.
-026.026 Frame accepted! 3-80
-026.042 Sending short frame ACK for 81.
-026.294 Incorrect seq
-026.565 Incorrect seq
-026.823 Incorrect seq
-027.093 Incorrect seq
-027.361 Incorrect seq
-027.582 Data 79 is sent, with ACK 81.
-027.614 Incorrect seq
-027.835 Data 80 is sent, with ACK 81.
-027.882 Incorrect seq
-028.106 Data 81 is sent, with ACK 81.
-028.169 Incorrect seq
-028.376 Data 82 is sent, with ACK 81.
-028.441 Incorrect seq
-028.632 Data 83 is sent, with ACK 81.
-028.679 Incorrect seq
-028.902 Data 84 is sent, with ACK 81.
-028.983 Frame accepted! 3-81
-028.983 .... 82 packets received, 6067 bps, 75.84%, Err 2 (8.9e-06)
-028.998 Sending short frame ACK for 82.
-029.172 Data 85 is sent, with ACK 82.
-029.236 Frame accepted! 3-82
-029.252 Sending short frame ACK for 83.
-029.443 Data 86 is sent, with ACK 83.
-029.507 Frame accepted! 3-83
-029.524 Sending short frame ACK for 84.
-029.728 Data 87 is sent, with ACK 84.
-029.776 Frame accepted! 3-84
-029.792 Sending short frame ACK for 85.
-029.997 Data 88 is sent, with ACK 85.
-030.044 Frame accepted! 3-85
-030.060 Sending short frame ACK for 86.
-030.266 Data 89 is sent, with ACK 86.
-030.329 Frame accepted! 3-86
-030.346 Sending short frame ACK for 87.
-030.537 Data 90 is sent, with ACK 87.
-030.600 Frame accepted! 3-87
-030.616 Sending short frame ACK for 88.
-030.808 Data 91 is sent, with ACK 88.
-030.871 Frame accepted! 3-88
-030.888 Sending short frame ACK for 89.
-031.079 Data 92 is sent, with ACK 89.
-031.143 Frame accepted! 3-89
-031.143 .... 90 packets received, 6177 bps, 77.22%, Err 2 (8.3e-06)
-031.159 Sending short frame ACK for 90.
-031.365 Data 93 is sent, with ACK 90.
-031.398 Frame accepted! 3-90
-031.415 Sending short frame ACK for 91.
-031.641 Data 94 is sent, with ACK 91.
-031.688 Frame accepted! 3-91
-031.705 Sending short frame ACK for 92.
-031.911 Data 95 is sent, with ACK 92.
-031.958 Frame accepted! 3-92
-031.974 Sending short frame ACK for 93.
-032.180 Data 96 is sent, with ACK 93.
-032.227 Frame accepted! 3-93
-032.243 Sending short frame ACK for 94.
-032.447 Data 97 is sent, with ACK 94.
-032.494 Frame accepted! 3-94
-032.510 Sending short frame ACK for 95.
-032.729 Data 98 is sent, with ACK 95.
-032.761 Frame accepted! 3-95
-032.777 Sending short frame ACK for 96.
-032.999 Data 99 is sent, with ACK 96.
-033.030 Frame accepted! 3-96
-033.046 Sending short frame ACK for 97.
-033.078 Impose noise on received data, 3/256280=1.2E-05
-033.269 Data 100 is sent, with ACK 97.
-033.300 Frame accepted! 3-97
-033.300 .... 98 packets received, 6273 bps, 78.41%, Err 3 (1.2e-05)
-033.316 Sending short frame ACK for 98.
-033.538 Data 101 is sent, with ACK 98.
-033.569 Frame accepted! 3-98
-033.585 Sending short frame ACK for 99.
-033.824 Data 102 is sent, with ACK 99.
-033.840 Frame accepted! 3-99
-033.856 Sending short frame ACK for 100.
-034.094 Data 103 is sent, with ACK 100.
-034.110 Frame accepted! 3-100
-034.126 Sending short frame ACK for 101.
-034.317 ---- DATA 99 timeout, resending DATA
-034.381 Frame accepted! 3-101
-034.397 Sending short frame ACK for 102.
-034.635 Frame accepted! 3-102
-034.651 Sending short frame ACK for 103.
-034.906 Frame accepted! 3-103
-034.922 Sending short frame ACK for 104.
-034.986 ---- DATA 99 timeout, resending DATA
-035.176 Frame accepted! 3-104
-035.192 Sending short frame ACK for 105.
-035.430 Frame accepted! 3-105
-035.431 .... 106 packets received, 6362 bps, 79.52%, Err 3 (1.1e-05)
-035.446 Sending short frame ACK for 106.
-035.700 Incorrect seq
-035.971 Incorrect seq
-036.242 Incorrect seq
-036.496 Incorrect seq
-036.766 Incorrect seq
-037.053 Incorrect seq
-037.053 Data 104 is sent, with ACK 106.
-037.307 Incorrect seq
-037.323 Data 105 is sent, with ACK 106.
-037.578 Incorrect seq
-037.578 Data 106 is sent, with ACK 106.
-037.833 Incorrect seq
-037.849 Data 107 is sent, with ACK 106.
-038.100 Incorrect seq
-038.116 Data 108 is sent, with ACK 106.
-038.384 Frame accepted! 3-106
-038.384 .... 107 packets received, 5910 bps, 73.87%, Err 3 (1.0e-05)
-038.384 Data 109 is sent, with ACK 107.
-038.636 Data 110 is sent, with ACK 107.
-038.652 Frame accepted! 3-107
-038.668 Sending short frame ACK for 108.
-038.923 Data 111 is sent, with ACK 108.
-038.939 Frame accepted! 3-108
-038.955 Sending short frame ACK for 109.
-039.195 Data 112 is sent, with ACK 109.
-039.210 Frame accepted! 3-109
-039.226 Sending short frame ACK for 110.
-039.464 Data 113 is sent, with ACK 110.
-039.480 Frame accepted! 3-110
-039.496 Sending short frame ACK for 111.
-039.734 Data 114 is sent, with ACK 111.
-039.750 Frame accepted! 3-111
-039.766 Sending short frame ACK for 112.
-040.004 Data 115 is sent, with ACK 112.
-040.019 Frame accepted! 3-112
-040.035 Sending short frame ACK for 113.
-040.286 Frame accepted! 3-113
-040.286 Data 116 is sent, with ACK 114.
-040.540 Data 117 is sent, with ACK 114.
-040.572 Frame accepted! 3-114
-040.572 .... 115 packets received, 5998 bps, 74.97%, Err 3 (9.5e-06)
-040.588 Sending short frame ACK for 115.
-040.811 Data 118 is sent, with ACK 115.
-040.842 Frame accepted! 3-115
-040.858 Sending short frame ACK for 116.
-041.097 Data 119 is sent, with ACK 116.
-041.112 Frame accepted! 3-116
-041.128 Sending short frame ACK for 117.
-041.366 Data 120 is sent, with ACK 117.
-041.382 Frame accepted! 3-117
-041.399 Sending short frame ACK for 118.
-041.644 Data 121 is sent, with ACK 118.
-041.659 Frame accepted! 3-118
-041.675 Sending short frame ACK for 119.
-041.915 Data 122 is sent, with ACK 119.
-041.947 Frame accepted! 3-119
-041.963 Sending short frame ACK for 120.
-042.187 Data 123 is sent, with ACK 120.
-042.218 Frame accepted! 3-120
-042.234 Sending short frame ACK for 121.
-042.452 Data 124 is sent, with ACK 121.
-042.484 Frame accepted! 3-121
-042.503 Sending short frame ACK for 122.
-042.736 Data 125 is sent, with ACK 122.
-042.768 Frame accepted! 3-122
-042.768 .... 123 packets received, 6075 bps, 75.94%, Err 3 (9.0e-06)
-042.783 Sending short frame ACK for 123.
-043.010 Data 126 is sent, with ACK 123.
-043.043 Frame accepted! 3-123
-043.059 Sending short frame ACK for 124.
-043.278 Data 127 is sent, with ACK 124.
-043.310 Frame accepted! 3-124
-043.326 Sending short frame ACK for 125.
-043.547 Data 128 is sent, with ACK 125.
-043.578 Frame accepted! 3-125
-043.594 Sending short frame ACK for 126.
-043.829 Data 129 is sent, with ACK 126.
-043.845 Frame accepted! 3-126
-043.861 Sending short frame ACK for 127.
-044.098 Data 130 is sent, with ACK 127.
-044.113 Frame accepted! 3-127
-044.129 TCP disconnected.
+000.000 Log file "./datalink-A.log", TCP port 59144, debug mask 0x00
+000.000 Station A is waiting for station B on TCP port 59144 ... Done.
+000.634 New epoch: Wed Apr 17 11:48:33 2019
+000.634 =================================================================
+000.634 
+000.634 Designed by CJSoft, build: Apr 17 2019  11:48:16
+003.433 .... 3 packets received, 2883 bps, 36.04%, Err 1 (5.2e-05)
+005.596 .... 6 packets received, 2862 bps, 35.77%, Err 2 (5.5e-05)
+007.701 .... 9 packets received, 2880 bps, 36.01%, Err 2 (3.8e-05)
+009.881 .... 12 packets received, 2865 bps, 35.81%, Err 2 (2.8e-05)
+011.984 .... 20 packets received, 3834 bps, 47.93%, Err 2 (2.3e-05)
+014.114 .... 28 packets received, 4476 bps, 55.95%, Err 2 (1.9e-05)
+016.230 .... 36 packets received, 4939 bps, 61.74%, Err 2 (1.6e-05)
+018.347 .... 44 packets received, 5287 bps, 66.08%, Err 2 (1.4e-05)
+020.455 .... 52 packets received, 5560 bps, 69.50%, Err 2 (1.3e-05)
+022.584 .... 60 packets received, 5774 bps, 72.17%, Err 2 (1.2e-05)
+024.718 .... 68 packets received, 5947 bps, 74.34%, Err 2 (1.1e-05)
+026.817 .... 71 packets received, 5699 bps, 71.24%, Err 2 (9.7e-06)
+030.556 .... 75 packets received, 5251 bps, 65.63%, Err 2 (8.5e-06)
+034.545 .... 80 packets received, 4929 bps, 61.61%, Err 2 (7.5e-06)
+038.573 .... 85 packets received, 4671 bps, 58.38%, Err 2 (6.7e-06)
+042.552 .... 90 packets received, 4468 bps, 55.85%, Err 3 (9.0e-06)
+044.673 .... 98 packets received, 4628 bps, 57.85%, Err 3 (8.6e-06)
+046.792 .... 106 packets received, 4772 bps, 59.65%, Err 3 (8.2e-06)
+048.913 .... 114 packets received, 4904 bps, 61.30%, Err 3 (7.8e-06)
+051.031 .... 122 packets received, 5024 bps, 62.80%, Err 3 (7.5e-06)
+053.174 .... 130 packets received, 5133 bps, 64.16%, Err 3 (7.2e-06)
+055.279 .... 138 packets received, 5236 bps, 65.45%, Err 3 (6.9e-06)
+057.411 .... 146 packets received, 5329 bps, 66.61%, Err 3 (6.7e-06)
+059.525 .... 154 packets received, 5417 bps, 67.71%, Err 3 (6.4e-06)
+062.705 .... 161 packets received, 5370 bps, 67.12%, Err 3 (6.1e-06)
+066.718 .... 166 packets received, 5197 bps, 64.96%, Err 3 (5.7e-06)
+070.723 .... 171 packets received, 5045 bps, 63.06%, Err 3 (5.4e-06)
+076.056 .... 176 packets received, 4822 bps, 60.27%, Err 4 (6.7e-06)
+078.429 .... 180 packets received, 4780 bps, 59.75%, Err 5 (8.1e-06)
+083.285 .... 186 packets received, 4646 bps, 58.08%, Err 5 (7.6e-06)
+085.966 .... 191 packets received, 4620 bps, 57.75%, Err 5 (7.4e-06)
+088.633 .... 196 packets received, 4596 bps, 57.45%, Err 5 (7.1e-06)
+091.305 .... 201 packets received, 4574 bps, 57.17%, Err 5 (6.9e-06)
+094.002 .... 206 packets received, 4551 bps, 56.89%, Err 6 (8.1e-06)
+096.156 .... 209 packets received, 4513 bps, 56.41%, Err 6 (7.9e-06)
+098.301 .... 213 packets received, 4497 bps, 56.22%, Err 6 (7.7e-06)
+100.448 .... 221 packets received, 4565 bps, 57.06%, Err 6 (7.6e-06)
+104.604 .... 222 packets received, 4401 bps, 55.02%, Err 6 (7.5e-06)
+108.758 .... 223 packets received, 4250 bps, 53.13%, Err 6 (7.5e-06)
+112.801 .... 224 packets received, 4114 bps, 51.43%, Err 6 (7.4e-06)
+116.909 .... 225 packets received, 3986 bps, 49.82%, Err 6 (7.4e-06)
+121.158 .... 226 packets received, 3862 bps, 48.27%, Err 6 (7.4e-06)
+125.281 .... 227 packets received, 3750 bps, 46.87%, Err 6 (7.4e-06)
+129.332 .... 228 packets received, 3647 bps, 45.59%, Err 6 (7.3e-06)
+133.442 .... 229 packets received, 3549 bps, 44.37%, Err 6 (7.2e-06)
+137.469 .... 230 packets received, 3459 bps, 43.24%, Err 6 (7.2e-06)
+141.684 .... 231 packets received, 3370 bps, 42.13%, Err 6 (7.2e-06)
+145.855 .... 232 packets received, 3287 bps, 41.09%, Err 6 (7.2e-06)
+149.981 .... 233 packets received, 3209 bps, 40.12%, Err 6 (7.1e-06)
+154.059 .... 234 packets received, 3137 bps, 39.22%, Err 6 (7.1e-06)
+158.245 .... 235 packets received, 3067 bps, 38.33%, Err 6 (7.0e-06)
+162.349 ** WARNING: System too busy, sleep 15 ms, but be awakened 76 ms later
+162.349 .... 236 packets received, 3001 bps, 37.51%, Err 6 (7.0e-06)
+164.626 ** WARNING: System too busy, sleep 15 ms, but be awakened 85 ms later
+166.376 .... 237 packets received, 2940 bps, 36.75%, Err 6 (7.0e-06)
+170.512 .... 238 packets received, 2881 bps, 36.01%, Err 6 (7.0e-06)
+174.617 .... 239 packets received, 2824 bps, 35.30%, Err 6 (6.9e-06)
+175.490 ** WARNING: System too busy, sleep 15 ms, but be awakened 139 ms later
+178.644 .... 240 packets received, 2772 bps, 34.64%, Err 6 (6.9e-06)
+182.838 .... 241 packets received, 2719 bps, 33.99%, Err 6 (6.9e-06)
+186.932 .... 242 packets received, 2670 bps, 33.37%, Err 6 (6.9e-06)
+191.015 .... 243 packets received, 2623 bps, 32.79%, Err 6 (6.9e-06)
+191.826 TCP disconnected.

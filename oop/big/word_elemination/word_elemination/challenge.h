@@ -1,9 +1,13 @@
-#ifndef CHALLENGE_H
-#define CHALLENGE_H
+#pragma once
+
 #include "common.h"
 #include <QString>
 #include <QVector>
 #include <QPair>
+
+
+#ifndef CHALLENGE_H
+#define CHALLENGE_H
 
 class Challenge
 {

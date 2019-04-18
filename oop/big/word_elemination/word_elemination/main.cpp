@@ -1,6 +1,9 @@
 #include "initialform.h"
+#include "userhomeform.h"
 #include <QApplication>
-
+class UserHomeForm;
+InitialForm *pInitialForm;
+UserHomeForm *pUserHomeForm;
 int main(int argc, char *argv[])
 {
     if (!qEnvironmentVariableIsSet("QT_DEVICE_PIXEL_RATIO")
@@ -11,8 +14,7 @@ int main(int argc, char *argv[])
             }
     QApplication a(argc, argv);
 
-    InitialForm w;
-    w.show();
-
+    pInitialForm = new InitialForm();
+    pInitialForm->show();
     return a.exec();
 }

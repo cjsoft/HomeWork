@@ -1,0 +1,117 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "./datalink-B.log", TCP port 10086, debug mask 0x00
+000.000 Station B is connecting station A (TCP port 10086) ... Done.
+000.134 New epoch: Wed Apr 17 12:09:57 2019
+000.134 =================================================================
+000.134 
+000.134 Designed by CJSoft, build: Apr 17 2019  12:07:58
+003.655 .... 7 packets received, 4494 bps, 56.18%, Err 0 (0.0e+00)
+007.705 .... 12 packets received, 3394 bps, 42.43%, Err 1 (1.7e-05)
+011.712 .... 17 packets received, 3096 bps, 38.69%, Err 1 (1.1e-05)
+015.733 .... 22 packets received, 2951 bps, 36.89%, Err 1 (8.0e-06)
+019.760 .... 27 packets received, 2866 bps, 35.82%, Err 1 (6.4e-06)
+023.748 .... 32 packets received, 2815 bps, 35.18%, Err 2 (1.1e-05)
+027.780 .... 37 packets received, 2774 bps, 34.68%, Err 2 (9.1e-06)
+031.791 .... 42 packets received, 2746 bps, 34.32%, Err 2 (7.9e-06)
+035.538 .... 46 packets received, 2686 bps, 33.58%, Err 4 (1.4e-05)
+037.476 ** WARNING: System too busy, sleep 15 ms, but be awakened 206 ms later
+040.352 .... 52 packets received, 2670 bps, 33.37%, Err 4 (1.2e-05)
+043.021 .... 57 packets received, 2743 bps, 34.29%, Err 4 (1.2e-05)
+045.704 .... 62 packets received, 2807 bps, 35.08%, Err 4 (1.1e-05)
+048.391 .... 67 packets received, 2863 bps, 35.79%, Err 4 (1.0e-05)
+051.104 .... 72 packets received, 2912 bps, 36.40%, Err 4 (9.8e-06)
+053.796 .... 77 packets received, 2957 bps, 36.96%, Err 4 (9.3e-06)
+056.487 .... 82 packets received, 2998 bps, 37.47%, Err 4 (8.9e-06)
+059.153 .... 87 packets received, 3036 bps, 37.95%, Err 4 (8.5e-06)
+061.841 .... 92 packets received, 3070 bps, 38.37%, Err 5 (1.0e-05)
+064.555 .... 97 packets received, 3100 bps, 38.75%, Err 5 (9.7e-06)
+067.227 .... 102 packets received, 3129 bps, 39.11%, Err 5 (9.3e-06)
+070.431 ** WARNING: System too busy, sleep 15 ms, but be awakened 114 ms later
+071.258 .... 107 packets received, 3095 bps, 38.69%, Err 6 (1.1e-05)
+073.957 .... 112 packets received, 3121 bps, 39.01%, Err 6 (1.0e-05)
+076.625 .... 117 packets received, 3146 bps, 39.33%, Err 6 (9.8e-06)
+079.315 .... 122 packets received, 3169 bps, 39.61%, Err 6 (9.5e-06)
+082.008 .... 127 packets received, 3190 bps, 39.87%, Err 6 (9.2e-06)
+084.690 .... 132 packets received, 3210 bps, 40.12%, Err 6 (8.9e-06)
+087.397 .... 137 packets received, 3228 bps, 40.34%, Err 6 (8.6e-06)
+091.420 .... 142 packets received, 3197 bps, 39.97%, Err 7 (9.6e-06)
+094.082 .... 147 packets received, 3216 bps, 40.20%, Err 7 (9.3e-06)
+096.655 ** WARNING: System too busy, sleep 15 ms, but be awakened 138 ms later
+096.969 .... 152 packets received, 3226 bps, 40.32%, Err 7 (9.0e-06)
+099.283 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
+100.871 .... 157 packets received, 3202 bps, 40.03%, Err 7 (8.7e-06)
+103.522 .... 162 packets received, 3219 bps, 40.24%, Err 7 (8.5e-06)
+105.102 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
+105.624 .... 165 packets received, 3213 bps, 40.17%, Err 7 (8.3e-06)
+107.730 .... 173 packets received, 3303 bps, 41.29%, Err 8 (9.3e-06)
+109.847 .... 176 packets received, 3295 bps, 41.19%, Err 8 (9.1e-06)
+112.000 .... 179 packets received, 3287 bps, 41.08%, Err 8 (8.9e-06)
+114.117 .... 187 packets received, 3370 bps, 42.12%, Err 8 (8.8e-06)
+117.324 .... 194 packets received, 3400 bps, 42.50%, Err 8 (8.5e-06)
+119.410 .... 202 packets received, 3478 bps, 43.48%, Err 8 (8.4e-06)
+121.540 .... 210 packets received, 3552 bps, 44.40%, Err 8 (8.2e-06)
+123.381 ** WARNING: System too busy, sleep 15 ms, but be awakened 73 ms later
+124.173 .... 215 packets received, 3559 bps, 44.49%, Err 8 (8.1e-06)
+125.885 ** WARNING: System too busy, sleep 15 ms, but be awakened 75 ms later
+126.306 .... 223 packets received, 3629 bps, 45.37%, Err 8 (7.9e-06)
+127.679 ** WARNING: System too busy, sleep 15 ms, but be awakened 83 ms later
+128.453 .... 231 packets received, 3696 bps, 46.20%, Err 8 (7.8e-06)
+130.494 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
+131.633 .... 238 packets received, 3716 bps, 46.45%, Err 9 (8.6e-06)
+133.810 ** WARNING: System too busy, sleep 15 ms, but be awakened 69 ms later
+134.237 .... 243 packets received, 3720 bps, 46.50%, Err 9 (8.4e-06)
+137.169 .... 249 packets received, 3730 bps, 46.63%, Err 11 (1.0e-05)
+139.814 .... 254 packets received, 3733 bps, 46.66%, Err 11 (9.9e-06)
+141.979 .... 262 packets received, 3792 bps, 47.40%, Err 12 (1.1e-05)
+144.082 .... 270 packets received, 3850 bps, 48.13%, Err 12 (1.0e-05)
+146.173 .... 278 packets received, 3907 bps, 48.84%, Err 13 (1.1e-05)
+148.319 .... 286 packets received, 3962 bps, 49.52%, Err 13 (1.1e-05)
+150.443 .... 294 packets received, 4015 bps, 50.18%, Err 13 (1.1e-05)
+152.587 .... 302 packets received, 4066 bps, 50.82%, Err 13 (1.1e-05)
+154.692 .... 310 packets received, 4117 bps, 51.46%, Err 13 (1.1e-05)
+156.820 .... 313 packets received, 4100 bps, 51.25%, Err 13 (1.0e-05)
+158.952 .... 321 packets received, 4148 bps, 51.85%, Err 13 (1.0e-05)
+161.046 .... 329 packets received, 4196 bps, 52.45%, Err 13 (1.0e-05)
+162.935 ** WARNING: System too busy, sleep 15 ms, but be awakened 79 ms later
+163.286 .... 337 packets received, 4239 bps, 52.99%, Err 13 (1.0e-05)
+165.309 .... 340 packets received, 4224 bps, 52.80%, Err 13 (9.8e-06)
+166.702 ** WARNING: System too busy, sleep 15 ms, but be awakened 76 ms later
+167.448 .... 348 packets received, 4268 bps, 53.35%, Err 13 (9.7e-06)
+168.625 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
+169.589 .... 356 packets received, 4311 bps, 53.89%, Err 13 (9.6e-06)
+170.675 ** WARNING: System too busy, sleep 15 ms, but be awakened 72 ms later
+172.587 .... 362 packets received, 4307 bps, 53.84%, Err 14 (1.0e-05)
+175.228 .... 367 packets received, 4301 bps, 53.76%, Err 15 (1.1e-05)
+177.796 .... 372 packets received, 4296 bps, 53.70%, Err 15 (1.1e-05)
+179.930 .... 380 packets received, 4336 bps, 54.21%, Err 15 (1.0e-05)
+181.802 ** WARNING: System too busy, sleep 15 ms, but be awakened 107 ms later
+181.943 .... 387 packets received, 4367 bps, 54.59%, Err 15 (1.0e-05)
+184.794 .... 393 packets received, 4366 bps, 54.58%, Err 16 (1.1e-05)
+186.724 ** WARNING: System too busy, sleep 15 ms, but be awakened 78 ms later
+186.840 .... 401 packets received, 4406 bps, 55.08%, Err 16 (1.1e-05)
+188.946 .... 409 packets received, 4444 bps, 55.55%, Err 16 (1.1e-05)
+191.080 .... 417 packets received, 4480 bps, 56.00%, Err 16 (1.0e-05)
+193.215 .... 425 packets received, 4516 bps, 56.45%, Err 16 (1.0e-05)
+195.353 .... 433 packets received, 4550 bps, 56.88%, Err 16 (1.0e-05)
+197.991 .... 438 packets received, 4541 bps, 56.77%, Err 17 (1.1e-05)
+200.629 ** WARNING: System too busy, sleep 15 ms, but be awakened 67 ms later
+200.762 .... 443 packets received, 4530 bps, 56.62%, Err 17 (1.1e-05)
+203.385 .... 448 packets received, 4522 bps, 56.52%, Err 17 (1.0e-05)
+207.377 .... 453 packets received, 4484 bps, 56.05%, Err 17 (1.0e-05)
+209.663 ** WARNING: System too busy, sleep 15 ms, but be awakened 67 ms later
+211.006 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
+211.617 .... 458 packets received, 4442 bps, 55.53%, Err 18 (1.1e-05)
+215.424 .... 463 packets received, 4411 bps, 55.14%, Err 18 (1.0e-05)
+219.440 .... 468 packets received, 4377 bps, 54.71%, Err 18 (1.0e-05)
+221.529 ** WARNING: System too busy, sleep 15 ms, but be awakened 71 ms later
+223.056 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
+223.883 .... 473 packets received, 4336 bps, 54.20%, Err 18 (1.0e-05)
+227.651 .... 478 packets received, 4309 bps, 53.86%, Err 18 (9.9e-06)
+231.639 .... 483 packets received, 4279 bps, 53.49%, Err 19 (1.0e-05)
+233.747 .... 486 packets received, 4267 bps, 53.33%, Err 20 (1.1e-05)
+235.981 .... 489 packets received, 4252 bps, 53.15%, Err 21 (1.1e-05)
+239.710 .... 493 packets received, 4220 bps, 52.75%, Err 21 (1.1e

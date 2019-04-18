@@ -1,54 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Selective" targetName="datalink" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="clion-debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_DIR="clion-release" />
+      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" GENERATION_DIR="clion-relwithdebinfo" />
+      <configuration PROFILE_NAME="MinSizeRel" CONFIG_NAME="MinSizeRel" GENERATION_DIR="clion-minsizerel" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e746c688-2c52-40c8-9a87-34ba88f02934" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OS/OS/tolset/z_tools/qemu/fdimage0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OS/OS/tolset/z_tools/qemu/fdimage0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OS/note/Day20.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OS/note/Day20.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/common.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/localconnect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/localconnect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/serverconnect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/serverconnect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/Lab1-linux - selective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/Lab1-linux - selective.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fbA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fbB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/uA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/uB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/ufA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/ufB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1-linux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1-linux.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-B.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink.o" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protocol.c" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../性能测试记录表.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../性能测试记录表.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol.o" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/initialform.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/initialform.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/word_elemination.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/word_elemination.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/ui_initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/ui_initialform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/challenge.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/challenge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro.user" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-relwithdebinfo/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-minsizerel/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/clion-debug/" />
+    <ignored path="$PROJECT_DIR$/clion-release/" />
+    <ignored path="$PROJECT_DIR$/clion-relwithdebinfo/" />
+    <ignored path="$PROJECT_DIR$/clion-minsizerel/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datalink.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="952">
+              <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -56,20 +110,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protocol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            <state relative-caret-position="986">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#51#63#0" expanded="true" />
+                <element signature="e#127#158#0" expanded="true" />
+                <element signature="e#167#185#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lprintf.c">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,14 +134,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protocol.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
-                <element signature="e#217#852#0" expanded="true" />
-                <element signature="e#4067#4188#0" expanded="true" />
+                <element signature="e#870#1373#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getopt.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13447">
+              <caret line="791" column="16" selection-start-line="791" selection-start-column="16" selection-end-line="791" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getopt.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -93,7 +163,6 @@
     <findStrings>
       <find>wsastart</find>
       <find>wsastartup</find>
-      <find>getopt</find>
       <find>event_type</find>
       <find>get_packet</find>
       <find>magic</find>
@@ -113,6 +182,12 @@
       <find>NR_BUFS</find>
       <find>start</find>
       <find>Memory</find>
+      <find>getopt_int</find>
+      <find>tolower</find>
+      <find>ack_t</find>
+      <find>ack_</find>
+      <find>getpt</find>
+      <find>getopt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,15 +196,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protocol.c" />
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/datalink.c" />
+        <option value="$PROJECT_DIR$/protocol.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1490" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1522" />
     <option name="height" value="1952" />
   </component>
@@ -145,11 +222,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="Lab1-linux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab1-linux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Lab1-linux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1-linux" type="462c0819:PsiDirectoryNode" />
+              <item name="clion-release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab1-linux" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -162,9 +244,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -183,6 +266,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="datalink" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Selective" TARGET_NAME="datalink" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Selective" RUN_TARGET_NAME="datalink">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -196,17 +286,19 @@
       <workItem from="1555316768363" duration="178000" />
       <workItem from="1555316970107" duration="25507000" />
       <workItem from="1555395789709" duration="1500000" />
+      <workItem from="1555469492114" duration="5748000" />
+      <workItem from="1555569277795" duration="740000" />
+      <workItem from="1555571287229" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27185000" />
+    <option name="totallyTimeSpent" value="33745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16494845" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16907217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,9 +309,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298122" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298122" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289941" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3298122" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.33802816" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -230,29 +324,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getopt.h" />
     <entry file="file://$PROJECT_DIR$/../Lab1-linux - bak - 副本/datalink.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lprintf.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protocol.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#217#852#0" expanded="true" />
-            <element signature="e#4067#4188#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -263,27 +338,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile" />
+    <entry file="file://$PROJECT_DIR$/lprintf.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="391">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protocol.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+    <entry file="file://$PROJECT_DIR$/clion-release/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clion-release/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="e#51#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datalink.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="952">
+          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+            <element signature="e#127#158#0" expanded="true" />
+            <element signature="e#167#185#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#870#1373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getopt.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13447">
+          <caret line="791" column="16" selection-start-line="791" selection-start-column="16" selection-end-line="791" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getopt.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
