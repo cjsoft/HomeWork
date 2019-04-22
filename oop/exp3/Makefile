@@ -1,9 +1,17 @@
-default main.out : main.cpp shape.cpp shape.h
-	g++ main.cpp -o main.out
+CPPFLAGS	=
+OBJS	= main.o shape.o
+HEADERS	= shape.h
+OUTPUT	= main.out
+LINK	=
+CC		= g++
+
+.PHONY : src_only clean
+$(OUTPUT) : $(OBJS) $(HEADERS) Makefile
+	$(CC) $(OBJS) -o $(OUTPUT) $(LINK)
 
 src_only clean :
-	-rm main.out
-
-run :
-	make main.out
-	./main.out
+	-$(RM) $(OUTPUT)
+	-$(RM) $(OBJS)
+run : $(OUTPUT)
+	make $(OUTPUT)
+	./$(OUTPUT)

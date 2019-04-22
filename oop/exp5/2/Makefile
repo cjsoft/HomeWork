@@ -1,8 +1,16 @@
-default main.out : main.cpp
-	g++ main.cpp -o main.out
-src_only clean :
-	-rm main.out
+OBJS	= main.o geometry.o
+HEADERS	= geometry.h
+OUTPUT	= main.out
+LINK	=
+CC		= g++
 
-run :
-	make main.out
-	./main.out
+.PHONY : src_only clean
+$(OUTPUT) : $(OBJS) $(HEADERS) Makefile
+	$(CC) $(OBJS) -o $(OUTPUT) $(LINK)
+
+src_only clean :
+	-$(RM) $(OUTPUT)
+	-$(RM) $(OBJS)
+run : $(OUTPUT)
+	make $(OUTPUT)
+	./$(OUTPUT)

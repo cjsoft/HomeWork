@@ -11,6 +11,7 @@ int main() {
         a1.setSideLength(10);
         x = &a1;
         cout << x->getArea() << endl;
+        cout << (&a1)->getArea() << endl;
     }
     
     {
@@ -19,5 +20,9 @@ int main() {
         a2.setHeight(20);
         x = &a2;
         cout << x->getArea() << endl;
+        cout << (&a2)->getArea() << endl;
     }
+    #ifdef TEST
+    Shape a;
+    #endif
 }

@@ -1,4 +1,5 @@
 #include "matrix.h"
+#include <iostream>
 #define TOSTR(a)           TOSTR_(a)
 #define TOSTR_(a)          #a
 #define CMB(a,b,c)         a##b##c

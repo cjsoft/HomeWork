@@ -1,0 +1,398 @@
+     1 00000000                                 ; naskfunc
+     2 00000000                                 ; TAB=4
+     3 00000000                                 
+     4 00000000                                 [FORMAT "WCOFF"]				; オブジェクトファイルを作るモード	
+     5 00000000                                 [INSTRSET "i486p"]				; 486の命令まで使いたいという記述
+     6 00000000                                 [BITS 32]						; 32ビットモード用の機械語を作らせる
+     7 00000000                                 [FILE "naskfunc.nas"]			; ソースファイル名情報
+     8 00000000                                 
+     9 00000000                                 		GLOBAL	_io_hlt, _io_cli, _io_sti, _io_stihlt
+    10 00000000                                 		GLOBAL	_io_in8,  _io_in16,  _io_in32
+    11 00000000                                 		GLOBAL	_io_out8, _io_out16, _io_out32
+    12 00000000                                 		GLOBAL	_io_load_eflags, _io_store_eflags
+    13 00000000                                 		GLOBAL	_load_gdtr, _load_idtr
+    14 00000000                                 		GLOBAL	_load_cr0, _store_cr0
+    15 00000000                                 		GLOBAL	_load_tr
+    16 00000000                                 		GLOBAL	_asm_inthandler20, _asm_inthandler21
+    17 00000000                                 		GLOBAL	_asm_inthandler27, _asm_inthandler2c
+    18 00000000                                 		GLOBAL	_memtest_sub
+    19 00000000                                 		GLOBAL	_farjmp, _farcall
+    20 00000000                                 		GLOBAL	_asm_hrb_api, _start_app
+    21 00000000                                 		EXTERN	_inthandler20, _inthandler21
+    22 00000000                                 		EXTERN	_inthandler27, _inthandler2c
+    23 00000000                                 		EXTERN	_hrb_api
+    24 00000000                                 
+    25                                          [SECTION .text]
+    26 00000000                                 
+    27 00000000                                 _io_hlt:	; void io_hlt(void);
+    28 00000000 F4                              		HLT
+    29 00000001 C3                              		RET
+    30 00000002                                 
+    31 00000002                                 _io_cli:	; void io_cli(void);
+    32 00000002 FA                              		CLI
+    33 00000003 C3                              		RET
+    34 00000004                                 
+    35 00000004                                 _io_sti:	; void io_sti(void);
+    36 00000004 FB                              		STI
+    37 00000005 C3                              		RET
+    38 00000006                                 
+    39 00000006                                 _io_stihlt:	; void io_stihlt(void);
+    40 00000006 FB                              		STI
+    41 00000007 F4                              		HLT
+    42 00000008 C3                              		RET
+    43 00000009                                 
+    44 00000009                                 _io_in8:	; int io_in8(int port);
+    45 00000009 8B 54 24 04                     		MOV		EDX,[ESP+4]		; port
+    46 0000000D B8 00000000                     		MOV		EAX,0
+    47 00000012 EC                              		IN		AL,DX
+    48 00000013 C3                              		RET
+    49 00000014                                 
+    50 00000014                                 _io_in16:	; int io_in16(int port);
+    51 00000014 8B 54 24 04                     		MOV		EDX,[ESP+4]		; port
+    52 00000018 B8 00000000                     		MOV		EAX,0
+    53 0000001D 66 ED                           		IN		AX,DX
+    54 0000001F C3                              		RET
+    55 00000020                                 
+    56 00000020                                 _io_in32:	; int io_in32(int port);
+    57 00000020 8B 54 24 04                     		MOV		EDX,[ESP+4]		; port
+    58 00000024 ED                              		IN		EAX,DX
+    59 00000025 C3                              		RET
+    60 00000026                                 
+    61 00000026                                 _io_out8:	; void io_out8(int port, int data);
+    62 00000026 8B 54 24 04                     		MOV		EDX,[ESP+4]		; port
+    63 0000002A 8A 44 24 08                     		MOV		AL,[ESP+8]		; data
+    64 0000002E EE                              		OUT		DX,AL
+    65 0000002F C3                              		RET
+    66 00000030                                 
+    67 00000030                                 _io_out16:	; void io_out16(int port, int data);
+    68 00000030 8B 54 24 04                     		MOV		EDX,[ESP+4]		; port
+    69 00000034 8B 44 24 08                     		MOV		EAX,[ESP+8]		; data
+    70 00000038 66 EF                           		OUT		DX,AX
+    71 0000003A C3                              		RET
+    72 0000003B                                 
+    73 0000003B                                 _io_out32:	; void io_out32(int port, int data);
+    74 0000003B 8B 54 24 04                     		MOV		EDX,[ESP+4]		; port
+    75 0000003F 8B 44 24 08                     		MOV		EAX,[ESP+8]		; data
+    76 00000043 EF                              		OUT		DX,EAX
+    77 00000044 C3                              		RET
+    78 00000045                                 
+    79 00000045                                 _io_load_eflags:	; int io_load_eflags(void);
+    80 00000045 9C                              		PUSHFD		; PUSH EFLAGS という意味
+    81 00000046 58                              		POP		EAX
+    82 00000047 C3                              		RET
+    83 00000048                                 
+    84 00000048                                 _io_store_eflags:	; void io_store_eflags(int eflags);
+    85 00000048 8B 44 24 04                     		MOV		EAX,[ESP+4]
+    86 0000004C 50                              		PUSH	EAX
+    87 0000004D 9D                              		POPFD		; POP EFLAGS という意味
+    88 0000004E C3                              		RET
+    89 0000004F                                 
+    90 0000004F                                 _load_gdtr:		; void load_gdtr(int limit, int addr);
+    91 0000004F 66 8B 44 24 04                  		MOV		AX,[ESP+4]		; limit
+    92 00000054 66 89 44 24 06                  		MOV		[ESP+6],AX
+    93 00000059 0F 01 54 24 06                  		LGDT	[ESP+6]
+    94 0000005E C3                              		RET
+    95 0000005F                                 
+    96 0000005F                                 _load_idtr:		; void load_idtr(int limit, int addr);
+    97 0000005F 66 8B 44 24 04                  		MOV		AX,[ESP+4]		; limit
+    98 00000064 66 89 44 24 06                  		MOV		[ESP+6],AX
+    99 00000069 0F 01 5C 24 06                  		LIDT	[ESP+6]
+   100 0000006E C3                              		RET
+   101 0000006F                                 
+   102 0000006F                                 _load_cr0:		; int load_cr0(void);
+   103 0000006F 0F 20 C0                        		MOV		EAX,CR0
+   104 00000072 C3                              		RET
+   105 00000073                                 
+   106 00000073                                 _store_cr0:		; void store_cr0(int cr0);
+   107 00000073 8B 44 24 04                     		MOV		EAX,[ESP+4]
+   108 00000077 0F 22 C0                        		MOV		CR0,EAX
+   109 0000007A C3                              		RET
+   110 0000007B                                 
+   111 0000007B                                 _load_tr:		; void load_tr(int tr);
+   112 0000007B 0F 00 5C 24 04                  		LTR		[ESP+4]			; tr
+   113 00000080 C3                              		RET
+   114 00000081                                 
+   115 00000081                                 _asm_inthandler20:
+   116 00000081 06                              		PUSH	ES
+   117 00000082 1E                              		PUSH	DS
+   118 00000083 60                              		PUSHAD
+   119 00000084 66 8C D0                        		MOV		AX,SS
+   120 00000087 66 3D 0008                      		CMP		AX,1*8
+   121 0000008B 75 17                           		JNE		.from_app
+   122 0000008D                                 ;	OSが動いているときに割り込まれたのでほぼ今までどおり
+   123 0000008D 89 E0                           		MOV		EAX,ESP
+   124 0000008F 16                              		PUSH	SS				; 割り込まれたときのSSを保存
+   125 00000090 50                              		PUSH	EAX				; 割り込まれたときのESPを保存
+   126 00000091 66 8C D0                        		MOV		AX,SS
+   127 00000094 8E D8                           		MOV		DS,AX
+   128 00000096 8E C0                           		MOV		ES,AX
+   129 00000098 E8 [00000000]                   		CALL	_inthandler20
+   130 0000009D 83 C4 08                        		ADD		ESP,8
+   131 000000A0 61                              		POPAD
+   132 000000A1 1F                              		POP		DS
+   133 000000A2 07                              		POP		ES
+   134 000000A3 CF                              		IRETD
+   135 000000A4                                 .from_app:
+   136 000000A4                                 ;	アプリが動いているときに割り込まれた
+   137 000000A4 B8 00000008                     		MOV		EAX,1*8
+   138 000000A9 8E D8                           		MOV		DS,AX			; とりあえずDSだけOS用にする
+   139 000000AB 8B 0D 00000FE4                  		MOV		ECX,[0xfe4]		; OSのESP
+   140 000000B1 83 C1 F8                        		ADD		ECX,-8
+   141 000000B4 8C 51 04                        		MOV		[ECX+4],SS		; 割り込まれたときのSSを保存
+   142 000000B7 89 21                           		MOV		[ECX  ],ESP		; 割り込まれたときのESPを保存
+   143 000000B9 8E D0                           		MOV		SS,AX
+   144 000000BB 8E C0                           		MOV		ES,AX
+   145 000000BD 89 CC                           		MOV		ESP,ECX
+   146 000000BF E8 [00000000]                   		CALL	_inthandler20
+   147 000000C4 59                              		POP		ECX
+   148 000000C5 58                              		POP		EAX
+   149 000000C6 8E D0                           		MOV		SS,AX			; SSをアプリ用に戻す
+   150 000000C8 89 CC                           		MOV		ESP,ECX			; ESPもアプリ用に戻す
+   151 000000CA 61                              		POPAD
+   152 000000CB 1F                              		POP		DS
+   153 000000CC 07                              		POP		ES
+   154 000000CD CF                              		IRETD
+   155 000000CE                                 
+   156 000000CE                                 _asm_inthandler21:
+   157 000000CE 06                              		PUSH	ES
+   158 000000CF 1E                              		PUSH	DS
+   159 000000D0 60                              		PUSHAD
+   160 000000D1 66 8C D0                        		MOV		AX,SS
+   161 000000D4 66 3D 0008                      		CMP		AX,1*8
+   162 000000D8 75 17                           		JNE		.from_app
+   163 000000DA                                 ;	OSが動いているときに割り込まれたのでほぼ今までどおり
+   164 000000DA 89 E0                           		MOV		EAX,ESP
+   165 000000DC 16                              		PUSH	SS				; 割り込まれたときのSSを保存
+   166 000000DD 50                              		PUSH	EAX				; 割り込まれたときのESPを保存
+   167 000000DE 66 8C D0                        		MOV		AX,SS
+   168 000000E1 8E D8                           		MOV		DS,AX
+   169 000000E3 8E C0                           		MOV		ES,AX
+   170 000000E5 E8 [00000000]                   		CALL	_inthandler21
+   171 000000EA 83 C4 08                        		ADD		ESP,8
+   172 000000ED 61                              		POPAD
+   173 000000EE 1F                              		POP		DS
+   174 000000EF 07                              		POP		ES
+   175 000000F0 CF                              		IRETD
+   176 000000F1                                 .from_app:
+   177 000000F1                                 ;	アプリが動いているときに割り込まれた
+   178 000000F1 B8 00000008                     		MOV		EAX,1*8
+   179 000000F6 8E D8                           		MOV		DS,AX			; とりあえずDSだけOS用にする
+   180 000000F8 8B 0D 00000FE4                  		MOV		ECX,[0xfe4]		; OSのESP
+   181 000000FE 83 C1 F8                        		ADD		ECX,-8
+   182 00000101 8C 51 04                        		MOV		[ECX+4],SS		; 割り込まれたときのSSを保存
+   183 00000104 89 21                           		MOV		[ECX  ],ESP		; 割り込まれたときのESPを保存
+   184 00000106 8E D0                           		MOV		SS,AX
+   185 00000108 8E C0                           		MOV		ES,AX
+   186 0000010A 89 CC                           		MOV		ESP,ECX
+   187 0000010C E8 [00000000]                   		CALL	_inthandler21
+   188 00000111 59                              		POP		ECX
+   189 00000112 58                              		POP		EAX
+   190 00000113 8E D0                           		MOV		SS,AX			; SSをアプリ用に戻す
+   191 00000115 89 CC                           		MOV		ESP,ECX			; ESPもアプリ用に戻す
+   192 00000117 61                              		POPAD
+   193 00000118 1F                              		POP		DS
+   194 00000119 07                              		POP		ES
+   195 0000011A CF                              		IRETD
+   196 0000011B                                 
+   197 0000011B                                 _asm_inthandler27:
+   198 0000011B 06                              		PUSH	ES
+   199 0000011C 1E                              		PUSH	DS
+   200 0000011D 60                              		PUSHAD
+   201 0000011E 66 8C D0                        		MOV		AX,SS
+   202 00000121 66 3D 0008                      		CMP		AX,1*8
+   203 00000125 75 17                           		JNE		.from_app
+   204 00000127                                 ;	OSが動いているときに割り込まれたのでほぼ今までどおり
+   205 00000127 89 E0                           		MOV		EAX,ESP
+   206 00000129 16                              		PUSH	SS				; 割り込まれたときのSSを保存
+   207 0000012A 50                              		PUSH	EAX				; 割り込まれたときのESPを保存
+   208 0000012B 66 8C D0                        		MOV		AX,SS
+   209 0000012E 8E D8                           		MOV		DS,AX
+   210 00000130 8E C0                           		MOV		ES,AX
+   211 00000132 E8 [00000000]                   		CALL	_inthandler27
+   212 00000137 83 C4 08                        		ADD		ESP,8
+   213 0000013A 61                              		POPAD
+   214 0000013B 1F                              		POP		DS
+   215 0000013C 07                              		POP		ES
+   216 0000013D CF                              		IRETD
+   217 0000013E                                 .from_app:
+   218 0000013E                                 ;	アプリが動いているときに割り込まれた
+   219 0000013E B8 00000008                     		MOV		EAX,1*8
+   220 00000143 8E D8                           		MOV		DS,AX			; とりあえずDSだけOS用にする
+   221 00000145 8B 0D 00000FE4                  		MOV		ECX,[0xfe4]		; OSのESP
+   222 0000014B 83 C1 F8                        		ADD		ECX,-8
+   223 0000014E 8C 51 04                        		MOV		[ECX+4],SS		; 割り込まれたときのSSを保存
+   224 00000151 89 21                           		MOV		[ECX  ],ESP		; 割り込まれたときのESPを保存
+   225 00000153 8E D0                           		MOV		SS,AX
+   226 00000155 8E C0                           		MOV		ES,AX
+   227 00000157 89 CC                           		MOV		ESP,ECX
+   228 00000159 E8 [00000000]                   		CALL	_inthandler27
+   229 0000015E 59                              		POP		ECX
+   230 0000015F 58                              		POP		EAX
+   231 00000160 8E D0                           		MOV		SS,AX			; SSをアプリ用に戻す
+   232 00000162 89 CC                           		MOV		ESP,ECX			; ESPもアプリ用に戻す
+   233 00000164 61                              		POPAD
+   234 00000165 1F                              		POP		DS
+   235 00000166 07                              		POP		ES
+   236 00000167 CF                              		IRETD
+   237 00000168                                 
+   238 00000168                                 _asm_inthandler2c:
+   239 00000168 06                              		PUSH	ES
+   240 00000169 1E                              		PUSH	DS
+   241 0000016A 60                              		PUSHAD
+   242 0000016B 66 8C D0                        		MOV		AX,SS
+   243 0000016E 66 3D 0008                      		CMP		AX,1*8
+   244 00000172 75 17                           		JNE		.from_app
+   245 00000174                                 ;	OSが動いているときに割り込まれたのでほぼ今までどおり
+   246 00000174 89 E0                           		MOV		EAX,ESP
+   247 00000176 16                              		PUSH	SS				; 割り込まれたときのSSを保存
+   248 00000177 50                              		PUSH	EAX				; 割り込まれたときのESPを保存
+   249 00000178 66 8C D0                        		MOV		AX,SS
+   250 0000017B 8E D8                           		MOV		DS,AX
+   251 0000017D 8E C0                           		MOV		ES,AX
+   252 0000017F E8 [00000000]                   		CALL	_inthandler2c
+   253 00000184 83 C4 08                        		ADD		ESP,8
+   254 00000187 61                              		POPAD
+   255 00000188 1F                              		POP		DS
+   256 00000189 07                              		POP		ES
+   257 0000018A CF                              		IRETD
+   258 0000018B                                 .from_app:
+   259 0000018B                                 ;	アプリが動いているときに割り込まれた
+   260 0000018B B8 00000008                     		MOV		EAX,1*8
+   261 00000190 8E D8                           		MOV		DS,AX			; とりあえずDSだけOS用にする
+   262 00000192 8B 0D 00000FE4                  		MOV		ECX,[0xfe4]		; OSのESP
+   263 00000198 83 C1 F8                        		ADD		ECX,-8
+   264 0000019B 8C 51 04                        		MOV		[ECX+4],SS		; 割り込まれたときのSSを保存
+   265 0000019E 89 21                           		MOV		[ECX  ],ESP		; 割り込まれたときのESPを保存
+   266 000001A0 8E D0                           		MOV		SS,AX
+   267 000001A2 8E C0                           		MOV		ES,AX
+   268 000001A4 89 CC                           		MOV		ESP,ECX
+   269 000001A6 E8 [00000000]                   		CALL	_inthandler2c
+   270 000001AB 59                              		POP		ECX
+   271 000001AC 58                              		POP		EAX
+   272 000001AD 8E D0                           		MOV		SS,AX			; SSをアプリ用に戻す
+   273 000001AF 89 CC                           		MOV		ESP,ECX			; ESPもアプリ用に戻す
+   274 000001B1 61                              		POPAD
+   275 000001B2 1F                              		POP		DS
+   276 000001B3 07                              		POP		ES
+   277 000001B4 CF                              		IRETD
+   278 000001B5                                 
+   279 000001B5                                 _memtest_sub:	; unsigned int memtest_sub(unsigned int start, unsigned int end)
+   280 000001B5 57                              		PUSH	EDI						; （EBX, ESI, EDI も使いたいので）
+   281 000001B6 56                              		PUSH	ESI
+   282 000001B7 53                              		PUSH	EBX
+   283 000001B8 BE AA55AA55                     		MOV		ESI,0xaa55aa55			; pat0 = 0xaa55aa55;
+   284 000001BD BF 55AA55AA                     		MOV		EDI,0x55aa55aa			; pat1 = 0x55aa55aa;
+   285 000001C2 8B 44 24 10                     		MOV		EAX,[ESP+12+4]			; i = start;
+   286 000001C6                                 mts_loop:
+   287 000001C6 89 C3                           		MOV		EBX,EAX
+   288 000001C8 81 C3 00000FFC                  		ADD		EBX,0xffc				; p = i + 0xffc;
+   289 000001CE 8B 13                           		MOV		EDX,[EBX]				; old = *p;
+   290 000001D0 89 33                           		MOV		[EBX],ESI				; *p = pat0;
+   291 000001D2 83 33 FF                        		XOR		DWORD [EBX],0xffffffff	; *p ^= 0xffffffff;
+   292 000001D5 3B 3B                           		CMP		EDI,[EBX]				; if (*p != pat1) goto fin;
+   293 000001D7 75 18                           		JNE		mts_fin
+   294 000001D9 83 33 FF                        		XOR		DWORD [EBX],0xffffffff	; *p ^= 0xffffffff;
+   295 000001DC 3B 33                           		CMP		ESI,[EBX]				; if (*p != pat0) goto fin;
+   296 000001DE 75 11                           		JNE		mts_fin
+   297 000001E0 89 13                           		MOV		[EBX],EDX				; *p = old;
+   298 000001E2 05 00001000                     		ADD		EAX,0x1000				; i += 0x1000;
+   299 000001E7 3B 44 24 14                     		CMP		EAX,[ESP+12+8]			; if (i <= end) goto mts_loop;
+   300 000001EB 76 D9                           		JBE		mts_loop
+   301 000001ED 5B                              		POP		EBX
+   302 000001EE 5E                              		POP		ESI
+   303 000001EF 5F                              		POP		EDI
+   304 000001F0 C3                              		RET
+   305 000001F1                                 mts_fin:
+   306 000001F1 89 13                           		MOV		[EBX],EDX				; *p = old;
+   307 000001F3 5B                              		POP		EBX
+   308 000001F4 5E                              		POP		ESI
+   309 000001F5 5F                              		POP		EDI
+   310 000001F6 C3                              		RET
+   311 000001F7                                 
+   312 000001F7                                 _farjmp:		; void farjmp(int eip, int cs);
+   313 000001F7 FF 6C 24 04                     		JMP		FAR	[ESP+4]				; eip, cs
+   314 000001FB C3                              		RET
+   315 000001FC                                 
+   316 000001FC                                 _farcall:		; void farcall(int eip, int cs);
+   317 000001FC FF 5C 24 04                     		CALL	FAR	[ESP+4]				; eip, cs
+   318 00000200 C3                              		RET
+   319 00000201                                 
+   320 00000201                                 _asm_hrb_api:
+   321 00000201                                 		; 都合のいいことに最初から割り込み禁止になっている
+   322 00000201 1E                              		PUSH	DS
+   323 00000202 06                              		PUSH	ES
+   324 00000203 60                              		PUSHAD		; 保存のためのPUSH
+   325 00000204 B8 00000008                     		MOV		EAX,1*8
+   326 00000209 8E D8                           		MOV		DS,AX			; とりあえずDSだけOS用にする
+   327 0000020B 8B 0D 00000FE4                  		MOV		ECX,[0xfe4]		; OSのESP
+   328 00000211 83 C1 D8                        		ADD		ECX,-40
+   329 00000214 89 61 20                        		MOV		[ECX+32],ESP	; アプリのESPを保存
+   330 00000217 8C 51 24                        		MOV		[ECX+36],SS		; アプリのSSを保存
+   331 0000021A                                 
+   332 0000021A                                 ; PUSHADした値をシステムのスタックにコピーする
+   333 0000021A 8B 14 24                        		MOV		EDX,[ESP   ]
+   334 0000021D 8B 5C 24 04                     		MOV		EBX,[ESP+ 4]
+   335 00000221 89 11                           		MOV		[ECX   ],EDX	; hrb_apiに渡すためコピー
+   336 00000223 89 59 04                        		MOV		[ECX+ 4],EBX	; hrb_apiに渡すためコピー
+   337 00000226 8B 54 24 08                     		MOV		EDX,[ESP+ 8]
+   338 0000022A 8B 5C 24 0C                     		MOV		EBX,[ESP+12]
+   339 0000022E 89 51 08                        		MOV		[ECX+ 8],EDX	; hrb_apiに渡すためコピー
+   340 00000231 89 59 0C                        		MOV		[ECX+12],EBX	; hrb_apiに渡すためコピー
+   341 00000234 8B 54 24 10                     		MOV		EDX,[ESP+16]
+   342 00000238 8B 5C 24 14                     		MOV		EBX,[ESP+20]
+   343 0000023C 89 51 10                        		MOV		[ECX+16],EDX	; hrb_apiに渡すためコピー
+   344 0000023F 89 59 14                        		MOV		[ECX+20],EBX	; hrb_apiに渡すためコピー
+   345 00000242 8B 54 24 18                     		MOV		EDX,[ESP+24]
+   346 00000246 8B 5C 24 1C                     		MOV		EBX,[ESP+28]
+   347 0000024A 89 51 18                        		MOV		[ECX+24],EDX	; hrb_apiに渡すためコピー
+   348 0000024D 89 59 1C                        		MOV		[ECX+28],EBX	; hrb_apiに渡すためコピー
+   349 00000250                                 
+   350 00000250 8E C0                           		MOV		ES,AX			; 残りのセグメントレジスタもOS用にする
+   351 00000252 8E D0                           		MOV		SS,AX
+   352 00000254 89 CC                           		MOV		ESP,ECX
+   353 00000256 FB                              		STI			; やっと割り込み許可
+   354 00000257                                 
+   355 00000257 E8 [00000000]                   		CALL	_hrb_api
+   356 0000025C                                 
+   357 0000025C 8B 4C 24 20                     		MOV		ECX,[ESP+32]	; アプリのESPを思い出す
+   358 00000260 8B 44 24 24                     		MOV		EAX,[ESP+36]	; アプリのSSを思い出す
+   359 00000264 FA                              		CLI
+   360 00000265 8E D0                           		MOV		SS,AX
+   361 00000267 89 CC                           		MOV		ESP,ECX
+   362 00000269 61                              		POPAD
+   363 0000026A 07                              		POP		ES
+   364 0000026B 1F                              		POP		DS
+   365 0000026C CF                              		IRETD		; この命令が自動でSTIしてくれる
+   366 0000026D                                 
+   367 0000026D                                 _start_app:		; void start_app(int eip, int cs, int esp, int ds);
+   368 0000026D 60                              		PUSHAD		; 32ビットレジスタを全部保存しておく
+   369 0000026E 8B 44 24 24                     		MOV		EAX,[ESP+36]	; アプリ用のEIP
+   370 00000272 8B 4C 24 28                     		MOV		ECX,[ESP+40]	; アプリ用のCS
+   371 00000276 8B 54 24 2C                     		MOV		EDX,[ESP+44]	; アプリ用のESP
+   372 0000027A 8B 5C 24 30                     		MOV		EBX,[ESP+48]	; アプリ用のDS/SS
+   373 0000027E 89 25 00000FE4                  		MOV		[0xfe4],ESP		; OS用のESP
+   374 00000284 FA                              		CLI			; 切り替え中に割り込みが起きてほしくないので禁止
+   375 00000285 8E C3                           		MOV		ES,BX
+   376 00000287 8E D3                           		MOV		SS,BX
+   377 00000289 8E DB                           		MOV		DS,BX
+   378 0000028B 8E E3                           		MOV		FS,BX
+   379 0000028D 8E EB                           		MOV		GS,BX
+   380 0000028F 89 D4                           		MOV		ESP,EDX
+   381 00000291 FB                              		STI			; 切り替え完了なので割り込み可能に戻す
+   382 00000292 51                              		PUSH	ECX				; far-CALLのためにPUSH（cs）
+   383 00000293 50                              		PUSH	EAX				; far-CALLのためにPUSH（eip）
+   384 00000294 FF 1C 24                        		CALL	FAR [ESP]		; アプリを呼び出す
+   385 00000297                                 
+   386 00000297                                 ;	アプリが終了するとここに帰ってくる
+   387 00000297                                 
+   388 00000297 B8 00000008                     		MOV		EAX,1*8			; OS用のDS/SS
+   389 0000029C FA                              		CLI			; また切り替えるので割り込み禁止
+   390 0000029D 8E C0                           		MOV		ES,AX
+   391 0000029F 8E D0                           		MOV		SS,AX
+   392 000002A1 8E D8                           		MOV		DS,AX
+   393 000002A3 8E E0                           		MOV		FS,AX
+   394 000002A5 8E E8                           		MOV		GS,AX
+   395 000002A7 8B 25 00000FE4                  		MOV		ESP,[0xfe4]
+   396 000002AD FB                              		STI			; 切り替え完了なので割り込み可能に戻す
+   397 000002AE 61                              		POPAD	; 保存しておいたレジスタを回復
+   398 000002AF C3                              		RET

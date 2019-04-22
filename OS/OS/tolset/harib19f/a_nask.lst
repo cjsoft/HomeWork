@@ -1,0 +1,45 @@
+     1 00000000                                 [FORMAT "WCOFF"]
+     2 00000000                                 [INSTRSET "i486p"]
+     3 00000000                                 [BITS 32]
+     4 00000000                                 [FILE "a_nask.nas"]
+     5 00000000                                 
+     6 00000000                                 		GLOBAL	_api_putchar
+     7 00000000                                 		GLOBAL	_api_putstr0
+     8 00000000                                 		GLOBAL	_api_end
+     9 00000000                                 		GLOBAL	_api_openwin
+    10 00000000                                 
+    11                                          [SECTION .text]
+    12 00000000                                 
+    13 00000000                                 _api_putchar:	; void api_putchar(int c);
+    14 00000000 BA 00000001                     		MOV		EDX,1
+    15 00000005 8A 44 24 04                     		MOV		AL,[ESP+4]		; c
+    16 00000009 CD 40                           		INT		0x40
+    17 0000000B C3                              		RET
+    18 0000000C                                 
+    19 0000000C                                 _api_putstr0:	; void api_putstr0(char *s);
+    20 0000000C 53                              		PUSH	EBX
+    21 0000000D BA 00000002                     		MOV		EDX,2
+    22 00000012 8B 5C 24 08                     		MOV		EBX,[ESP+8]		; s
+    23 00000016 CD 40                           		INT		0x40
+    24 00000018 5B                              		POP		EBX
+    25 00000019 C3                              		RET
+    26 0000001A                                 
+    27 0000001A                                 _api_end:	; void api_end(void);
+    28 0000001A BA 00000004                     		MOV		EDX,4
+    29 0000001F CD 40                           		INT		0x40
+    30 00000021                                 
+    31 00000021                                 _api_openwin:	; int api_openwin(char *buf, int xsiz, int ysiz, int col_inv, char *title);
+    32 00000021 57                              		PUSH	EDI
+    33 00000022 56                              		PUSH	ESI
+    34 00000023 53                              		PUSH	EBX
+    35 00000024 BA 00000005                     		MOV		EDX,5
+    36 00000029 8B 5C 24 10                     		MOV		EBX,[ESP+16]	; buf
+    37 0000002D 8B 74 24 14                     		MOV		ESI,[ESP+20]	; xsiz
+    38 00000031 8B 7C 24 18                     		MOV		EDI,[ESP+24]	; ysiz
+    39 00000035 8B 44 24 1C                     		MOV		EAX,[ESP+28]	; col_inv
+    40 00000039 8B 4C 24 20                     		MOV		ECX,[ESP+32]	; title
+    41 0000003D CD 40                           		INT		0x40
+    42 0000003F 5B                              		POP		EBX
+    43 00000040 5E                              		POP		ESI
+    44 00000041 5F                              		POP		EDI
+    45 00000042 C3                              		RET

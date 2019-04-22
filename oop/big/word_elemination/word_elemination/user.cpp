@@ -88,9 +88,11 @@ void User::setExp(int exp) {
     User::exp = exp;
 }
 
-Player::Player() {}
+Player::Player() : User() {
+    puzzlepassed = 0;
+}
 Player::Player(UserData ud) : User(ud) {
-
+    puzzlepassed = 0;
 }
 
 int Player::getPuzzlepassed() const {

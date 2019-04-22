@@ -21,10 +21,9 @@ public:
     Point &operator--();
     Point operator++(int);
     Point operator--(int);
-
+    Point &operator=(const Point &b);
     void output() const;
 };
 
 
-#include "geometry.cpp"
 #endif

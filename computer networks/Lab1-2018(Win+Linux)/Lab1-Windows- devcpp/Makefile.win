@@ -1,0 +1,41 @@
+# Project: ComputerNetwork
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = crc32.o datalink.o getopt.o lprintf.o protocol.o
+LINKOBJ  = crc32.o datalink.o getopt.o lprintf.o protocol.o
+LIBS     = 
+INCS     = -I"./"
+CXXINCS  = -I"./"
+BIN      = ComputerNetwork.exe
+CXXFLAGS = $(CXXINCS) -O2
+CFLAGS   = $(INCS) -O2
+RM       = del
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS) -lm -lwsock32
+
+crc32.o: crc32.c
+	$(CC) -c crc32.c -o crc32.o $(CFLAGS)
+
+datalink.o: datalink.c
+	$(CC) -c datalink.c -o datalink.o $(CFLAGS)
+
+getopt.o: getopt.c
+	$(CC) -c getopt.c -o getopt.o $(CFLAGS)
+
+lprintf.o: lprintf.c
+	$(CC) -c lprintf.c -o lprintf.o $(CFLAGS)
+
+protocol.o: protocol.c
+	$(CC) -c protocol.c -o protocol.o $(CFLAGS)
+	

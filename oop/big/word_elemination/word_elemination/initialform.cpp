@@ -133,11 +133,11 @@ void InitialForm::on_btnConfirmRegister_clicked()
     int rtn = lcc.reg(ui->inputUserName_2->text(), ui->inputPassword_2->text(), type);
     if (!rtn) {
         MessageBox("注册成功，返回登录", "提示", QMessageBox::Ok, QMessageBox::Ok);
+        ui->inputPassword->setText(ui->inputPassword_2->text());
+        ui->inputUserName->setText(ui->inputUserName_2->text());
         ui->inputPassword_2->setText("");
         ui->inputPassword_3->setText("");
         ui->inputUserName_2->setText("");
-        ui->inputPassword->setText(ui->inputPassword_2->text());
-        ui->inputUserName->setText(ui->inputUserName_2->text());
         emit ui->btnReturnToLogin->clicked();
     } else if (rtn == 2) {
         MessageBox("此用户已存在", "提示", QMessageBox::Ok, QMessageBox::Ok);

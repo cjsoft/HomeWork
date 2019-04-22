@@ -15,16 +15,10 @@ int main() {
 
     Circle c1(Point(x1, y1), r1), c2(Point(x2, y2), r2);
     switch (c1.relationto(c2)) {
-        case TANGENT:
-            cout << "相切" << endl;
-            break;
-        case SEPARATE:
-            cout << "相离" << endl;
-            break;
-        case INTERSECT:
+        case INTERSECTS:
             cout << "相交" << endl;
             break;
-        default:
-            cout << "ERROR" << endl;
+        case NOTINTERSECTS:
+            cout << "不相交" << endl;
     }
 }

@@ -1,6 +1,3 @@
-#ifndef MATRIX_CPP
-#define MATRIX_CPP
-
 #include "matrix.h"
 #ifndef NULL
 #define NULL 0
@@ -135,5 +132,3 @@ int Matrix::getlines() const {
 int Matrix::getrows() const {
     return rows;
 }
-
-#endif

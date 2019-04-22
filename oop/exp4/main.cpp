@@ -9,7 +9,7 @@
 #define PROMPT_ANSWER_IS_LESS "真正的答案比你猜的小"
 using namespace std;
 
-bool checkinput(string inpt) {
+bool checkinput(const string &inpt) {
   for (unsigned int i = 0; i < inpt.length(); i++) {
     if (!isdigit(inpt[i]))
       return false;
@@ -19,6 +19,7 @@ bool checkinput(string inpt) {
 
 
 int main() {
+  srand(time(0));
   int realprice, guessprice;
   string userinput;
   realprice = rand() % 1000 + 1;

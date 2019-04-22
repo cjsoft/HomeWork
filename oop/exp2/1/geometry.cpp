@@ -1,5 +1,3 @@
-#ifndef GEOMETRY_CPP
-#define GEOMETRY_CPP
 #include "geometry.h"
 
 #include <iostream>
@@ -79,10 +77,11 @@ float Point::getDis2(Point b) const {
 int Circle::relationto(Circle b) const {
     float cmpresult = this->getCenter().getDis2(b.center);
     float dis2 = (this->getRadius() + b.getRadius()) * (this->getRadius() + b.getRadius());
-    cmpresult -= dis2;
-    if (cmpresult < -EPS) return INTERSECT;
-    if (cmpresult > EPS) return SEPARATE;
-    return TANGENT;
+    float dis2_ = fabs(this->getRadius() - b.getRadius()) * fabs(this->getRadius() - b.getRadius());
+    if ((cmpresult - dis2_) > EPS && (dis2 - cmpresult) > EPS)
+        return INTERSECTS;
+    else 
+        return NOTINTERSECTS;
 }
 
 Point Circle::getCenter() const {
@@ -92,6 +91,3 @@ Point Circle::getCenter() const {
 float Circle::getRadius() const {
     return radius;
 }
-
-#endif
-

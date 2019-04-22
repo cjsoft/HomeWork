@@ -1,5 +1,3 @@
-#ifndef GEOMETRY_CPP
-#define GEOMETRY_CPP
 #include "geometry.h"
 
 #include <iostream>
@@ -81,5 +79,8 @@ void Point::output() const {
     cout << "(" << x << "," << y << ")" << endl;
 }
 
-
-#endif
+Point &Point::operator=(const Point &b) {
+    x = b.x;
+    y = b.y;
+    return (*this);
+}

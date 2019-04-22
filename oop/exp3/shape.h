@@ -4,7 +4,7 @@ class Shape {
 public:
     Shape();
     ~Shape();
-    virtual int getArea() const = 0;
+    int getArea() const;
 };
 
 class Rectangle : public Shape {
@@ -42,5 +42,4 @@ public:
     int getRadius() const;
 };
 
-#include "shape.cpp"
 #endif

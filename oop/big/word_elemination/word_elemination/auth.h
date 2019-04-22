@@ -5,7 +5,7 @@
 #include "user.h"
 #include <QString>
 #include <QMap>
-#define MINUSERNAMELENGTH 5
+#define MINUSERNAMELENGTH 4
 #define MINPASSWORDLENGTH 6
 #define DBPATH "word_elem.db"
 

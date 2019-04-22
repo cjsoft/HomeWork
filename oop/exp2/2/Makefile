@@ -1,9 +1,16 @@
+OBJS	= main.o matrix.o
+HEADERS	= matrix.h
+OUTPUT	= main.out
+LINK	=
+CC		= g++
 
-default main.out : main.cpp matrix.h matrix.cpp
-	g++ main.cpp -o main.out
+.PHONY : src_only clean
+$(OUTPUT) : $(OBJS) $(HEADERS) Makefile
+	$(CC) $(OBJS) -o $(OUTPUT) $(LINK)
 
 src_only clean :
-	-rm main.out
-run :
-	make main.out
-	./main.out
+	-$(RM) $(OUTPUT)
+	-$(RM) $(OBJS)
+run : $(OUTPUT)
+	make $(OUTPUT)
+	./$(OUTPUT)

@@ -1,5 +1,3 @@
-#ifndef SHAPE_CPP
-#define SHAPE_CPP
 #include "shape.h"
 
 #include <iostream>
@@ -14,6 +12,12 @@ Shape::~Shape() {
     using std::cout;
     using std::endl;
     cout << "Shape destructed" << endl;
+}
+
+int Shape::getArea() const {
+    using namespace std;
+    cout << "GetArea of Shape is called, this function is unvailable." << endl;
+    return 0;
 }
 
 Rectangle::Rectangle() {
@@ -68,7 +72,7 @@ void Rectangle::setHeight(int h) {
 
 int Rectangle::getArea() const {
     using namespace std;
-    // cout << "RctgA" << endl;
+    cout << "getArea of Rectangle is called" << endl;
     return width * height;
 }
 
@@ -89,7 +93,7 @@ void Square::setSideLength(int d) {
 
 int Square::getArea() const {
     using namespace std;
-    cout << "SqgA" << endl;
+    cout << "getArea of Square is called" << endl;
     return getWidth() * getWidth();
 }
 
@@ -104,4 +108,3 @@ void Circle::setRadius(int r) {
 int Circle::getRadius() const {
     return radius;
 }
-#endif

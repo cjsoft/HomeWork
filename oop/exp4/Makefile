@@ -1,9 +1,16 @@
-default main.out : main.cpp
-	g++ main.cpp -o main.out
+OBJS	= main.o
+HEADERS	=
+OUTPUT	= main.out
+LINK	=
+CC		= g++
+
+.PHONY : src_only clean
+$(OUTPUT) : $(OBJS) $(HEADERS) Makefile
+	$(CC) $(OBJS) -o $(OUTPUT) $(LINK)
 
 src_only clean :
-	-rm main.out
-
-run :
-	make main.out
-	./main.out
+	-$(RM) $(OUTPUT)
+	-$(RM) $(OBJS)
+run : $(OUTPUT)
+	make $(OUTPUT)
+	./$(OUTPUT)

@@ -1,9 +1,8 @@
 #ifndef GEOMETRY_H
 #define GEOMETRY_H
 #define EPS 1e-6     // 浮点运算会产生误差
-#define TANGENT 0
-#define SEPARATE 1
-#define INTERSECT -1
+#define INTERSECTS 0
+#define NOTINTERSECTS 1
 class Point {
 private:
     float x, y;
@@ -33,5 +32,4 @@ public:
     float getRadius() const;
 };
 
-#include "geometry.cpp"
 #endif
