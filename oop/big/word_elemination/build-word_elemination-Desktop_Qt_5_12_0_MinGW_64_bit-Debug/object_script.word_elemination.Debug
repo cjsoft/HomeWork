@@ -1,0 +1,11 @@
+debug/main.o
+debug/initialform.o
+debug/auth.o
+debug/user.o
+debug/challenge.o
+debug/common.o
+debug/localconnect.o
+debug/serverconnect.o
+debug/userhomeform.o
+debug/moc_initialform.o
+debug/moc_userhomeform.o

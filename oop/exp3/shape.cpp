@@ -1,6 +1,8 @@
 #include "shape.h"
+#include <cmath>
 
 #include <iostream>
+const double PI = acos(-1);
 Shape::Shape() {
     using std::cout;
     using std::endl;
@@ -14,7 +16,7 @@ Shape::~Shape() {
     cout << "Shape destructed" << endl;
 }
 
-int Shape::getArea() const {
+double Shape::getArea() const {
     using namespace std;
     cout << "GetArea of Shape is called, this function is unvailable." << endl;
     return 0;
@@ -62,49 +64,45 @@ Circle::~Circle() {
 
 
 
-void Rectangle::setWidth(int w) {
+void Rectangle::setWidth(double w) {
     width = w;
 }
 
-void Rectangle::setHeight(int h) {
+void Rectangle::setHeight(double h) {
     height = h;
 }
 
-int Rectangle::getArea() const {
+double Rectangle::getArea() const {
     using namespace std;
     cout << "getArea of Rectangle is called" << endl;
     return width * height;
 }
 
-int Rectangle::getHeight() const {
+double Rectangle::getHeight() const {
     return height;
 }
 
-int Rectangle::getWidth() const {
+double Rectangle::getWidth() const {
     return width;
 }
 
-
-
-void Square::setSideLength(int d) {
+void Square::setSideLength(double d) {
     Rectangle::setWidth(d);
     Rectangle::setHeight(d);
 }
 
-int Square::getArea() const {
-    using namespace std;
-    cout << "getArea of Square is called" << endl;
-    return getWidth() * getWidth();
-}
-
-int Square::getSideLength() const {
+double Square::getSideLength() const {
     return getWidth();
 }
 
-void Circle::setRadius(int r) {
+void Circle::setRadius(double r) {
     radius = r;
 }
 
-int Circle::getRadius() const {
+double Circle::getRadius() const {
     return radius;
+}
+
+double Circle::getArea() const {
+    return PI * radius * radius;
 }

@@ -8,6 +8,8 @@ class ServerConnect
 {
 private:
     Auth ATH;
+    QJsonObject User2QJson(User const *usr);
+    QJsonArray QStringList2QJson(QStringList const &lst);
 public:
     ServerConnect();
     QString executeQuery(QString query);

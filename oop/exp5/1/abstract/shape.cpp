@@ -1,6 +1,7 @@
 #include "shape.h"
-
+#include <cmath>
 #include <iostream>
+const double PI = acos(-1);
 Shape::Shape() {
     using std::cout;
     using std::endl;
@@ -54,49 +55,46 @@ Circle::~Circle() {
     cout << "Circle destructed" << endl;
 }
 
+double Circle::getArea() const {
+    return radius * radius * PI;
+}
 
-
-void Rectangle::setWidth(int w) {
+void Rectangle::setWidth(double w) {
     width = w;
 }
 
-void Rectangle::setHeight(int h) {
+void Rectangle::setHeight(double h) {
     height = h;
 }
 
-int Rectangle::getArea() const {
+double Rectangle::getArea() const {
     using namespace std;
     return width * height;
 }
 
-int Rectangle::getHeight() const {
+double Rectangle::getHeight() const {
     return height;
 }
 
-int Rectangle::getWidth() const {
+double Rectangle::getWidth() const {
     return width;
 }
 
 
 
-void Square::setSideLength(int d) {
+void Square::setSideLength(double d) {
     Rectangle::setWidth(d);
     Rectangle::setHeight(d);
 }
 
-int Square::getArea() const {
-    using namespace std;
-    return getWidth() * getWidth();
-}
-
-int Square::getSideLength() const {
+double Square::getSideLength() const {
     return getWidth();
 }
 
-void Circle::setRadius(int r) {
+void Circle::setRadius(double r) {
     radius = r;
 }
 
-int Circle::getRadius() const {
+double Circle::getRadius() const {
     return radius;
 }

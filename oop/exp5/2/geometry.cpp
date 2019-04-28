@@ -7,13 +7,17 @@
 Point::Point() : x(0), y(0) {
     using std::cout;
     using std::endl;
+    #ifdef DEBUG
     cout << "\033[31m" << this << "\033[0m Default construction method for Point is called." << endl;
+    #endif
 }
 
 Point::Point(int x, int y) : x(x), y(y) {
     using std::cout;
     using std::endl;
+    #ifdef DEBUG
     cout << "\033[31m" << this << "\033[0m Construction method with parameter(" << x << "\t," << y << "\t) for Point is called." << endl;
+    #endif
 }
 
 Point::Point(const Point &b) {
@@ -21,7 +25,9 @@ Point::Point(const Point &b) {
     y = b.y;
     using std::cout;
     using std::endl;
+    #ifdef DEBUG
     cout << "\033[31m" << this << "\033[0m Copy construction method for Point is called." << endl;
+    #endif
 }
 
 int Point::getX() const {
@@ -35,7 +41,9 @@ int Point::getY() const {
 Point::~Point() {
     using std::cout;
     using std::endl;
+    #ifdef DEBUG
     cout << "\033[31m" << this << "\033[0m Default destruction method for Point is called." << endl;
+    #endif
 }
 
 

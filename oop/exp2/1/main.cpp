@@ -14,6 +14,7 @@ int main() {
     cin >> x2 >> y2 >> r2;
 
     Circle c1(Point(x1, y1), r1), c2(Point(x2, y2), r2);
+    cout << "Before calling relationto" << endl;
     switch (c1.relationto(c2)) {
         case INTERSECTS:
             cout << "相交" << endl;

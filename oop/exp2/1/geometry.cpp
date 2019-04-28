@@ -41,14 +41,16 @@ Point::~Point() {
 Circle::Circle() : center(Point()), radius(0) {
     using std::cout;
     using std::endl;
-    cout << "\033[31m" << this << "\033[0m Default construction method for Point is called." << endl;
+    cout << "\033[31m" << this << "\033[0m Default construction method for Circle is called." << endl;
 }
 
 Circle::Circle(const Circle &b) {
-    this->center = b.getCenter();
-    this->radius = b.getRadius();
     using std::cout;
     using std::endl;
+    cout << "Setting center" << endl;
+    this->center = b.getCenter();
+    cout << "Setting radius" << endl;
+    this->radius = b.getRadius();
     cout << "\033[31m" << this << "\033[0m Copy construction method for Circle is called." << endl;
 }
 
@@ -75,6 +77,9 @@ float Point::getDis2(Point b) const {
 }
 
 int Circle::relationto(Circle b) const {
+    using std::cout;
+    using std::endl;
+    cout << "Calling relationto" << endl;
     float cmpresult = this->getCenter().getDis2(b.center);
     float dis2 = (this->getRadius() + b.getRadius()) * (this->getRadius() + b.getRadius());
     float dis2_ = fabs(this->getRadius() - b.getRadius()) * fabs(this->getRadius() - b.getRadius());

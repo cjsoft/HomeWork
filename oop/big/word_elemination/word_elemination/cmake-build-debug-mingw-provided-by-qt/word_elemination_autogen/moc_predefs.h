@@ -190,6 +190,7 @@
 #define __UINT64_C(c) c ## ULL
 #define __cpp_unicode_characters 200704
 #define __cpp_decltype_auto 201304
+#define QT_REMOTEOBJECTS_LIB 1
 #define __GCC_ATOMIC_INT_LOCK_FREE 2
 #define __FLT128_MAX_EXP__ 16384
 #define __FLT32_MANT_DIG__ 24
@@ -249,6 +250,7 @@
 #define __INT_LEAST16_MAX__ 0x7fff
 #define __DEC64_MANT_DIG__ 16
 #define __UINT_LEAST32_MAX__ 0xffffffffU
+#define QT_NETWORK_LIB 1
 #define __SEG_GS 1
 #define __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32
 #define __GCC_ATOMIC_LONG_LOCK_FREE 2

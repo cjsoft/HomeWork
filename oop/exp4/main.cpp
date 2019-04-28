@@ -10,6 +10,7 @@
 using namespace std;
 
 bool checkinput(const string &inpt) {
+  if (inpt.length() > 4 || inpt.length() == 0 || (inpt.length() > 1 && inpt[0] == '0')) return false;
   for (unsigned int i = 0; i < inpt.length(); i++) {
     if (!isdigit(inpt[i]))
       return false;
@@ -24,6 +25,7 @@ int main() {
   string userinput;
   realprice = rand() % 1000 + 1;
   guessprice = 0;
+  cout << "输入应当不超过4个字符，";
   while (guessprice != realprice) {
     cout << PROMPT_FOR_INPUT;
     getline(cin, userinput);

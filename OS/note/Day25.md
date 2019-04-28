@@ -231,3 +231,44 @@ int ds_base = task->ds_base;
 struct CONSOLE *cons = task->cons; 
 ```
 
+测试一下
+
+![1556089118457](C:\Users\egwcy\AppData\Roaming\Typora\typora-user-images\1556089118457.png)
+
+成功的运行了！
+
+当我们点击其中的一个x的时候，咦？为什么另一个窗口却关闭了，再点击剩下的窗口中的x
+
+![1556089351736](C:\Users\egwcy\AppData\Roaming\Typora\typora-user-images\1556089351736.png)
+
+糟糕
+
+这是为什么呢？（h）是因为bootpack当中仍然是用0x0fec找cons的，给他也改掉就好了
+
+![1556089565979](C:\Users\egwcy\AppData\Roaming\Typora\typora-user-images\1556089565979.png)
+
+这次都能正常退出了
+
+
+
+删除task_a窗口，这个窗口实在是没有什么用了。
+
+task_a的逻辑在bootpack当中，先删除掉，然后将console_task的FIFO初始化放到harimain当中。
+
+> 只有当bootpack.c的HariMain休眠之
+> 后才会运行命令行窗口任务，而如果不运行这个任务的话，FIFO缓冲区就不会被初始化，这就相
+> 当于我们在向一个还没初始化的FIFO强行发送数据，于是造成fifo32_put混乱而导致重启。
+
+```c
+int fifobuf[128];
+for (i = 0; i < 2; i++) {
+    cons_fifo[i] = (int *) memman_alloc_4k(memman, 128 * 4);
+    fifo32_init(&task_cons[i]->fifo, 128, cons_fifo[i], task_cons[i]);
+}
+```
+
+然后彻底删除console_task当中的fifo初始化代码
+
+![1556090455842](C:\Users\egwcy\AppData\Roaming\Typora\typora-user-images\1556090455842.png)
+
+🆗了

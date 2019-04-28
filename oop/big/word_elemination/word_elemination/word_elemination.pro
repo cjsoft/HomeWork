@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui remoteobjects
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -26,29 +26,38 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        initialform.cpp \
+        forms/initialform.cpp \
     auth.cpp \
     user.cpp \
     challenge.cpp \
     common.cpp \
     localconnect.cpp \
     serverconnect.cpp \
-    userhomeform.cpp
+    forms/userhomeform.cpp \
+    forms/addwordform.cpp \
+    forms/playform.cpp \
+    forms/listusersform.cpp
 
 HEADERS += \
-        initialform.h \
+        forms/initialform.h \
     auth.h \
     user.h \
     challenge.h \
     common.h \
     localconnect.h \
     serverconnect.h \
-    userhomeform.h
+    forms/userhomeform.h \
+    forms/addwordform.h \
+    forms/playform.h \
+    forms/listusersform.h
 
 FORMS += \
-        initialform.ui \
-    userhomeform.ui
-
+        forms/initialform.ui \
+    forms/userhomeform.ui \
+    forms/addwordform.ui \
+    forms/playform.ui \
+    forms/listusersform.ui
+include(QtAwesome/QtAwesome.pri)
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

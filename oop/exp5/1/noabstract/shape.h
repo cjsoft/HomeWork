@@ -4,42 +4,42 @@ class Shape {
 public:
     Shape();
     ~Shape();
-    virtual int getArea() const;
+    virtual double getArea() const;
 };
 
 class Rectangle : public Shape {
 private:
-    int width, height;
+    double width, height;
 public:
     Rectangle();
     ~Rectangle();
-    void setWidth(int w);
-    void setHeight(int h);
-    int getWidth() const;
-    int getHeight() const;
-    int getArea() const;
+    void setWidth(double w);
+    void setHeight(double h);
+    double getWidth() const;
+    double getHeight() const;
+    double getArea() const;
 };
 
 class Square : public Rectangle {
 private:
-    void setWidth(int w);
-    void setHeight(int h);
+    void setWidth(double w);
+    void setHeight(double h);
 public:
     Square();
     ~Square();
-    void setSideLength(int d);
-    int getSideLength() const;
-    int getArea() const;
+    void setSideLength(double d);
+    double getSideLength() const;
 };
 
 class Circle : public Shape {
 private:
-    int radius;
+    double radius;
 public:
     Circle();
     ~Circle();
-    void setRadius(int r);
-    int getRadius() const;
+    void setRadius(double r);
+    double getRadius() const;
+    double getArea() const;
 };
 
 #endif

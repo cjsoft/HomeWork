@@ -6,12 +6,18 @@
 #include <QFileInfo>
 #include <QDebug>
 #define LOADPARRAM tmp.username, tmp.passwordmd5, tmp.usertype, tmp.tag, tmp.name, tmp.level, tmp.exp
+bool cmp(const QString &a, const QString &b) {
+    return a.length() < b.length();
+}
 Auth::Auth() {
     salt = "19260817";
-    loadDataBase(DBPATH);
+    loadDataBase(UDBPATH);
+    loadWordList(WDBPATH);
+    qDebug() << "ffffffffffffff" << WordList.size();
 }
 Auth::Auth(QString slt) : salt(slt) {
-    loadDataBase(DBPATH);
+    loadDataBase(UDBPATH);
+    loadWordList(WDBPATH);
 }
 
 bool Auth::loadDataBase(QString dbpath) {
@@ -60,7 +66,7 @@ bool Auth::saveDataBase(QString dbpath) {
         memset(rud, 0, sizeof(RawUserData) * n);
         int cnt = 0;
         for (auto i : mpUserName2User) {
-            std::string tmp = i->getUserName().toStdString();
+            std::string tmp = i->getUsername().toStdString();
             memcpy(rud[cnt].username, tmp.c_str(), tmp.length());
             tmp = i->getPasswordmd5().toStdString();
             memcpy(rud[cnt].passwordmd5, tmp.c_str(), tmp.length());
@@ -118,6 +124,7 @@ QString Auth::login(QString username, QString password) {
         tmpUuid = QUuid::createUuid().toString();
     } while (mpUuid2UserName.find(tmpUuid) != mpUuid2UserName.constEnd());
     itr.value()->setUuid(tmpUuid);
+    itr.value()->setOnline(true);
     mpUuid2UserName.insert(tmpUuid, username);
     mpUserName2Uuid.insert(username, tmpUuid);
     return tmpUuid;
@@ -143,7 +150,8 @@ int Auth::setTag(QString uuid, const QString &tag) {
 }
 
 Auth::~Auth() {
-    saveDataBase(DBPATH);
+    saveDataBase(UDBPATH);
+    saveWordList(WDBPATH);
 }
 
 User *Auth::getUserByUuid(QString uuid) {
@@ -160,6 +168,101 @@ int Auth::setName(QString uuid, const QString &name) {
         i->setName(name);
         return SUCCESS;
     }  else {
-        return  BADUUID;
+        return BADUUID;
     }
 }
+
+QVector<User *> Auth::getUserList() {
+    QVector<User*> rtn;
+    for (auto i : mpUserName2User) {
+        rtn.push_back(i);
+    }
+    return rtn;
+}
+
+bool Auth::loadWordList(QString dbpath) {
+    try {
+        WordList.clear();
+        QFileInfo fi(dbpath);
+        if (!fi.isFile()) return true;
+        QFile file(dbpath);
+        file.open(QIODevice::ReadOnly | QIODevice::Text);
+        if (!file.isOpen()) return false;
+        while (!file.atEnd()) {
+            QString tmp = file.readLine().trimmed();
+            WordList.push_back(tmp);
+        }
+        file.close();
+        qSort(WordList.begin(), WordList.end(), cmp);
+    } catch (...) {
+
+        return false;
+    }
+    return false;
+}
+
+bool Auth::saveWordList(QString dbpath) {
+    try {
+        QFile file(dbpath);
+        file.open(QIODevice::WriteOnly | QIODevice::Text);
+        if (!file.isOpen())
+            return false;
+        file.write(WordList.join("\n").toLocal8Bit());
+        file.close();
+        return true;
+    } catch (...) {
+        return false;
+    }
+    return false;
+}
+
+
+int Auth::addWord(QString uuid, QString word) {
+    User *usr = getUser(uuid);
+    if (usr == nullptr) return 1;
+    if (usr->getType() != DESIGNER) return 1;
+    if (word.trimmed() == "") {
+        return 1;
+    }
+    if ((*qLowerBound(WordList.begin(), WordList.end(), word, cmp)) == word) {
+        return 2;
+    } else {
+        WordList.push_back(word);
+        usr->setExp(usr->getExp() + 1);
+        qSort(WordList.begin(), WordList.end(), cmp);
+    }
+    return 0;
+}
+
+QStringList const &Auth::getWordList() {
+    return WordList;
+}
+
+void Auth::logout(QString uuid) {
+    auto itr = mpUuid2UserName.find(uuid);
+    if (itr != mpUuid2UserName.constEnd()) {
+        mpUserName2User.find(itr.value()).value()->setOnline(false);
+    }
+    mpUserName2Uuid.remove(itr.value());
+    mpUuid2UserName.remove(uuid);
+}
+
+int Auth::finishChallenge(QString uuid, int difficulty, int score) {
+    User *usr = getUser(uuid);
+    if (usr == nullptr) return 1;
+    if (usr->getType() != PLAYER) return 1;
+    Player *ply = static_cast<Player*>(usr);
+    ply->setPuzzlepassed(ply->getPuzzlepassed() + 1);
+    ply->setExp(ply->getExp() + score);
+    ply->setLevel(calcLevelP(ply->getExp()));
+    return 0;
+}
+
+int Auth::calcLevelP(int exp) {
+    return exp / 100;
+}
+
+int Auth::calcLevelD(int exp) {
+    return exp / 5;
+}
+

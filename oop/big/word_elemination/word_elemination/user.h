@@ -9,6 +9,7 @@
 #include "auth.h"
 #include <QString>
 #include <QDebug>
+#include <QtCore>
 struct UserData {
     QString username;
     QString passwordmd5;
@@ -30,26 +31,26 @@ class User
 {
 private:
     QString username;
-public:
-    void setUsername(const QString &username);
-
-    void setType(char type);
-
-private:
     QString uuid;
-public:
-    const QString &getUsername() const;
-
-public:
-    void setUuid(const QString &uuid);
-
-private:
     QString passwordmd5;
     QString tag;
     QString name;
     int level;
     int exp;
+    char type;
+    bool online;
 public:
+    void setOnline(bool online);
+
+public:
+    void setUsername(const QString &username);
+
+    void setType(char type);
+
+    const QString &getUsername() const;
+
+    void setUuid(const QString &uuid);
+
     int getLevel() const;
 
     void setLevel(int level);
@@ -58,29 +59,29 @@ public:
 
     void setExp(int exp);
 
-public:
+    QJsonObject toJsonObject() const;
+
+
     const QString &getName() const;
 
     void setName(const QString &name);
 
-public:
     void setTag(const QString &tag);
 
-public:
     const QString &getTag() const;
 
-private:
-    char type;
-    bool online;
-public:
-    const QString &getUserName() const;
     const QString &getUuid() const;
     const QString &getPasswordmd5() const;
     const char &getType() const;
 
     bool isOnline() const;
+    static User *fromJsonObject(const QJsonObject &data);
     User();
     User(UserData ud);
+
+    static bool cmpByExp(User const *a, User const *b);
+    static bool cmpByLevel(User const *a, User const *b);
+
 
 };
 
@@ -92,13 +93,10 @@ public:
 
     void setPuzzlepassed(int puzzlepassed);
 
-public:
-
-
-public:
     Player();
     Player(UserData ud);
-
+    Player(const QJsonObject &obj);
+    static bool cmpByPuzzlepassed(Player const *a, Player const *b);
 
 };
 
@@ -106,6 +104,7 @@ class Designer : public User {
 public:
     Designer();
     Designer(UserData ud);
+    Designer(const QJsonObject &obj);
     void addWord(QString wd);
 };
 
