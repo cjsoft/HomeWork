@@ -135,7 +135,6 @@ int main(int argc, char **argv)
                 next_frame_to_send = ack_expected;
                 for (i = 1; i <= nbuffered; i++) {
                     send_data_frame(DATA, next_frame_to_send, frame_expected, buffer);
-                    start_timer(next_frame_to_send, DATA_TIMEOUT);
                     inc(next_frame_to_send);
                 }
                 break;

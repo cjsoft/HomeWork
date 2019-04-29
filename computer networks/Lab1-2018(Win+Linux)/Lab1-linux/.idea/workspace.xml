@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Selective" targetName="datalink" />
+      <config projectName="GobackN" targetName="datalink" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,61 +15,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e746c688-2c52-40c8-9a87-34ba88f02934" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/common.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/localconnect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/localconnect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/serverconnect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/serverconnect.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-A.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective - wangluo/datalink-B.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/Lab1-linux - selective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/Lab1-linux - selective.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/A.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/B.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-A.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink-B.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fA.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fB.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fbA.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/fbB.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/uA.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/uB.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/ufA.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/ufB.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lab1-linux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1-linux.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/datalink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-A.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/CMakeFiles/datalink.dir/datalink.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Release/CMakeFiles/datalink.dir/datalink.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/Release/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/datalink.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/datalink.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/datalink.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/datalink.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datalink.o" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol.c" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol.o" beforeDir="false" afterPath="$PROJECT_DIR$/protocol.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Debug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/Makefile.Release" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/initialform.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/initialform.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/moc_initialform.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/word_elemination.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/debug/word_elemination.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/ui_initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/build-word_elemination-Desktop_Qt_5_12_0_MinGW_64_bit-Debug/ui_initialform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/auth.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/challenge.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/challenge.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/initialform.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/user.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination/word_elemination.pro.user" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -86,7 +112,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -101,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datalink.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+            <state relative-caret-position="96">
+              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -110,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protocol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
+            <state relative-caret-position="487">
               <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#51#63#0" expanded="true" />
@@ -125,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -198,15 +227,14 @@
       <list>
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/datalink.c" />
         <option value="$PROJECT_DIR$/protocol.c" />
+        <option value="$PROJECT_DIR$/datalink.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="-10" />
     <option name="width" value="1522" />
     <option name="height" value="1952" />
   </component>
@@ -243,6 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -267,7 +296,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="datalink" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Selective" TARGET_NAME="datalink" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Selective" RUN_TARGET_NAME="datalink">
+    <configuration name="datalink" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GobackN" TARGET_NAME="datalink" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GobackN" RUN_TARGET_NAME="datalink">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -289,14 +318,16 @@
       <workItem from="1555469492114" duration="5748000" />
       <workItem from="1555569277795" duration="740000" />
       <workItem from="1555571287229" duration="72000" />
+      <workItem from="1556544167290" duration="803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33745000" />
+    <option name="totallyTimeSpent" value="34548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16907217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,6 +345,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289941" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3298122" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.33802816" />
+      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,26 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalink.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protocol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding>
-            <element signature="e#51#63#0" expanded="true" />
-            <element signature="e#127#158#0" expanded="true" />
-            <element signature="e#167#185#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protocol.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -401,10 +413,30 @@
     <entry file="file://$PROJECT_DIR$/getopt.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/protocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+            <element signature="e#127#158#0" expanded="true" />
+            <element signature="e#167#185#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datalink.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>

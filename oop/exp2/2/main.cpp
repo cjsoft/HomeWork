@@ -35,7 +35,7 @@ int main() {
     cout << PROMPT_A1SA2 << endl;
     A3.output();
 
-    /* 声明并分配空间 */
+    /* 声明指针并分配空间 */
     Matrix *pA1, *pA2, *pA3;
     pA1 = new Matrix(lines, rows);
     pA2 = new Matrix(lines, rows);
@@ -49,11 +49,11 @@ int main() {
     pA2->input();
 
     /* 计算 */
-    *pA3 = pA1->add(*pA2);
+    *pA3 = pA1->add(*pA2);          // 加
     cout << PROMPT_A1PA2 << endl;
     pA3->output();
 
-    *pA3 = pA1->subtract(*pA2);
+    *pA3 = pA1->subtract(*pA2);     // 减
     cout << PROMPT_A1SA2 << endl;
     pA3->output();
 

@@ -1,4 +1,4 @@
-project(Selective)
+project(GobackN)
 set(default_build_type "Release")
 add_executable(datalink datalink.c protocol.c lprintf.c crc32.c getopt.c)
 target_link_libraries(datalink m)

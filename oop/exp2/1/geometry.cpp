@@ -1,16 +1,20 @@
+/*
+ * 使用\033可以在Linux的shell中输出带颜色的字符串，醒目，方便阅读输出
+ */
+
 #include "geometry.h"
 
 #include <iostream>
 #include <cmath>
 #include <cstdio>
 
-Point::Point() : x(0), y(0) {
+Point::Point() : x(0), y(0) {                       // 初始化x, y为0
     using std::cout;
     using std::endl;
     cout << "\033[31m" << this << "\033[0m Default construction method for Point is called." << endl;
 }
 
-Point::Point(float x, float y) : x(x), y(y) {
+Point::Point(float x, float y) : x(x), y(y) {       // 初始化x, y的值为0
     using std::cout;
     using std::endl;
     cout << "\033[31m" << this << "\033[0m Construction method with parameter(" << x << "\t," << y << "\t) for Point is called." << endl;
@@ -83,7 +87,7 @@ int Circle::relationto(Circle b) const {
     float cmpresult = this->getCenter().getDis2(b.center);
     float dis2 = (this->getRadius() + b.getRadius()) * (this->getRadius() + b.getRadius());
     float dis2_ = fabs(this->getRadius() - b.getRadius()) * fabs(this->getRadius() - b.getRadius());
-    if ((cmpresult - dis2_) > EPS && (dis2 - cmpresult) > EPS)
+    if ((cmpresult - dis2_) > EPS && (dis2 - cmpresult) > EPS)                                          // 利用EPS来规避计算精度误差带来的错误结果
         return INTERSECTS;
     else 
         return NOTINTERSECTS;

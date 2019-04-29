@@ -1,3 +1,6 @@
+/*
+ * 具体解释请看matrix.cpp
+ */
 #ifndef MATRIX_H
 #define MATRIX_H
 
