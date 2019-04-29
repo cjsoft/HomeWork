@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2a8bc.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_2a8bc.dir/objects.a @CMakeFiles\cmTC_2a8bc.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_2a8bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2a8bc.exe -Wl,--out-implib,libcmTC_2a8bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
