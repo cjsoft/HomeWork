@@ -2,9 +2,9 @@
 #define SHAPE_H
 class Shape {
 public:
-    Shape();
+    Shape();                                // 基类构造析构函数
     ~Shape();
-    double getArea() const;
+    double getArea() const;                 // 基类方法
 };
 
 class Rectangle : public Shape {

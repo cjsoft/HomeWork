@@ -4,7 +4,7 @@ class Shape {
 public:
     Shape();
     ~Shape();
-    virtual double getArea() const = 0;
+    virtual double getArea() const = 0;         // 声明为虚函数
 };
 
 class Rectangle : public Shape {
@@ -17,7 +17,7 @@ public:
     void setHeight(double h);
     double getWidth() const;
     double getHeight() const;
-    virtual double getArea() const;
+    virtual double getArea() const;             // 声明为虚函数
 };
 
 class Square : public Rectangle {
@@ -39,7 +39,7 @@ public:
     ~Circle();
     void setRadius(double r);
     double getRadius() const;
-    virtual double getArea() const;
+    virtual double getArea() const;             // 声明为虚函数
 };
 
 #endif

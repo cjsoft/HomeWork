@@ -17,12 +17,12 @@ public:
     float getDis(Point b) const;
     int getDis2(Point b) const;
 
-    Point &operator++();
+    Point &operator++();        // 前置
     Point &operator--();
-    Point operator++(int);
+    Point operator++(int);      // 后置
     Point operator--(int);
-    Point &operator=(const Point &b);
-    void output() const;
+    Point &operator=(const Point &b); // 赋值
+    void output() const;        // 输出
 };
 
 

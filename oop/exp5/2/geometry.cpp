@@ -7,7 +7,7 @@
 Point::Point() : x(0), y(0) {
     using std::cout;
     using std::endl;
-    #ifdef DEBUG
+    #ifdef DEBUG                        // 加编译开关输出各种构造函数析构函数的调用信息
     cout << "\033[31m" << this << "\033[0m Default construction method for Point is called." << endl;
     #endif
 }

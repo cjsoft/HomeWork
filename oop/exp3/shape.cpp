@@ -2,8 +2,8 @@
 #include <cmath>
 
 #include <iostream>
-const double PI = acos(-1);
-Shape::Shape() {
+const double PI = acos(-1);                             // 计算PI作为常量
+Shape::Shape() {                                        // 各种构造析构拷贝方法
     using std::cout;
     using std::endl;
     cout << "Shape constructed" << endl;
