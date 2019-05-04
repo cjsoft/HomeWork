@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination
+CMAKE_SOURCE_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt
+CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt
 
 # Include any dependencies generated for this target.
 include CMakeFiles/word_elemination_1.dir/depend.make
@@ -60,8 +60,8 @@ word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp: ../QtAwesome/QtAwesome.
 word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp: CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake
 word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp: ../QtAwesome/fonts/fontawesome-4.7.0.ttf
 word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for QtAwesome/QtAwesome.qrc"
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for QtAwesome/QtAwesome.qrc"
+	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake Debug
 
 word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp: ../qdarkstyle/style.qrc
 word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp: CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake
@@ -106,251 +106,251 @@ word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp: ../qdarkstyle/rc/checkbox_i
 word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp: ../qdarkstyle/rc/checkbox_unchecked_focus.png
 word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp: ../qdarkstyle/style.qss
 word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for qdarkstyle/style.qrc"
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for qdarkstyle/style.qrc"
+	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake Debug
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj: word_elemination_1_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\mocs_compilation.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\mocs_compilation.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\mocs_compilation.cpp
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\mocs_compilation.cpp > CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\mocs_compilation.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\mocs_compilation.cpp > CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\mocs_compilation.cpp -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\mocs_compilation.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\mocs_compilation.cpp -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj: ../QtAwesome/QtAwesome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesome.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\QtAwesome\QtAwesome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesome.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\QtAwesome\QtAwesome.cpp
 
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\QtAwesome\QtAwesome.cpp > CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesome.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\QtAwesome\QtAwesome.cpp > CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesome.cpp.i
 
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\QtAwesome\QtAwesome.cpp -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesome.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\QtAwesome\QtAwesome.cpp -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesome.cpp.s
 
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj: ../QtAwesome/QtAwesomeAnim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesomeAnim.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\QtAwesome\QtAwesomeAnim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesomeAnim.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\QtAwesome\QtAwesomeAnim.cpp
 
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\QtAwesome\QtAwesomeAnim.cpp > CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesomeAnim.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\QtAwesome\QtAwesomeAnim.cpp > CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesomeAnim.cpp.i
 
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\QtAwesome\QtAwesomeAnim.cpp -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesomeAnim.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\QtAwesome\QtAwesomeAnim.cpp -o CMakeFiles\word_elemination_1.dir\QtAwesome\QtAwesomeAnim.cpp.s
 
 CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj: ../word_elemination.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building RC object CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\word_elemination.rc CMakeFiles\word_elemination_1.dir\word_elemination.rc.obj
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building RC object CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\word_elemination.rc CMakeFiles\word_elemination_1.dir\word_elemination.rc.obj
 
 CMakeFiles/word_elemination_1.dir/main.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/main.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/word_elemination_1.dir/main.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\main.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/word_elemination_1.dir/main.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\main.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\main.cpp
 
 CMakeFiles/word_elemination_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/main.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\main.cpp > CMakeFiles\word_elemination_1.dir\main.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\main.cpp > CMakeFiles\word_elemination_1.dir\main.cpp.i
 
 CMakeFiles/word_elemination_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/main.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\main.cpp -o CMakeFiles\word_elemination_1.dir\main.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\main.cpp -o CMakeFiles\word_elemination_1.dir\main.cpp.s
 
 CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj: ../forms/initialform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\initialform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\initialform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\initialform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\initialform.cpp
 
 CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\initialform.cpp > CMakeFiles\word_elemination_1.dir\forms\initialform.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\initialform.cpp > CMakeFiles\word_elemination_1.dir\forms\initialform.cpp.i
 
 CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\initialform.cpp -o CMakeFiles\word_elemination_1.dir\forms\initialform.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\initialform.cpp -o CMakeFiles\word_elemination_1.dir\forms\initialform.cpp.s
 
 CMakeFiles/word_elemination_1.dir/auth.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/auth.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/auth.cpp.obj: ../auth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/word_elemination_1.dir/auth.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\auth.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\auth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/word_elemination_1.dir/auth.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\auth.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\auth.cpp
 
 CMakeFiles/word_elemination_1.dir/auth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/auth.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\auth.cpp > CMakeFiles\word_elemination_1.dir\auth.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\auth.cpp > CMakeFiles\word_elemination_1.dir\auth.cpp.i
 
 CMakeFiles/word_elemination_1.dir/auth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/auth.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\auth.cpp -o CMakeFiles\word_elemination_1.dir\auth.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\auth.cpp -o CMakeFiles\word_elemination_1.dir\auth.cpp.s
 
 CMakeFiles/word_elemination_1.dir/user.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/user.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/user.cpp.obj: ../user.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/word_elemination_1.dir/user.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\user.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/word_elemination_1.dir/user.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\user.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\user.cpp
 
 CMakeFiles/word_elemination_1.dir/user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/user.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\user.cpp > CMakeFiles\word_elemination_1.dir\user.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\user.cpp > CMakeFiles\word_elemination_1.dir\user.cpp.i
 
 CMakeFiles/word_elemination_1.dir/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/user.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\user.cpp -o CMakeFiles\word_elemination_1.dir\user.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\user.cpp -o CMakeFiles\word_elemination_1.dir\user.cpp.s
 
 CMakeFiles/word_elemination_1.dir/challenge.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/challenge.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/challenge.cpp.obj: ../challenge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/word_elemination_1.dir/challenge.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\challenge.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\challenge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/word_elemination_1.dir/challenge.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\challenge.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\challenge.cpp
 
 CMakeFiles/word_elemination_1.dir/challenge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/challenge.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\challenge.cpp > CMakeFiles\word_elemination_1.dir\challenge.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\challenge.cpp > CMakeFiles\word_elemination_1.dir\challenge.cpp.i
 
 CMakeFiles/word_elemination_1.dir/challenge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/challenge.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\challenge.cpp -o CMakeFiles\word_elemination_1.dir\challenge.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\challenge.cpp -o CMakeFiles\word_elemination_1.dir\challenge.cpp.s
 
 CMakeFiles/word_elemination_1.dir/common.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/common.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/common.cpp.obj: ../common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/word_elemination_1.dir/common.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\common.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/word_elemination_1.dir/common.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\common.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\common.cpp
 
 CMakeFiles/word_elemination_1.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/common.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\common.cpp > CMakeFiles\word_elemination_1.dir\common.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\common.cpp > CMakeFiles\word_elemination_1.dir\common.cpp.i
 
 CMakeFiles/word_elemination_1.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/common.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\common.cpp -o CMakeFiles\word_elemination_1.dir\common.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\common.cpp -o CMakeFiles\word_elemination_1.dir\common.cpp.s
 
 CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj: ../localconnect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\localconnect.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\localconnect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\localconnect.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\localconnect.cpp
 
 CMakeFiles/word_elemination_1.dir/localconnect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/localconnect.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\localconnect.cpp > CMakeFiles\word_elemination_1.dir\localconnect.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\localconnect.cpp > CMakeFiles\word_elemination_1.dir\localconnect.cpp.i
 
 CMakeFiles/word_elemination_1.dir/localconnect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/localconnect.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\localconnect.cpp -o CMakeFiles\word_elemination_1.dir\localconnect.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\localconnect.cpp -o CMakeFiles\word_elemination_1.dir\localconnect.cpp.s
 
 CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj: ../serverconnect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\serverconnect.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\serverconnect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\serverconnect.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\serverconnect.cpp
 
 CMakeFiles/word_elemination_1.dir/serverconnect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/serverconnect.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\serverconnect.cpp > CMakeFiles\word_elemination_1.dir\serverconnect.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\serverconnect.cpp > CMakeFiles\word_elemination_1.dir\serverconnect.cpp.i
 
 CMakeFiles/word_elemination_1.dir/serverconnect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/serverconnect.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\serverconnect.cpp -o CMakeFiles\word_elemination_1.dir\serverconnect.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\serverconnect.cpp -o CMakeFiles\word_elemination_1.dir\serverconnect.cpp.s
 
 CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj: ../forms/userhomeform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\userhomeform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\userhomeform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\userhomeform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\userhomeform.cpp
 
 CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\userhomeform.cpp > CMakeFiles\word_elemination_1.dir\forms\userhomeform.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\userhomeform.cpp > CMakeFiles\word_elemination_1.dir\forms\userhomeform.cpp.i
 
 CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\userhomeform.cpp -o CMakeFiles\word_elemination_1.dir\forms\userhomeform.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\userhomeform.cpp -o CMakeFiles\word_elemination_1.dir\forms\userhomeform.cpp.s
 
 CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj: ../forms/addwordform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\addwordform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\addwordform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\addwordform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\addwordform.cpp
 
 CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\addwordform.cpp > CMakeFiles\word_elemination_1.dir\forms\addwordform.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\addwordform.cpp > CMakeFiles\word_elemination_1.dir\forms\addwordform.cpp.i
 
 CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\addwordform.cpp -o CMakeFiles\word_elemination_1.dir\forms\addwordform.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\addwordform.cpp -o CMakeFiles\word_elemination_1.dir\forms\addwordform.cpp.s
 
 CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj: ../forms/playform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\playform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\playform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\playform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\playform.cpp
 
 CMakeFiles/word_elemination_1.dir/forms/playform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/forms/playform.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\playform.cpp > CMakeFiles\word_elemination_1.dir\forms\playform.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\playform.cpp > CMakeFiles\word_elemination_1.dir\forms\playform.cpp.i
 
 CMakeFiles/word_elemination_1.dir/forms/playform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/forms/playform.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\playform.cpp -o CMakeFiles\word_elemination_1.dir\forms\playform.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\playform.cpp -o CMakeFiles\word_elemination_1.dir\forms\playform.cpp.s
 
 CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj: ../forms/listusersform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\listusersform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\listusersform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\forms\listusersform.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\listusersform.cpp
 
 CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\listusersform.cpp > CMakeFiles\word_elemination_1.dir\forms\listusersform.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\listusersform.cpp > CMakeFiles\word_elemination_1.dir\forms\listusersform.cpp.i
 
 CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\forms\listusersform.cpp -o CMakeFiles\word_elemination_1.dir\forms\listusersform.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\forms\listusersform.cpp -o CMakeFiles\word_elemination_1.dir\forms\listusersform.cpp.s
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj: word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp > CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp > CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp.i
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\3QVQ3WXC3W\qrc_QtAwesome.cpp.s
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj: CMakeFiles/word_elemination_1.dir/flags.make
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj: CMakeFiles/word_elemination_1.dir/includes_CXX.rsp
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj: word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj"
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp.obj -c D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.i"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp > CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp.i
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp > CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp.i
 
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.s"
-	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp.s
+	D:\Qt\Qt5.12.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp -o CMakeFiles\word_elemination_1.dir\word_elemination_1_autogen\Z2SJJ2MXWF\qrc_style.cpp.s
 
 # Object files for target word_elemination_1
 word_elemination_1_OBJECTS = \
@@ -404,7 +404,7 @@ word_elemination_1.exe: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/lib/libQt5Cored.a
 word_elemination_1.exe: CMakeFiles/word_elemination_1.dir/linklibs.rsp
 word_elemination_1.exe: CMakeFiles/word_elemination_1.dir/objects1.rsp
 word_elemination_1.exe: CMakeFiles/word_elemination_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable word_elemination_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable word_elemination_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\word_elemination_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -418,6 +418,6 @@ CMakeFiles/word_elemination_1.dir/clean:
 
 CMakeFiles/word_elemination_1.dir/depend: word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp
 CMakeFiles/word_elemination_1.dir/depend: word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles\word_elemination_1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1 D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1 D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles\word_elemination_1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/word_elemination_1.dir/depend
 

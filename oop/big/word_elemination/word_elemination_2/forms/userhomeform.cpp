@@ -89,7 +89,7 @@ void UserHomeForm::on_btnEditTag_clicked() {
 
 void UserHomeForm::on_btnLogout_clicked()
 {
-    lcc.setUuid("");
+    lcc.logout();
     pInitialForm->show();
     this->close();
 }

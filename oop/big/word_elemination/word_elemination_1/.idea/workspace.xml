@@ -14,95 +14,329 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13279e9b-2c3e-4cb6-9a94-4f39522e2672" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/word_elemination.rc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/auth.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/RC.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/challenge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/addwordform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/listusersform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/localconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/serverconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/user.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/RC.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/RC.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/auth.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/auth.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/challenge.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/challenge.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/common.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/common.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/user.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/user.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesome.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyle.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_elemination.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_eleminationInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_eleminationSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elem.db" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elem.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_autogen/EWIEGA46WW/qrc_word_elemination.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_autogen/EWIEGA46WW/qrc_word_elemination.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_autogen/include/ui_initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_autogen/include/ui_initialform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_autogen/include/ui_userhomeform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_autogen/include/ui_userhomeform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/-o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/challenge.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/challenge.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/addwordform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/addwordform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/listusersform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/listusersform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/localconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/localconnect.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/serverconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/serverconnect.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/mocs_compilation.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/RC.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/challenge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/addwordform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/listusersform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/localconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/serverconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/user.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/RC.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/RC.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesome.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyle.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_eleminationInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/QM7UNKGVG2/moc_listusersform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/QM7UNKGVG2/moc_listusersform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/QM7UNKGVG2/moc_playform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/QM7UNKGVG2/moc_playform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_addwordform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_addwordform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_initialform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_listusersform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_listusersform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_playform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_playform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_userhomeform.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/include/ui_userhomeform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_autogen/mocs_compilation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeTmp/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/forms/initialform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/initialform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/initialform.ui" beforeDir="false" afterPath="$PROJECT_DIR$/forms/initialform.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/playform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/playform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/ui_initialform.h" beforeDir="false" afterPath="$PROJECT_DIR$/forms/ui_initialform.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/ui_userhomeform.h" beforeDir="false" afterPath="$PROJECT_DIR$/forms/ui_userhomeform.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms/uicall.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/forms/uicall.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms/userhomeform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/userhomeform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/userhomeform.ui" beforeDir="false" afterPath="$PROJECT_DIR$/forms/userhomeform.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme.qss" beforeDir="false" afterPath="$PROJECT_DIR$/theme.qss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word_elemination.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/word_elemination.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localconnect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/localconnect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elemination.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2a8bc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/CMakeTmp/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release-mingw-provided-by-qt/word_elemination.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/CMakeTmp/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/forms/initialform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../word_elemination_2/forms/initialform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/forms/userhomeform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../word_elemination_2/forms/userhomeform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_elemination_2/localconnect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../word_elemination_2/localconnect.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -126,29 +360,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms/initialform.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QtAwesome/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/word_elemination.qrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1320">
+              <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -156,7 +369,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="629">
               <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -168,17 +381,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/theme.qss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="9112">
               <caret line="536" column="41" selection-start-line="536" selection-start-column="41" selection-end-line="536" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forms/userhomeform.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="553">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/localconnect.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -186,11 +408,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forms/initialform.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -198,7 +429,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms/addwordform.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="544">
               <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -210,7 +441,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="3859">
               <caret line="227" column="37" selection-start-line="227" selection-start-column="37" selection-end-line="227" selection-end-column="44" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
@@ -239,9 +470,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reint</find>
-      <find>CONNECT</find>
-      <find>conn</find>
       <find>flags</find>
       <find>connect(</find>
       <find>cbo</find>
@@ -269,6 +497,9 @@
       <find>source</find>
       <find>radio</find>
       <find>fixed</find>
+      <find>logout</find>
+      <find>show</find>
+      <find>lcc.log</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -302,11 +533,9 @@
         <option value="$PROJECT_DIR$/forms/userhomeform.h" />
         <option value="$PROJECT_DIR$/auth.h" />
         <option value="$PROJECT_DIR$/forms/listusersform.h" />
-        <option value="$PROJECT_DIR$/forms/initialform.h" />
         <option value="$PROJECT_DIR$/common.h" />
         <option value="$PROJECT_DIR$/forms/listusersform.cpp" />
         <option value="$PROJECT_DIR$/word_elemination.qrc" />
-        <option value="$PROJECT_DIR$/localconnect.cpp" />
         <option value="$PROJECT_DIR$/forms/playform.h" />
         <option value="$PROJECT_DIR$/theme.qss" />
         <option value="$PROJECT_DIR$/common.cpp" />
@@ -314,9 +543,11 @@
         <option value="$PROJECT_DIR$/forms/playform.cpp" />
         <option value="$PROJECT_DIR$/word_elemination.rc" />
         <option value="$PROJECT_DIR$/auth.cpp" />
-        <option value="$PROJECT_DIR$/forms/userhomeform.cpp" />
-        <option value="$PROJECT_DIR$/forms/initialform.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/forms/initialform.h" />
+        <option value="$PROJECT_DIR$/forms/initialform.cpp" />
+        <option value="$PROJECT_DIR$/forms/userhomeform.cpp" />
+        <option value="$PROJECT_DIR$/localconnect.cpp" />
       </list>
     </option>
   </component>
@@ -333,23 +564,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="word_elemination" type="b2602c69:ProjectViewProjectNode" />
-              <item name="word_elemination" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="word_elemination" type="b2602c69:ProjectViewProjectNode" />
-              <item name="word_elemination" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="word_elemination_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="word_elemination_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,11 +646,12 @@
       <workItem from="1556368880989" duration="12959000" />
       <workItem from="1556424537426" duration="33893000" />
       <workItem from="1556500646210" duration="5653000" />
+      <workItem from="1556610754583" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106602000" />
+    <option name="totallyTimeSpent" value="107408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,9 +664,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.23161513" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.23505154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5007825" side_tool="true" weight="0.14639175" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -455,11 +681,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32629108" />
-      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,16 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/localconnect.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="166" column="59" selection-start-line="166" selection-start-column="59" selection-end-line="166" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forms/playform.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -743,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/initialform.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QtAwesome/QtAwesome.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -780,10 +986,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/QtAwesome/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/word_elemination.qrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.qss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9112">
+          <caret line="536" column="41" selection-start-line="536" selection-start-column="41" selection-end-line="536" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/addwordform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="227" column="37" selection-start-line="227" selection-start-column="37" selection-end-line="227" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -794,74 +1044,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="227" column="37" selection-start-line="227" selection-start-column="37" selection-end-line="227" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/addwordform.cpp">
+    <entry file="file://$PROJECT_DIR$/forms/initialform.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/forms/initialform.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1320">
+          <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme.qss">
+    <entry file="file://$PROJECT_DIR$/localconnect.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="536" column="41" selection-start-line="536" selection-start-column="41" selection-end-line="536" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/userhomeform.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/initialform.cpp">
+    <entry file="file://$PROJECT_DIR$/forms/userhomeform.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QtAwesome/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="553">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
     </entry>

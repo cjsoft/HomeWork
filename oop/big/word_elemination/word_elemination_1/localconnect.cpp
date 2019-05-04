@@ -181,8 +181,10 @@ int LocalConnect::logout() {
     QJsonObject data;
     QString rtn = doQuery("logout", data);
     if (parseRtn(rtn, data) == 0) {
+        setUuid("");
         return 0;
     }
+    setUuid("");
     return 1;
 }
 

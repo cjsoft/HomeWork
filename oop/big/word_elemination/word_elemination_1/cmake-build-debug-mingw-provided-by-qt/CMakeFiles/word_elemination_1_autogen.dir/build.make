@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination
+CMAKE_SOURCE_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt
+CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt
 
 # Utility rule file for word_elemination_1_autogen.
 
@@ -53,8 +53,8 @@ CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_eleminati
 include CMakeFiles/word_elemination_1_autogen.dir/progress.make
 
 CMakeFiles/word_elemination_1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target word_elemination_1"
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_autogen D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target word_elemination_1"
+	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_autogen D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake Debug
 
 word_elemination_1_autogen: CMakeFiles/word_elemination_1_autogen
 word_elemination_1_autogen: CMakeFiles/word_elemination_1_autogen.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/word_elemination_1_autogen.dir/clean:
 .PHONY : CMakeFiles/word_elemination_1_autogen.dir/clean
 
 CMakeFiles/word_elemination_1_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles\word_elemination_1_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1 D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1 D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_1\cmake-build-debug-mingw-provided-by-qt\CMakeFiles\word_elemination_1_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/word_elemination_1_autogen.dir/depend
 

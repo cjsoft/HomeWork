@@ -1,4 +1,4 @@
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/CMakeFiles/edit_cache.dir
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/CMakeFiles/rebuild_cache.dir
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/CMakeFiles/edit_cache.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/CMakeFiles/rebuild_cache.dir
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir

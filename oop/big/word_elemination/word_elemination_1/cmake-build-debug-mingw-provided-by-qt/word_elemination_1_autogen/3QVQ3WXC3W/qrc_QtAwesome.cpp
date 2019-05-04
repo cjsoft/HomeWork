@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/fonts/fontawesome-4.7.0.ttf
+  // D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/fonts/fontawesome-4.7.0.ttf
   0x0,0x2,0x86,0xac,
   0x0,
   0x1,0x0,0x0,0x0,0xd,0x0,0x80,0x0,0x3,0x0,0x50,0x46,0x46,0x54,0x4d,0x6b,

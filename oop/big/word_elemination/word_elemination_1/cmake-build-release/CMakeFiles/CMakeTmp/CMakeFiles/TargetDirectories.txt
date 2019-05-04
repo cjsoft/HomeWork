@@ -1,3 +1,0 @@
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_de53d.dir
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

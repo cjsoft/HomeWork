@@ -156,4 +156,6 @@ void InitialForm::show() {
     QDialog::show();
     ui->inputPassword->clearFocus();
     ui->inputUserName->setFocus();
+    ui->rPlayer->setChecked(true);
+    ui->rDesigner->setChecked(false);
 }

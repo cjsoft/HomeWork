@@ -107,9 +107,9 @@ CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qtransform.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qwindowdefs.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qwindowdefs_win.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
@@ -223,8 +223,8 @@ CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_1.dir/auth.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
@@ -493,16 +493,16 @@ CMakeFiles/word_elemination_1.dir/auth.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/macrodef.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/macrodef.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/challenge.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -768,15 +768,15 @@ CMakeFiles/word_elemination_1.dir/challenge.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/common.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -1051,15 +1051,15 @@ CMakeFiles/word_elemination_1.dir/common.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
@@ -1350,18 +1350,18 @@ CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/addwordform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/addwordform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/ui_addwordform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_addwordform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -1651,18 +1651,18 @@ CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/initialform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/initialform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/ui_initialform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_initialform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -1960,17 +1960,17 @@ CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/listusersform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/listusersform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/ui_listusersform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_listusersform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
@@ -2259,18 +2259,18 @@ CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/playform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/playform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/ui_playform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_playform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
@@ -2561,21 +2561,21 @@ CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/addwordform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/initialform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/listusersform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/playform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/ui_userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -2841,16 +2841,16 @@ CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/macrodef.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/macrodef.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/main.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
@@ -3133,20 +3133,20 @@ CMakeFiles/word_elemination_1.dir/main.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/addwordform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/initialform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/listusersform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/playform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/main.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/main.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -3344,10 +3344,10 @@ CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qwaitcondition.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qwineventnotifier.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qxmlstream.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/user.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
@@ -3545,13 +3545,13 @@ CMakeFiles/word_elemination_1.dir/user.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qwaitcondition.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qwineventnotifier.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qxmlstream.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp
 CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
@@ -3827,27 +3827,27 @@ CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cp
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgets-config.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
  D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesome.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/QtAwesome/QtAwesomeAnim.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/auth.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/challenge.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesome.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesomeAnim.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/EWIEGA46WW/moc_common.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_addwordform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_initialform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_listusersform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_playform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_userhomeform.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/mocs_compilation.cpp
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/common.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/addwordform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/initialform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/listusersform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/playform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/forms/userhomeform.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/localconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/serverconnect.h
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/user.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesome.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesomeAnim.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/EWIEGA46WW/moc_common.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_addwordform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_initialform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_listusersform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_playform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_userhomeform.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/mocs_compilation.cpp
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj
- D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination/word_elemination.rc
+ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/word_elemination.rc
