@@ -16,12 +16,14 @@
 #include "QtAwesome/QtAwesomeAnim.h"
 #include "auth.h"
 #include "localconnect.h"
+#include "challenge.h"
 class InitialForm;
 class UserHomeForm;
 class AddWordForm;
 class PlayForm;
 class ListUsersForm;
 class QtAwesome;
+class Challenge;
 extern InitialForm *pInitialForm;
 extern UserHomeForm *pUserHomeForm;
 extern AddWordForm *pAddWordForm;
@@ -79,6 +81,7 @@ void readObjArray(FILE *f, T pobj[], int n) {
     fread(pobj, sizeof(T), n, f);
 }
 
+int calcScore(Challenge &cha, int puzzleseq, int timeused, int failurecnt);
 
 QPair<int, int> RangeBox(QString content, QString title, int lower, int upper);
 QString InputBox(const QString &content, const QString &title, const QString &text, bool *ok);

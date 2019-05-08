@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination
+CMAKE_SOURCE_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt
+CMAKE_BINARY_DIR = D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_2\cmake-build-debug-mingw-provided-by-qt
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_2\cmake-build-debug-mingw-provided-by-qt\CMakeFiles D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_2\cmake-build-debug-mingw-provided-by-qt\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination\cmake-build-debug-mingw-provided-by-qt\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_2\cmake-build-debug-mingw-provided-by-qt\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,30 +110,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named word_elemination_1
+# Target rules for targets named word_elemination_2
 
 # Build rule for target.
-word_elemination_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 word_elemination_1
-.PHONY : word_elemination_1
+word_elemination_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 word_elemination_2
+.PHONY : word_elemination_2
 
 # fast build rule for target.
-word_elemination_1/fast:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/build
-.PHONY : word_elemination_1/fast
+word_elemination_2/fast:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/build
+.PHONY : word_elemination_2/fast
 
 #=============================================================================
-# Target rules for targets named word_elemination_1_autogen
+# Target rules for targets named word_elemination_2_autogen
 
 # Build rule for target.
-word_elemination_1_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 word_elemination_1_autogen
-.PHONY : word_elemination_1_autogen
+word_elemination_2_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 word_elemination_2_autogen
+.PHONY : word_elemination_2_autogen
 
 # fast build rule for target.
-word_elemination_1_autogen/fast:
-	$(MAKE) -f CMakeFiles\word_elemination_1_autogen.dir\build.make CMakeFiles/word_elemination_1_autogen.dir/build
-.PHONY : word_elemination_1_autogen/fast
+word_elemination_2_autogen/fast:
+	$(MAKE) -f CMakeFiles\word_elemination_2_autogen.dir\build.make CMakeFiles/word_elemination_2_autogen.dir/build
+.PHONY : word_elemination_2_autogen/fast
 
 QtAwesome/QtAwesome.obj: QtAwesome/QtAwesome.cpp.obj
 
@@ -141,7 +141,7 @@ QtAwesome/QtAwesome.obj: QtAwesome/QtAwesome.cpp.obj
 
 # target to build an object file
 QtAwesome/QtAwesome.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/QtAwesome/QtAwesome.cpp.obj
 .PHONY : QtAwesome/QtAwesome.cpp.obj
 
 QtAwesome/QtAwesome.i: QtAwesome/QtAwesome.cpp.i
@@ -150,7 +150,7 @@ QtAwesome/QtAwesome.i: QtAwesome/QtAwesome.cpp.i
 
 # target to preprocess a source file
 QtAwesome/QtAwesome.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/QtAwesome/QtAwesome.cpp.i
 .PHONY : QtAwesome/QtAwesome.cpp.i
 
 QtAwesome/QtAwesome.s: QtAwesome/QtAwesome.cpp.s
@@ -159,7 +159,7 @@ QtAwesome/QtAwesome.s: QtAwesome/QtAwesome.cpp.s
 
 # target to generate assembly for a file
 QtAwesome/QtAwesome.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/QtAwesome/QtAwesome.cpp.s
 .PHONY : QtAwesome/QtAwesome.cpp.s
 
 QtAwesome/QtAwesomeAnim.obj: QtAwesome/QtAwesomeAnim.cpp.obj
@@ -168,7 +168,7 @@ QtAwesome/QtAwesomeAnim.obj: QtAwesome/QtAwesomeAnim.cpp.obj
 
 # target to build an object file
 QtAwesome/QtAwesomeAnim.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/QtAwesome/QtAwesomeAnim.cpp.obj
 .PHONY : QtAwesome/QtAwesomeAnim.cpp.obj
 
 QtAwesome/QtAwesomeAnim.i: QtAwesome/QtAwesomeAnim.cpp.i
@@ -177,7 +177,7 @@ QtAwesome/QtAwesomeAnim.i: QtAwesome/QtAwesomeAnim.cpp.i
 
 # target to preprocess a source file
 QtAwesome/QtAwesomeAnim.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/QtAwesome/QtAwesomeAnim.cpp.i
 .PHONY : QtAwesome/QtAwesomeAnim.cpp.i
 
 QtAwesome/QtAwesomeAnim.s: QtAwesome/QtAwesomeAnim.cpp.s
@@ -186,7 +186,7 @@ QtAwesome/QtAwesomeAnim.s: QtAwesome/QtAwesomeAnim.cpp.s
 
 # target to generate assembly for a file
 QtAwesome/QtAwesomeAnim.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/QtAwesome/QtAwesomeAnim.cpp.s
 .PHONY : QtAwesome/QtAwesomeAnim.cpp.s
 
 auth.obj: auth.cpp.obj
@@ -195,7 +195,7 @@ auth.obj: auth.cpp.obj
 
 # target to build an object file
 auth.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/auth.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/auth.cpp.obj
 .PHONY : auth.cpp.obj
 
 auth.i: auth.cpp.i
@@ -204,7 +204,7 @@ auth.i: auth.cpp.i
 
 # target to preprocess a source file
 auth.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/auth.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/auth.cpp.i
 .PHONY : auth.cpp.i
 
 auth.s: auth.cpp.s
@@ -213,7 +213,7 @@ auth.s: auth.cpp.s
 
 # target to generate assembly for a file
 auth.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/auth.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/auth.cpp.s
 .PHONY : auth.cpp.s
 
 challenge.obj: challenge.cpp.obj
@@ -222,7 +222,7 @@ challenge.obj: challenge.cpp.obj
 
 # target to build an object file
 challenge.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/challenge.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/challenge.cpp.obj
 .PHONY : challenge.cpp.obj
 
 challenge.i: challenge.cpp.i
@@ -231,7 +231,7 @@ challenge.i: challenge.cpp.i
 
 # target to preprocess a source file
 challenge.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/challenge.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/challenge.cpp.i
 .PHONY : challenge.cpp.i
 
 challenge.s: challenge.cpp.s
@@ -240,7 +240,7 @@ challenge.s: challenge.cpp.s
 
 # target to generate assembly for a file
 challenge.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/challenge.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/challenge.cpp.s
 .PHONY : challenge.cpp.s
 
 common.obj: common.cpp.obj
@@ -249,7 +249,7 @@ common.obj: common.cpp.obj
 
 # target to build an object file
 common.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/common.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/common.cpp.obj
 .PHONY : common.cpp.obj
 
 common.i: common.cpp.i
@@ -258,7 +258,7 @@ common.i: common.cpp.i
 
 # target to preprocess a source file
 common.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/common.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/common.cpp.i
 .PHONY : common.cpp.i
 
 common.s: common.cpp.s
@@ -267,7 +267,7 @@ common.s: common.cpp.s
 
 # target to generate assembly for a file
 common.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/common.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/common.cpp.s
 .PHONY : common.cpp.s
 
 forms/addwordform.obj: forms/addwordform.cpp.obj
@@ -276,7 +276,7 @@ forms/addwordform.obj: forms/addwordform.cpp.obj
 
 # target to build an object file
 forms/addwordform.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/addwordform.cpp.obj
 .PHONY : forms/addwordform.cpp.obj
 
 forms/addwordform.i: forms/addwordform.cpp.i
@@ -285,7 +285,7 @@ forms/addwordform.i: forms/addwordform.cpp.i
 
 # target to preprocess a source file
 forms/addwordform.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/addwordform.cpp.i
 .PHONY : forms/addwordform.cpp.i
 
 forms/addwordform.s: forms/addwordform.cpp.s
@@ -294,7 +294,7 @@ forms/addwordform.s: forms/addwordform.cpp.s
 
 # target to generate assembly for a file
 forms/addwordform.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/addwordform.cpp.s
 .PHONY : forms/addwordform.cpp.s
 
 forms/initialform.obj: forms/initialform.cpp.obj
@@ -303,7 +303,7 @@ forms/initialform.obj: forms/initialform.cpp.obj
 
 # target to build an object file
 forms/initialform.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/initialform.cpp.obj
 .PHONY : forms/initialform.cpp.obj
 
 forms/initialform.i: forms/initialform.cpp.i
@@ -312,7 +312,7 @@ forms/initialform.i: forms/initialform.cpp.i
 
 # target to preprocess a source file
 forms/initialform.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/initialform.cpp.i
 .PHONY : forms/initialform.cpp.i
 
 forms/initialform.s: forms/initialform.cpp.s
@@ -321,7 +321,7 @@ forms/initialform.s: forms/initialform.cpp.s
 
 # target to generate assembly for a file
 forms/initialform.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/initialform.cpp.s
 .PHONY : forms/initialform.cpp.s
 
 forms/listusersform.obj: forms/listusersform.cpp.obj
@@ -330,7 +330,7 @@ forms/listusersform.obj: forms/listusersform.cpp.obj
 
 # target to build an object file
 forms/listusersform.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/listusersform.cpp.obj
 .PHONY : forms/listusersform.cpp.obj
 
 forms/listusersform.i: forms/listusersform.cpp.i
@@ -339,7 +339,7 @@ forms/listusersform.i: forms/listusersform.cpp.i
 
 # target to preprocess a source file
 forms/listusersform.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/listusersform.cpp.i
 .PHONY : forms/listusersform.cpp.i
 
 forms/listusersform.s: forms/listusersform.cpp.s
@@ -348,7 +348,7 @@ forms/listusersform.s: forms/listusersform.cpp.s
 
 # target to generate assembly for a file
 forms/listusersform.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/listusersform.cpp.s
 .PHONY : forms/listusersform.cpp.s
 
 forms/playform.obj: forms/playform.cpp.obj
@@ -357,7 +357,7 @@ forms/playform.obj: forms/playform.cpp.obj
 
 # target to build an object file
 forms/playform.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj
 .PHONY : forms/playform.cpp.obj
 
 forms/playform.i: forms/playform.cpp.i
@@ -366,7 +366,7 @@ forms/playform.i: forms/playform.cpp.i
 
 # target to preprocess a source file
 forms/playform.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/playform.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/playform.cpp.i
 .PHONY : forms/playform.cpp.i
 
 forms/playform.s: forms/playform.cpp.s
@@ -375,7 +375,7 @@ forms/playform.s: forms/playform.cpp.s
 
 # target to generate assembly for a file
 forms/playform.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/playform.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/playform.cpp.s
 .PHONY : forms/playform.cpp.s
 
 forms/userhomeform.obj: forms/userhomeform.cpp.obj
@@ -384,7 +384,7 @@ forms/userhomeform.obj: forms/userhomeform.cpp.obj
 
 # target to build an object file
 forms/userhomeform.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/userhomeform.cpp.obj
 .PHONY : forms/userhomeform.cpp.obj
 
 forms/userhomeform.i: forms/userhomeform.cpp.i
@@ -393,7 +393,7 @@ forms/userhomeform.i: forms/userhomeform.cpp.i
 
 # target to preprocess a source file
 forms/userhomeform.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/userhomeform.cpp.i
 .PHONY : forms/userhomeform.cpp.i
 
 forms/userhomeform.s: forms/userhomeform.cpp.s
@@ -402,7 +402,7 @@ forms/userhomeform.s: forms/userhomeform.cpp.s
 
 # target to generate assembly for a file
 forms/userhomeform.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/forms/userhomeform.cpp.s
 .PHONY : forms/userhomeform.cpp.s
 
 localconnect.obj: localconnect.cpp.obj
@@ -411,7 +411,7 @@ localconnect.obj: localconnect.cpp.obj
 
 # target to build an object file
 localconnect.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/localconnect.cpp.obj
 .PHONY : localconnect.cpp.obj
 
 localconnect.i: localconnect.cpp.i
@@ -420,7 +420,7 @@ localconnect.i: localconnect.cpp.i
 
 # target to preprocess a source file
 localconnect.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/localconnect.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/localconnect.cpp.i
 .PHONY : localconnect.cpp.i
 
 localconnect.s: localconnect.cpp.s
@@ -429,7 +429,7 @@ localconnect.s: localconnect.cpp.s
 
 # target to generate assembly for a file
 localconnect.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/localconnect.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/localconnect.cpp.s
 .PHONY : localconnect.cpp.s
 
 main.obj: main.cpp.obj
@@ -438,7 +438,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -447,7 +447,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -456,7 +456,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 serverconnect.obj: serverconnect.cpp.obj
@@ -465,7 +465,7 @@ serverconnect.obj: serverconnect.cpp.obj
 
 # target to build an object file
 serverconnect.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/serverconnect.cpp.obj
 .PHONY : serverconnect.cpp.obj
 
 serverconnect.i: serverconnect.cpp.i
@@ -474,7 +474,7 @@ serverconnect.i: serverconnect.cpp.i
 
 # target to preprocess a source file
 serverconnect.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/serverconnect.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/serverconnect.cpp.i
 .PHONY : serverconnect.cpp.i
 
 serverconnect.s: serverconnect.cpp.s
@@ -483,7 +483,7 @@ serverconnect.s: serverconnect.cpp.s
 
 # target to generate assembly for a file
 serverconnect.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/serverconnect.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/serverconnect.cpp.s
 .PHONY : serverconnect.cpp.s
 
 user.obj: user.cpp.obj
@@ -492,7 +492,7 @@ user.obj: user.cpp.obj
 
 # target to build an object file
 user.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/user.cpp.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/user.cpp.obj
 .PHONY : user.cpp.obj
 
 user.i: user.cpp.i
@@ -501,7 +501,7 @@ user.i: user.cpp.i
 
 # target to preprocess a source file
 user.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/user.cpp.i
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/user.cpp.i
 .PHONY : user.cpp.i
 
 user.s: user.cpp.s
@@ -510,7 +510,7 @@ user.s: user.cpp.s
 
 # target to generate assembly for a file
 user.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/user.cpp.s
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/user.cpp.s
 .PHONY : user.cpp.s
 
 word_elemination.obj: word_elemination.rc.obj
@@ -519,89 +519,89 @@ word_elemination.obj: word_elemination.rc.obj
 
 # target to build an object file
 word_elemination.rc.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination.rc.obj
 .PHONY : word_elemination.rc.obj
 
-word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj: word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
+word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj: word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
 
-.PHONY : word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj
-
-# target to build an object file
-word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
-.PHONY : word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
-
-word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.i: word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i
-
-.PHONY : word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.i
-
-# target to preprocess a source file
-word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i
-.PHONY : word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i
-
-word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.s: word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
-
-.PHONY : word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.s
-
-# target to generate assembly for a file
-word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
-.PHONY : word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
-
-word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.obj: word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
-
-.PHONY : word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.obj
+.PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj
 
 # target to build an object file
-word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
-.PHONY : word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
+word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
+.PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj
 
-word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.i: word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.i
+word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.i: word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i
 
-.PHONY : word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.i
+.PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.i
 
 # target to preprocess a source file
-word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.i
-.PHONY : word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.i
+word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i
+.PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.i
 
-word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.s: word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.s
+word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.s: word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
 
-.PHONY : word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.s
+.PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.s
 
 # target to generate assembly for a file
-word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.s
-.PHONY : word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.s
+word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
+.PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
 
-word_elemination_1_autogen/mocs_compilation.obj: word_elemination_1_autogen/mocs_compilation.cpp.obj
+word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.obj: word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
 
-.PHONY : word_elemination_1_autogen/mocs_compilation.obj
+.PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.obj
 
 # target to build an object file
-word_elemination_1_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj
-.PHONY : word_elemination_1_autogen/mocs_compilation.cpp.obj
+word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
+.PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
 
-word_elemination_1_autogen/mocs_compilation.i: word_elemination_1_autogen/mocs_compilation.cpp.i
+word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.i: word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.i
 
-.PHONY : word_elemination_1_autogen/mocs_compilation.i
+.PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.i
 
 # target to preprocess a source file
-word_elemination_1_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.i
-.PHONY : word_elemination_1_autogen/mocs_compilation.cpp.i
+word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.i:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.i
+.PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.i
 
-word_elemination_1_autogen/mocs_compilation.s: word_elemination_1_autogen/mocs_compilation.cpp.s
+word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.s: word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.s
 
-.PHONY : word_elemination_1_autogen/mocs_compilation.s
+.PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.s
 
 # target to generate assembly for a file
-word_elemination_1_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles\word_elemination_1.dir\build.make CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.s
-.PHONY : word_elemination_1_autogen/mocs_compilation.cpp.s
+word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.s:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.s
+.PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.s
+
+word_elemination_2_autogen/mocs_compilation.obj: word_elemination_2_autogen/mocs_compilation.cpp.obj
+
+.PHONY : word_elemination_2_autogen/mocs_compilation.obj
+
+# target to build an object file
+word_elemination_2_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/mocs_compilation.cpp.obj
+.PHONY : word_elemination_2_autogen/mocs_compilation.cpp.obj
+
+word_elemination_2_autogen/mocs_compilation.i: word_elemination_2_autogen/mocs_compilation.cpp.i
+
+.PHONY : word_elemination_2_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+word_elemination_2_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/mocs_compilation.cpp.i
+.PHONY : word_elemination_2_autogen/mocs_compilation.cpp.i
+
+word_elemination_2_autogen/mocs_compilation.s: word_elemination_2_autogen/mocs_compilation.cpp.s
+
+.PHONY : word_elemination_2_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+word_elemination_2_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/mocs_compilation.cpp.s
+.PHONY : word_elemination_2_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -609,10 +609,10 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... word_elemination_1
+	@echo ... word_elemination_2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... word_elemination_1_autogen
+	@echo ... word_elemination_2_autogen
 	@echo ... QtAwesome/QtAwesome.obj
 	@echo ... QtAwesome/QtAwesome.i
 	@echo ... QtAwesome/QtAwesome.s
@@ -656,15 +656,15 @@ help:
 	@echo ... user.i
 	@echo ... user.s
 	@echo ... word_elemination.obj
-	@echo ... word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj
-	@echo ... word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.i
-	@echo ... word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.s
-	@echo ... word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.obj
-	@echo ... word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.i
-	@echo ... word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.s
-	@echo ... word_elemination_1_autogen/mocs_compilation.obj
-	@echo ... word_elemination_1_autogen/mocs_compilation.i
-	@echo ... word_elemination_1_autogen/mocs_compilation.s
+	@echo ... word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj
+	@echo ... word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.i
+	@echo ... word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.s
+	@echo ... word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.obj
+	@echo ... word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.i
+	@echo ... word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.s
+	@echo ... word_elemination_2_autogen/mocs_compilation.obj
+	@echo ... word_elemination_2_autogen/mocs_compilation.i
+	@echo ... word_elemination_2_autogen/mocs_compilation.s
 .PHONY : help
 
 

@@ -81,7 +81,7 @@ bool Auth::saveDataBase(QString dbpath) {
             rud[cnt].exp = i->getExp();
             rud[cnt].puzzlepassed = 0;
             if (i->getType() == PLAYER) {
-                rud[cnt].puzzlepassed = reinterpret_cast<Player*>(i)->getPuzzlepassed();
+                rud[cnt].puzzlepassed = static_cast<Player*>(i)->getPuzzlepassed();
             }
             cnt++;
         }
@@ -104,7 +104,11 @@ bool Auth::saveDataBase(QString dbpath) {
 int Auth::reg(QString username, QString password, char type) {
     if (username.length() < MINUSERNAMELENGTH || password < MINPASSWORDLENGTH) return BADPARRAM;
     if (mpUserName2User.empty() || mpUserName2User.find(username) == mpUserName2User.constEnd()) {
-        mpUserName2User.insert(username, new User(UserData(username.toStdString().c_str(), genmd5(username, password).toStdString().c_str(), type)));
+        if (type == PLAYER) {
+            mpUserName2User.insert(username, new Player(UserData(username.toStdString().c_str(), genmd5(username, password).toStdString().c_str(), type)));
+        } else {
+            mpUserName2User.insert(username, new Designer(UserData(username.toStdString().c_str(), genmd5(username, password).toStdString().c_str(), type)));
+        }
         return SUCCESS;
     } else {
         return ALREADYREG;

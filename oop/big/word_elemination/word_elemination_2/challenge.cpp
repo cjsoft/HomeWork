@@ -21,6 +21,14 @@ void Challenge::setDifficulty(int difficulty) {
     Challenge::difficulty = difficulty;
 }
 
+int Challenge::getMaximumtries() const {
+    return maximumtries;
+}
+
+void Challenge::setMaximumtries(int maximumtries) {
+    Challenge::maximumtries = maximumtries;
+}
+
 const QString &Quiz::getWord() const {
     return word;
 }

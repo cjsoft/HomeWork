@@ -168,12 +168,18 @@ Challenge LocalConnect::constructChallenge(int difficulty) {
     Challenge rtn;
     rtn.setDifficulty(difficulty);
     double k = csigmoid(difficulty);
-    int kn = wordlist.size() * k;
+    int kn = 30 * k + 1;
+    kn = __min(kn, wordlist.size());
+    rtn.setMaximumtries(kn * (0.05 + (1 - k) * 0.8) + 1);
     int offsetbound = 0.05 * wordlist.size();
     int lb = __max(0, kn - offsetbound);
     int rb = __min(wordlist.size() - 1, kn + offsetbound + 1);
-    int pi = qrand() % (rb - lb) + lb;
-    rtn.getQzlist().push_back(Quiz(wordlist.at(pi), 1000));
+    lb = 0;
+    rb = wordlist.size();
+    for (int i = 0; i < kn; ++i) {
+        int pi = qrand() % (rb - lb) + lb;
+        rtn.getQzlist().push_back(Quiz(wordlist.at(pi), 100 + 900 * (1 - k)));
+    }
     return rtn;
 }
 

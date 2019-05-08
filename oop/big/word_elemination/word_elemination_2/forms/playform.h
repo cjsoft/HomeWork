@@ -6,6 +6,7 @@
 #include <QTimer>
 #include <QPalette>
 #include <QEvent>
+#include <QTime>
 #include "../challenge.h"
 namespace Ui {
 class PlayForm;
@@ -24,17 +25,21 @@ public:
 private:
     Ui::PlayForm *ui;
     QTimer tmrBlink, tmrDisable, tmrHide;
+    QTime timecounter;
     QPalette color[2];
     QString clr[2];
-    QLabel *lblstatus;
+    QLabel *lblstatus, *lblFcnt, *lblQuizno;
     char colorindicator;
     int pti;
     bool playing;
+    int fcnt;
     Challenge challenge;
     void loadChallenge(const Challenge &cha);
     void nextQuiz();
     void completeChallenge();
-    void updateStatusBar();
+    void updateStatusBarUserInfo();
+    void updateStatusBarFcnt();
+    void updateStatusBarQuizno();
     void showEvent(QShowEvent* event) override;
     virtual void closeEvent(QCloseEvent *event) override;
     void formShown();

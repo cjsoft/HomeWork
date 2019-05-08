@@ -41,6 +41,15 @@ double csigmoid(double t) {
     return t / (1 + fabs(t));
 }
 
+int calcScore(Challenge &cha, int puzzleseq, int timeused, int failurecnt) {
+    if (cha.getQzlist().size() <= 0)
+        return 0;
+    int rtn = puzzleseq * 100 + 100;
+    rtn += cha.getQzlist().size() * 10;
+    rtn = rtn * (1 - csigmoid(timeused / (double)cha.getQzlist().size()) / 20.);
+    return rtn;
+}
+
 LocalConnect lcc;
 
 void tmpcls::f()  {

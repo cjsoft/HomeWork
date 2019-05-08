@@ -12,7 +12,11 @@ PlayForm::PlayForm(QWidget *parent) :
     pti = -1;
     ui->setupUi(this);
     lblstatus = new QLabel;
+    lblFcnt = new QLabel;
+    lblQuizno = new QLabel;
     ui->statusbar->addWidget(lblstatus);
+    ui->statusbar->addWidget(lblQuizno);
+    ui->statusbar->addWidget(lblFcnt);
     color[1].setColor(QPalette::Text, Qt::red);
     color[0].setColor(QPalette::Text, Qt::black);
     clr[1] = "QLineEdit {color:red}";
@@ -30,9 +34,11 @@ PlayForm::~PlayForm()
 
 void PlayForm::loadChallenge(const Challenge &cha) {
     challenge = cha;
+    fcnt = 0;
     pti = -1;
     playing = true;
     ui->inputWord->setText("");
+    timecounter.restart();
     nextQuiz();
 }
 
@@ -41,6 +47,7 @@ void PlayForm::nextQuiz() {
         completeChallenge();
     } else {
         auto quiz = challenge.getQzlist().at(++pti);
+        updateStatusBarQuizno();
         tmrHide.stop();
         ui->label->setText(quiz.getWord());
         tmrHide.start(quiz.getTime());
@@ -54,8 +61,8 @@ void PlayForm::hideWord() {
 
 void PlayForm::completeChallenge() {
     playing = false;
-    lcc.finishChallenge(challenge.getDifficulty(), 10);
-    updateStatusBar();
+    lcc.finishChallenge(challenge.getDifficulty(), calcScore(challenge, static_cast<Player const*>(lcc.getCurrentUser())->getPuzzlepassed(), timecounter.elapsed(), fcnt));
+    updateStatusBarUserInfo();
     int choice = MessageBox("通关！\n是否要再来一关？", "提示", QMessageBox::No | QMessageBox::Yes, QMessageBox::Yes);
     if (choice == QMessageBox::No) {
         pUserHomeForm->updateDisplay();
@@ -74,15 +81,26 @@ void PlayForm::on_inputWord_returnPressed() {
             ui->inputWord->setText("");
             nextQuiz();
         } else {
+            fcnt++;
+            updateStatusBarFcnt();
             changeColor();
             tmrBlink.start(150);
             tmrDisable.start(900);
+            if (fcnt > challenge.getMaximumtries()) {
+                int choice = MessageBox("闯关失败！\n是否要重来？", "提示", QMessageBox::No | QMessageBox::Yes, QMessageBox::Yes);
+                if (choice == QMessageBox::No) {
+                    pUserHomeForm->show();
+                    this->close();
+                }
+            } else {
+                loadChallenge(challenge);
+            }
         }
     }
 }
 
 void PlayForm::formShown() {
-    updateStatusBar();
+    updateStatusBarUserInfo();
     lcc.fetchWordlist();
     loadChallenge(lcc.constructChallenge(static_cast<Player const*>(lcc.getCurrentUser())->getPuzzlepassed()));
 }
@@ -103,7 +121,8 @@ void PlayForm::disableTimer() {
     ui->inputWord->setStyleSheet(clr[colorindicator]);
 }
 
-void PlayForm::updateStatusBar() {
+void PlayForm::updateStatusBarUserInfo() {
+    if (lblstatus == nullptr) return;
     lcc.fetchInfo();
     Player const *ply = static_cast<Player const*>(lcc.getCurrentUser());
     lblstatus->setText(QString().sprintf("第%d关  经验值:%d  等级:%d", ply->getPuzzlepassed(), ply->getExp(), ply->getLevel()));
@@ -117,4 +136,16 @@ void PlayForm::closeEvent(QCloseEvent *event) {
 void PlayForm::show() {
     QMainWindow::show();
     formShown();
+}
+
+void PlayForm::updateStatusBarFcnt() {
+    if (lblFcnt) {
+        lblFcnt->setText(QString().sprintf("当前错误次数:%d", fcnt));
+    }
+}
+
+void PlayForm::updateStatusBarQuizno() {
+    if (lblQuizno) {
+        lblQuizno->setText(QString().sprintf("%d/%d个单词", pti + 1, challenge.getQzlist().size()));
+    }
 }

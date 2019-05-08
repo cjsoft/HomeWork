@@ -13,19 +13,21 @@ class Challenge
 {
 private:
     int difficulty;
+    QVector<Quiz> qzlist;
+    int maximumtries;
 public:
+    int getMaximumtries() const;
+
+    void setMaximumtries(int maximumtries);
+
     int getDifficulty() const;
 
     void setDifficulty(int difficulty);
 
-private:
-    QVector<Quiz> qzlist;
-public:
     QVector<Quiz> & getQzlist();
 
     void setQzlist(const QVector<Quiz> &qzlist);
 
-public:
     Challenge();
 };
 
