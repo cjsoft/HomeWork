@@ -23,5 +23,4 @@ bool checkmin(T &a, T b) {
     }
     return false;
 }
-#include "input.cpp"
 #endif

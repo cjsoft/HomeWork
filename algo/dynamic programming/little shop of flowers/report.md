@@ -85,6 +85,10 @@ https://paste.ubuntu.com/p/SdbgrMm52T/
 作业中包含的代码文件进行了适当的代码拆分，并且支持输出方案。
 输出方案的思路是新建一个revfinder数组，记录下他是从哪个(i, j)转移过来的，很显然，如果revfinder\[i\]\[j\].first + 1 = i且revfinder\[i\]\[j\].second + 1 = j，则说明第i支花应该插入到第j个花瓶当中。
 
+示例
+
+![IMG_0364](D:\Users\egwcy\Documents\AirDroid\PublicStaging\IMG_0364.JPG)
+
 以下是对于样例输入的增强输出，其中中间的矩阵是最后的dp数组内容
 
 ```
@@ -109,7 +113,9 @@ Put flower 1 in vase 2.
 
 我们每次将花瓶平均分成两半，然后枚举分配方案，例如共有n朵花，枚举分界点，分界点左边的花放在左边一半的花瓶，右边的在右边一半的花瓶。由于花的数量不超过花瓶的数量，所以我们可以以此为判断依据做剪枝。
 
-作业分治代码为`dnc.cpp`
+![IMG_0366](D:\Users\egwcy\Documents\AirDroid\PublicStaging\IMG_0366.JPG)
+
+示意图
 
 ### 复杂度分析
 
@@ -117,7 +123,7 @@ $$\begin{aligned}
 T(m,n)&=\sum^m_{k=0}T(k,\frac{n}{2})+T(m-k,\frac{n}{2})\\
 &=2\sum^m_{k=0}T(k,\frac{n}{2})
 \end{aligned}
-​$$
+$$
 
 然后不会推了，复杂度估算（猜的）是$O(F^{\log V})$，总之就是很糟糕了，比平方的算法差很多。
 
@@ -140,3 +146,150 @@ make test		# 使用两种不同算法跑数据，比较答案是否相同
 测试结果
 
 ![1554982552227](C:\Users\egwcy\AppData\Roaming\Typora\typora-user-images\1554982552227.png)
+
+# 附录
+
+## 动态规划代码
+
+```cpp
+#include <bits/stdc++.h>
+#include "input.h"
+using namespace std;
+typedef pair<int, int> PII;
+int arr[MXN][MXN];
+int dp[MXN][MXN];
+PII revfinder[MXN][MXN];
+int f, v;
+
+void work() {
+    dp[1][1] = arr[1][1];
+    for (int i = 2; i <= v; ++i) { // 初始化边界条件
+        if (dp[1][i - 1] < arr[1][i]) {
+            dp[1][i] = arr[1][i];
+            revfinder[1][i] = make_pair(0, i - 1);
+        } else {
+            dp[1][i] = dp[1][i - 1];
+            revfinder[1][i] = make_pair(1, i - 1);
+        }
+    }
+    for (int j = 2; j <= v; ++j) {  // 状态转移，记下转移来源
+        for (int i = 2; i <= j; ++i) {
+            if (checkmax(dp[i][j], dp[i - 1][j - 1] + arr[i][j])) {
+                revfinder[i][j] = make_pair(i - 1, j - 1);
+            }
+            if (checkmax(dp[i][j], dp[i][j - 1])) {
+                revfinder[i][j] = make_pair(i, j - 1);
+            }
+        }
+    }
+}
+void output() { // 方案输出
+    PII tmp = make_pair(f, v);
+    while (tmp.first && tmp.second) {
+        PII rtmp = revfinder[tmp.first][tmp.second];
+        if (rtmp.first == tmp.first - 1 && rtmp.second == tmp.second - 1) {
+            printf("Put flower %d in vase %d.\n", tmp.first, tmp.second);
+        }
+        tmp = rtmp;
+    }
+}
+int main() {
+    input(arr, f, v);               // 读入数据
+    work();
+    printf("%d\n", dp[f][v]);       // 结果
+    for (int i = 1; i <= f; ++i) {  // 输出最后的dp数组
+        for (int j = 1; j <= v; ++j) {
+            printf("%4d ", dp[i][j]);
+        }
+        putchar('\n');
+    }
+    output();                       // 输出方案
+}
+```
+
+## 分治法代码
+
+```cpp
+#include "input.h"
+#include <bits/stdc++.h>
+#define IMIN INT_MIN
+using namespace std;
+
+int arr[MXN][MXN], f, v;
+
+int dnc(int fl, int fr, int vl, int vr) {
+    if (fl > fr) return 0;
+    if (fr - fl > vr - vl || vr < vl) {
+        return IMIN;
+    }
+    if (fr - fl == vr - vl) {
+        int rtn = 0;
+        for (int i = fl, j = vl; i <= fr; ++i, ++j)
+            rtn += arr[i][j];
+        return rtn;
+    }
+    int m = (vl + vr) / 2;
+    int rtn = IMIN;
+    for (int i = 0; i <= fr - fl + 1; ++i) {
+        int tl = dnc(fl, fl + i - 1, vl, m);
+        if (tl == IMIN) continue;
+        int tr = dnc(fl + i, fr, m + 1, vr);
+        if (tr == IMIN) continue;
+        checkmax(rtn, tl + tr);
+    }
+    return rtn;
+}
+
+int main() {
+    input(arr, f, v);
+    printf("%d\n", dnc(1, f, 1, v));
+}
+```
+
+## 读入库代码
+
+```cpp
+/*input.h*/
+#ifndef INPUT_H
+#define INPUT_H
+const int MXN = 107;
+void input(int[MXN][MXN], int&, int &);
+template <typename T>
+bool checkmax(T &a, T b);
+template <typename T>
+bool checkmin(T &a, T b);
+template <typename T>
+bool checkmax(T &a, T b) {
+    if (b > a) {
+        a = b;
+        return true;
+    }
+    return false;
+}
+
+template <typename T>
+bool checkmin(T &a, T b) {
+    if (b < a) {
+        a = b;
+        return true;
+    }
+    return false;
+}
+#endif
+
+
+/*input.cpp*/
+#include "input.h"
+#include <bits/stdc++.h>
+using namespace std;
+void input(int arr[MXN][MXN], int &f, int &v) {
+    scanf("%d %d", &f, &v);
+    for (int i = 1; i <= f; ++i) {
+        for (int j = 1; j <= v; ++j) {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+}
+
+```
+

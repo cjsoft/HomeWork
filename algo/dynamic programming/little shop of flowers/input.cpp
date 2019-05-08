@@ -1,6 +1,4 @@
 #include "input.h"
-#ifndef INPUT_CPP
-#define INPUT_CPP
 #include <bits/stdc++.h>
 
 
@@ -15,5 +13,3 @@ void input(int arr[MXN][MXN], int &f, int &v) {
     }
 }
 
-
-#endif
