@@ -9,93 +9,602 @@
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="clion-debug" />
       <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_DIR="clion-release" />
-      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" GENERATION_DIR="clion-relwithdebinfo" />
-      <configuration PROFILE_NAME="MinSizeRel" CONFIG_NAME="MinSizeRel" GENERATION_DIR="clion-minsizerel" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e746c688-2c52-40c8-9a87-34ba88f02934" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/Selective.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/Selective.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/datalink.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/Selective.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-minsizerel/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/Selective.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/Selective.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/datalink.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/Selective.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-relwithdebinfo/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/B.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/CMakeFiles/datalink.dir/datalink.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Release/CMakeFiles/datalink.dir/datalink.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/CMakeFiles/datalink.dir/protocol.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Release/CMakeFiles/datalink.dir/protocol.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/Release/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/datalink-A.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/datalink-A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/datalink-B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fbA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fbB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/uA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/uB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/ufA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/ufB.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/crc32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/getopt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/lprintf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-debug/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/datalink.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-minsizerel/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-minsizerel/datalink.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/GobackN.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/GobackN.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/crc32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/getopt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/lprintf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/GobackN.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/Selective.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-minsizerel/datalink.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/crc32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/getopt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/lprintf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clion-release/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-release/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/datalink.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/datalink.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/protocol.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/datalink.exe" beforeDir="false" afterPath="$PROJECT_DIR$/clion-relwithdebinfo/datalink.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/GobackN.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/GobackN.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-release/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/clion-release/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/crc32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/datalink.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/getopt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/lprintf.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/datalink.dir/protocol.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/GobackN.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/Selective.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion-relwithdebinfo/datalink.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink-A.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datalink-B.log" beforeDir="false" afterPath="$PROJECT_DIR$/datalink-B.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fB.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbB.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uB.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ufA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ufB.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../性能测试记录表.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../性能测试记录表.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_1/auth.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_1/auth.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/auth.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/auth.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/challenge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/challenge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/challenge.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/challenge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/RC.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/challenge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/addwordform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/listusersform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/localconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/serverconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/user.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/RC.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/auth.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/challenge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/user.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesome.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyle.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesome.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyle.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_elemination.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_eleminationInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_eleminationSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elem.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elem.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/RC.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/auth.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/challenge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/addwordform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/initialform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/listusersform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/playform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/forms/userhomeform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/localconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/serverconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/user.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination.dir/word_elemination_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/QtAwesome/QtAwesomeAnim.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/RC.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/auth.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/challenge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/common.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/addwordform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/initialform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/listusersform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/playform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/forms/userhomeform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/localconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/serverconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/user.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1.dir/word_elemination_1_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesome.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyle.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/RCCstyleSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_1_autogen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/AutogenOldSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesome.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCQtAwesomeSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyle.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCstyleSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/RCCword_eleminationInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/CMakeFiles/word_elemination_autogen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/cmake-build-release-mingw-provided-by-qt/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/common.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/forms/playform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/forms/playform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/forms/playform.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/forms/playform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/forms/uicall.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/forms/uicall.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/localconnect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_2/localconnect.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -127,11 +636,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datalink.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="442">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -139,7 +648,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protocol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="986">
               <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#51#63#0" expanded="true" />
@@ -151,7 +660,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -217,6 +726,7 @@
       <find>ack_</find>
       <find>getpt</find>
       <find>getopt</find>
+      <find>TIMEOUT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -228,8 +738,8 @@
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/protocol.c" />
-        <option value="$PROJECT_DIR$/datalink.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/datalink.c" />
       </list>
     </option>
   </component>
@@ -246,28 +756,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GobackN" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab1-linux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab1-linux" type="462c0819:PsiDirectoryNode" />
-              <item name="clion-release" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selective" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab1-linux" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,7 +776,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -319,17 +819,18 @@
       <workItem from="1555569277795" duration="740000" />
       <workItem from="1555571287229" duration="72000" />
       <workItem from="1556544167290" duration="803000" />
+      <workItem from="1557136414144" duration="5127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34548000" />
+    <option name="totallyTimeSpent" value="39675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16907217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16907217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,11 +846,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289941" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3298122" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.33802816" />
-      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,10 +887,16 @@
     <entry file="file://$PROJECT_DIR$/clion-release/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/protocol.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="986">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <element signature="e#51#63#0" expanded="true" />
+            <element signature="e#127#158#0" expanded="true" />
+            <element signature="e#167#185#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,30 +920,24 @@
     <entry file="file://$PROJECT_DIR$/getopt.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/protocol.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding>
-            <element signature="e#51#63#0" expanded="true" />
-            <element signature="e#127#158#0" expanded="true" />
-            <element signature="e#167#185#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datalink.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="442">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
         </state>
       </provider>
     </entry>

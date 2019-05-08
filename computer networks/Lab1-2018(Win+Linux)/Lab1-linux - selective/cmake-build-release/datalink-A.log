@@ -1,0 +1,34 @@
+000.000 =============================================================
+000.000                     Station A                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-005
+000.000 Log file "D:\git-repos\HomeWork\computer networks\Lab1-2018(Win+Linux)\Lab1-linux - selective\cmake-build-release\datalink-A.log", TCP port 59144, debug mask 0x00
+000.000 Station A is waiting for station B on TCP port 59144 ... Done.
+000.674 New epoch: Tue May 07 21:11:39 2019
+000.675 =================================================================
+000.676 
+000.676 Designed by CJSoft, build: May  7 2019  21:10:30
+003.427 .... 7 packets received, 6772 bps, 84.65%, Err 1 (5.3e-005)
+005.550 .... 15 packets received, 7245 bps, 90.57%, Err 1 (2.8e-005)
+007.669 .... 23 packets received, 7407 bps, 92.59%, Err 1 (1.9e-005)
+009.797 .... 31 packets received, 7481 bps, 93.51%, Err 1 (1.4e-005)
+011.919 .... 39 packets received, 7529 bps, 94.11%, Err 1 (1.2e-005)
+014.047 .... 47 packets received, 7557 bps, 94.46%, Err 1 (9.6e-006)
+016.165 .... 55 packets received, 7583 bps, 94.78%, Err 2 (1.7e-005)
+018.288 .... 62 packets received, 7479 bps, 93.49%, Err 2 (1.5e-005)
+020.402 .... 68 packets received, 7294 bps, 91.18%, Err 2 (1.3e-005)
+022.555 .... 74 packets received, 7134 bps, 89.17%, Err 2 (1.2e-005)
+024.677 .... 80 packets received, 7012 bps, 87.64%, Err 2 (1.1e-005)
+026.806 .... 86 packets received, 6908 bps, 86.35%, Err 2 (9.7e-006)
+028.945 .... 92 packets received, 6818 bps, 85.23%, Err 2 (9.0e-006)
+031.083 .... 95 packets received, 6535 bps, 81.68%, Err 3 (1.2e-005)
+033.217 .... 105 packets received, 6740 bps, 84.24%, Err 3 (1.2e-005)
+035.346 .... 113 packets received, 6799 bps, 84.99%, Err 3 (1.1e-005)
+037.500 .... 120 packets received, 6791 bps, 84.89%, Err 4 (1.4e-005)
+039.624 .... 128 packets received, 6842 bps, 85.52%, Err 4 (1.3e-005)
+041.756 .... 136 packets received, 6886 bps, 86.08%, Err 4 (1.2e-005)
+043.885 .... 144 packets received, 6927 bps, 86.59%, Err 4 (1.2e-005)
+046.030 .... 152 packets received, 6961 bps, 87.01%, Err 4 (1.1e-005)
+048.147 .... 160 packets received, 6996 bps, 87.45%, Err 4 (1.1e-005)
+050.281 .... 168 packets received, 7026 bps, 87.82%, Err 4 (1.0e-005)

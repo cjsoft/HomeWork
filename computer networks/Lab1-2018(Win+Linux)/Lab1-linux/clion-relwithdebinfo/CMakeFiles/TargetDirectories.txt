@@ -1,3 +1,0 @@
-D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/clion-relwithdebinfo/CMakeFiles/datalink.dir
-D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/clion-relwithdebinfo/CMakeFiles/edit_cache.dir
-D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux/clion-relwithdebinfo/CMakeFiles/rebuild_cache.dir

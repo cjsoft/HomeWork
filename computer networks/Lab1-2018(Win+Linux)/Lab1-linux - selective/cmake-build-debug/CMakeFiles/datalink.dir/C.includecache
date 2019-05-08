@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+protocol.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.h
+datalink.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.h
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.h
+stdarg.h
+-
+stdio.h
+-
+
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.h
+stdio.h
+-
+string.h
+-
+lprintf.h
+D:/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.h
+

@@ -4,12 +4,12 @@
 #include "protocol.h"
 #include "datalink.h"
 #ifndef DATA_TIMER
-    #define DATA_TIMER  750
+    #define DATA_TIMER  2000
 #endif
 #ifndef ACK_TIMER
-    #define ACK_TIMER   150
+    #define ACK_TIMER   300
 #endif
-#define MAX_SEQ 127
+#define MAX_SEQ 7
 #define inc(x) ((x) = ((x) + 1) % (MAX_SEQ + 1))
 #define DATA_MASK 1
 #define ACK_MASK 2
@@ -23,7 +23,7 @@ typedef unsigned char seq_nr;
 typedef int event_type;
 typedef unsigned char frame_kind;
 struct FRAME {
-    unsigned char kind; /* FRAME_DATA */
+    unsigned char kind;
     unsigned char ack;
     unsigned char seq;
     unsigned char data[PKT_LEN];

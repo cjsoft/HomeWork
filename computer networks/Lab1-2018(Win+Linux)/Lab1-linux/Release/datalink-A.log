@@ -2,118 +2,525 @@
 000.000                     Station A                               
 000.000 -------------------------------------------------------------
 000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
-000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
-000.000 Log file "./datalink-A.log", TCP port 10086, debug mask 0x00
-000.000 Station A is waiting for station B on TCP port 10086 ... Done.
-000.134 New epoch: Wed Apr 17 12:09:57 2019
-000.134 =================================================================
-000.134 
-000.134 Designed by CJSoft, build: Apr 17 2019  12:07:58
-003.173 .... 2 packets received, 2040 bps, 25.50%, Err 1 (5.9e-05)
-005.590 .... 6 packets received, 2777 bps, 34.71%, Err 1 (2.8e-05)
-009.605 .... 11 packets received, 2669 bps, 33.36%, Err 1 (1.5e-05)
-013.629 .... 16 packets received, 2629 bps, 32.86%, Err 1 (9.9e-06)
-017.629 .... 21 packets received, 2612 bps, 32.65%, Err 1 (7.5e-06)
-021.670 .... 26 packets received, 2597 bps, 32.46%, Err 1 (6.1e-06)
-025.676 .... 31 packets received, 2590 bps, 32.38%, Err 1 (5.1e-06)
-029.698 .... 36 packets received, 2584 bps, 32.30%, Err 1 (4.4e-06)
-033.689 .... 41 packets received, 2582 bps, 32.27%, Err 2 (7.7e-06)
-037.482 ** WARNING: System too busy, sleep 15 ms, but be awakened 211 ms later
-037.791 .... 46 packets received, 2572 bps, 32.15%, Err 2 (6.8e-06)
-041.722 .... 51 packets received, 2575 bps, 32.19%, Err 3 (9.2e-06)
-044.389 .... 56 packets received, 2653 bps, 33.17%, Err 3 (8.7e-06)
-047.069 .... 61 packets received, 2722 bps, 34.02%, Err 3 (8.1e-06)
-049.740 .... 66 packets received, 2783 bps, 34.78%, Err 3 (7.7e-06)
-052.436 .... 71 packets received, 2836 bps, 35.45%, Err 3 (7.3e-06)
-055.135 .... 76 packets received, 2884 bps, 36.05%, Err 3 (6.9e-06)
-057.802 .... 81 packets received, 2929 bps, 36.61%, Err 3 (6.6e-06)
-060.504 .... 86 packets received, 2968 bps, 37.10%, Err 3 (6.3e-06)
-063.211 .... 91 packets received, 3004 bps, 37.55%, Err 3 (6.0e-06)
-065.895 .... 96 packets received, 3037 bps, 37.97%, Err 3 (5.8e-06)
-068.584 .... 101 packets received, 3068 bps, 38.35%, Err 3 (5.6e-06)
-070.430 ** WARNING: System too busy, sleep 15 ms, but be awakened 114 ms later
-071.252 .... 106 packets received, 3097 bps, 38.72%, Err 3 (5.3e-06)
-075.023 .... 111 packets received, 3078 bps, 38.47%, Err 4 (6.8e-06)
-077.703 .... 116 packets received, 3104 bps, 38.80%, Err 5 (8.2e-06)
-080.379 .... 121 packets received, 3128 bps, 39.10%, Err 5 (7.9e-06)
-083.070 .... 126 packets received, 3151 bps, 39.38%, Err 5 (7.6e-06)
-085.749 .... 131 packets received, 3172 bps, 39.65%, Err 5 (7.4e-06)
-088.449 .... 136 packets received, 3191 bps, 39.89%, Err 5 (7.2e-06)
-091.134 .... 141 packets received, 3210 bps, 40.12%, Err 5 (6.9e-06)
-093.829 .... 146 packets received, 3227 bps, 40.33%, Err 5 (6.7e-06)
-096.655 ** WARNING: System too busy, sleep 15 ms, but be awakened 138 ms later
-097.079 .... 148 packets received, 3160 bps, 39.50%, Err 7 (9.1e-06)
-099.336 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-099.754 .... 153 packets received, 3178 bps, 39.73%, Err 7 (8.9e-06)
-104.590 .... 157 packets received, 3109 bps, 38.86%, Err 7 (8.7e-06)
-105.100 ** WARNING: System too busy, sleep 15 ms, but be awakened 86 ms later
-108.621 .... 158 packets received, 3011 bps, 37.64%, Err 7 (8.6e-06)
-112.877 .... 159 packets received, 2915 bps, 36.44%, Err 8 (9.8e-06)
-116.889 .... 160 packets received, 2832 bps, 35.39%, Err 8 (9.8e-06)
-120.969 .... 161 packets received, 2752 bps, 34.40%, Err 8 (9.7e-06)
-123.314 ** WARNING: System too busy, sleep 15 ms, but be awakened 68 ms later
-125.177 .... 162 packets received, 2675 bps, 33.44%, Err 8 (9.7e-06)
-125.892 ** WARNING: System too busy, sleep 15 ms, but be awakened 72 ms later
-127.569 ** WARNING: System too busy, sleep 15 ms, but be awakened 67 ms later
-129.332 .... 163 packets received, 2605 bps, 32.56%, Err 8 (9.7e-06)
-130.494 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-133.370 .... 164 packets received, 2541 bps, 31.76%, Err 8 (9.6e-06)
-134.480 ** WARNING: System too busy, sleep 15 ms, but be awakened 71 ms later
-137.427 .... 165 packets received, 2480 bps, 31.00%, Err 8 (9.6e-06)
-141.486 .... 166 packets received, 2423 bps, 30.28%, Err 8 (9.5e-06)
-145.620 .... 167 packets received, 2368 bps, 29.60%, Err 8 (9.4e-06)
-149.742 .... 168 packets received, 2316 bps, 28.95%, Err 8 (9.4e-06)
-153.867 .... 169 packets received, 2267 bps, 28.33%, Err 8 (9.3e-06)
-158.035 .... 170 packets received, 2219 bps, 27.74%, Err 8 (9.3e-06)
-162.212 .... 171 packets received, 2175 bps, 27.18%, Err 8 (9.3e-06)
-162.930 ** WARNING: System too busy, sleep 15 ms, but be awakened 75 ms later
-166.332 .... 172 packets received, 2133 bps, 26.66%, Err 8 (9.2e-06)
-166.702 ** WARNING: System too busy, sleep 15 ms, but be awakened 76 ms later
-168.625 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
-170.525 .... 173 packets received, 2092 bps, 26.15%, Err 8 (9.2e-06)
-174.501 .... 174 packets received, 2056 bps, 25.70%, Err 8 (9.2e-06)
-178.748 .... 175 packets received, 2018 bps, 25.23%, Err 8 (9.1e-06)
-181.800 ** WARNING: System too busy, sleep 15 ms, but be awakened 106 ms later
-182.891 .... 176 packets received, 1983 bps, 24.79%, Err 8 (9.1e-06)
-184.724 ** WARNING: System too busy, sleep 15 ms, but be awakened 79 ms later
-186.720 ** WARNING: System too busy, sleep 15 ms, but be awakened 78 ms later
-187.041 .... 177 packets received, 1950 bps, 24.38%, Err 8 (9.0e-06)
-191.140 .... 178 packets received, 1919 bps, 23.99%, Err 8 (9.0e-06)
-195.226 .... 179 packets received, 1889 bps, 23.61%, Err 8 (8.9e-06)
-199.371 .... 180 packets received, 1860 bps, 23.25%, Err 8 (8.9e-06)
-200.628 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-201.383 .... 182 packets received, 1862 bps, 23.27%, Err 8 (8.8e-06)
-205.359 .... 187 packets received, 1876 bps, 23.44%, Err 8 (8.5e-06)
-209.400 .... 192 packets received, 1888 bps, 23.60%, Err 8 (8.2e-06)
-209.664 ** WARNING: System too busy, sleep 15 ms, but be awakened 66 ms later
-213.369 .... 197 packets received, 1901 bps, 23.77%, Err 10 (1.0e-05)
-217.396 .... 202 packets received, 1913 bps, 23.92%, Err 10 (9.7e-06)
-221.393 .... 207 packets received, 1925 bps, 24.06%, Err 10 (9.4e-06)
-221.528 ** WARNING: System too busy, sleep 15 ms, but be awakened 70 ms later
-223.057 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
-225.362 .... 212 packets received, 1937 bps, 24.21%, Err 10 (9.1e-06)
-229.368 .... 217 packets received, 1947 bps, 24.34%, Err 10 (8.8e-06)
-233.390 .... 222 packets received, 1958 bps, 24.47%, Err 10 (8.6e-06)
-237.398 .... 227 packets received, 1968 bps, 24.60%, Err 10 (8.4e-06)
-241.430 .... 232 packets received, 1978 bps, 24.72%, Err 12 (9.8e-06)
-243.567 ** WARNING: System too busy, sleep 15 ms, but be awakened 71 ms later
-245.475 .... 237 packets received, 1987 bps, 24.83%, Err 13 (1.0e-05)
-249.478 .... 242 packets received, 1996 bps, 24.95%, Err 13 (1.0e-05)
-253.408 .... 247 packets received, 2005 bps, 25.07%, Err 14 (1.1e-05)
-256.730 ** WARNING: System too busy, sleep 15 ms, but be awakened 67 ms later
-257.504 .... 252 packets received, 2013 bps, 25.17%, Err 14 (1.0e-05)
-258.042 ** WARNING: System too busy, sleep 15 ms, but be awakened 88 ms later
-261.508 .... 257 packets received, 2022 bps, 25.27%, Err 15 (1.1e-05)
-261.779 ** WARNING: System too busy, sleep 15 ms, but be awakened 69 ms later
-265.481 .... 262 packets received, 2030 bps, 25.38%, Err 15 (1.1e-05)
-269.498 .... 267 packets received, 2038 bps, 25.47%, Err 15 (1.0e-05)
-273.500 .... 272 packets received, 2045 bps, 25.57%, Err 15 (1.0e-05)
-277.505 .... 277 packets received, 2053 bps, 25.66%, Err 16 (1.1e-05)
-281.491 .... 282 packets received, 2060 bps, 25.75%, Err 16 (1.0e-05)
-285.524 .... 287 packets received, 2067 bps, 25.84%, Err 16 (1.0e-05)
-289.533 .... 292 packets received, 2074 bps, 25.92%, Err 16 (9.9e-06)
-293.523 .... 297 packets received, 2081 bps, 26.01%, Err 16 (9.7e-06)
-297.550 .... 302 packets received, 2087 bps, 26.08%, Err 16 (9.5e-06)
-299.668 .... 305 packets received, 2093 bps, 26.16%, Err 17 (1.0e-05)
-302.614 .... 307 packets received, 2086 bps, 26.07%, Err 17 (1.0e-05)
-304.109 TCP disconnected.
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-04
+000.000 Log file "./datalink-A.log", TCP port 59144, debug mask 0x07
+000.000 Station A is waiting for station B on TCP port 59144 ... Done.
+000.159 New epoch: Mon May  6 20:16:49 2019
+000.159 =================================================================
+000.159 
+000.159 Designed by CJSoft, build: May  6 2019  20:16:40
+000.208 Data 0 is sent, with ACK 0.
+000.445 Data 1 is sent, with ACK 0.
+000.701 Data 2 is sent, with ACK 0.
+000.972 Data 3 is sent, with ACK 0.
+001.116 Impose noise on received data, 1/640=1.6E-03
+001.227 Data 4 is sent, with ACK 0.
+001.499 Data 5 is sent, with ACK 0.
+001.578 **** Receiver Error, Bad CRC Checksum
+001.769 Data 6 is sent, with ACK 0.
+001.849 Incorrect seq, discarding 1
+002.104 Incorrect seq, discarding 2
+002.374 Incorrect seq, discarding 3
+002.645 Incorrect seq, discarding 4
+002.709 ---- DATA 0 timeout, resending DATA
+002.899 Incorrect seq, discarding 5
+003.169 Incorrect seq, discarding 6
+003.664 Impose noise on received data, 2/15864=1.3E-04
+004.031 Impose noise on received data, 3/18792=1.6E-04
+004.079 **** Receiver Error, Bad CRC Checksum
+004.350 Incorrect seq, discarding 1
+004.526 Data 7 is sent, with ACK 0.
+004.604 Incorrect seq, discarding 2
+004.795 Data 0 is sent, with ACK 0.
+004.811 Impose noise on received data, 4/25048=1.6E-04
+004.874 Incorrect seq, discarding 3
+005.146 Incorrect seq, discarding 4
+005.401 Incorrect seq, discarding 5
+005.668 Incorrect seq, discarding 6
+006.268 ---- DATA 2 timeout, resending DATA
+006.586 Frame accepted! 3-0
+006.586 .... 1 packets received, 388 bps, 4.85%, Err 4 (1.2e-04)
+006.618 Impose noise on received data, 5/34448=1.5E-04
+006.841 Frame accepted! 3-1
+006.890 Sending short frame ACK for 2.
+007.049 Impose noise on received data, 6/37904=1.6E-04
+007.097 Frame accepted! 3-2
+007.161 Impose noise on received data, 7/38792=1.8E-04
+007.208 Impose noise on received data, 8/39168=2.0E-04
+007.367 Frame accepted! 3-3
+007.399 Sending short frame ACK for 4.
+007.637 **** Receiver Error, Bad CRC Checksum
+007.890 Incorrect seq, discarding 5
+008.112 Data 1 is sent, with ACK 4.
+008.176 Incorrect seq, discarding 6
+008.936 Incorrect seq, discarding 7
+009.205 Incorrect seq, discarding 0
+009.300 ---- DATA 3 timeout, resending DATA
+009.461 Incorrect seq, discarding 1
+009.732 Incorrect seq, discarding 2
+011.118 Data 2 is sent, with ACK 4.
+011.195 Frame accepted! 3-4
+011.195 .... 5 packets received, 1035 bps, 12.94%, Err 8 (1.4e-04)
+011.196 Impose noise on received data, 9/57456=1.6E-04
+011.385 Data 3 is sent, with ACK 5.
+011.465 Frame accepted! 3-5
+011.656 Data 4 is sent, with ACK 6.
+011.734 **** Receiver Error, Bad CRC Checksum
+011.910 Data 5 is sent, with ACK 6.
+012.005 Incorrect seq, discarding 7
+012.275 Incorrect seq, discarding 0
+012.528 Incorrect seq, discarding 1
+012.795 Incorrect seq, discarding 2
+012.812 Data 6 is sent, with ACK 6.
+013.050 Data 7 is sent, with ACK 6.
+013.082 Incorrect seq, discarding 3
+013.305 Data 0 is sent, with ACK 6.
+013.353 Incorrect seq, discarding 4
+013.576 Data 1 is sent, with ACK 6.
+013.832 Data 2 is sent, with ACK 6.
+014.102 Data 3 is sent, with ACK 6.
+014.372 Data 4 is sent, with ACK 6.
+014.579 Impose noise on received data, 10/75440=1.3E-04
+014.641 Data 5 is sent, with ACK 6.
+014.753 Frame accepted! 3-6
+014.753 .... 7 packets received, 1066 bps, 13.33%, Err 10 (1.3e-04)
+014.833 Impose noise on received data, 11/77472=1.4E-04
+014.896 Data 6 is sent, with ACK 7.
+015.023 **** Receiver Error, Bad CRC Checksum
+015.167 Data 7 is sent, with ACK 7.
+015.294 **** Receiver Error, Bad CRC Checksum
+015.563 Incorrect seq, discarding 1
+015.831 Incorrect seq, discarding 2
+016.100 Incorrect seq, discarding 3
+016.148 ---- DATA 1 timeout, resending DATA
+016.356 Incorrect seq, discarding 4
+016.627 Incorrect seq, discarding 5
+017.806 Frame accepted! 3-7
+017.806 .... 8 packets received, 993 bps, 12.41%, Err 11 (1.2e-04)
+017.966 Data 0 is sent, with ACK 0.
+018.077 Frame accepted! 3-0
+018.237 Data 1 is sent, with ACK 1.
+018.332 Frame accepted! 3-1
+018.602 Frame accepted! 3-2
+018.634 Sending short frame ACK for 3.
+018.872 Frame accepted! 3-3
+019.013 Impose noise on received data, 12/103584=1.2E-04
+019.123 Frame accepted! 3-4
+019.186 Sending short frame ACK for 5.
+019.392 **** Receiver Error, Bad CRC Checksum
+019.647 Incorrect seq, discarding 6
+019.709 ---- DATA 3 timeout, resending DATA
+019.917 Incorrect seq, discarding 7
+020.189 Incorrect seq, discarding 0
+020.443 Incorrect seq, discarding 1
+020.714 Incorrect seq, discarding 2
+020.985 Incorrect seq, discarding 3
+021.527 Data 2 is sent, with ACK 5.
+021.798 Data 3 is sent, with ACK 5.
+022.068 Data 4 is sent, with ACK 5.
+022.195 Frame accepted! 3-5
+022.195 .... 14 packets received, 1373 bps, 17.16%, Err 12 (9.9e-05)
+022.323 Data 5 is sent, with ACK 6.
+022.466 Frame accepted! 3-6
+022.594 Impose noise on received data, 13/124768=1.0E-04
+022.594 Data 6 is sent, with ACK 7.
+022.724 Frame accepted! 3-7
+022.850 Data 7 is sent, with ACK 0.
+022.978 **** Receiver Error, Bad CRC Checksum
+023.249 Incorrect seq, discarding 1
+023.533 Incorrect seq, discarding 2
+023.786 Incorrect seq, discarding 3
+023.803 Data 0 is sent, with ACK 0.
+024.041 Data 1 is sent, with ACK 0.
+024.088 Incorrect seq, discarding 4
+024.294 Data 2 is sent, with ACK 0.
+024.342 Incorrect seq, discarding 5
+024.566 Data 3 is sent, with ACK 0.
+024.836 Data 4 is sent, with ACK 0.
+024.868 Incorrect seq, discarding 6
+025.091 Data 5 is sent, with ACK 0.
+025.440 ---- DATA 7 timeout, resending DATA
+026.286 Frame accepted! 3-0
+026.286 .... 17 packets received, 1394 bps, 17.42%, Err 13 (9.1e-05)
+026.558 Frame accepted! 3-1
+026.590 Sending short frame ACK for 2.
+026.812 Frame accepted! 3-2
+027.083 Frame accepted! 3-3
+027.115 Sending short frame ACK for 4.
+027.163 Impose noise on received data, 14/149992=9.3E-05
+027.354 Frame accepted! 3-4
+027.608 **** Receiver Error, Bad CRC Checksum
+027.656 Sending short frame ACK for 5.
+027.672 Impose noise on received data, 15/154072=9.7E-05
+027.878 Incorrect seq, discarding 6
+027.896 Data 6 is sent, with ACK 5.
+028.120 Data 7 is sent, with ACK 5.
+028.168 **** Receiver Error, Bad CRC Checksum
+028.391 Data 0 is sent, with ACK 5.
+028.439 Incorrect seq, discarding 0
+028.662 Data 1 is sent, with ACK 5.
+028.694 Incorrect seq, discarding 1
+028.918 Data 2 is sent, with ACK 5.
+028.965 Incorrect seq, discarding 2
+029.189 Data 3 is sent, with ACK 5.
+029.221 Incorrect seq, discarding 3
+030.394 Impose noise on received data, 16/166160=9.6E-05
+030.394 ---- DATA 6 timeout, resending DATA
+030.554 Impose noise on received data, 17/167560=1.0E-04
+030.698 **** Receiver Error, Bad CRC Checksum
+030.953 **** Receiver Error, Bad CRC Checksum
+031.224 Incorrect seq, discarding 7
+031.478 Incorrect seq, discarding 0
+031.749 Incorrect seq, discarding 1
+031.796 Impose noise on received data, 18/177496=1.0E-04
+031.907 Impose noise on received data, 19/178384=1.1E-04
+032.003 Incorrect seq, discarding 2
+032.272 **** Receiver Error, Bad CRC Checksum
+032.289 Data 4 is sent, with ACK 5.
+032.528 Data 5 is sent, with ACK 5.
+032.782 Data 6 is sent, with ACK 5.
+033.050 Data 7 is sent, with ACK 5.
+033.082 Impose noise on received data, 20/182608=1.1E-04
+033.194 Frame accepted! 3-5
+033.194 .... 22 packets received, 1413 bps, 17.66%, Err 20 (1.1e-04)
+033.321 Data 0 is sent, with ACK 6.
+033.464 **** Receiver Error, Bad CRC Checksum
+033.576 Data 1 is sent, with ACK 6.
+033.592 Impose noise on received data, 21/186808=1.1E-04
+033.734 Incorrect seq, discarding 7
+033.845 Data 2 is sent, with ACK 6.
+033.987 **** Receiver Error, Bad CRC Checksum
+034.274 Incorrect seq, discarding 1
+034.527 Incorrect seq, discarding 2
+034.798 Incorrect seq, discarding 3
+034.798 ---- DATA 4 timeout, resending DATA
+035.067 Incorrect seq, discarding 4
+036.244 Frame accepted! 3-6
+036.244 .... 23 packets received, 1348 bps, 16.85%, Err 21 (1.0e-04)
+036.513 Frame accepted! 3-7
+036.545 Sending short frame ACK for 0.
+036.624 Data 3 is sent, with ACK 0.
+036.767 Frame accepted! 3-0
+036.895 Data 4 is sent, with ACK 1.
+037.039 Frame accepted! 3-1
+037.308 Frame accepted! 3-2
+037.340 Sending short frame ACK for 3.
+037.560 Frame accepted! 3-3
+037.608 Impose noise on received data, 22/211616=1.0E-04
+037.831 Frame accepted! 3-4
+037.849 Data 5 is sent, with ACK 5.
+038.072 Data 6 is sent, with ACK 5.
+038.119 **** Receiver Error, Bad CRC Checksum
+038.342 Data 7 is sent, with ACK 5.
+038.374 Incorrect seq, discarding 6
+038.517 Impose noise on received data, 23/218888=1.1E-04
+038.643 Incorrect seq, discarding 7
+038.898 **** Receiver Error, Bad CRC Checksum
+039.168 Incorrect seq, discarding 1
+039.200 ---- DATA 3 timeout, resending DATA
+039.439 Incorrect seq, discarding 2
+039.694 Incorrect seq, discarding 3
+040.650 Frame accepted! 3-5
+040.650 .... 30 packets received, 1562 bps, 19.52%, Err 23 (1.0e-04)
+040.666 Impose noise on received data, 24/230656=1.0E-04
+040.922 Frame accepted! 3-6
+040.954 Sending short frame ACK for 7.
+041.033 Data 0 is sent, with ACK 7.
+041.176 **** Receiver Error, Bad CRC Checksum
+041.288 Data 1 is sent, with ACK 7.
+041.447 Incorrect seq, discarding 0
+041.716 Incorrect seq, discarding 1
+041.969 Incorrect seq, discarding 2
+041.969 Impose noise on received data, 25/241120=1.0E-04
+042.240 Incorrect seq, discarding 3
+042.495 **** Receiver Error, Bad CRC Checksum
+042.763 Incorrect seq, discarding 5
+042.763 ---- DATA 3 timeout, resending DATA
+043.945 Impose noise on received data, 26/247520=1.1E-04
+044.216 **** Receiver Error, Bad CRC Checksum
+044.487 Incorrect seq, discarding 0
+044.583 Data 2 is sent, with ACK 7.
+044.742 Incorrect seq, discarding 1
+044.854 Impose noise on received data, 27/254792=1.1E-04
+044.870 Impose noise on received data, 28/254920=1.1E-04
+045.013 Incorrect seq, discarding 2
+045.265 **** Receiver Error, Bad CRC Checksum
+045.535 Incorrect seq, discarding 4
+045.805 Incorrect seq, discarding 5
+045.805 ---- DATA 4 timeout, resending DATA
+046.714 Frame accepted! 3-7
+046.714 .... 32 packets received, 1443 bps, 18.04%, Err 28 (1.1e-04)
+046.986 Frame accepted! 3-0
+047.017 Sending short frame ACK for 1.
+047.241 Frame accepted! 3-1
+047.512 Frame accepted! 3-2
+047.544 Sending short frame ACK for 3.
+047.719 Impose noise on received data, 29/272552=1.1E-04
+047.735 Impose noise on received data, 30/272680=1.1E-04
+047.767 Frame accepted! 3-3
+048.037 **** Receiver Error, Bad CRC Checksum
+048.069 Sending short frame ACK for 4.
+048.243 Impose noise on received data, 31/276776=1.1E-04
+048.306 Incorrect seq, discarding 5
+048.306 ---- DATA 4 timeout, resending DATA
+048.577 Incorrect seq, discarding 6
+048.832 Incorrect seq, discarding 7
+049.103 Incorrect seq, discarding 0
+049.374 Incorrect seq, discarding 1
+049.628 Incorrect seq, discarding 2
+050.123 Data 3 is sent, with ACK 4.
+050.394 Data 4 is sent, with ACK 4.
+050.664 Data 5 is sent, with ACK 4.
+050.920 Data 6 is sent, with ACK 4.
+051.111 Frame accepted! 3-4
+051.111 .... 37 packets received, 1521 bps, 19.02%, Err 31 (1.1e-04)
+051.190 Data 7 is sent, with ACK 5.
+051.381 Frame accepted! 3-5
+051.461 Data 0 is sent, with ACK 6.
+051.636 Frame accepted! 3-6
+051.716 Data 1 is sent, with ACK 7.
+051.908 Frame accepted! 3-7
+052.162 Frame accepted! 3-0
+052.210 Sending short frame ACK for 1.
+052.432 Frame accepted! 3-1
+052.701 Frame accepted! 3-2
+052.701 ---- DATA 3 timeout, resending DATA
+052.988 Frame accepted! 3-3
+053.243 Frame accepted! 3-4
+053.243 .... 45 packets received, 1774 bps, 22.18%, Err 31 (1.0e-04)
+053.291 Sending short frame ACK for 5.
+053.514 Frame accepted! 3-5
+053.783 Frame accepted! 3-6
+053.815 Sending short frame ACK for 7.
+054.054 Frame accepted! 3-7
+054.309 Frame accepted! 3-0
+054.356 Sending short frame ACK for 1.
+054.547 Data 2 is sent, with ACK 1.
+054.595 Frame accepted! 3-1
+054.815 Data 3 is sent, with ACK 2.
+055.071 Data 4 is sent, with ACK 2.
+055.342 Data 5 is sent, with ACK 2.
+055.374 Frame accepted! 3-2
+055.374 .... 51 packets received, 1932 bps, 24.15%, Err 31 (9.7e-05)
+055.612 Data 6 is sent, with ACK 3.
+055.643 Frame accepted! 3-3
+055.879 Data 7 is sent, with ACK 4.
+055.895 Frame accepted! 3-4
+056.053 Impose noise on received data, 32/325528=9.8E-05
+056.131 Data 0 is sent, with ACK 5.
+056.163 Frame accepted! 3-5
+056.400 Data 1 is sent, with ACK 6.
+056.431 **** Receiver Error, Bad CRC Checksum
+056.666 Data 2 is sent, with ACK 6.
+056.697 Incorrect seq, discarding 7
+056.855 Impose noise on received data, 33/331848=9.9E-05
+056.966 Incorrect seq, discarding 0
+057.234 **** Receiver Error, Bad CRC Checksum
+057.502 Incorrect seq, discarding 2
+057.662 ---- DATA 4 timeout, resending DATA
+057.775 Incorrect seq, discarding 3
+058.429 Impose noise on received data, 34/339120=1.0E-04
+058.700 Incorrect seq, discarding 5
+058.971 **** Receiver Error, Bad CRC Checksum
+059.226 Incorrect seq, discarding 7
+059.498 Incorrect seq, discarding 0
+059.753 Incorrect seq, discarding 1
+059.960 Impose noise on received data, 35/351368=1.0E-04
+060.024 Incorrect seq, discarding 2
+060.167 ---- DATA 4 timeout, resending DATA
+060.200 Impose noise on received data, 36/353280=1.0E-04
+060.296 **** Receiver Error, Bad CRC Checksum
+060.583 **** Receiver Error, Bad CRC Checksum
+061.749 Frame accepted! 3-6
+061.749 .... 55 packets received, 1864 bps, 23.29%, Err 36 (1.0e-04)
+061.988 Data 3 is sent, with ACK 7.
+062.020 Frame accepted! 3-7
+062.259 Data 4 is sent, with ACK 0.
+062.275 Frame accepted! 3-0
+062.307 Impose noise on received data, 37/362904=1.0E-04
+062.514 Data 5 is sent, with ACK 1.
+062.546 Frame accepted! 3-1
+062.786 Data 6 is sent, with ACK 2.
+062.802 **** Receiver Error, Bad CRC Checksum
+063.056 Data 7 is sent, with ACK 2.
+063.072 Incorrect seq, discarding 3
+063.311 Data 0 is sent, with ACK 2.
+063.342 Incorrect seq, discarding 4
+063.582 Data 1 is sent, with ACK 2.
+063.614 Incorrect seq, discarding 5
+063.886 Incorrect seq, discarding 6
+064.027 Impose noise on received data, 38/376656=1.0E-04
+064.123 Incorrect seq, discarding 7
+064.408 **** Receiver Error, Bad CRC Checksum
+064.564 ---- DATA 3 timeout, resending DATA
+066.145 Frame accepted! 3-2
+066.145 .... 59 packets received, 1864 bps, 23.29%, Err 38 (1.0e-04)
+066.384 Data 2 is sent, with ACK 3.
+066.416 Frame accepted! 3-3
+066.655 Data 3 is sent, with ACK 4.
+066.671 Frame accepted! 3-4
+066.863 Impose noise on received data, 39/387640=1.0E-04
+066.943 Frame accepted! 3-5
+066.974 Sending short frame ACK for 6.
+067.197 **** Receiver Error, Bad CRC Checksum
+067.465 Incorrect seq, discarding 7
+067.748 Incorrect seq, discarding 0
+067.765 Data 4 is sent, with ACK 6.
+068.004 Data 5 is sent, with ACK 6.
+068.036 Incorrect seq, discarding 1
+068.259 Data 6 is sent, with ACK 6.
+068.291 Incorrect seq, discarding 2
+068.529 Data 7 is sent, with ACK 6.
+068.561 Incorrect seq, discarding 3
+068.784 Data 0 is sent, with ACK 6.
+068.831 Incorrect seq, discarding 4
+069.054 Data 1 is sent, with ACK 6.
+069.325 Data 2 is sent, with ACK 6.
+069.581 Data 3 is sent, with ACK 6.
+069.852 Data 4 is sent, with ACK 6.
+070.124 Data 5 is sent, with ACK 6.
+070.380 Data 6 is sent, with ACK 6.
+070.555 Frame accepted! 3-6
+070.555 .... 63 packets received, 1863 bps, 23.29%, Err 39 (9.6e-05)
+070.651 Data 7 is sent, with ACK 7.
+070.826 Frame accepted! 3-7
+070.906 Data 0 is sent, with ACK 0.
+071.082 Frame accepted! 3-0
+071.225 Impose noise on received data, 40/410952=9.7E-05
+071.352 Frame accepted! 3-1
+071.384 Sending short frame ACK for 2.
+071.605 **** Receiver Error, Bad CRC Checksum
+071.878 Incorrect seq, discarding 3
+071.894 ---- DATA 2 timeout, resending DATA
+072.146 Incorrect seq, discarding 4
+072.416 Incorrect seq, discarding 5
+072.672 Incorrect seq, discarding 6
+072.943 Incorrect seq, discarding 7
+073.200 Incorrect seq, discarding 0
+073.720 Data 1 is sent, with ACK 2.
+073.975 Data 2 is sent, with ACK 2.
+074.246 Data 3 is sent, with ACK 2.
+074.518 Data 4 is sent, with ACK 2.
+074.770 Data 5 is sent, with ACK 2.
+074.785 Impose noise on received data, 41/427816=9.6E-05
+074.942 Frame accepted! 3-2
+074.943 .... 67 packets received, 1863 bps, 23.29%, Err 41 (9.6e-05)
+075.036 Data 6 is sent, with ACK 3.
+075.211 **** Receiver Error, Bad CRC Checksum
+075.305 Data 7 is sent, with ACK 3.
+075.477 Incorrect seq, discarding 4
+075.742 Incorrect seq, discarding 5
+076.012 Incorrect seq, discarding 6
+076.266 Incorrect seq, discarding 7
+076.282 ---- DATA 1 timeout, resending DATA
+076.539 Incorrect seq, discarding 0
+076.809 Incorrect seq, discarding 1
+077.972 Frame accepted! 3-3
+077.972 .... 68 packets received, 1817 bps, 22.71%, Err 41 (9.2e-05)
+078.100 Data 0 is sent, with ACK 4.
+078.244 Frame accepted! 3-4
+078.372 Data 1 is sent, with ACK 5.
+078.419 Impose noise on received data, 42/449688=9.3E-05
+078.498 Frame accepted! 3-5
+078.642 Data 2 is sent, with ACK 6.
+078.769 **** Receiver Error, Bad CRC Checksum
+079.038 Incorrect seq, discarding 7
+079.163 Impose noise on received data, 43/455560=9.4E-05
+079.289 Incorrect seq, discarding 0
+079.574 **** Receiver Error, Bad CRC Checksum
+079.592 Data 3 is sent, with ACK 6.
+079.830 Impose noise on received data, 44/460904=9.5E-05
+079.830 Data 4 is sent, with ACK 6.
+079.861 Incorrect seq, discarding 2
+080.082 Data 5 is sent, with ACK 6.
+080.129 **** Receiver Error, Bad CRC Checksum
+080.225 Impose noise on received data, 45/461952=9.7E-05
+080.353 Data 6 is sent, with ACK 6.
+080.624 Data 7 is sent, with ACK 6.
+080.655 **** Receiver Error, Bad CRC Checksum
+080.878 Data 0 is sent, with ACK 6.
+081.196 ---- DATA 2 timeout, resending DATA
+082.074 Frame accepted! 3-6
+082.074 .... 71 packets received, 1800 bps, 22.50%, Err 45 (9.6e-05)
+082.344 Frame accepted! 3-7
+082.376 Sending short frame ACK for 0.
+082.552 Impose noise on received data, 46/471352=9.8E-05
+082.600 Frame accepted! 3-0
+082.874 **** Receiver Error, Bad CRC Checksum
+082.906 Sending short frame ACK for 1.
+083.002 Impose noise on received data, 47/474968=9.9E-05
+083.129 Incorrect seq, discarding 2
+083.400 **** Receiver Error, Bad CRC Checksum
+083.655 Incorrect seq, discarding 4
+083.672 Data 1 is sent, with ACK 1.
+083.767 Impose noise on received data, 48/481088=1.0E-04
+083.910 Data 2 is sent, with ACK 1.
+083.926 Incorrect seq, discarding 5
+084.197 Incorrect seq, discarding 6
+084.197 Impose noise on received data, 49/484368=1.0E-04
+084.483 **** Receiver Error, Bad CRC Checksum
+084.754 ---- DATA 4 timeout, resending DATA
+086.173 Frame accepted! 3-1
+086.173 .... 74 packets received, 1786 bps, 22.32%, Err 49 (1.0e-04)
+086.445 Frame accepted! 3-2
+086.476 Sending short frame ACK for 3.
+086.588 Data 3 is sent, with ACK 3.
+086.699 Frame accepted! 3-3
+086.795 Impose noise on received data, 50/493824=1.0E-04
+086.842 Data 4 is sent, with ACK 4.
+086.970 Frame accepted! 3-4
+087.223 **** Receiver Error, Bad CRC Checksum
+087.270 Sending short frame ACK for 5.
+087.490 Incorrect seq, discarding 6
+087.554 Impose noise on received data, 51/499824=1.0E-04
+087.761 Incorrect seq, discarding 7
+087.794 Data 5 is sent, with ACK 5.
+088.032 Data 6 is sent, with ACK 5.
+088.064 **** Receiver Error, Bad CRC Checksum
+088.096 Impose noise on received data, 52/504160=1.0E-04
+088.287 Data 7 is sent, with ACK 5.
+088.303 Incorrect seq, discarding 1
+088.558 Data 0 is sent, with ACK 5.
+088.590 **** Receiver Error, Bad CRC Checksum
+088.827 Data 1 is sent, with ACK 5.
+088.859 Incorrect seq, discarding 3
+089.082 Data 2 is sent, with ACK 5.
+089.352 Data 3 is sent, with ACK 5.
+090.301 ---- DATA 5 timeout, resending DATA
+090.588 Frame accepted! 3-5
+090.588 .... 78 packets received, 1789 bps, 22.37%, Err 52 (1.0e-04)
+090.858 Frame accepted! 3-6
+090.890 Sending short frame ACK for 7.
+091.113 Frame accepted! 3-7
+091.225 Impose noise on received data, 53/517464=1.0E-04
+091.385 Frame accepted! 3-0
+091.416 Sending short frame ACK for 1.
+091.512 Impose noise on received data, 54/519760=1.0E-04
+091.640 **** Receiver Error, Bad CRC Checksum
+091.912 **** Receiver Error, Bad CRC Checksum
+092.183 Incorrect seq, discarding 3
+092.468 Impose noise on received data, 55/523184=1.1E-04
+092.723 Data 4 is sent, with ACK 1.
+092.978 **** Receiver Error, Bad CRC Checksum
+093.025 Impose noise on received data, 56/527424=1.1E-04
+093.230 Incorrect seq, discarding 5
+093.341 ---- DATA 6 timeout, resending DATA
+093.532 **** Receiver Error, Bad CRC Checksum
+093.803 Incorrect seq, discarding 7
+095.203 Frame accepted! 3-1
+095.203 .... 82 packets received, 1789 bps, 22.36%, Err 56 (1.0e-04)
+095.394 Impose noise on received data, 57/537264=1.1E-04
+095.474 Frame accepted! 3-2
+095.506 Sending short frame ACK for 3.
+095.727 **** Receiver Error, Bad CRC Checksum
+095.854 ---- DATA 6 timeout, resending DATA
+095.999 Incorrect seq, discarding 4
+096.271 Incorrect seq, discarding 5
+096.525 Incorrect seq, discarding 6
+096.573 Impose noise on received data, 58/546712=1.1E-04
+096.796 Incorrect seq, discarding 7
+097.051 **** Receiver Error, Bad CRC Checksum
+097.322 Incorrect seq, discarding 1
+097.672 Data 5 is sent, with ACK 3.
+097.943 Data 6 is sent, with ACK 3.
+098.117 TCP disconnected.

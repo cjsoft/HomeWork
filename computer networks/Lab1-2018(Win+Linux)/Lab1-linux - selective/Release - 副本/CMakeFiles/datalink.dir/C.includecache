@@ -1,0 +1,116 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/crc32.c
+stdio.h
+-
+stdlib.h
+-
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+protocol.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.h
+datalink.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.h
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.h
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+getopt.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.h
+string.h
+-
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.h
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.c
+windows.h
+-
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+math.h
+-
+lprintf.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.h
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.h
+stdarg.h
+-
+stdio.h
+-
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.c
+time.h
+-
+winsock.h
+-
+io.h
+-
+stdio.h
+-
+sys/types.h
+-
+sys/timeb.h
+-
+getopt.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.h
+sys/types.h
+-
+sys/socket.h
+-
+sys/time.h
+-
+unistd.h
+-
+ctype.h
+-
+stdlib.h
+-
+errno.h
+-
+getopt.h
+-
+arpa/inet.h
+-
+netinet/tcp.h
+-
+netdb.h
+-
+math.h
+-
+protocol.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.h
+
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.h
+stdio.h
+-
+string.h
+-
+lprintf.h
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.h
+
