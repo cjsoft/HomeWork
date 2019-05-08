@@ -129,7 +129,7 @@ int main(int argc, char **argv)
                             arrived[frame_expected % NR_BUFS] = false;
                             inc(frame_expected);
                             inc(too_far);
-                            start_ack_timer(ACK_TIMEOUT);
+                            start_ack_timer(ACK_TIMER);
                         }
                     }
                 }

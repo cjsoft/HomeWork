@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -n "$1" ]
+if [ -n "$1" ] && [ -n "$2" ]
 then
     echo 'Initializing'
     ./$1 A -p 300$21 -l A.log -t 700 1>/dev/null&
