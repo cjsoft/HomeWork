@@ -2179,6 +2179,7 @@ CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/
 CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
 CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
+CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QValidator
 CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
 CMakeFiles/word_elemination_2.dir/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcursor.h

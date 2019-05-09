@@ -127,10 +127,7 @@ QStringList const &LocalConnect::fetchWordlist() {
     QJsonObject data;
     QString rtn = doQuery("wordlist", data);
     if (parseRtn(rtn, data) == 0) {
-        QJsonArray arr = data.value("lst").toArray();
-        for (auto i : arr) {
-            wordlist.push_back(i.toString());
-        }
+        wordlist = data.value("lst").toString().split("\n");
     }
     qDebug() << wordlist.size();
     return wordlist;
@@ -169,16 +166,17 @@ Challenge LocalConnect::constructChallenge(int difficulty) {
     rtn.setDifficulty(difficulty);
     double k = csigmoid(difficulty);
     int kn = 30 * k + 1;
-    kn = __min(kn, wordlist.size());
-    rtn.setMaximumtries(kn * (0.05 + (1 - k) * 0.8) + 1);
-    int offsetbound = 0.05 * wordlist.size();
+    kn = __min(kn, wordlist.size());                      // 关卡包含单词个数
+    rtn.setMaximumtries(kn * (0.05 + (1 - k) * 0.8) + 1); // 设置最大重试次数
+    int offsetbound = __max(100, 0.5 * wordlist.size());    // 难度分布区间为0.5倍词库大小，太小容易导致选择的词长度高度相近
+                                                            // 这个区间可以使新加词语几乎不影响关卡难度
     int lb = __max(0, kn - offsetbound);
-    int rb = __min(wordlist.size() - 1, kn + offsetbound + 1);
-    lb = 0;
-    rb = wordlist.size();
+    int rb = __min(wordlist.size(), kn + offsetbound + 1);  // 选取单词的上下界
+//    lb = 0;
+//    rb = wordlist.size();
     for (int i = 0; i < kn; ++i) {
         int pi = qrand() % (rb - lb) + lb;
-        rtn.getQzlist().push_back(Quiz(wordlist.at(pi), 100 + 900 * (1 - k)));
+        rtn.getQzlist().push_back(Quiz(wordlist.at(pi), 100 + 900 * (1 - k))); // 显示时间随着难度递增而递减
     }
     return rtn;
 }

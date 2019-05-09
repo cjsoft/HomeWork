@@ -2,6 +2,7 @@
 #include <QCryptographicHash>
 #include "common.h"
 #include "macrodef.h"
+#include <cmath>
 #include <QUuid>
 #include <QFileInfo>
 #include <QDebug>
@@ -264,7 +265,7 @@ int Auth::finishChallenge(QString uuid, int difficulty, int score) {
 }
 
 int Auth::calcLevelP(int exp) {
-    return exp / 100;
+    return log(exp / 10. + 1);
 }
 
 int Auth::calcLevelD(int exp) {

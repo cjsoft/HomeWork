@@ -57,7 +57,7 @@ QString ServerConnect::executeQuery(QString query) {
                 rtnData.insert("addcode", ATH.addWord(qryuuid, data.value("word").toString()));
             }
         } else if (method == "wordlist") {
-            rtnData.insert("lst", QStringList2QJson(ATH.getWordList()));
+            rtnData.insert("lst", ATH.getWordList().join("\n"));
         } else if (method == "finchan") {
             if (data.contains("difficulty") && data.contains("score"))
                 rtnData.insert("fincode", ATH.finishChallenge(qryuuid, data.value("difficulty").toInt(), data.value("score").toInt()));
@@ -68,7 +68,7 @@ QString ServerConnect::executeQuery(QString query) {
     }
     rtn.insert("data", rtnData);
     jdoc.setObject(rtn);
-    qDebug() << QString(jdoc.toJson());
+//    qDebug() << QString(jdoc.toJson());
     return QString(jdoc.toJson());
 }
 

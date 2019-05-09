@@ -2,6 +2,7 @@
 #include "ui_playform.h"
 #include "../common.h"
 #include "userhomeform.h"
+#include <QValidator>
 class UserHomeForm;
 extern UserHomeForm *pUserHomeForm;
 PlayForm::PlayForm(QWidget *parent) :
@@ -11,6 +12,7 @@ PlayForm::PlayForm(QWidget *parent) :
     playing = false;
     pti = -1;
     ui->setupUi(this);
+    ui->inputWord->setValidator(new QRegExpValidator(QRegExp("[0-9a-zA-Z\\.\\- \'&]+"), ui->inputWord));
     lblstatus = new QLabel;
     lblFcnt = new QLabel;
     lblQuizno = new QLabel;
@@ -48,6 +50,7 @@ void PlayForm::nextQuiz() {
     } else {
         auto quiz = challenge.getQzlist().at(++pti);
         updateStatusBarQuizno();
+        updateStatusBarFcnt();
         tmrHide.stop();
         ui->label->setText(quiz.getWord());
         tmrHide.start(quiz.getTime());
@@ -91,9 +94,9 @@ void PlayForm::on_inputWord_returnPressed() {
                 if (choice == QMessageBox::No) {
                     pUserHomeForm->show();
                     this->close();
+                } else {
+                    loadChallenge(challenge);
                 }
-            } else {
-                loadChallenge(challenge);
             }
         }
     }
@@ -140,7 +143,7 @@ void PlayForm::show() {
 
 void PlayForm::updateStatusBarFcnt() {
     if (lblFcnt) {
-        lblFcnt->setText(QString().sprintf("当前错误次数:%d", fcnt));
+        lblFcnt->setText(QString().sprintf("当前剩余机会:%d", challenge.getMaximumtries() - fcnt));
     }
 }
 

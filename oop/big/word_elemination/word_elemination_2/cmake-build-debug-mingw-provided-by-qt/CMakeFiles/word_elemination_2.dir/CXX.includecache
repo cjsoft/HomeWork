@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
+qcryptographichash.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qcryptographichash.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
 qdebug.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qdebug.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
+qcoreevent.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qcoreevent.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFileInfo
+qfileinfo.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qfileinfo.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
 qmap.h
@@ -33,6 +45,22 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstring.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 qstringlist.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstringlist.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
+qdatetime.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qdatetime.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
+qtimer.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qtimer.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUuid
+quuid.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/quuid.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
+qvariant.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qvariant.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariantMap
 qvariant.h
@@ -1916,6 +1944,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
 qpainter.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qpainter.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
+qpalette.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qpalette.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QValidator
 qvalidator.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qvalidator.h
@@ -2022,6 +2054,22 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -2060,6 +2108,12 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qkeysequence.h
@@ -2326,6 +2380,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QApplication
+qapplication.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qapplication.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QComboBox
 qcombobox.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qcombobox.h
@@ -2334,9 +2392,9 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QDialog
 qdialog.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qdialog.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QInputDialog
-qinputdialog.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qinputdialog.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QGridLayout
+qgridlayout.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLabel
 qlabel.h
@@ -2350,27 +2408,29 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
 qlineedit.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
+qmainwindow.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmainwindow.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenuBar
+qmenubar.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenubar.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 qmessagebox.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmessagebox.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QPushButton
-qpushbutton.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QSpacerItem
+qlayoutitem.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QSizePolicy
-qsizepolicy.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qsizepolicy.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QStatusBar
+qstatusbar.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qstatusbar.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractbutton.h
-QtWidgets/qtwidgetsglobal.h
--
-QtGui/qicon.h
--
-QtGui/qkeysequence.h
--
-QtWidgets/qwidget.h
--
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QWidget
+qwidget.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qwidget.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
@@ -2392,6 +2452,46 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtGui/qvalidator.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qaction.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qkeysequence.h
+-
+QtCore/qstring.h
+-
+QtWidgets/qwidget.h
+-
+QtCore/qvariant.h
+-
+QtGui/qicon.h
+-
+QtWidgets/qactiongroup.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qactiongroup.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qaction.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
 -
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h
@@ -2418,6 +2518,12 @@ QtCore/qvariant.h
 QtGui/qvalidator.h
 -
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -2438,16 +2544,6 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
--
-
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qinputdialog.h
-QtWidgets/qtwidgetsglobal.h
--
-QtCore/qstring.h
--
-QtWidgets/qlineedit.h
--
-QtWidgets/qdialog.h
 -
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlabel.h
@@ -2498,16 +2594,36 @@ QtCore/qstring.h
 QtCore/qmargins.h
 -
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmainwindow.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtWidgets/qtabwidget.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenu.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtCore/qstring.h
+-
+QtGui/qicon.h
+-
+QtWidgets/qaction.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenubar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qmenu.h
+-
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmessagebox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
--
-
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractbutton.h
 -
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qrubberband.h
@@ -2528,6 +2644,12 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qslider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractslider.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qstatusbar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
 -
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qstyle.h
@@ -2648,6 +2770,24 @@ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/QtAwesome/QtAw
 QObject
 -
 
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/auth.cpp
+auth.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/auth.h
+QCryptographicHash
+-
+common.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/common.h
+macrodef.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/macrodef.h
+cmath
+-
+QUuid
+-
+QFileInfo
+-
+QDebug
+-
+
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/auth.h
 user.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/user.h
@@ -2664,32 +2804,6 @@ QString
 QVector
 -
 QPair
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/common.cpp
-common.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/common.h
-QInputDialog
--
-QDialog
--
-QLayout
--
-QMessageBox
--
-QPushButton
--
-QObject
--
-QValidator
--
-QDebug
--
-QLabel
--
-QSizePolicy
--
-cmath
 -
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/common.h
@@ -2722,6 +2836,60 @@ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/localconnect.h
 challenge.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/challenge.h
 
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/playform.cpp
+playform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/playform.h
+ui_playform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/ui_playform.h
+../common.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/common.h
+userhomeform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/userhomeform.h
+QValidator
+-
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/playform.h
+QMainWindow
+-
+QTimer
+-
+QPalette
+-
+QEvent
+-
+QTime
+-
+../challenge.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/challenge.h
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/ui_playform.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QGridLayout
+-
+QtWidgets/QLabel
+-
+QtWidgets/QLineEdit
+-
+QtWidgets/QMainWindow
+-
+QtWidgets/QMenuBar
+-
+QtWidgets/QSpacerItem
+-
+QtWidgets/QStatusBar
+-
+QtWidgets/QWidget
+-
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/forms/userhomeform.h
+QMainWindow
+-
+QLineEdit
+-
+
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/localconnect.h
 QtCore
 -
@@ -2737,6 +2905,8 @@ user.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/user.h
 challenge.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/challenge.h
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/macrodef.h
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/serverconnect.h
 auth.h
