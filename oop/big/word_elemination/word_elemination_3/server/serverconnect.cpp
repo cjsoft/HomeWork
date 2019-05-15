@@ -2,12 +2,13 @@
 #include <QtCore>
 #include <QDebug>
 #include <QtNetwork>
-#include <QtNetwork/QTcpSocket>
 #include "auth.h"
 #include "../utils/user.h"
 #include "ConnManager.h"
+#include "servercommon.h"
 class ConnManager;
 extern ConnManager conman;
+
 ServerConnect::ServerConnect()
 {
 
@@ -23,11 +24,13 @@ QString ServerConnect::executeQuery(const QString &query, QTcpSocket *conn) {
         QJsonObject obj = jdoc.object();
         QString method = obj.value("method").toString();
         QString qryuuid = obj.value("uuid").toString();
+        cout << "Request method: " << method.toStdString() << "\n";
+        cout << "Uuid: " << qryuuid.toStdString() << "\n";
         QJsonObject data = obj.value("data").toObject();
         if (method == "login") {
             qDebug() << data.value("username").toString()<<data.value("password").toString();
             rtnData.insert("uuid", ATH.login(data.value("username").toString(), data.value("password").toString(),
-                                             nullptr));
+                                             conn));
         } else if (method == "logout") {
             ATH.logout(qryuuid);
         } else if (method == "register") {
@@ -95,12 +98,12 @@ QJsonArray ServerConnect::QStringList2QJson(QStringList const &lst) {
 void ServerConnect::inform(const QString &msg, QTcpSocket *conn) {
     if (conn->state() == QTcpSocket::ConnectedState) {
         QJsonDocument jdoc;
-
         QJsonObject jobj, payload;
         jobj.insert("code", 2);
         payload.insert("msg", msg);
         jobj.insert("payload", payload);
         jdoc.setObject(jobj);
-        conn->write(jdoc.toJson(QJsonDocument::Compact));
+        auto x = jdoc.toJson(QJsonDocument::Compact);
+        conn->write(x);
     }
 }

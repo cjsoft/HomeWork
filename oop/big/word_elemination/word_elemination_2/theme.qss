@@ -955,3 +955,4 @@ QPushButton#menuButton::menu-indicator{
     image: url(:/White/arrowBottom);
     padding-right: 3px;
 }
+

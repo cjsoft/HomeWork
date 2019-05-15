@@ -228,6 +228,7 @@ CMakeFiles/word_elemination_3_client.dir/client/QtAwesome/QtAwesomeAnim.cpp.obj:
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QByteArray
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFlags
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QHash
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QIODevice
@@ -236,11 +237,15 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTextStream
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUrl
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariantMap
@@ -439,6 +444,8 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIcon
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QValidator
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
@@ -529,6 +536,8 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenu
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QPushButton
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QSizePolicy
@@ -536,6 +545,8 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractitemdelegate.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractslider.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractspinbox.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qaction.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qactiongroup.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qcombobox.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qdialog.h
@@ -546,6 +557,8 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmainwindow.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenu.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmessagebox.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qrubberband.h
@@ -562,6 +575,11 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/clientcommon.cpp
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/clientcommon.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/forms/addwordform.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/forms/initialform.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/forms/listusersform.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/forms/playform.h
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/forms/userhomeform.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../client/localconnect.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../server/auth.h
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: ../server/servercommon.h
@@ -580,12 +598,15 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRegExp
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUrl
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariantMap
@@ -784,6 +805,8 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIcon
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QValidator
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
@@ -875,9 +898,11 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QComboBox
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QDialog
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QGridLayout
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenu
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenuBar
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QPushButton
@@ -897,6 +922,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qdialog.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qframe.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlabel.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h
@@ -921,6 +947,9 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../cl
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/clientcommon.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/addwordform.cpp
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/addwordform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/initialform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/listusersform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/playform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/ui_addwordform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/forms/userhomeform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../client/localconnect.h
@@ -931,6 +960,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/addwordform.cpp.obj: ../ut
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QByteArray
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFlags
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QHash
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QIODevice
@@ -939,11 +969,14 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUrl
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariantMap
@@ -1143,6 +1176,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QKeyEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
@@ -1240,6 +1274,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenu
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QPushButton
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QRadioButton
@@ -1249,6 +1284,8 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractitemdelegate.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractslider.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractspinbox.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qaction.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qactiongroup.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qapplication.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qcombobox.h
@@ -1262,6 +1299,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmainwindow.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenu.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmessagebox.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qradiobutton.h
@@ -1278,8 +1316,11 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: D:/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/QtAwesome/QtAwesome.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/clientcommon.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/addwordform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/initialform.cpp
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/initialform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/listusersform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/playform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/ui_initialform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/forms/userhomeform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../client/localconnect.h
@@ -1290,6 +1331,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/initialform.cpp.obj: ../ut
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QByteArray
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFlags
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QHash
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QIODevice
@@ -1298,11 +1340,14 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUrl
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariantMap
@@ -1501,6 +1546,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIcon
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
@@ -1592,6 +1638,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QDialog
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QGridLayout
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QHeaderView
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
@@ -1621,6 +1668,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qframe.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qheaderview.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlabel.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h
@@ -1645,9 +1693,13 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: D:/
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/QtAwesome/QtAwesome.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/clientcommon.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/addwordform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/initialform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/listusersform.cpp
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/listusersform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/playform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/ui_listusersform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/forms/userhomeform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../client/localconnect.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../server/auth.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/listusersform.cpp.obj: ../utils/challenge.h
@@ -1665,6 +1717,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
@@ -1871,6 +1924,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
+CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QValidator
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
@@ -1965,6 +2019,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
+CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenu
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenuBar
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QSpacerItem
@@ -2004,6 +2059,9 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: D:/Qt/Qt
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/QtAwesome/QtAwesome.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/clientcommon.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/forms/addwordform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/forms/initialform.h
+CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/forms/listusersform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/forms/playform.cpp
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/forms/playform.h
 CMakeFiles/word_elemination_3_client.dir/client/forms/playform.cpp.obj: ../client/forms/ui_playform.h
@@ -2025,6 +2083,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Q
 CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
@@ -2380,6 +2439,7 @@ CMakeFiles/word_elemination_3_client.dir/client/forms/userhomeform.cpp.obj: ../u
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QByteArray
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFlags
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QHash
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QIODevice
@@ -2388,11 +2448,14 @@ CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUrl
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariantMap
@@ -2591,6 +2654,8 @@ CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIcon
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QIconEngine
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcolor.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qcursor.h
@@ -2676,20 +2741,28 @@ CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtNetwork/qudpsocket.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QComboBox
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QDialog
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLabel
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLineEdit
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenu
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractitemdelegate.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractslider.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qabstractspinbox.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qaction.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qactiongroup.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qcombobox.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qdialog.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qframe.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlabel.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayout.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlineedit.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmainwindow.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenu.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmessagebox.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qrubberband.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qsizepolicy.h
@@ -2704,6 +2777,11 @@ CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/QtAwesome/QtAwesome.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/QtAwesome/QtAwesomeAnim.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/clientcommon.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/forms/addwordform.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/forms/initialform.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/forms/listusersform.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/forms/playform.h
+CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/forms/userhomeform.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/localconnect.cpp
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../client/localconnect.h
 CMakeFiles/word_elemination_3_client.dir/client/localconnect.cpp.obj: ../server/auth.h
@@ -2723,6 +2801,7 @@ CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.1
 CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/main.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
@@ -3531,6 +3610,8 @@ CMakeFiles/word_elemination_3_client.dir/utils/user.cpp.obj: ../utils/user.h
 
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/YJO2QJOMBN/qrc_QtAwesome.cpp.obj: word_elemination_3_client_autogen/YJO2QJOMBN/qrc_QtAwesome.cpp
 
+CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj: word_elemination_3_client_autogen/Z2SJJ2MXWF/qrc_style.cpp
+
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QByteArray
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
@@ -3543,6 +3624,7 @@ CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMetaType
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QObject
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
+CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/word_elemination_3_client_autogen/mocs_compilation.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString

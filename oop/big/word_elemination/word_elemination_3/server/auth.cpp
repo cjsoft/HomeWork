@@ -135,11 +135,13 @@ QString Auth::login(QString username, QString password, QTcpSocket *conn) {
     QString tmpUuid;
     do {
         tmpUuid = QUuid::createUuid().toString();
-    } while (mpUuid2Username.find(tmpUuid) != mpUuid2Username.constEnd());
+    } while (mpUuid2Username.contains(tmpUuid));
     itr.value()->setUuid(tmpUuid);
     itr.value()->setOnline(true);
     mpUuid2Username.insert(tmpUuid, username);
     mpUsername2Uuid.insert(username, tmpUuid);
+    mpUsername2Socket.insert(username, conn);
+    mpSocket2Username.insert(conn, username);
     return tmpUuid;
 }
 
@@ -237,8 +239,11 @@ int Auth::addWord(QString uuid, QString word) {
     if (word.trimmed() == "") {
         return 1;
     }
-    auto tmpPtr = qLowerBound(WordList.begin(), WordList.end(), word, cmp);
-    if (tmpPtr != WordList.end() && (*tmpPtr) == word) {
+
+//    auto tmpPtr = qLowerBound(WordList.begin(), WordList.end(), word, cmp);
+//    qDebug() << "find " << (*tmpPtr);
+    if (WordList.contains(word)) {
+        qDebug() << "add failed";
         return 2;
     } else {
         WordList.push_back(word);
@@ -257,17 +262,18 @@ void Auth::logout(QString uuid) {
     auto itr = mpUuid2Username.find(uuid);
     if (itr != mpUuid2Username.constEnd()) {
         if (mpUsername2Socket.contains(itr.value())) {
+            qDebug() << itr.value();
             auto conn = mpUsername2Socket.value(itr.value());
+            qDebug() << mpUsername2Socket;
             scc.inform("logout", conn);
             conn->waitForBytesWritten();
             mpSocket2Username.remove(conn);
-            if (mpUsername2Socket.contains(itr.value())) {
-                mpUsername2Socket.remove(itr.value());
-            }
+            mpUsername2Socket.remove(itr.value());
+
         }
         mpUserName2User.find(itr.value()).value()->setOnline(false);
     }
-    mpUsername2Uuid.remove(itr.value());
+    if (mpUsername2Uuid.contains(itr.value())) mpUsername2Uuid.remove(itr.value());
     mpUuid2Username.remove(uuid);
 }
 
@@ -297,10 +303,9 @@ Challenge Auth::constructChallenge(int difficulty){
     int kn = 30 * k + 1;
     kn = __min(kn, WordList.size());                      // 关卡包含单词个数
     rtn.setMaximumtries(kn * (0.05 + (1 - k) * 0.8) + 1); // 设置最大重试次数
-    int offsetbound = __max(100, 0.5 * WordList.size());    // 难度分布区间为0.5倍词库大小，太小容易导致选择的词长度高度相近
-    // 这个区间可以使新加词语几乎不影响关卡难度
-    int lb = __max(0, kn - offsetbound);
-    int rb = __min(WordList.size(), kn + offsetbound + 1);  // 选取单词的上下界
+    int offsetbound = __min(100, 0.5 * WordList.size());
+    int lb = __max(0, k * WordList.size() - offsetbound);
+    int rb = __min(WordList.size(), k * WordList.size() + offsetbound + 1);  // 选取单词的上下界
 //    lb = 0;
 //    rb = WordList.size();
     for (int i = 0; i < kn; ++i) {

@@ -38,9 +38,17 @@ int main(int argc, char *argv[])
     if(qssFile.isOpen())
     {
         QString qss = QLatin1String(qssFile.readAll());
-        qDebug() << "SdF" << qss.length();
         a.setStyleSheet(qss);
         qssFile.close();
+    }
+    QFile addrFile("addr.txt");
+    addrFile.open(QFile::ReadOnly);
+    if (addrFile.isOpen()) {
+        lcc.setConnaddr(addrFile.readLine());
+        addrFile.close();
+    } else {
+        MessageBox("未找到\"addr.txt\"配置文件！将退出", "提示", QMessageBox::Ok, QMessageBox::Ok);
+        exit(1);
     }
     ColorRed.insert( "color" , QColor(255,0,0) );
     ColorGreen.insert( "color" , QColor(0,255,0) );

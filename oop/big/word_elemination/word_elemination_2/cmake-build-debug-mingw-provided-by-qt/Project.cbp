@@ -155,6 +155,12 @@
 		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.rule">
 			<Option target="word_elemination_2"/>
 		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp">
+			<Option target="word_elemination_2"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.rule">
+			<Option target="word_elemination_2"/>
+		</Unit>
 		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/cmake-build-debug-mingw-provided-by-qt/word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp">
 			<Option target="word_elemination_2"/>
 		</Unit>
@@ -224,10 +230,16 @@
 		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/user.h">
 			<Option target="word_elemination_2"/>
 		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/word_elemination.qrc">
+			<Option target="word_elemination_2"/>
+		</Unit>
 		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/word_elemination.rc">
 			<Option target="word_elemination_2"/>
 		</Unit>
 		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/word_elemination.qrc">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_2/../../../../../../Qt/Qt5.12.0/5.12.0/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">

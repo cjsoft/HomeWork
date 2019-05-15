@@ -55,6 +55,7 @@ list(APPEND UI_FILES
         )
 list(APPEND RESOURCE_FILES
         qdarkstyle/style.qrc
+        word_elemination.qrc
         )
 message(${RESOURCE_FILES})
 # Set non-Debug build as GUI application.

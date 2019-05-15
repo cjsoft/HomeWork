@@ -19,7 +19,7 @@ UserHomeForm::UserHomeForm(QWidget *parent) :
     txtLevel = ui->txtPLevel;
     txtExp = ui->txtPExp;
     lcc.fetchInfo();
-    updateDisplay();
+
 }
 
 UserHomeForm::~UserHomeForm()
@@ -113,4 +113,9 @@ void UserHomeForm::on_btnAll_clicked() {
     if (pListUsersForm == nullptr)
         pListUsersForm = new ListUsersForm;
     pListUsersForm->show();
+}
+
+void UserHomeForm::show() {
+    QMainWindow::show();
+    updateDisplay();
 }

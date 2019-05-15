@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
+qcryptographichash.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qcryptographichash.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
 qdebug.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qdebug.h
@@ -13,6 +17,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qdebug.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QEvent
 qcoreevent.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qcoreevent.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFileInfo
+qfileinfo.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qfileinfo.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QMap
 qmap.h
@@ -30,6 +38,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 qrect.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qrect.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRegExp
+qregexp.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qregexp.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 qstring.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstring.h
@@ -38,9 +50,9 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 qstringlist.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstringlist.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer
-qtimer.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qtimer.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUuid
+quuid.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/quuid.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 qvariant.h
@@ -1928,13 +1940,9 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPainter
 qpainter.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qpainter.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QPalette
-qpalette.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qpalette.h
-
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QShowEvent
-qevent.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qevent.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/QValidator
+qvalidator.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qvalidator.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qbrush.h
 QtGui/qtguiglobal.h
@@ -2364,6 +2372,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QAction
+qaction.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qaction.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QApplication
 qapplication.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qapplication.h
@@ -2380,14 +2392,6 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QGridLayout
 qgridlayout.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qgridlayout.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QHBoxLayout
-qboxlayout.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h
-
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLabel
-qlabel.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlabel.h
-
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QLayout
 qlayout.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayout.h
@@ -2400,9 +2404,9 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMainWindow
 qmainwindow.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmainwindow.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenu
-qmenu.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenu.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMenuBar
+qmenubar.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenubar.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QMessageBox
 qmessagebox.h
@@ -2412,9 +2416,13 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QPushButton
 qpushbutton.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qpushbutton.h
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QVBoxLayout
-qboxlayout.h
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qboxlayout.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QSpacerItem
+qlayoutitem.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayoutitem.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QSplitter
+qsplitter.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qsplitter.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/QWidget
 qwidget.h
@@ -2544,12 +2552,6 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlabel.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qframe.h
--
-
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -2612,6 +2614,12 @@ QtGui/qicon.h
 QtWidgets/qaction.h
 -
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmenubar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qmenu.h
+-
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qmessagebox.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -2642,6 +2650,14 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qslider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractslider.h
+-
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qsplitter.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+QtWidgets/qsizepolicy.h
 -
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtWidgets/qstyle.h
@@ -2762,6 +2778,22 @@ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAw
 QObject
 -
 
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.cpp
+auth.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+QCryptographicHash
+-
+common.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+macrodef.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/macrodef.h
+QUuid
+-
+QFileInfo
+-
+QDebug
+-
+
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
 user.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
@@ -2779,92 +2811,6 @@ QVector
 -
 QPair
 -
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesome.cpp
-../../../QtAwesome/QtAwesome.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesome.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesomeAnim.cpp
-../../../QtAwesome/QtAwesomeAnim.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/QtAwesome/QtAwesomeAnim.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/EWIEGA46WW/moc_common.cpp
-../../../common.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_addwordform.cpp
-../../../forms/addwordform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_initialform.cpp
-../../../forms/initialform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_listusersform.cpp
-../../../forms/listusersform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_playform.cpp
-../../../forms/playform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_userhomeform.cpp
-../../../forms/userhomeform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/Z2SJJ2MXWF/qrc_style.cpp
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/mocs_compilation.cpp
-3QVQ3WXC3W/moc_QtAwesome.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesome.cpp
-3QVQ3WXC3W/moc_QtAwesomeAnim.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/3QVQ3WXC3W/moc_QtAwesomeAnim.cpp
-EWIEGA46WW/moc_common.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/EWIEGA46WW/moc_common.cpp
-QM7UNKGVG2/moc_addwordform.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_addwordform.cpp
-QM7UNKGVG2/moc_initialform.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_initialform.cpp
-QM7UNKGVG2/moc_listusersform.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_listusersform.cpp
-QM7UNKGVG2/moc_playform.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_playform.cpp
-QM7UNKGVG2/moc_userhomeform.cpp
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/cmake-build-release-mingw-provided-by-qt/word_elemination_1_autogen/QM7UNKGVG2/moc_userhomeform.cpp
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
 QString
@@ -2894,94 +2840,56 @@ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
 localconnect.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
 
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.cpp
+addwordform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
+ui_addwordform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_addwordform.h
+QDebug
+-
+QRegExp
+-
+QValidator
+-
+userhomeform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
+../common.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
+
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
 QMainWindow
 -
 QEvent
 -
 
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
-QDialog
--
-QShowEvent
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
-QMainWindow
--
-QShowEvent
--
-QMenu
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
-QMainWindow
--
-QTimer
--
-QPalette
--
-QEvent
--
-../challenge.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/challenge.h
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_userhomeform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_addwordform.h
 QtCore/QVariant
+-
+QtWidgets/QAction
 -
 QtWidgets/QApplication
 -
 QtWidgets/QGridLayout
 -
-QtWidgets/QHBoxLayout
--
-QtWidgets/QLabel
--
 QtWidgets/QLineEdit
 -
 QtWidgets/QMainWindow
 -
+QtWidgets/QMenuBar
+-
 QtWidgets/QPushButton
 -
-QtWidgets/QVBoxLayout
+QtWidgets/QSpacerItem
+-
+QtWidgets/QSplitter
 -
 QtWidgets/QWidget
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.cpp
-userhomeform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
-initialform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/initialform.h
-ui_userhomeform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/ui_userhomeform.h
-addwordform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/addwordform.h
-playform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/playform.h
-listusersform.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/listusersform.h
-../common.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
-QDebug
 -
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/forms/userhomeform.h
 QMainWindow
 -
 QLineEdit
--
-
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.cpp
-localconnect.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
-common.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/common.h
-QtCore
--
-macrodef.h
-D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/macrodef.h
-QDebug
 -
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/localconnect.h
@@ -3005,6 +2913,12 @@ D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/macrodef.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/serverconnect.h
 auth.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/auth.h
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.cpp
+user.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
+QDebug
+-
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_1/user.h
 auth.h

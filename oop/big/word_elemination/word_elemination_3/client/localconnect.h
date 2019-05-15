@@ -7,7 +7,7 @@
 #define RTNERROR -2
 #define CODEERROR -1
 #define INFORM 2
-#define CONNECTPARAM "127.0.0.1", 23333
+#define CONNECTPARAM connaddr, 23333
 #include <QtCore>
 #include <QString>
 #include <QStringList>
@@ -17,43 +17,65 @@
 #include "../utils/user.h"
 #include "../utils/challenge.h"
 class Challenge;
-template <class T>
-class BQueue : public QQueue<T> {
-private:
-    QSemaphore sem;
-public:
-    BQueue() : QQueue<T>() {}
-    inline void enqueue(const T &t) {
-        QQueue<T>::enqueue(t);
-        sem.release(1);
-    }
-    inline T dequeue() {
-        sem.acquire(1);
-        return QQueue<T>::dequeue();
-    }
-    inline T dequeue(int timeout, bool *rtn) {
-        *rtn = sem.tryAcquire(1, timeout);
-        if (!(*rtn)) return T();
-        return QQueue<T>::dequeue();
-    }
-    inline void clear() {
-        sem.acquire(sem.available());
-        this->clear();
-    }
-};
+//class DataHandler : public QThread {
+//public:
+//    QTcpSocket *conn;
+//    QQueue<QString> *replyQ;
+//    QSemaphore *sem;
+//    DataHandler() : QThread() {
+//
+//    }
+//
+//    DataHandler(QSemaphore *sm, QQueue<QString> *rq) : QThread() {
+//        sem = sm;
+//        replyQ = rq;
+//        conn = new QTcpSocket;
+//        connect(conn, &QTcpSocket::readyRead, this, &DataHandler::dataArrived);
+//    }
+//
+//    void run() {
+////        QThread::run();
+//    }
+//
+//public slots:
+//    void send(QString data) {
+//        if (conn->state() == QTcpSocket::UnconnectedState) {
+//            conn->connectToHost(CONNECTPARAM);
+//            conn->waitForConnected(1000);
+//        }
+//    };
+//    void dataArrived() {
+//        auto x = QString::fromUtf8(conn->readAll());
+//        qDebug() << x;
+//        QJsonObject data;
+//        if (parseRtn(x, data) == INFORM) {
+//            auto payload = data.value("payload").toObject();
+//            if (payload.value("msg").toString() == "logout") {
+//                forcedToLogout();
+//            }
+//        } else {
+//            qDebug() << "enqueing";
+//            dataQ.enqueue(x);
+//        }
+//    }
+//};
 
 class LocalConnect : public QObject {
 private:
     //Auth ATH;
     QTcpSocket *conn;
-    BQueue<QString> dataQ;
+//    DataHandler *dth;
+//    QSemaphore sem;
+    QQueue<QString> dataQ;
     User *CurrentUser;
     QVector<Player> PlayerList;
     QVector<Designer> DesignerList;
     QString uuid;
     QStringList wordlist;
+    QString connaddr;
     char type;
 public:
+    void setConnaddr(const QString &connaddr);
     LocalConnect();
     QString login(QString username, QString password);
     void setUuid(QString Uuid);
@@ -88,6 +110,9 @@ public:
 private slots:
     void dataArrived();
     void connDisconnected();
+
+signals:
+    void sendData(QString data);
 };
 
 

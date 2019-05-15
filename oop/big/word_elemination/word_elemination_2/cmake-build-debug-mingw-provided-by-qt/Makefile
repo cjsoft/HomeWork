@@ -549,6 +549,33 @@ word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s:
 	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
 .PHONY : word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.cpp.s
 
+word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.obj: word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj
+
+.PHONY : word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.obj
+
+# target to build an object file
+word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj
+.PHONY : word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.obj
+
+word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.i: word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.i
+
+.PHONY : word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.i
+
+# target to preprocess a source file
+word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.i:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.i
+.PHONY : word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.i
+
+word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.s: word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.s
+
+.PHONY : word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.s
+
+# target to generate assembly for a file
+word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.s:
+	$(MAKE) -f CMakeFiles\word_elemination_2.dir\build.make CMakeFiles/word_elemination_2.dir/word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.s
+.PHONY : word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.cpp.s
+
 word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.obj: word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.cpp.obj
 
 .PHONY : word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.obj
@@ -659,6 +686,9 @@ help:
 	@echo ... word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.obj
 	@echo ... word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.i
 	@echo ... word_elemination_2_autogen/3QVQ3WXC3W/qrc_QtAwesome.s
+	@echo ... word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.obj
+	@echo ... word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.i
+	@echo ... word_elemination_2_autogen/EWIEGA46WW/qrc_word_elemination.s
 	@echo ... word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.obj
 	@echo ... word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.i
 	@echo ... word_elemination_2_autogen/Z2SJJ2MXWF/qrc_style.s

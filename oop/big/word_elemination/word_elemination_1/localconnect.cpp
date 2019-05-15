@@ -171,7 +171,7 @@ Challenge LocalConnect::constructChallenge(int difficulty) {
     int kn = wordlist.size() * k;
     int offsetbound = 0.05 * wordlist.size();
     int lb = __max(0, kn - offsetbound);
-    int rb = __min(wordlist.size() - 1, kn + offsetbound + 1);
+    int rb = __min(wordlist.size(), kn + offsetbound + 1);
     int pi = qrand() % (rb - lb) + lb;
     rtn.getQzlist().push_back(Quiz(wordlist.at(pi), 1000));
     return rtn;

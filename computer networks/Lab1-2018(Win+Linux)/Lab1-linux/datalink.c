@@ -57,7 +57,7 @@ static void send_data_frame(frame_kind kind, seq_nr frame_nr, seq_nr frame_expec
         start_timer(frame_nr % (MAX_SEQ + 1), DATA_TIMER);
     } else if (kind & SHORTFRM_MASK) {
         dbg_frame("Sending short frame %s for %d.\n", (kind == ACK) ? "ACK" : "NAK", frame_expected);
-        put_frame((unsigned char *) &s, 3);
+        put_frame((unsigned char *) &s, 2);
     }
     phl_ready = 0;
     stop_ack_timer();

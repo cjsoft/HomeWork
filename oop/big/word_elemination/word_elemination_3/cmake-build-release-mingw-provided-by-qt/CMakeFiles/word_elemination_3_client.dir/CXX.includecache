@@ -54,6 +54,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QPair
 qpair.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qpair.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QQueue
+qqueue.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qqueue.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QRect
 qrect.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qrect.h
@@ -73,6 +77,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstring.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 qstringlist.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstringlist.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTextStream
+qtextstream.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qtextstream.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
 qthread.h
@@ -3547,6 +3555,16 @@ localconnect.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/localconnect.h
 ../utils/challenge.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/challenge.h
+forms/playform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/forms/playform.h
+forms/userhomeform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/forms/userhomeform.h
+forms/initialform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/forms/initialform.h
+forms/addwordform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/forms/addwordform.h
+forms/listusersform.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/forms/listusersform.h
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/forms/addwordform.cpp
 addwordform.h
@@ -3799,6 +3817,8 @@ QDebug
 -
 QThread
 -
+QQueue
+-
 localconnect.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/client/localconnect.h
 clientcommon.h
@@ -3816,6 +3836,8 @@ QStringList
 QtNetwork
 -
 QThread
+-
+QQueue
 -
 ../utils/user.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/user.h
@@ -3954,6 +3976,12 @@ QPair
 QObject
 -
 cmath
+-
+QTextStream
+-
+cstdio
+-
+iostream
 -
 ../utils/challenge.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/challenge.h

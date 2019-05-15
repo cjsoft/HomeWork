@@ -22,6 +22,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QDebug
 qdebug.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qdebug.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFileInfo
+qfileinfo.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qfileinfo.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QFlags
 qflags.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qflags.h
@@ -66,6 +70,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 qstringlist.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstringlist.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTextStream
+qtextstream.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qtextstream.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
 qthread.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qthread.h
@@ -73,6 +81,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qthread.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUrl
 qurl.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qurl.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QUuid
+quuid.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/quuid.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QVariant
 qvariant.h
@@ -1960,6 +1972,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
 qsslpresharedkeyauthenticator.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtNetwork/QTcpSocket
+qtcpsocket.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtNetwork/qtcpsocket.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtNetwork/QtNetwork
 QtNetwork/QtNetworkDepends
 -
@@ -2486,6 +2502,30 @@ QMap
 serverconnect.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/serverconnect.h
 
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/auth.cpp
+auth.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/auth.h
+QCryptographicHash
+-
+servercommon.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/servercommon.h
+../utils/macrodef.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/macrodef.h
+cmath
+-
+QUuid
+-
+QFileInfo
+-
+QDebug
+-
+QtNetwork/QTcpSocket
+-
+serverconnect.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/serverconnect.h
+servercommon.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/servercommon.h
+
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/auth.h
 ../utils/user.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/user.h
@@ -2511,6 +2551,8 @@ QThread
 -
 server.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/server.h
+servercommon.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/servercommon.h
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/server.h
 serverconnect.h
@@ -2519,6 +2561,28 @@ ConnManager.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/ConnManager.h
 auth.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/auth.h
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/servercommon.h
+QString
+-
+QVector
+-
+QDebug
+-
+QPair
+-
+QObject
+-
+cmath
+-
+QTextStream
+-
+cstdio
+-
+iostream
+-
+../utils/challenge.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/challenge.h
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/serverconnect.h
 auth.h
@@ -2535,6 +2599,8 @@ QVector
 -
 QPair
 -
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/macrodef.h
 
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/user.h
 ../server/auth.h

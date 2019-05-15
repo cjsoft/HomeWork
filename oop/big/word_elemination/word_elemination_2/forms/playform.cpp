@@ -143,7 +143,11 @@ void PlayForm::show() {
 
 void PlayForm::updateStatusBarFcnt() {
     if (lblFcnt) {
-        lblFcnt->setText(QString().sprintf("当前剩余机会:%d", challenge.getMaximumtries() - fcnt));
+        if (challenge.getMaximumtries() - fcnt >= 0) {
+            lblFcnt->setText(QString().sprintf("当前剩余机会:%d", challenge.getMaximumtries() - fcnt));
+        } else {
+            lblFcnt->setText(QString().sprintf("闯关失败"));
+        }
     }
 }
 

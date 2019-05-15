@@ -11,7 +11,8 @@ AddWordForm::AddWordForm(QWidget *parent) :
     ui(new Ui::AddWordForm)
 {
     ui->setupUi(this);
-    ui->inputWord->setValidator(new QRegExpValidator(QRegExp("[0-9a-zA-Z\\.\\- \'&]+"), ui->inputWord));
+    ui->inputWord->setValidator(new QRegExpValidator(QRegExp("[0-9a-zA-Z\\.\\- \'&]*"), ui->inputWord));
+    connect(ui->pushButton, &QPushButton::clicked, this, &AddWordForm::on_inputWord_returnPressed);
     ui->menuBar->addAction(QString("返回上一级"), this, SLOT(MenuPressed()));
 }
 

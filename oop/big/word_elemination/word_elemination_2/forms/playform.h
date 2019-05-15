@@ -21,7 +21,6 @@ public:
     explicit PlayForm(QWidget *parent = nullptr);
     void show();
     ~PlayForm();
-
 private:
     Ui::PlayForm *ui;
     QTimer tmrBlink, tmrDisable, tmrHide;

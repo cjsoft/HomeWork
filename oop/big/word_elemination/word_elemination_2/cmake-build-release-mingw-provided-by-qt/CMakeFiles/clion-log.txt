@@ -1,19 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" D:\git-repos\HomeWork\oop\big\word_elemination\word_elemination_2
--- The C compiler identification is GNU 7.3.0
--- The CXX compiler identification is GNU 7.3.0
--- Check for working C compiler: D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/gcc.exe
--- Check for working C compiler: D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/g++.exe
--- Check for working CXX compiler: D:/Qt/Qt5.12.0/Tools/mingw730_64/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-QtAwesome/QtAwesome.qrcqdarkstyle/style.qrc
+QtAwesome/QtAwesome.qrcqdarkstyle/style.qrcword_elemination.qrc
 System type isWIN32
 -- Configuring done
 -- Generating done

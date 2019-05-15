@@ -242,6 +242,7 @@ CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QSharedDataPointer
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QString
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
+CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTextStream
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTime
 CMakeFiles/word_elemination_3_client.dir/client/clientcommon.cpp.obj: D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTimer

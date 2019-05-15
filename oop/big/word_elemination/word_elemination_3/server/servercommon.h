@@ -1,7 +1,6 @@
 //
 // Created by egwcy on 2019/5/9.
 //
-
 #ifndef WORD_ELEMINATION_3_SERVERCOMMON_H
 #define WORD_ELEMINATION_3_SERVERCOMMON_H
 #include <QString>
@@ -10,10 +9,14 @@
 #include <QPair>
 #include <QObject>
 #include <cmath>
+#include <QTextStream>
+#include <cstdio>
+#include <iostream>
 #include "../utils/challenge.h"
 double csigmoid(double t);
-
-
+using std::cin;
+using std::cout;
+using std::cerr;
 
 template <typename T>
 void writeObj(FILE *f, T obj) {

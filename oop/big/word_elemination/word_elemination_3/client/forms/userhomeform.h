@@ -16,7 +16,7 @@ public:
     void updateDisplay();
     explicit UserHomeForm(QWidget *parent = nullptr);
     ~UserHomeForm();
-
+    void show();
 private:
     Ui::UserHomeForm *ui;
     QLineEdit *txtTag, *txtName, *txtLevel, *txtExp;

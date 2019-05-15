@@ -4,6 +4,7 @@
 
 #include "ConnManager.h"
 #include "auth.h"
+#include "servercommon.h"
 
 bool ConnManager::listen(const QHostAddress &address, quint16 port) {
     if (server) {
@@ -27,23 +28,22 @@ ConnManager::~ConnManager() {
 
 void ConnManager::connDisconnected() {
     auto conn = qobject_cast<QTcpSocket*>(sender());
-    lockSocks.lock();
     socks.removeOne(conn);
-    lockSocks.unlock();
 }
 
 void ConnManager::newConn() {
-    qDebug() << "new conn";
-    lockSocks.lock();
+    qDebug() << "New Conection inbound\n";
     socks.push_back(server->nextPendingConnection());
+    qDebug() << "connection established: " << socks.back() << "\n";
     connect(socks.back(), &QTcpSocket::readyRead, this, &ConnManager::dataArrived);
     connect(socks.back(), &QTcpSocket::disconnected, this, &ConnManager::connDisconnected);
-    lockSocks.unlock();
 }
 
 void ConnManager::dataArrived() {
     auto conn = qobject_cast<QTcpSocket*>(sender());
     QString str = conn->readAll();
-    conn->write(scc.executeQuery(str, nullptr).toUtf8());
-    qDebug() << str;
+    qDebug() << "Request from " << conn << "\n";
+    qDebug() << str << "\n";
+    conn->write(scc.executeQuery(str, conn).toUtf8());
+    qDebug() << "Sending reply" << "\n";
 }

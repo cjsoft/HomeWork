@@ -10,6 +10,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QByteArray
 qbytearray.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qbytearray.h
 
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCoreApplication
+qcoreapplication.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qcoreapplication.h
+
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QCryptographicHash
 qcryptographichash.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qcryptographichash.h
@@ -65,6 +69,10 @@ D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstring.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QStringList
 qstringlist.h
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qstringlist.h
+
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QTextStream
+qtextstream.h
+D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/qtextstream.h
 
 D:/Qt/Qt5.12.0/5.12.0/mingw73_64/include/QtCore/QThread
 qthread.h
@@ -2530,6 +2538,30 @@ QMap
 QtNetwork
 -
 
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/server.cpp
+QCoreApplication
+-
+QtNetwork
+-
+QDebug
+-
+QVector
+-
+QThread
+-
+server.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/server.h
+servercommon.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/servercommon.h
+
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/server.h
+serverconnect.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/serverconnect.h
+ConnManager.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/ConnManager.h
+auth.h
+D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/auth.h
+
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/server/servercommon.h
 QString
 -
@@ -2542,6 +2574,12 @@ QPair
 QObject
 -
 cmath
+-
+QTextStream
+-
+cstdio
+-
+iostream
 -
 ../utils/challenge.h
 D:/git-repos/HomeWork/oop/big/word_elemination/word_elemination_3/utils/challenge.h

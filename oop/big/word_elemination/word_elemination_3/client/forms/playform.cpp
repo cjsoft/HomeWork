@@ -156,3 +156,4 @@ void PlayForm::updateStatusBarQuizno() {
         lblQuizno->setText(QString().sprintf("%d/%d个单词", pti + 1, challenge.getQzlist().size()));
     }
 }
+

@@ -168,10 +168,9 @@ Challenge LocalConnect::constructChallenge(int difficulty) {
     int kn = 30 * k + 1;
     kn = __min(kn, wordlist.size());                      // 关卡包含单词个数
     rtn.setMaximumtries(kn * (0.05 + (1 - k) * 0.8) + 1); // 设置最大重试次数
-    int offsetbound = __max(100, 0.5 * wordlist.size());    // 难度分布区间为0.5倍词库大小，太小容易导致选择的词长度高度相近
-                                                            // 这个区间可以使新加词语几乎不影响关卡难度
-    int lb = __max(0, kn - offsetbound);
-    int rb = __min(wordlist.size(), kn + offsetbound + 1);  // 选取单词的上下界
+    int offsetbound = __min(100, 0.5 * wordlist.size());
+    int lb = __max(0, k * wordlist.size() - offsetbound);
+    int rb = __min(wordlist.size(), k * wordlist.size() + offsetbound + 1);  // 选取单词的上下界
 //    lb = 0;
 //    rb = wordlist.size();
     for (int i = 0; i < kn; ++i) {

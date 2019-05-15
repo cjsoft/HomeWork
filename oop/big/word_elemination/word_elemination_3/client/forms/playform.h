@@ -49,6 +49,8 @@ private slots:
     void on_inputWord_returnPressed();
     void changeColor();
     void disableTimer();
+
+
 };
 
 #endif // PLAYFORM_H

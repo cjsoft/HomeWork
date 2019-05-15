@@ -8,13 +8,14 @@
 #include "../utils/macrodef.h"
 
 
-
 LocalConnect::LocalConnect()
 {
     CurrentUser = nullptr;
+//    dth = new DataHandler(&sendQ, &dataQ);
+//    dth->moveToThread(dth);
+//    connect(this, &LocalConnect::sendData, dth, &DataHandler::send);
     conn = new QTcpSocket;
-    conn->blockSignals(false);
-    connect(conn, &QTcpSocket::readyRead, this, &LocalConnect::dataArrived);
+    connect(conn, &QTcpSocket::readyRead, this, &LocalConnect::dataArrived, Qt::QueuedConnection);
     connect(conn, &QTcpSocket::disconnected, this, &LocalConnect::connDisconnected);
 }
 
@@ -35,6 +36,7 @@ int LocalConnect::parseRtn(QString str, QJsonObject &data) {
            if (obj.value("code").toInt() == 1) {
                return CODEERROR;
            } else if (obj.value("code").toInt() == 2) {
+               data = obj.value("payload").toObject();
                return INFORM;
            }
            data = obj.value("data").toObject();
@@ -98,9 +100,11 @@ QString LocalConnect::doQuery(QString method, QJsonObject data) {
         auto payload = constructQuery(method, data).toJson(QJsonDocument::Compact);
         conn->write(payload);
         conn->waitForBytesWritten(1000);
-        bool tag;
-        auto rtnData = dataQ.dequeue(10000, &tag);
-        if (tag) {
+//        bool tag;
+//        auto rtnData = dataQ.dequeue(10000, &tag);
+
+        if (conn->waitForReadyRead(5000)) {
+            auto rtnData = conn->readAll();
             qDebug() << rtnData;
             return rtnData;
         } else {
@@ -260,13 +264,13 @@ void LocalConnect::dataArrived() {
     qDebug() << x;
     QJsonObject data;
     if (parseRtn(x, data) == INFORM) {
-        auto payload = data.value("payload").toObject();
-        if (payload.value("msg").toString() == "logout") {
+        if (data.value("msg").toString() == "logout") {
             forcedToLogout();
         }
     } else {
         qDebug() << "enqueing";
-        dataQ.enqueue(x);
+        qDebug() << x;
+//        assert(x.length() == 0);
     }
 }
 
@@ -287,4 +291,8 @@ void LocalConnect::forcedToLogout() {
     if (pListUsersForm != nullptr) pListUsersForm->close();
     if (pAddWordForm != nullptr) pAddWordForm->close();
     if (pUserHomeForm != nullptr) pUserHomeForm->close();
+}
+
+void LocalConnect::setConnaddr(const QString &connaddr) {
+    LocalConnect::connaddr = connaddr;
 }

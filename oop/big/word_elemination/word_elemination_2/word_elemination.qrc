@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>theme.qss</file>
+        <file>bg.png</file>
     </qresource>
 </RCC>
