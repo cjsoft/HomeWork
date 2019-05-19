@@ -164,16 +164,13 @@ void HariMain(void) {
     fifo32_put(&keycmd, KEYCMD_LED);
     fifo32_put(&keycmd, key_leds);
 
+	/* ?新窗口用于?出 */
     struct SHEET *sout;
-    char tag = 1;
-	struct BBParg agp, agc1, agc2;
-    // struct TASK *tst2 = task_alloc();
-    char sstr[128];
-
-    sprintf(sstr, "this is a console for debug output\n");
 	sout = open_console(shtctl, memtotal);
 	sheet_slide(sout, 64, 4);
 	sheet_updown(sout, shtctl->top);
+	/* ?程?建参数 */
+	struct BBParg agp, agc1, agc2;
 	int buf[128];
 	struct FIFO32 bbpfifo;
 	fifo32_init(&bbpfifo, 8, buf, 0);
@@ -190,28 +187,15 @@ void HariMain(void) {
 	agc1.id = 1;
 	agc2.id = 2;
 	agc2.task = agc1.task = sout->task;
+	/* ?建?程 */
 	tskp = create_task(memman, &producer, (void*)&agp);
 	tskc1 = create_task(memman, &consumer, (void*)&agc1);
 	tskc2 = create_task(memman, &consumer, (void*)&agc2);
+	/* ???程 */
 	task_run(tskp, 2, 0);
 	task_run(tskc1, 2, 0);
 	task_run(tskc2, 2, 0);
-        // task_run(tst1, 2, 0); /* level=2, priority=2 */
-        // task_run(tst2, 2, 0); /* level=2, priority=2 */
-
 	for (;;) {
-	    if (tag && sout->task->cons != 0) {
-	        tag = 0;
-            cons_putstr0(sout->task->cons, sstr);
-	    }
-	    // if (sout->task->cons != 0) {
-	    //     sprintf(sstr, "TCNT now is %d, race condition occured: %d\n", tcnt, gtag);
-	    //     cons_putstr0(sout->task->cons, sstr);
-	    // }
-//	    if (tag1 == 1 && tag2 == 1 && sout->task->cons != 0) {
-//	        tag1 = 0;
-//	        sprintf(sstr, "TCNT now is %d\n", tcnt);
-//	    }
 		if (fifo32_status(&keycmd) > 0 && keycmd_wait < 0) {
 			/* キーボードコントローラに送るデータがあれば、送る */
 			keycmd_wait = fifo32_get(&keycmd);
