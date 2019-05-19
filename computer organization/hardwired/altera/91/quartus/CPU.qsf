@@ -90,3 +90,4 @@ set_global_assignment -name MISC_FILE "D:/git-repos/HomeWork/computer organizati
 set_location_assignment PIN_6 -to SWD[2]
 set_location_assignment PIN_5 -to SWD[1]
 set_location_assignment PIN_4 -to SWD[0]
+set_global_assignment -name MISC_FILE "D:/git-repos/HomeWork/computer organization/hardwired/altera/91/quartus/CPU.dpf"

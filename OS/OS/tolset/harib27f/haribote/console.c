@@ -13,7 +13,7 @@ void console_task(struct SHEET *sheet, int memtotal)
 	struct FILEHANDLE fhandle[8];
 	char cmdline[30];
 	unsigned char *nihongo = (char *) *((int *) 0x0fe8);
-
+	
 	cons.sht = sheet;
 	cons.cur_x =  8;
 	cons.cur_y = 28;

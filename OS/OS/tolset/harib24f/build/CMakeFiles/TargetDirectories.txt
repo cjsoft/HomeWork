@@ -1,0 +1,4 @@
+D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/OS_race_condition.dir
+D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/rebuild_cache.dir
+D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir
+D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/edit_cache.dir

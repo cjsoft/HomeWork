@@ -1,0 +1,3 @@
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/edit_cache.dir
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/rebuild_cache.dir
+/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir

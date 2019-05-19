@@ -13,6 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4adb44cd-7450-4e44-bb0f-19e70b62cbc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab1- clion/.idea/Lab1- clion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1- clion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1- clion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1- clion/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/A.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/B.log" afterDir="false" />
@@ -22,14 +26,34 @@
       <change beforePath="$PROJECT_DIR$/Release/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fB.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fbA.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/fbB.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/show.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Release/show.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Release/test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/uA.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/uB.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/ufA.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/Release/ufB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/datalink.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fbA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fbB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/uA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/uB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/ufA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/ufB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../实验报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../实验报告.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -51,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datalink.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -107,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -175,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +210,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,11 +262,12 @@
       <workItem from="1557136664899" duration="1507000" />
       <workItem from="1557227763998" duration="11899000" />
       <workItem from="1557314136162" duration="5621000" />
+      <workItem from="1557972432015" duration="2236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36813000" />
+    <option name="totallyTimeSpent" value="39049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,9 +279,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
+    <frame x="-7" y="-7" width="1515" height="985" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16907217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17113402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
@@ -301,6 +327,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datalink.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protocol.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6222">
@@ -328,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile.bak">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -345,17 +371,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datalink.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datalink.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

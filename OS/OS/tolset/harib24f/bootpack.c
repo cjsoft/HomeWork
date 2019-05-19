@@ -10,6 +10,64 @@ void keywin_on(struct SHEET *key_win);
 void close_console(struct SHEET *sht);
 void close_constask(struct TASK *task);
 
+char test_and_set(char *target) {
+	io_cli();
+	char tmp = *target;
+	*target = 0xff;
+	io_sti();
+	return tmp;
+}
+void Swap(char *a, char *b) {
+	io_cli();
+	char tmp = *a;
+	*a = *b;
+	*b = tmp;
+	io_sti();
+}
+void sem_signal(int *x) {
+    io_cli();
+    (*x)++;
+    io_sti();
+}
+void sem_wait(int *x) {
+	while ((*x) <= 0);
+	io_cli();
+	(*x)--;
+	io_sti();
+}
+void test_race_condition1(int *x, int *y, int *z) {
+    int i, tmp;
+    for (;;) {
+        tmp = *x;
+        (*x)++;
+        i = 5;
+        while (i--);
+        if ((*x) - tmp > 1) {
+            *z = 1;
+        }
+    }
+    (*y) = 1;
+    while (1)
+        io_hlt();
+}
+
+//void test_race_condition2(int *x, int *y, int *z) {
+//    int i, tmp;
+//    for (;;) {
+//        tmp = *x;
+//        (*x)++;
+//        i = 5;
+//        while (i--);
+//        if ((*x) - tmp > 1) {
+//            *z = 1;
+//        }
+//
+//    }
+//    (*y) = 1;
+//    while (1)
+//        io_hlt();
+//}
+
 void HariMain(void)
 {
 	struct BOOTINFO *binfo = (struct BOOTINFO *) ADR_BOOTINFO;
@@ -100,7 +158,64 @@ void HariMain(void)
 	fifo32_put(&keycmd, KEYCMD_LED);
 	fifo32_put(&keycmd, key_leds);
 
-	for (;;) {
+	struct SHEET *sout;
+	char tag = 1;
+    int tcnt = 0, tag1 = 0, tag2 = 1, gtag = 0;
+    struct TASK *tst1 = task_alloc();
+    struct TASK *tst2 = task_alloc();
+    char sstr[128];
+
+    sprintf(sstr, "this is a console for debug output\n");
+	sout = open_console(shtctl, memtotal);
+	sheet_slide(sout, 64, 4);
+	sheet_updown(sout, shtctl->top);
+	// cons_putchar(sout->task->cons, 'c', 1);
+	// task_run(sout->task, 2, 2);
+	// sheet_refresh(sout, 8, 28, 8 + 240, 28 + 128);
+
+
+    // int *fifo1 = (int *) memman_alloc_4k(memman, 128 * 4);
+    // int *fifo2 = (int *) memman_alloc_4k(memman, 128 * 4);
+    tst1->cons_stack = memman_alloc_4k(memman, 64 * 1024);
+    tst1->tss.esp = tst1->cons_stack + 64 * 1024 - 16;
+    tst1->tss.eip = (int) &test_race_condition1;
+    tst1->tss.es = 1 * 8;
+    tst1->tss.cs = 2 * 8;
+    tst1->tss.ss = 1 * 8;
+    tst1->tss.ds = 1 * 8;
+    tst1->tss.fs = 1 * 8;
+    tst1->tss.gs = 1 * 8;
+    *((int *) (tst1->tss.esp + 4)) = (int) &tcnt;
+    *((int *) (tst1->tss.esp + 8)) = (int) &tag1;
+    *((int *) (tst1->tss.esp + 12)) = (int) &gtag;
+    tst2->cons_stack = memman_alloc_4k(memman, 64 * 1024);
+    tst2->tss.esp = tst2->cons_stack + 64 * 1024 - 16;
+    tst2->tss.eip = (int) &test_race_condition1;
+    tst2->tss.es = 1 * 8;
+    tst2->tss.cs = 2 * 8;
+    tst2->tss.ss = 1 * 8;
+    tst2->tss.ds = 1 * 8;
+    tst2->tss.fs = 1 * 8;
+    tst2->tss.gs = 1 * 8;
+    *((int *) (tst2->tss.esp + 4)) = (int) &tcnt;
+    *((int *) (tst2->tss.esp + 8)) = (int) &tag2;
+    *((int *) (tst2->tss.esp + 12)) = (int) &gtag;
+    task_run(tst1, 2, 0); /* level=2, priority=2 */
+    task_run(tst2, 2, 0); /* level=2, priority=2 */
+
+    for (;;) {
+	    if (tag && sout->task->cons != 0) {
+	        tag = 0;
+            cons_putstr0(sout->task->cons, sstr);
+	    }
+	    if (sout->task->cons != 0) {
+	        sprintf(sstr, "TCNT now is %d, race condition occured: %d\n", tcnt, gtag);
+	        cons_putstr0(sout->task->cons, sstr);
+	    }
+//	    if (tag1 == 1 && tag2 == 1 && sout->task->cons != 0) {
+//	        tag1 = 0;
+//	        sprintf(sstr, "TCNT now is %d\n", tcnt);
+//	    }
 		if (fifo32_status(&keycmd) > 0 && keycmd_wait < 0) {
 			/* キーボードコントローラに送るデータがあれば、送る */
 			keycmd_wait = fifo32_get(&keycmd);

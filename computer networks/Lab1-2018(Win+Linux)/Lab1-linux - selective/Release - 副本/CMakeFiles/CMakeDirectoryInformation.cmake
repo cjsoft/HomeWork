@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

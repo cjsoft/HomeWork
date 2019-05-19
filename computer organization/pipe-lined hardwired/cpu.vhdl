@@ -128,7 +128,7 @@ begin
                     -- /* else */
                     case( IR ) is
                     
-                        when "0000" =>-- nop
+                        when "0000" => -- nop
                             if (ST = '0') then
                                 SHORT <= W1;
                                 SBUS <= W1;
@@ -140,7 +140,7 @@ begin
                                 PCINC <= W1;
                                 LIR <= W1;
                             end if;
-                        when "0001" =>-- add
+                        when "0001" => -- add
                             SHORT <= W1;
                             PCINC <= W1;
                             LIR <= W1;

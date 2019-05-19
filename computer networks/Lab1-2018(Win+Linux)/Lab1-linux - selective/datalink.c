@@ -11,7 +11,7 @@
     #define ACK_TIMER   240
 #endif                          // 可以用编译参数覆盖掉这些设置
 #define MAX_SEQ 255
-#define NR_BUFS 128             // 限于定时器数量，窗口最大只能开到128
+#define NR_BUFS 128              // 限于定时器数量，窗口最大只能开到128
 #define inc(x) ((x) = ((x) + 1) % (MAX_SEQ + 1)) // 模意义下自加
 #define DATA_MASK 1             // 判断帧是否携带数据的MASK
 #define ACK_MASK 2              // 判断帧是否携带ACK的MASK

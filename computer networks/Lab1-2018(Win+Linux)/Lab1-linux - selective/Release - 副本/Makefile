@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release"
+CMAKE_BINARY_DIR = "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

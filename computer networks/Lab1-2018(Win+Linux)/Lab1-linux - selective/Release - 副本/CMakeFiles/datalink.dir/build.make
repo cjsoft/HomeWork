@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release"
+CMAKE_BINARY_DIR = "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/datalink.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/datalink.dir/flags.make
 
 CMakeFiles/datalink.dir/datalink.c.o: CMakeFiles/datalink.dir/flags.make
 CMakeFiles/datalink.dir/datalink.c.o: ../datalink.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/datalink.dir/datalink.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/datalink.dir/datalink.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datalink.dir/datalink.c.o   -c "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.c"
 
 CMakeFiles/datalink.dir/datalink.c.i: cmake_force
@@ -83,7 +83,7 @@ CMakeFiles/datalink.dir/datalink.c.o.provides.build: CMakeFiles/datalink.dir/dat
 
 CMakeFiles/datalink.dir/protocol.c.o: CMakeFiles/datalink.dir/flags.make
 CMakeFiles/datalink.dir/protocol.c.o: ../protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/datalink.dir/protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/datalink.dir/protocol.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datalink.dir/protocol.c.o   -c "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.c"
 
 CMakeFiles/datalink.dir/protocol.c.i: cmake_force
@@ -107,7 +107,7 @@ CMakeFiles/datalink.dir/protocol.c.o.provides.build: CMakeFiles/datalink.dir/pro
 
 CMakeFiles/datalink.dir/lprintf.c.o: CMakeFiles/datalink.dir/flags.make
 CMakeFiles/datalink.dir/lprintf.c.o: ../lprintf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/datalink.dir/lprintf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/datalink.dir/lprintf.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datalink.dir/lprintf.c.o   -c "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.c"
 
 CMakeFiles/datalink.dir/lprintf.c.i: cmake_force
@@ -131,7 +131,7 @@ CMakeFiles/datalink.dir/lprintf.c.o.provides.build: CMakeFiles/datalink.dir/lpri
 
 CMakeFiles/datalink.dir/crc32.c.o: CMakeFiles/datalink.dir/flags.make
 CMakeFiles/datalink.dir/crc32.c.o: ../crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/datalink.dir/crc32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/datalink.dir/crc32.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datalink.dir/crc32.c.o   -c "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/crc32.c"
 
 CMakeFiles/datalink.dir/crc32.c.i: cmake_force
@@ -155,7 +155,7 @@ CMakeFiles/datalink.dir/crc32.c.o.provides.build: CMakeFiles/datalink.dir/crc32.
 
 CMakeFiles/datalink.dir/getopt.c.o: CMakeFiles/datalink.dir/flags.make
 CMakeFiles/datalink.dir/getopt.c.o: ../getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/datalink.dir/getopt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/datalink.dir/getopt.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/datalink.dir/getopt.c.o   -c "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.c"
 
 CMakeFiles/datalink.dir/getopt.c.i: cmake_force
@@ -195,7 +195,7 @@ datalink: CMakeFiles/datalink.dir/crc32.c.o
 datalink: CMakeFiles/datalink.dir/getopt.c.o
 datalink: CMakeFiles/datalink.dir/build.make
 datalink: CMakeFiles/datalink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable datalink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable datalink"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/datalink.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/datalink.dir/clean:
 .PHONY : CMakeFiles/datalink.dir/clean
 
 CMakeFiles/datalink.dir/depend:
-	cd "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/datalink.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/datalink.dir/depend
 

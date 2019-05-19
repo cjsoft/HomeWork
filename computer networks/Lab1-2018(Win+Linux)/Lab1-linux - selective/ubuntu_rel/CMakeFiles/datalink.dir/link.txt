@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/datalink.dir/datalink.c.o CMakeFiles/datalink.dir/protocol.c.o CMakeFiles/datalink.dir/lprintf.c.o CMakeFiles/datalink.dir/crc32.c.o CMakeFiles/datalink.dir/getopt.c.o  -o datalink -lm 

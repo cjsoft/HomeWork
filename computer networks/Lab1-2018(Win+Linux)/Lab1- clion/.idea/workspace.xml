@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ComputerNetwork" targetName="datalink" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e591940c-a2a3-440b-afcb-92d3bb51d9f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Lab1- clion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/CMakeFiles/datalink.dir/datalink.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/CMakeFiles/datalink.dir/datalink.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fbA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/fbB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/uA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/uB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/ufA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/Release/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/Release/ufB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/cmake-build-release/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux - selective/datalink.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/A.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/A.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/B.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/B.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/datalink" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/datalink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fbA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fbA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/fbB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/fbB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/uA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/uA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/uB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/uB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/ufA.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/ufA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1-linux/Release/ufB.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1-linux/Release/ufB.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../实验报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../实验报告.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../oop/big/word_elemination/word_elemination_3/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1302" />
+    <option name="height" value="1404" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ComputerNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1- clion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="datalink" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComputerNetwork" TARGET_NAME="datalink" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComputerNetwork" RUN_TARGET_NAME="datalink">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e591940c-a2a3-440b-afcb-92d3bb51d9f3" name="Default Changelist" comment="" />
+      <created>1557974262373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557974262373</updated>
+      <workItem from="1557974264797" duration="192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="192000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1515" height="985" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="make" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

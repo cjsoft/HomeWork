@@ -27,7 +27,7 @@ DEL      = del
 
 # デフォルト動作
 
-default :
+default all :
 	$(MAKE) img
 
 # ファイル生成規則

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/crc32.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir/crc32.c.o"
-  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir/datalink.c.o"
-  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir/getopt.c.o"
-  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir/lprintf.c.o"
-  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release/CMakeFiles/datalink.dir/protocol.c.o"
+  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/crc32.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/datalink.dir/crc32.c.o"
+  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/datalink.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/datalink.dir/datalink.c.o"
+  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/getopt.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/datalink.dir/getopt.c.o"
+  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/lprintf.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/datalink.dir/lprintf.c.o"
+  "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/protocol.c" "/mnt/d/git-repos/HomeWork/computer networks/Lab1-2018(Win+Linux)/Lab1-linux - selective/Release - 副本/CMakeFiles/datalink.dir/protocol.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,0 +1,147 @@
+[
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\a.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\a.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/a.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\beepdown.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\beepdown.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/beepdown.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\bootpack.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\bootpack.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/bootpack.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\color.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\color.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/color.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\color2.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\color2.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/color2.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\console.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\console.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/console.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\dsctbl.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\dsctbl.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/dsctbl.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\fifo.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\fifo.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/fifo.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\file.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\file.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/file.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\graphic.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\graphic.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/graphic.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\hello3.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\hello3.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/hello3.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\hello4.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\hello4.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/hello4.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\int.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\int.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/int.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\keyboard.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\keyboard.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/keyboard.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\lines.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\lines.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/lines.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\memory.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\memory.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/memory.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\mouse.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\mouse.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/mouse.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\mtask.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\mtask.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/mtask.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\noodle.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\noodle.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/noodle.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\sheet.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\sheet.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/sheet.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\star1.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\star1.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/star1.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\stars.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\stars.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/stars.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\stars2.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\stars2.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/stars2.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\timer.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\timer.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/timer.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\walk.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\walk.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/walk.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\window.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\window.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/window.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\winhelo.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\winhelo.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/winhelo.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\winhelo2.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\winhelo2.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/winhelo2.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\winhelo3.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\winhelo3.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/winhelo3.c"
+}
+]
