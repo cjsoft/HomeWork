@@ -70,6 +70,9 @@ CMakeFiles/dumb.dir/stars.c.obj
 CMakeFiles/dumb.dir/stars2.c.obj
  D:/git-repos/HomeWork/OS/OS/tolset/harib24f/apilib.h
  D:/git-repos/HomeWork/OS/OS/tolset/harib24f/stars2.c
+CMakeFiles/dumb.dir/sync_utils.c.obj
+ D:/git-repos/HomeWork/OS/OS/tolset/harib24f/bootpack.h
+ D:/git-repos/HomeWork/OS/OS/tolset/harib24f/sync_utils.c
 CMakeFiles/dumb.dir/timer.c.obj
  D:/git-repos/HomeWork/OS/OS/tolset/harib24f/bootpack.h
  D:/git-repos/HomeWork/OS/OS/tolset/harib24f/timer.c

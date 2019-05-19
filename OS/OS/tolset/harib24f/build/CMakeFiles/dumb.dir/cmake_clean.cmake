@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dumb.dir/star1.c.obj"
   "CMakeFiles/dumb.dir/stars.c.obj"
   "CMakeFiles/dumb.dir/stars2.c.obj"
+  "CMakeFiles/dumb.dir/sync_utils.c.obj"
   "CMakeFiles/dumb.dir/timer.c.obj"
   "CMakeFiles/dumb.dir/walk.c.obj"
   "CMakeFiles/dumb.dir/window.c.obj"

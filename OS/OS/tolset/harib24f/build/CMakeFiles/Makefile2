@@ -96,43 +96,6 @@ clean: CMakeFiles/OS_race_condition.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/dumb.dir
-
-# All Build rule for target.
-CMakeFiles/dumb.dir/all:
-	$(MAKE) -f CMakeFiles\dumb.dir\build.make CMakeFiles/dumb.dir/depend
-	$(MAKE) -f CMakeFiles\dumb.dir\build.make CMakeFiles/dumb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target dumb"
-.PHONY : CMakeFiles/dumb.dir/all
-
-# Include target in all.
-all: CMakeFiles/dumb.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/dumb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles 30
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/dumb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles 0
-.PHONY : CMakeFiles/dumb.dir/rule
-
-# Convenience name for target.
-dumb: CMakeFiles/dumb.dir/rule
-
-.PHONY : dumb
-
-# clean rule for target.
-CMakeFiles/dumb.dir/clean:
-	$(MAKE) -f CMakeFiles\dumb.dir\build.make CMakeFiles/dumb.dir/clean
-.PHONY : CMakeFiles/dumb.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/dumb.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

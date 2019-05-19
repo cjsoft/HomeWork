@@ -75,6 +75,7 @@ CMakeFiles/OS_race_condition: ../sheet.c
 CMakeFiles/OS_race_condition: ../star1.c
 CMakeFiles/OS_race_condition: ../stars.c
 CMakeFiles/OS_race_condition: ../stars2.c
+CMakeFiles/OS_race_condition: ../sync_utils.c
 CMakeFiles/OS_race_condition: ../timer.c
 CMakeFiles/OS_race_condition: ../walk.c
 CMakeFiles/OS_race_condition: ../window.c

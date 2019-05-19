@@ -5,4 +5,4 @@ add_custom_target(${PROJECT_NAME} COMMAND mingw32-make -C ${PROJECT_SOURCE_DIR} 
         CLION_EXE_DIR=${PROJECT_BINARY_DIR}
         DEPENDS ${SRCS}
         )
-add_executable(dumb ${SRCS})
+# add_executable(dumb ${SRCS})

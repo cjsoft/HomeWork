@@ -116,6 +116,11 @@
 },
 {
   "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\sync_utils.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\sync_utils.c",
+  "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/sync_utils.c"
+},
+{
+  "directory": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build",
   "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\dumb.dir\\timer.c.obj   -c D:\\git-repos\\HomeWork\\OS\\OS\\tolset\\harib24f\\timer.c",
   "file": "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/timer.c"
 },

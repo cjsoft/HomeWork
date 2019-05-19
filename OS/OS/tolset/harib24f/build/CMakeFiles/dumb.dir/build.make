@@ -355,9 +355,22 @@ CMakeFiles/dumb.dir/stars2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dumb.dir/stars2.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git-repos\HomeWork\OS\OS\tolset\harib24f\stars2.c -o CMakeFiles\dumb.dir\stars2.c.s
 
+CMakeFiles/dumb.dir/sync_utils.c.obj: CMakeFiles/dumb.dir/flags.make
+CMakeFiles/dumb.dir/sync_utils.c.obj: ../sync_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dumb.dir/sync_utils.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\sync_utils.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\sync_utils.c
+
+CMakeFiles/dumb.dir/sync_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dumb.dir/sync_utils.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\git-repos\HomeWork\OS\OS\tolset\harib24f\sync_utils.c > CMakeFiles\dumb.dir\sync_utils.c.i
+
+CMakeFiles/dumb.dir/sync_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dumb.dir/sync_utils.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\git-repos\HomeWork\OS\OS\tolset\harib24f\sync_utils.c -o CMakeFiles\dumb.dir\sync_utils.c.s
+
 CMakeFiles/dumb.dir/timer.c.obj: CMakeFiles/dumb.dir/flags.make
 CMakeFiles/dumb.dir/timer.c.obj: ../timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dumb.dir/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dumb.dir/timer.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\timer.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\timer.c
 
 CMakeFiles/dumb.dir/timer.c.i: cmake_force
@@ -370,7 +383,7 @@ CMakeFiles/dumb.dir/timer.c.s: cmake_force
 
 CMakeFiles/dumb.dir/walk.c.obj: CMakeFiles/dumb.dir/flags.make
 CMakeFiles/dumb.dir/walk.c.obj: ../walk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dumb.dir/walk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dumb.dir/walk.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\walk.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\walk.c
 
 CMakeFiles/dumb.dir/walk.c.i: cmake_force
@@ -383,7 +396,7 @@ CMakeFiles/dumb.dir/walk.c.s: cmake_force
 
 CMakeFiles/dumb.dir/window.c.obj: CMakeFiles/dumb.dir/flags.make
 CMakeFiles/dumb.dir/window.c.obj: ../window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dumb.dir/window.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dumb.dir/window.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\window.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\window.c
 
 CMakeFiles/dumb.dir/window.c.i: cmake_force
@@ -396,7 +409,7 @@ CMakeFiles/dumb.dir/window.c.s: cmake_force
 
 CMakeFiles/dumb.dir/winhelo.c.obj: CMakeFiles/dumb.dir/flags.make
 CMakeFiles/dumb.dir/winhelo.c.obj: ../winhelo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dumb.dir/winhelo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/dumb.dir/winhelo.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\winhelo.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\winhelo.c
 
 CMakeFiles/dumb.dir/winhelo.c.i: cmake_force
@@ -409,7 +422,7 @@ CMakeFiles/dumb.dir/winhelo.c.s: cmake_force
 
 CMakeFiles/dumb.dir/winhelo2.c.obj: CMakeFiles/dumb.dir/flags.make
 CMakeFiles/dumb.dir/winhelo2.c.obj: ../winhelo2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/dumb.dir/winhelo2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dumb.dir/winhelo2.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\winhelo2.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\winhelo2.c
 
 CMakeFiles/dumb.dir/winhelo2.c.i: cmake_force
@@ -422,7 +435,7 @@ CMakeFiles/dumb.dir/winhelo2.c.s: cmake_force
 
 CMakeFiles/dumb.dir/winhelo3.c.obj: CMakeFiles/dumb.dir/flags.make
 CMakeFiles/dumb.dir/winhelo3.c.obj: ../winhelo3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dumb.dir/winhelo3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/dumb.dir/winhelo3.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\dumb.dir\winhelo3.c.obj   -c D:\git-repos\HomeWork\OS\OS\tolset\harib24f\winhelo3.c
 
 CMakeFiles/dumb.dir/winhelo3.c.i: cmake_force
@@ -458,6 +471,7 @@ dumb_OBJECTS = \
 "CMakeFiles/dumb.dir/star1.c.obj" \
 "CMakeFiles/dumb.dir/stars.c.obj" \
 "CMakeFiles/dumb.dir/stars2.c.obj" \
+"CMakeFiles/dumb.dir/sync_utils.c.obj" \
 "CMakeFiles/dumb.dir/timer.c.obj" \
 "CMakeFiles/dumb.dir/walk.c.obj" \
 "CMakeFiles/dumb.dir/window.c.obj" \
@@ -491,6 +505,7 @@ dumb.exe: CMakeFiles/dumb.dir/sheet.c.obj
 dumb.exe: CMakeFiles/dumb.dir/star1.c.obj
 dumb.exe: CMakeFiles/dumb.dir/stars.c.obj
 dumb.exe: CMakeFiles/dumb.dir/stars2.c.obj
+dumb.exe: CMakeFiles/dumb.dir/sync_utils.c.obj
 dumb.exe: CMakeFiles/dumb.dir/timer.c.obj
 dumb.exe: CMakeFiles/dumb.dir/walk.c.obj
 dumb.exe: CMakeFiles/dumb.dir/window.c.obj
@@ -501,7 +516,7 @@ dumb.exe: CMakeFiles/dumb.dir/build.make
 dumb.exe: CMakeFiles/dumb.dir/linklibs.rsp
 dumb.exe: CMakeFiles/dumb.dir/objects1.rsp
 dumb.exe: CMakeFiles/dumb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable dumb.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\git-repos\HomeWork\OS\OS\tolset\harib24f\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable dumb.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dumb.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

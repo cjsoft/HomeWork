@@ -1,5 +1,4 @@
 /* bootpackのメイン */
-
 #include "bootpack.h"
 #include <stdio.h>
 
@@ -9,268 +8,206 @@ void keywin_off(struct SHEET *key_win);
 void keywin_on(struct SHEET *key_win);
 void close_console(struct SHEET *sht);
 void close_constask(struct TASK *task);
-void avoid_sleep()
-{
-	struct TASK *now_task;
-	now_task = task_now();
-	now_task->flags = 2;
-}
 
-int test_and_set(int *target) {
-	io_cli();
-	int tmp = *target;
-	*target = 0xff;
-	io_sti();
-	return tmp;
-}
-void Swap(int *a, int *b) {
-	io_cli();
-	int tmp = *a;
-	*a = *b;
-	*b = tmp;
-	io_sti();
-}
-void sem_signal(int *x) {
-    io_cli();
-    (*x)++;
-    io_sti();
-}
-void sem_wait(int *x) {
-	while ((*x) <= 0);
-	io_cli();
-	(*x)--;
-	io_sti();
-}
-void test_race_condition3(int *x, int *y, int *z, int *sem)
-{
-	int i, tmp;
-	for (;;)
-	{
-		// avoid_sleep();
-		sem_wait(sem);
-		tmp = *x;
-		(*x)++;
-		i = 5;
-		while (i--)
-			;
-		if ((*x) - tmp > 1)
-		{
-			*z = 1;
+struct BBParg {
+	int *empty, *mutex, *full, id;
+	int *con_mutex;
+	struct FIFO32 *fifo;
+	struct TASK *task;
+};
+void producer(struct BBParg *args) {
+	avoid_sleep();
+	int *empty = args->empty,
+		*mutex = args->mutex,
+		*full = args->full,
+		id = args->id;
+	struct FIFO32 *fifo = args->fifo;
+	struct TASK *task = args->task;
+	int cnt = 2, i;
+	char tag;
+	char str[128];
+	while (1) {
+		tag = 0;
+		while (!tag) {
+			tag = 1;
+			for (i = 2; i * i <= cnt; i++) {
+				if (cnt % i == 0) {
+					tag = 0;
+					break;
+				}
+			}
+			if (!tag) cnt++;
+			if (cnt > 0x3f3f3f) cnt = 2;
 		}
-		sem_signal(sem);
+		sem_wait(empty);
+		sem_wait(mutex);
+		fifo32_put(fifo, cnt++);
+		sem_signal(mutex);
+		sem_signal(full);
 	}
-	(*y) = 1;
-	while (1)
-		io_hlt();
 }
-void test_race_condition2(int *x, int *y, int *z, int *lock) {
-    int i, tmp, key;
-    for (;;) {
-		// avoid_sleep();
-		key = 0xff;
-		while (key)
-			Swap(&key, lock);
-        tmp = *x;
-        (*x)++;
-        i = 5;
-        while (i--);
-        if ((*x) - tmp > 1) {
-            *z = 1;
-        }
-		*lock = 0;
-    }
-    (*y) = 1;
-    while (1)
-        io_hlt();
-}
-void test_race_condition1(int *x, int *y, int *z, int *lock)
-{
-	int i, tmp;
-	for (;;)
-	{
-		// avoid_sleep();
-		while (test_and_set(lock))
-			;
-		tmp = *x;
-		(*x)++;
-		i = 5;
-		while (i--)
-			;
-		if ((*x) - tmp > 1)
-		{
-			*z = 1;
-		}
-		*lock = 0;
+void consumer(struct BBParg *args) {
+	avoid_sleep();
+    int *empty = args->empty,
+		*mutex = args->mutex,
+		*full = args->full,
+		id = args->id,
+		*con_mutex = args->con_mutex;
+    struct FIFO32 *fifo = args->fifo;
+    struct TASK *task = args->task;
+	int tmp;
+	char str[128];
+    while (1) {
+		while (task->cons == 0)
+			io_hlt();
+		sem_wait(full);
+		sem_wait(mutex);
+        tmp = fifo32_get(fifo);
+		sem_signal(mutex);
+		sem_signal(empty);
+		sprintf(str, "cproc %d fetched %d\n", id, tmp);
+		sem_wait(con_mutex);
+		cons_putstr0(task->cons, str);
+		sem_signal(con_mutex);
 	}
-	(*y) = 1;
-	while (1)
-		io_hlt();
 }
+void HariMain(void) {
+    struct BOOTINFO *binfo = (struct BOOTINFO *)ADR_BOOTINFO;
+    struct SHTCTL *shtctl;
+    char s[40];
+    struct FIFO32 fifo, keycmd;
+    int fifobuf[128], keycmd_buf[32];
+    int mx, my, i, new_mx = -1, new_my = 0, new_wx = 0x7fffffff, new_wy = 0;
+    unsigned int memtotal;
+    struct MOUSE_DEC mdec;
+    struct MEMMAN *memman = (struct MEMMAN *)MEMMAN_ADDR;
+    unsigned char *buf_back, buf_mouse[256];
+    struct SHEET *sht_back, *sht_mouse;
+    struct TASK *task_a, *task;
+    static char keytable0[0x80] = {
+        0,   0,    '1',  '2', '3', '4', '5', '6', '7',  '8', '9', '0',  '-',
+        '^', 0x08, 0,    'Q', 'W', 'E', 'R', 'T', 'Y',  'U', 'I', 'O',  'P',
+        '@', '[',  0x0a, 0,   'A', 'S', 'D', 'F', 'G',  'H', 'J', 'K',  'L',
+        ';', ':',  0,    0,   ']', 'Z', 'X', 'C', 'V',  'B', 'N', 'M',  ',',
+        '.', '/',  0,    '*', 0,   ' ', 0,   0,   0,    0,   0,   0,    0,
+        0,   0,    0,    0,   0,   0,   '7', '8', '9',  '-', '4', '5',  '6',
+        '+', '1',  '2',  '3', '0', '.', 0,   0,   0,    0,   0,   0,    0,
+        0,   0,    0,    0,   0,   0,   0,   0,   0,    0,   0,   0,    0,
+        0,   0,    0,    0,   0,   0,   0,   0,   0,    0,   0,   0x5c, 0,
+        0,   0,    0,    0,   0,   0,   0,   0,   0x5c, 0,   0};
+    static char keytable1[0x80] = {
+        0,   0,    '!',  0x22, '#', '$', '%', '&', 0x27, '(', ')', '~', '=',
+        '~', 0x08, 0,    'Q',  'W', 'E', 'R', 'T', 'Y',  'U', 'I', 'O', 'P',
+        '`', '{',  0x0a, 0,    'A', 'S', 'D', 'F', 'G',  'H', 'J', 'K', 'L',
+        '+', '*',  0,    0,    '}', 'Z', 'X', 'C', 'V',  'B', 'N', 'M', '<',
+        '>', '?',  0,    '*',  0,   ' ', 0,   0,   0,    0,   0,   0,   0,
+        0,   0,    0,    0,    0,   0,   '7', '8', '9',  '-', '4', '5', '6',
+        '+', '1',  '2',  '3',  '0', '.', 0,   0,   0,    0,   0,   0,   0,
+        0,   0,    0,    0,    0,   0,   0,   0,   0,    0,   0,   0,   0,
+        0,   0,    0,    0,    0,   0,   0,   0,   0,    0,   0,   '_', 0,
+        0,   0,    0,    0,    0,   0,   0,   0,   '|',  0,   0};
+    int key_shift = 0, key_leds = (binfo->leds >> 4) & 7, keycmd_wait = -1;
+    int j, x, y, mmx = -1, mmy = -1, mmx2 = 0;
+    struct SHEET *sht = 0, *key_win, *sht2;
 
-//void test_race_condition2(int *x, int *y, int *z) {
-//    int i, tmp;
-//    for (;;) {
-//        tmp = *x;
-//        (*x)++;
-//        i = 5;
-//        while (i--);
-//        if ((*x) - tmp > 1) {
-//            *z = 1;
-//        }
-//
-//    }
-//    (*y) = 1;
-//    while (1)
-//        io_hlt();
-//}
+    init_gdtidt();
+    init_pic();
+    io_sti(); /* IDT/PICの初期化が終わったのでCPUの割り込み禁止を解除 */
+    fifo32_init(&fifo, 128, fifobuf, 0);
+    *((int *)0x0fec) = (int)&fifo;
+    init_pit();
+    init_keyboard(&fifo, 256);
+    enable_mouse(&fifo, 512, &mdec);
+    io_out8(PIC0_IMR, 0xf8); /* PITとPIC1とキーボードを許可(11111000) */
+    io_out8(PIC1_IMR, 0xef); /* マウスを許可(11101111) */
+    fifo32_init(&keycmd, 32, keycmd_buf, 0);
 
-void HariMain(void)
-{
-	struct BOOTINFO *binfo = (struct BOOTINFO *) ADR_BOOTINFO;
-	struct SHTCTL *shtctl;
-	char s[40];
-	struct FIFO32 fifo, keycmd;
-	int fifobuf[128], keycmd_buf[32];
-	int mx, my, i, new_mx = -1, new_my = 0, new_wx = 0x7fffffff, new_wy = 0;
-	unsigned int memtotal;
-	struct MOUSE_DEC mdec;
-	struct MEMMAN *memman = (struct MEMMAN *) MEMMAN_ADDR;
-	unsigned char *buf_back, buf_mouse[256];
-	struct SHEET *sht_back, *sht_mouse;
-	struct TASK *task_a, *task;
-	static char keytable0[0x80] = {
-		0,   0,   '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '^', 0x08, 0,
-		'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '@', '[', 0x0a, 0, 'A', 'S',
-		'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', ':', 0,   0,   ']', 'Z', 'X', 'C', 'V',
-		'B', 'N', 'M', ',', '.', '/', 0,   '*', 0,   ' ', 0,   0,   0,   0,   0,   0,
-		0,   0,   0,   0,   0,   0,   0,   '7', '8', '9', '-', '4', '5', '6', '+', '1',
-		'2', '3', '0', '.', 0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-		0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-		0,   0,   0,   0x5c, 0,  0,   0,   0,   0,   0,   0,   0,   0,   0x5c, 0,  0
-	};
-	static char keytable1[0x80] = {
-		0,   0,   '!', 0x22, '#', '$', '%', '&', 0x27, '(', ')', '~', '=', '~', 0x08, 0,
-		'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '`', '{', 0x0a, 0, 'A', 'S',
-		'D', 'F', 'G', 'H', 'J', 'K', 'L', '+', '*', 0,   0,   '}', 'Z', 'X', 'C', 'V',
-		'B', 'N', 'M', '<', '>', '?', 0,   '*', 0,   ' ', 0,   0,   0,   0,   0,   0,
-		0,   0,   0,   0,   0,   0,   0,   '7', '8', '9', '-', '4', '5', '6', '+', '1',
-		'2', '3', '0', '.', 0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-		0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-		0,   0,   0,   '_', 0,   0,   0,   0,   0,   0,   0,   0,   0,   '|', 0,   0
-	};
-	int key_shift = 0, key_leds = (binfo->leds >> 4) & 7, keycmd_wait = -1;
-	int j, x, y, mmx = -1, mmy = -1, mmx2 = 0;
-	struct SHEET *sht = 0, *key_win, *sht2;
+    memtotal = memtest(0x00400000, 0xbfffffff);
+    memman_init(memman);
+    memman_free(memman, 0x00001000, 0x0009e000); /* 0x00001000 - 0x0009efff */
+    memman_free(memman, 0x00400000, memtotal - 0x00400000);
 
-	init_gdtidt();
-	init_pic();
-	io_sti(); /* IDT/PICの初期化が終わったのでCPUの割り込み禁止を解除 */
-	fifo32_init(&fifo, 128, fifobuf, 0);
-	*((int *) 0x0fec) = (int) &fifo;
-	init_pit();
-	init_keyboard(&fifo, 256);
-	enable_mouse(&fifo, 512, &mdec);
-	io_out8(PIC0_IMR, 0xf8); /* PITとPIC1とキーボードを許可(11111000) */
-	io_out8(PIC1_IMR, 0xef); /* マウスを許可(11101111) */
-	fifo32_init(&keycmd, 32, keycmd_buf, 0);
+    init_palette();
+    shtctl = shtctl_init(memman, binfo->vram, binfo->scrnx, binfo->scrny);
+    task_a = task_init(memman);
+    fifo.task = task_a;
+    task_run(task_a, 1, 2);
+    *((int *)0x0fe4) = (int)shtctl;
 
-	memtotal = memtest(0x00400000, 0xbfffffff);
-	memman_init(memman);
-	memman_free(memman, 0x00001000, 0x0009e000); /* 0x00001000 - 0x0009efff */
-	memman_free(memman, 0x00400000, memtotal - 0x00400000);
+    /* sht_back */
+    sht_back = sheet_alloc(shtctl);
+    buf_back =
+        (unsigned char *)memman_alloc_4k(memman, binfo->scrnx * binfo->scrny);
+    sheet_setbuf(sht_back, buf_back, binfo->scrnx, binfo->scrny,
+                 -1); /* 透明色なし */
+    init_screen8(buf_back, binfo->scrnx, binfo->scrny);
 
-	init_palette();
-	shtctl = shtctl_init(memman, binfo->vram, binfo->scrnx, binfo->scrny);
-	task_a = task_init(memman);
-	fifo.task = task_a;
-	task_run(task_a, 1, 2);
-	*((int *) 0x0fe4) = (int) shtctl;
+    /* sht_cons */
+    key_win = open_console(shtctl, memtotal);
 
-	/* sht_back */
-	sht_back  = sheet_alloc(shtctl);
-	buf_back  = (unsigned char *) memman_alloc_4k(memman, binfo->scrnx * binfo->scrny);
-	sheet_setbuf(sht_back, buf_back, binfo->scrnx, binfo->scrny, -1); /* 透明色なし */
-	init_screen8(buf_back, binfo->scrnx, binfo->scrny);
+    /* sht_mouse */
+    sht_mouse = sheet_alloc(shtctl);
+    sheet_setbuf(sht_mouse, buf_mouse, 16, 16, 99);
+    init_mouse_cursor8(buf_mouse, 99);
+    mx = (binfo->scrnx - 16) / 2; /* 画面中央になるように座標計算 */
+    my = (binfo->scrny - 28 - 16) / 2;
 
-	/* sht_cons */
-	key_win = open_console(shtctl, memtotal);
+    sheet_slide(sht_back, 0, 0);
+    sheet_slide(key_win, 32, 4);
+    sheet_slide(sht_mouse, mx, my);
+    sheet_updown(sht_back, 0);
+    sheet_updown(key_win, 1);
+    sheet_updown(sht_mouse, 2);
+    keywin_on(key_win);
 
-	/* sht_mouse */
-	sht_mouse = sheet_alloc(shtctl);
-	sheet_setbuf(sht_mouse, buf_mouse, 16, 16, 99);
-	init_mouse_cursor8(buf_mouse, 99);
-	mx = (binfo->scrnx - 16) / 2; /* 画面中央になるように座標計算 */
-	my = (binfo->scrny - 28 - 16) / 2;
+    /* 最初にキーボード状態との食い違いがないように、設定しておくことにする */
+    fifo32_put(&keycmd, KEYCMD_LED);
+    fifo32_put(&keycmd, key_leds);
 
-	sheet_slide(sht_back,  0,  0);
-	sheet_slide(key_win,   32, 4);
-	sheet_slide(sht_mouse, mx, my);
-	sheet_updown(sht_back,  0);
-	sheet_updown(key_win,   1);
-	sheet_updown(sht_mouse, 2);
-	keywin_on(key_win);
-
-	/* 最初にキーボード状態との食い違いがないように、設定しておくことにする */
-	fifo32_put(&keycmd, KEYCMD_LED);
-	fifo32_put(&keycmd, key_leds);
-
-	struct SHEET *sout;
-	char tag = 1;
-    int tcnt = 0, tag1 = 0, tag2 = 1, gtag = 0;
-    struct TASK *tst1 = task_alloc();
-    struct TASK *tst2 = task_alloc();
+    struct SHEET *sout;
+    char tag = 1;
+	struct BBParg agp, agc1, agc2;
+    // struct TASK *tst2 = task_alloc();
     char sstr[128];
 
     sprintf(sstr, "this is a console for debug output\n");
 	sout = open_console(shtctl, memtotal);
 	sheet_slide(sout, 64, 4);
 	sheet_updown(sout, shtctl->top);
-	// cons_putchar(sout->task->cons, 'c', 1);
-	// task_run(sout->task, 2, 2);
-	// sheet_refresh(sout, 8, 28, 8 + 240, 28 + 128);
+	int buf[128];
+	struct FIFO32 bbpfifo;
+	fifo32_init(&bbpfifo, 8, buf, 0);
+    struct TASK *tskp, *tskc1, *tskc2;
+	int empty = 8, mutex = 1, full = 0;
+	int con_mutex = 1;
+	agp.empty = &empty;
+	agp.full = &full;
+	agp.mutex = &mutex;
+	agp.fifo = &bbpfifo;
+	agp.task = key_win->task;
+	agp.con_mutex = &con_mutex;
+	agc1 = agc2 = agp;
+	agc1.id = 1;
+	agc2.id = 2;
+	agc2.task = agc1.task = sout->task;
+	tskp = create_task(memman, &producer, (void*)&agp);
+	tskc1 = create_task(memman, &consumer, (void*)&agc1);
+	tskc2 = create_task(memman, &consumer, (void*)&agc2);
+	task_run(tskp, 2, 0);
+	task_run(tskc1, 2, 0);
+	task_run(tskc2, 2, 0);
+        // task_run(tst1, 2, 0); /* level=2, priority=2 */
+        // task_run(tst2, 2, 0); /* level=2, priority=2 */
 
-
-    // int *fifo1 = (int *) memman_alloc_4k(memman, 128 * 4);
-    // int *fifo2 = (int *) memman_alloc_4k(memman, 128 * 4);
-	int sem = 1;
-    tst1->cons_stack = memman_alloc_4k(memman, 64 * 1024);
-    tst1->tss.esp = tst1->cons_stack + 64 * 1024 - 20;
-    tst1->tss.eip = (int) &test_race_condition3;
-    tst1->tss.es = 1 * 8;
-    tst1->tss.cs = 2 * 8;
-    tst1->tss.ss = 1 * 8;
-    tst1->tss.ds = 1 * 8;
-    tst1->tss.fs = 1 * 8;
-    tst1->tss.gs = 1 * 8;
-    *((int *) (tst1->tss.esp + 4)) = (int) &tcnt;
-    *((int *) (tst1->tss.esp + 8)) = (int) &tag1;
-    *((int *) (tst1->tss.esp + 12)) = (int) &gtag;
-    *((int *) (tst1->tss.esp + 16)) = (int) &sem;
-    tst2->cons_stack = memman_alloc_4k(memman, 64 * 1024);
-    tst2->tss.esp = tst2->cons_stack + 64 * 1024 - 20;
-    tst2->tss.eip = (int) &test_race_condition3;
-    tst2->tss.es = 1 * 8;
-    tst2->tss.cs = 2 * 8;
-    tst2->tss.ss = 1 * 8;
-    tst2->tss.ds = 1 * 8;
-    tst2->tss.fs = 1 * 8;
-    tst2->tss.gs = 1 * 8;
-    *((int *) (tst2->tss.esp + 4)) = (int) &tcnt;
-    *((int *) (tst2->tss.esp + 8)) = (int) &tag2;
-    *((int *) (tst2->tss.esp + 12)) = (int) &gtag;
-    *((int *) (tst2->tss.esp + 16)) = (int) &sem;
-    task_run(tst1, 2, 0); /* level=2, priority=2 */
-    task_run(tst2, 2, 0); /* level=2, priority=2 */
-
-    for (;;) {
+	for (;;) {
 	    if (tag && sout->task->cons != 0) {
 	        tag = 0;
             cons_putstr0(sout->task->cons, sstr);
 	    }
-	    if (sout->task->cons != 0) {
-	        sprintf(sstr, "TCNT now is %d, race condition occured: %d\n", tcnt, gtag);
-	        cons_putstr0(sout->task->cons, sstr);
-	    }
+	    // if (sout->task->cons != 0) {
+	    //     sprintf(sstr, "TCNT now is %d, race condition occured: %d\n", tcnt, gtag);
+	    //     cons_putstr0(sout->task->cons, sstr);
+	    // }
 //	    if (tag1 == 1 && tag2 == 1 && sout->task->cons != 0) {
 //	        tag1 = 0;
 //	        sprintf(sstr, "TCNT now is %d\n", tcnt);

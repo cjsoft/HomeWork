@@ -27,6 +27,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/star1.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/star1.c.obj"
   "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/stars.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/stars.c.obj"
   "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/stars2.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/stars2.c.obj"
+  "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/sync_utils.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/sync_utils.c.obj"
   "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/timer.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/timer.c.obj"
   "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/walk.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/walk.c.obj"
   "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/window.c" "D:/git-repos/HomeWork/OS/OS/tolset/harib24f/build/CMakeFiles/dumb.dir/window.c.obj"

@@ -70,6 +70,9 @@ CMakeFiles/dumb.dir/stars.c.obj: ../stars.c
 CMakeFiles/dumb.dir/stars2.c.obj: ../apilib.h
 CMakeFiles/dumb.dir/stars2.c.obj: ../stars2.c
 
+CMakeFiles/dumb.dir/sync_utils.c.obj: ../bootpack.h
+CMakeFiles/dumb.dir/sync_utils.c.obj: ../sync_utils.c
+
 CMakeFiles/dumb.dir/timer.c.obj: ../bootpack.h
 CMakeFiles/dumb.dir/timer.c.obj: ../timer.c
 
