@@ -9,10 +9,16 @@ void keywin_off(struct SHEET *key_win);
 void keywin_on(struct SHEET *key_win);
 void close_console(struct SHEET *sht);
 void close_constask(struct TASK *task);
+void avoid_sleep()
+{
+	struct TASK *now_task;
+	now_task = task_now();
+	now_task->flags = 2;
+}
 
-char test_and_set(char *target) {
+int test_and_set(int *target) {
 	io_cli();
-	char tmp = *target;
+	int tmp = *target;
 	*target = 0xff;
 	io_sti();
 	return tmp;
@@ -35,9 +41,11 @@ void sem_wait(int *x) {
 	(*x)--;
 	io_sti();
 }
-void test_race_condition1(int *x, int *y, int *z) {
+void test_race_condition1(int *x, int *y, int *z, int *lock) {
     int i, tmp;
     for (;;) {
+		// avoid_sleep();
+		while (test_and_set(lock));
         tmp = *x;
         (*x)++;
         i = 5;
@@ -45,10 +53,34 @@ void test_race_condition1(int *x, int *y, int *z) {
         if ((*x) - tmp > 1) {
             *z = 1;
         }
+		*lock = 0;
     }
     (*y) = 1;
     while (1)
         io_hlt();
+}
+void test_race_condition1(int *x, int *y, int *z, int *lock)
+{
+	int i, tmp;
+	for (;;)
+	{
+		// avoid_sleep();
+		while (test_and_set(lock))
+			;
+		tmp = *x;
+		(*x)++;
+		i = 5;
+		while (i--)
+			;
+		if ((*x) - tmp > 1)
+		{
+			*z = 1;
+		}
+		*lock = 0;
+	}
+	(*y) = 1;
+	while (1)
+		io_hlt();
 }
 
 //void test_race_condition2(int *x, int *y, int *z) {
@@ -176,8 +208,9 @@ void HariMain(void)
 
     // int *fifo1 = (int *) memman_alloc_4k(memman, 128 * 4);
     // int *fifo2 = (int *) memman_alloc_4k(memman, 128 * 4);
+	int lock = 0;
     tst1->cons_stack = memman_alloc_4k(memman, 64 * 1024);
-    tst1->tss.esp = tst1->cons_stack + 64 * 1024 - 16;
+    tst1->tss.esp = tst1->cons_stack + 64 * 1024 - 20;
     tst1->tss.eip = (int) &test_race_condition1;
     tst1->tss.es = 1 * 8;
     tst1->tss.cs = 2 * 8;
@@ -188,8 +221,9 @@ void HariMain(void)
     *((int *) (tst1->tss.esp + 4)) = (int) &tcnt;
     *((int *) (tst1->tss.esp + 8)) = (int) &tag1;
     *((int *) (tst1->tss.esp + 12)) = (int) &gtag;
+    *((int *) (tst1->tss.esp + 16)) = (int) &lock;
     tst2->cons_stack = memman_alloc_4k(memman, 64 * 1024);
-    tst2->tss.esp = tst2->cons_stack + 64 * 1024 - 16;
+    tst2->tss.esp = tst2->cons_stack + 64 * 1024 - 20;
     tst2->tss.eip = (int) &test_race_condition1;
     tst2->tss.es = 1 * 8;
     tst2->tss.cs = 2 * 8;
@@ -200,6 +234,7 @@ void HariMain(void)
     *((int *) (tst2->tss.esp + 4)) = (int) &tcnt;
     *((int *) (tst2->tss.esp + 8)) = (int) &tag2;
     *((int *) (tst2->tss.esp + 12)) = (int) &gtag;
+    *((int *) (tst2->tss.esp + 16)) = (int) &lock;
     task_run(tst1, 2, 0); /* level=2, priority=2 */
     task_run(tst2, 2, 0); /* level=2, priority=2 */
 
