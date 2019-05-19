@@ -23,9 +23,9 @@ int test_and_set(int *target) {
 	io_sti();
 	return tmp;
 }
-void Swap(char *a, char *b) {
+void Swap(int *a, int *b) {
 	io_cli();
-	char tmp = *a;
+	int tmp = *a;
 	*a = *b;
 	*b = tmp;
 	io_sti();
@@ -41,11 +41,13 @@ void sem_wait(int *x) {
 	(*x)--;
 	io_sti();
 }
-void test_race_condition1(int *x, int *y, int *z, int *lock) {
-    int i, tmp;
+void test_race_condition2(int *x, int *y, int *z, int *lock) {
+    int i, tmp, key;
     for (;;) {
 		// avoid_sleep();
-		while (test_and_set(lock));
+		key = 0xff;
+		while (key)
+			Swap(&key, lock);
         tmp = *x;
         (*x)++;
         i = 5;
@@ -211,7 +213,7 @@ void HariMain(void)
 	int lock = 0;
     tst1->cons_stack = memman_alloc_4k(memman, 64 * 1024);
     tst1->tss.esp = tst1->cons_stack + 64 * 1024 - 20;
-    tst1->tss.eip = (int) &test_race_condition1;
+    tst1->tss.eip = (int) &test_race_condition2;
     tst1->tss.es = 1 * 8;
     tst1->tss.cs = 2 * 8;
     tst1->tss.ss = 1 * 8;
@@ -224,7 +226,7 @@ void HariMain(void)
     *((int *) (tst1->tss.esp + 16)) = (int) &lock;
     tst2->cons_stack = memman_alloc_4k(memman, 64 * 1024);
     tst2->tss.esp = tst2->cons_stack + 64 * 1024 - 20;
-    tst2->tss.eip = (int) &test_race_condition1;
+    tst2->tss.eip = (int) &test_race_condition2;
     tst2->tss.es = 1 * 8;
     tst2->tss.cs = 2 * 8;
     tst2->tss.ss = 1 * 8;
